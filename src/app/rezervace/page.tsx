@@ -4,8 +4,8 @@ import { Check, Calendar } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
-    title: "Rezervace Callu | Já jsem Tomáš",
-    description: "Vyberte si termín pro krátký 15minutový hovor. Vyřešíme vaši video strategii, nacenění a termín natáčení hned teď.",
+    title: "Rezervace Konzultace Zdarma | Video Produkce Praha",
+    description: "Rezervujte si bezplatnou 15min konzultaci s video producentem. Probereme vaši video strategii, ceny a termíny natáčení. Online nebo osobně v Praze.",
 };
 
 export default function BookingPage() {

@@ -14,8 +14,8 @@ const icons = {
 };
 
 export const metadata = {
-    title: "Služby | Tomáš",
-    description: "Přehled video produkčních služeb. Reels, reklamní spoty, eventová videa a livestreamy.",
+    title: "Video Produkce a Služby Praha | Reels, Reklamy, Events | Já jsem Tomáš",
+    description: "Profesionální video produkce v Praze: Reels a TikTok tvorba, reklamní spoty, eventová videa, live streamy. Měsíční balíčky i ad-hoc projekty. Konzultace zdarma.",
 };
 
 export default function ServicesPage() {

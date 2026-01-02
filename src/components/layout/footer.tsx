@@ -11,7 +11,7 @@ export function Footer() {
                         <Link href="/" className="block">
                             <Image
                                 src="/images/logo.png"
-                                alt="Já jsem Tomáš"
+                                alt="Video Produkce Praha - Já jsem Tomáš"
                                 width={150}
                                 height={50}
                                 className="h-8 w-auto object-contain"
@@ -38,6 +38,14 @@ export function Footer() {
                                 <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                 <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                 <li><Link href="/kontakt" className="hover:text-primary">Kontakt</Link></li>
+                            </ul>
+                        </div>
+                        <div className="space-y-3">
+                            <h4 className="text-sm font-medium">Kontakt</h4>
+                            <ul className="space-y-2 text-sm text-muted-foreground">
+                                <li>📍 Praha, Česko</li>
+                                <li><a href="mailto:info@jajsemtomas.cz" className="hover:text-primary">📧 info@jajsemtomas.cz</a></li>
+                                <li><a href="tel:+420735846329" className="hover:text-primary">📱 +420 735 846 329</a></li>
                             </ul>
                         </div>
                     </div>

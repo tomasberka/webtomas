@@ -5,8 +5,8 @@ import { Check, Clapperboard, Award, Heart, MonitorPlay } from "lucide-react";
 import { VideoPlayer } from "@/components/ui/video-player";
 
 export const metadata = {
-    title: "O mně | Já jsem Tomáš",
-    description: "Příběh herce, který se postavil za kameru. Proč točím videa jinak než ostatní a jaký je můj přístup k tvorbě.",
+    title: "O mně - Tomáš | Video Producer & Kameraman Praha",
+    description: "Herec, režisér a video producent z Prahy. Specializuji se na tvorbu Reels, TikTok videí a reklamních spotů. Pomůžu vám s vedením před kamerou i strategií obsahu.",
 };
 
 export default function AboutPage() {

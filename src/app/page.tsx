@@ -50,6 +50,50 @@ export default function Home() {
           })
         }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Já jsem Tomáš - Video Produkce",
+            "image": "https://jajsemtomas.cz/images/tomas-portrait.jpg",
+            "description": "Profesionální video produkce v Praze specializující se na Reels, TikTok a reklamní obsah pro sociální sítě.",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Praha",
+              "addressCountry": "CZ"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 50.0755,
+              "longitude": 14.4378
+            },
+            "url": "https://jajsemtomas.cz",
+            "telephone": "+420735846329",
+            "email": "info@jajsemtomas.cz",
+            "priceRange": "14900-50000 CZK",
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Praha"
+              },
+              {
+                "@type": "Country",
+                "name": "Česká republika"
+              },
+              {
+                "@type": "Place",
+                "name": "International"
+              }
+            ],
+            "sameAs": [
+              "https://www.instagram.com/jajsemtomas.cz/",
+              "https://www.facebook.com/tomasberkaofficial/"
+            ]
+          })
+        }}
+      />
       {/* Hero Section */}
       <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />

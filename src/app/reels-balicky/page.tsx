@@ -8,13 +8,48 @@ import { cn } from "@/lib/utils";
 import { PackageCard } from "@/components/sections/package-card";
 
 export const metadata = {
-    title: "Reels Balíčky | Tomáš",
-    description: "Ceník balíčků pro tvorbu Reels, TikTok a Shorts videí. Vyberte si řešení pro váš růst.",
+    title: "Reels Balíčky a Ceny 2026 | Instagram & TikTok Obsah | Já jsem Tomáš",
+    description: "Měsíční Reels balíčky od 14 900 Kč. Kompletní tvorba obsahu pro Instagram, TikTok a YouTube Shorts. Scénáře, natáčení i střih v ceně. Praha a okolí.",
 };
 
 export default function ReelsPackagesPage() {
     return (
         <div className="py-20 md:py-32">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "Jak probíhá natáčení?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Přijedu za vámi s kompletní technikou. Během 4 hodin natočíme materiály na celý měsíc. Vy jen mluvíte, já se starám o zbytek."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Co když nemám nápady na scénáře?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "To nevadí! Součástí balíčků Růst a Dominance je tvorba strategie a scénářů. Společně vymyslíme témata, která budou vaše publikum bavit."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "Mohu použít videa i na LinkedIn?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "Ano, vertikální videa (9:16) fungují skvěle na Instagramu, TikToku, YouTube Shorts i LinkedInu. Dodám vám formáty připravené pro všechny sítě."
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Balíčky</h1>
