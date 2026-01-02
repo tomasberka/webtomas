@@ -64,6 +64,22 @@ export default function RootLayout({
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
         {/* Cookie Banner */}
         <CookieBanner />
+
+        {/* Consent Mode - Default Denied */}
+        <Script id="consent-mode" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              'ad_storage': 'denied',
+              'ad_user_data': 'denied',
+              'ad_personalization': 'denied',
+              'analytics_storage': 'denied',
+              'wait_for_update': 500
+            });
+          `}
+        </Script>
+
         {/* Google tag (gtag.js) */}
         {/* Google tag (gtag.js) */}
         <Script
