@@ -44,7 +44,7 @@ export function Footer() {
                             <h4 className="text-sm font-medium">Kontakt</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li>📍 Praha, Česko</li>
-                                <li><a href="mailto:info@jajsemtomas.cz" className="hover:text-primary">📧 info@jajsemtomas.cz</a></li>
+
                                 <li><a href="tel:+420735846329" className="hover:text-primary">📱 +420 735 846 329</a></li>
                             </ul>
                         </div>

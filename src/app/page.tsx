@@ -45,7 +45,7 @@ export default function Home() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "customer service",
-              "email": "info@jajsemtomas.cz"
+
             }
           })
         }}
@@ -71,7 +71,7 @@ export default function Home() {
             },
             "url": "https://jajsemtomas.cz",
             "telephone": "+420735846329",
-            "email": "info@jajsemtomas.cz",
+
             "priceRange": "14900-50000 CZK",
             "areaServed": [
               {

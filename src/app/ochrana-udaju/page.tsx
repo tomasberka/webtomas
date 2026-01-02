@@ -55,10 +55,10 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-semibold mb-4">5. Kontakt</h2>
                     <p>
-                        V případě dotazů ke zpracování osobních údajů mě můžete kontaktovat na e-mailu: <strong>info@jajsemtomas.cz</strong>.
+                        V případě dotazů ke zpracování osobních údajů mě můžete kontaktovat prostřednictvím webového formuláře.
                     </p>
                 </section>
             </div>
-        </Container>
+        </Container >
     );
 }
