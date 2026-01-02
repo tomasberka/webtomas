@@ -35,7 +35,7 @@ export default function UgcActorPage() {
                 }}
             />
             {/* Hero Section */}
-            <section className="relative pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden bg-black text-white">
+            <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden bg-black text-white">
                 <div className="absolute inset-0 z-0 opacity-40">
                     <img
                         src="/images/ugc-hero.jpg"

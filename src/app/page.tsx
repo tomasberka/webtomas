@@ -48,7 +48,7 @@ export default function Home() {
         }}
       />
       {/* Hero Section */}
-      <section className="relative pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden">
+      <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
         <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-8">
