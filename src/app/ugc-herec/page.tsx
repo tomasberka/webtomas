@@ -152,22 +152,37 @@ export default function UgcActorPage() {
                 </Container>
             </section>
 
-            {/* Showreel Section */}
+            import portfolioData from "@/content/portfolio.json";
+            import {VideoCard} from "@/components/portfolio/video-card";
+
+            // ... existing imports ...
+
+            // ... inside the component ...
+            {/* Acting Portfolio Section */}
             <section id="showreel" className="py-20 bg-black text-white">
                 <Container>
-                    <div className="max-w-4xl mx-auto">
-                        <h2 className="text-3xl font-bold mb-8 text-center">Herecký Showreel</h2>
-                        <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-zinc-900">
-                            <VideoPlayer videoId="tjlJ7UwM3kA" />
+                    <div className="text-center max-w-3xl mx-auto mb-12">
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6">Herecké ukázky</h2>
+                        <p className="text-zinc-400 text-lg">
+                            Autenticita, emoce a schopnost prodat myšlenku.
+                            <br />
+                            Ukázky z reklam, filmů a sociálních sítí.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+                        {portfolioData.filter(p => p.category === "Acting").map((video) => (
+                            <VideoCard key={video.id} video={video} />
+                        ))}
+                    </div>
+
+                    <div className="mt-16 text-center">
+                        <div className="inline-flex items-center justify-center p-1 rounded-full bg-white/5 border border-white/10 mb-6">
+                            {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-5 h-5 fill-primary text-primary mx-1" />)}
                         </div>
-                        <div className="mt-8 text-center">
-                            <p className="text-zinc-400 mb-4">
-                                "Tomáš je jeden z mála tvůrců, který doručil přesně to, co jsme potřebovali, hned na první dobrou."
-                            </p>
-                            <div className="flex justify-center gap-1">
-                                {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-5 h-5 fill-primary text-primary" />)}
-                            </div>
-                        </div>
+                        <p className="text-zinc-400 max-w-xl mx-auto italic">
+                            "Tomáš je jeden z mála tvůrců, který doručil přesně to, co jsme potřebovali, hned na první dobrou."
+                        </p>
                     </div>
                 </Container>
             </section>
