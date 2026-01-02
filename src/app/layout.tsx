@@ -71,7 +71,10 @@ export default function RootLayout({
           data-cmp-codesrc="16"
         />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W75LP5M5EB"></script>
+        <Script
+          strategy="beforeInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-W75LP5M5EB"
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `
