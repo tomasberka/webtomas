@@ -122,7 +122,7 @@ export default function UgcActorPage() {
                         </div>
                         <div className="relative aspect-[4/5] md:aspect-square bg-muted rounded-2xl overflow-hidden border">
                             <img
-                                src="/images/tomas-portrait.png"
+                                src="/images/ugc-ricehook.jpg"
                                 alt="Tomáš - Profesionální UGC creator"
                                 className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
                             />

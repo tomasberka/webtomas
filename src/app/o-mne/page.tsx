@@ -63,18 +63,18 @@ export default function AboutPage() {
             {/* My Story */}
             <section className="py-20">
                 <Container className="max-w-3xl">
-                    <div className="prose prose-lg dark:prose-invert mx-auto">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-8">Od scénáře k finálnímu střihu</h2>
+                    <div className="max-w-3xl mx-auto space-y-6 text-lg text-muted-foreground leading-relaxed">
+                        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">Od scénáře k finálnímu střihu</h2>
                         <p>
-                            Moje cesta k videu nebyla přímá. Začínal jsem jako **herec**. Stál jsem tam, kde možná brzy budete stát vy – před objektivem, nervózní, jestli to "bude vypadat dobře".
+                            Moje cesta k videu nebyla přímá. Začínal jsem jako <strong className="text-foreground">herec</strong>. Stál jsem tam, kde možná brzy budete stát vy – před objektivem, nervózní, jestli to "bude vypadat dobře".
                         </p>
                         <p>
-                            Díky této zkušenosti mám unikátní cit pro **vedení lidí**. Nebudu na vás jen mlčky mířit kamerou. Pomůžu vám s intonací, postojem i textem. Režíruji vás tak, abyste působili přirozeně a sebevědomě.
+                            Díky této zkušenosti mám unikátní cit pro <strong className="text-foreground">vedení lidí</strong>. Nebudu na vás jen mlčky mířit kamerou. Pomůžu vám s intonací, postojem i textem. Režíruji vás tak, abyste působili přirozeně a sebevědomě.
                         </p>
-                        <h3>Proč to dělám jinak?</h3>
+                        <h3 className="text-2xl font-bold text-foreground mt-8">Proč to dělám jinak?</h3>
                         <p>
                             Frustrovalo mě, kolik firemních videí je nudných. Krásně natočené, ale bez duše. Bez příběhu. Bez výsledku.
-                            Rozhodl jsem se to změnit. Spojil jsem své znalosti **marketingu**, **herectví** a **technické produkce** do jednoho balíčku.
+                            Rozhodl jsem se to změnit. Spojil jsem své znalosti <strong className="text-foreground">marketingu</strong>, <strong className="text-foreground">herectví</strong> a <strong className="text-foreground">technické produkce</strong> do jednoho balíčku.
                         </p>
                     </div>
 

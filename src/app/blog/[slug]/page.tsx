@@ -72,10 +72,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     </div>
 
                     <div
-                        className="prose prose-lg dark:prose-invert mx-auto
-                        prose-headings:font-bold prose-headings:text-foreground
+                        className="prose prose-lg dark:prose-invert mx-auto max-w-none
+                        prose-headings:font-bold prose-headings:text-foreground prose-headings:tracking-tight
+                        prose-p:text-muted-foreground prose-p:leading-relaxed
+                        prose-strong:text-foreground prose-strong:font-bold
+                        prose-ul:text-muted-foreground prose-li:marker:text-primary
                         prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-                        prose-strong:text-foreground"
+                        prose-img:rounded-xl prose-img:shadow-lg"
                         dangerouslySetInnerHTML={{ __html: post.content }}
                     />
 
