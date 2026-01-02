@@ -74,6 +74,7 @@ export function ContactForm() {
             <input type="hidden" name="_next" value="https://www.jajsemtomas.cz/dekuji" />
             <input type="hidden" name="_subject" value="Nová poptávka z webu!" />
             <input type="hidden" name="_language" value="cs" />
+            <input type="text" name="_gotcha" style={{ display: "none" }} />
 
             <Button type="submit" size="lg" className="w-full">
                 Odeslat nezávaznou poptávku
