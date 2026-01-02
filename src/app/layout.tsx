@@ -67,7 +67,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Footer />
         <GoogleAnalytics />
       </body>
     </html>
