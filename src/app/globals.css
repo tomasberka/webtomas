@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  /* Custom Brand Colors */
+  --color-brand-yellow: #FFD700;
+  --color-brand-black: #0F0F0F;
+  --color-brand-dark: #1A1A1A;
+  --color-brand-gray: #2A2A2A;
+
+  --color-accent-cyan: #00D4FF;
+  --color-accent-orange: #FF6B35;
+  --color-accent-green: #2ECC71;
+}
+
+@layer base {
+  :root {
+    /* Base: Brand Black */
+    --background: 0 0% 5.9%;
+    /* #0F0F0F */
+    --foreground: 0 0% 98%;
+
+    /* Card: Brand Gray */
+    --card: 0 0% 16.5%;
+    /* #2A2A2A */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 5.9%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Primary: Brand Yellow */
+    --primary: 47 100% 50%;
+    /* #FFD700 */
+    --primary-foreground: 0 0% 9%;
+
+    /* Secondary: Brand Dark */
+    --secondary: 0 0% 10.2%;
+    /* #1A1A1A */
+    --secondary-foreground: 0 0% 98%;
+
+    /* Muted: Slightly ligher than bg */
+    --muted: 0 0% 16.5%;
+    --muted-foreground: 240 5% 64.9%;
+
+    /* Accent: Brand Yellow (or Cyan if preferred for interactions) */
+    --accent: 47 100% 50%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 16.5%;
+    --input: 0 0% 16.5%;
+    --ring: 47 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}

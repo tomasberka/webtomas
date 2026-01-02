@@ -1,0 +1,100 @@
+[
+  {
+    "id": "reels",
+    "title": "Reels & TikTok",
+    "slug": "reels-balicky",
+    "description": "Krátká videa, která prodávají. Zvyšte dosah a získejte nové zákazníky.",
+    "icon": "Smartphone",
+    "features": [
+      "Scénář a strategie",
+      "Profesionální natáčení",
+      "Střih a titulky",
+      "Hudba a efekty"
+    ],
+    "image": "/images/service-reels.png"
+  },
+  {
+    "id": "creative",
+    "title": "Kreativní Produkce",
+    "slug": "sluzby/kreativni-produkce",
+    "description": "Reklamní spoty, image videa a kampaně na míru vaší značce.",
+    "icon": "Clapperboard",
+    "features": [
+      "Kreativní koncept",
+      "Full-service produkce",
+      "High-end technika",
+      "Color grading"
+    ],
+    "image": "/images/service-creative.jpg"
+  },
+  {
+    "id": "event",
+    "title": "Event Video",
+    "slug": "sluzby/event-video",
+    "description": "Zachyťte atmosféru vaší akce. Aftermovies, reportáže a záznamy.",
+    "icon": "Calendar",
+    "features": [
+      "Dynmický střih",
+      "Rozhovory s účastníky",
+      "Dron záběry",
+      "Rychlé dodání"
+    ],
+    "image": "/images/service-event.jpg"
+  },
+  {
+    "id": "livestream",
+    "title": "Live Stream",
+    "slug": "sluzby/live-stream",
+    "description": "Profesionální živé vysílání z vašich akcí do celého světa.",
+    "icon": "Radio",
+    "features": [
+      "Vícekamerový přenos",
+      "Vlastní grafika",
+      "Stabilní připojení",
+      "Záznam ve 4K"
+    ],
+    "image": "/images/service-livestream.jpg"
+  },
+  {
+    "id": "postproduction",
+    "title": "Postprodukce",
+    "slug": "sluzby/postprodukce",
+    "description": "Máte natočeno? Proměníme vaše záběry v profesionální video.",
+    "icon": "MonitorPlay",
+    "features": [
+      "Střih a editace",
+      "Sound design",
+      "Animace a grafika",
+      "Titulkování"
+    ],
+    "image": "/images/service-postproduction.jpg"
+  },
+  {
+    "id": "voiceover",
+    "title": "Voiceover",
+    "slug": "sluzby/voiceover",
+    "description": "Profesionální hlas pro vaše videa. Reklamy, spoty, e-learning.",
+    "icon": "Mic",
+    "features": [
+      "Reklamní spoty",
+      "E-learning",
+      "Dabing",
+      "Profesionální studio"
+    ],
+    "audioSamples": [
+      {
+        "title": "Plzeňský Prazdroj (Reklama)",
+        "url": "/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"
+      },
+      {
+        "title": "ČSOB (TV Spot)",
+        "url": "/audio/CSOB TOMAS BERKA VOICEOVER.mp3"
+      },
+      {
+        "title": "Oreo (Social)",
+        "url": "/audio/OREO TOMAS BERKA VOICEOVER.mp3"
+      }
+    ],
+    "image": "/images/service-voiceover.png"
+  }
+]

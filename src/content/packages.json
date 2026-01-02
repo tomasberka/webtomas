@@ -1,0 +1,48 @@
+[
+    {
+        "id": "start",
+        "title": "Start",
+        "description": "Ideální pro začátek konzistentní tvorby.",
+        "price": "od 14 900 Kč",
+        "features": [
+            "4 Reels videa měsíčně",
+            "1 natáčecí den (4 hodiny)",
+            "Základní scénáře",
+            "Střih, hudba, titulky",
+            "Formát 9:16"
+        ],
+        "cta": "Konzultovat zdarma",
+        "popular": false
+    },
+    {
+        "id": "growth",
+        "title": "Růst",
+        "description": "Nejoblíbenější pro rychlý růst na sociálních sítích.",
+        "price": "od 24 900 Kč",
+        "features": [
+            "8 Reels videí měsíčně",
+            "2 natáčecí dny",
+            "Pokročilé scénáře a strategie",
+            "Střih, hudba, efekty, titulky",
+            "Thumbnail grafika"
+        ],
+        "cta": "Konzultovat zdarma",
+        "popular": true
+    },
+    {
+        "id": "dominance",
+        "title": "Dominance",
+        "description": "Masivní dosah a maximální kvalita pro lídry trhu.",
+        "price": "Individuálně",
+        "features": [
+            "12+ Reels videí měsíčně",
+            "Flexibilní natáčení",
+            "Kompletní správa contentu",
+            "Prioritní zpracování",
+            "Pokročilé animace",
+            "Měsíční reporting"
+        ],
+        "cta": "Rezervovat Call",
+        "popular": false
+    }
+]
