@@ -34,11 +34,7 @@ export default function BookingPage() {
                 <div className="bg-card border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto min-h-[800px]">
                     {/* Google Calendar Embed */}
                     <iframe
-                        src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0lD8T7f4X4X4X4?gv=true" // Note: The user provided a short link (calendar.app.google). Iframes usually need the full embed URL or standard URL. 
-                        // Actually, short links often have X-Frame-Options: SAMEORIGIN. 
-                        // Safe bet: Link to it via button if embed fails, BUT let's try the standard embed first. 
-                        // Wait, I cannot know the full long URL from the short one without visiting it. 
-                        // Using the provided short link in src usually redirects. Let's try to use the provided link directly.
+                        // Note: Using the provided short link directly.
                         src="https://calendar.app.google/BrjKeR6R6q2aoMLW8?gv=true"
                         style={{ border: 0 }}
                         width="100%"

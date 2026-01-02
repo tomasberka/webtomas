@@ -43,9 +43,7 @@ export function VideoCard({ video }: VideoCardProps) {
                 </CardTitle>
             </CardHeader>
             <CardContent className="p-4 pt-0 mt-auto">
-                {video.duration && (
-                    <p className="text-xs text-muted-foreground">Délka: {video.duration.replace("PT", "").replace("M", ":").replace("S", "")}</p>
-                )}
+
             </CardContent>
         </Card>
     );
