@@ -5,7 +5,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
-
+import { CookieBanner } from "@/components/ui/cookie-banner";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"] });
 
@@ -62,14 +62,8 @@ export default function RootLayout({
   return (
     <html lang="cs" className="dark" suppressHydrationWarning>
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
-        <Script
-          strategy="beforeInteractive"
-          src="https://cdn.consentmanager.net/delivery/autoblocking/09a5cd0912b95.js"
-          data-cmp-ab="1"
-          data-cmp-host="a.delivery.consentmanager.net"
-          data-cmp-cdn="cdn.consentmanager.net"
-          data-cmp-codesrc="16"
-        />
+        {/* Cookie Banner */}
+        <CookieBanner />
         {/* Google tag (gtag.js) */}
         <Script
           strategy="beforeInteractive"
