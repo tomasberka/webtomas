@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-semibold mb-4">1. Úvodní ustanovení</h2>
                     <p>
-                        Tyto zásady vysvětlují, jak Tomáš Berka, IČO: 09292518, se sídlem Praha 2 (dále jen "Správce"), zpracovává vaše osobní údaje při používání webových stránek jajsemtomas.cz.
+                        Tyto zásady vysvětlují, jak Tomáš Berka, se sídlem Praha 3 (dále jen "Správce"), zpracovává vaše osobní údaje při používání webových stránek jajsemtomas.cz.
                     </p>
                 </section>
 
