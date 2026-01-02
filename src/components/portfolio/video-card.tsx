@@ -13,6 +13,7 @@ interface VideoCardProps {
         youtubeId?: string;
         duration?: string;
         orientation?: string;
+        thumbnail?: string;
     };
 }
 
@@ -25,6 +26,7 @@ export function VideoCard({ video }: VideoCardProps) {
                     <VideoPlayer
                         videoId={video.youtubeId}
                         className={isVertical ? "aspect-[9/16]" : undefined}
+                        thumbnail={video.thumbnail}
                     />
                 ) : (
                     <div className={cn("bg-muted flex items-center justify-center text-muted-foreground w-full", isVertical ? "aspect-[9/16]" : "aspect-video")}>

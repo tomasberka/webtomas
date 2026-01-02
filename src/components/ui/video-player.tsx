@@ -4,9 +4,9 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 import Image from "next/image";
 
-export function VideoPlayer({ videoId, className }: { videoId: string, className?: string }) {
+export function VideoPlayer({ videoId, className, thumbnail }: { videoId: string, className?: string, thumbnail?: string }) {
     const [isPlaying, setIsPlaying] = useState(false);
-    const [thumbnailUrl, setThumbnailUrl] = useState(`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`);
+    const [thumbnailUrl, setThumbnailUrl] = useState(thumbnail || `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`);
 
     const handleImageError = () => {
         if (thumbnailUrl.includes("maxresdefault")) {

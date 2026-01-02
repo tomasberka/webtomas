@@ -32,7 +32,8 @@
         "title": "2 denní certifikační kurz LEGO® SERIOUS PLAY®",
         "duration": "PT3M45S",
         "youtubeId": "FuRIbfZ3DPU",
-        "category": "Corporate"
+        "category": "Corporate",
+        "thumbnail": "/images/thumbnails/FuRIbfZ3DPU.jpg"
     },
     {
         "id": "4",
@@ -173,7 +174,8 @@
         "title": "AUTOMOTIVE PROMO VIDEO - AUDI, MERCEDES",
         "duration": "PT1M38S",
         "youtubeId": "F6MzbX3rnmE",
-        "category": "Commercial"
+        "category": "Commercial",
+        "thumbnail": "/images/thumbnails/F6MzbX3rnmE.jpg"
     },
     {
         "id": "8",
@@ -264,7 +266,8 @@
         "title": "Hudební videoklip",
         "duration": "PT2M10S",
         "youtubeId": "X9TRu7FfQK4",
-        "category": "Music Video"
+        "category": "Music Video",
+        "thumbnail": "/images/thumbnails/X9TRu7FfQK4.jpg"
     },
     {
         "id": "23",
