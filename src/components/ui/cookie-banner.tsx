@@ -47,27 +47,28 @@ export function CookieBanner() {
         <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500">
             <div className="container max-w-7xl mx-auto p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex-1 space-y-2 text-center md:text-left">
-                    <h3 className="font-semibold text-base">Vaše soukromí je pro mě důležité</h3>
+                    <h3 className="font-semibold text-base">Soubory cookies a ochrana údajů</h3>
                     <p className="text-sm text-muted-foreground max-w-2xl">
-                        Používám soubory cookie a podobné technologie, abych mohl měřit návštěvnost, přizpůsobit reklamy a vylepšovat web.
-                        Vaše data jsou u mě v bezpečí.
+                        Používám soubory cookie a Google Analytics k měření návštěvnosti a vylepšování webu.
+                        Vaše data jsou zpracovávána dle <a href="/ochrana-udaju" className="underline hover:text-foreground transition-colors">Zásad ochrany osobních údajů</a>.
+                        Bez vašeho souhlasu žádná analytická data nesbírám.
                     </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
                     <Button
                         onClick={handleReject}
-                        variant="outline"
+                        variant="ghost"
                         size="sm"
-                        className="w-full sm:w-auto"
+                        className="w-full sm:w-auto hover:bg-muted"
                     >
                         Odmítnout
                     </Button>
                     <Button
                         onClick={handleAccept}
                         size="sm"
-                        className="w-full sm:w-auto font-medium bg-primary text-primary-foreground hover:bg-primary/90"
+                        className="w-full sm:w-auto font-medium shadow-sm"
                     >
-                        Povolit vše
+                        Souhlasím a pokračovat
                     </Button>
                 </div>
             </div>
