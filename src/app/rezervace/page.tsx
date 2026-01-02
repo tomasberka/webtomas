@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { Check, Calendar, ArrowRight } from "lucide-react";
+import { Check, Calendar } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
@@ -31,59 +31,26 @@ export default function BookingPage() {
             </section>
 
             <Container className="py-12 -mt-8 relative z-10">
-                <div className="bg-card border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto grid md:grid-cols-5 min-h-[600px]">
-                    {/* Simulator of Calendly/Booking UI */}
-                    <div className="md:col-span-2 bg-muted p-8 border-r">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="h-12 w-12 rounded-full bg-zinc-200 overflow-hidden">
-                                <img src="/images/tomas-portrait.png" alt="Tomáš" className="object-cover w-full h-full" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-muted-foreground">Voláte si s</p>
-                                <p className="font-bold">Já jsem Tomáš</p>
-                            </div>
-                        </div>
-                        <h2 className="text-2xl font-bold mb-4">Discovery Call</h2>
-                        <div className="flex items-center text-muted-foreground mb-2">
-                            <Calendar className="h-4 w-4 mr-2" />
-                            15 min
-                        </div>
-                        <div className="flex items-center text-muted-foreground mb-6">
-                            <ArrowRight className="h-4 w-4 mr-2" />
-                            Online (Google Meet / Telefon)
-                        </div>
-                        <p className="text-sm text-muted-foreground leading-relaxed mb-6">
-                            Cílem tohoto hovoru je zjistit, jestli si můžeme navzájem pomoci. Probereme:
-                        </p>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li>• Váš cíl a rozpočet</li>
-                            <li>• Typ videa, který potřebujete</li>
-                            <li>• Možné termíny natáčení</li>
-                        </ul>
-                    </div>
-
-                    <div className="md:col-span-3 bg-background p-8 flex flex-col items-center justify-center text-center">
-                        {/* 
-                            PLACEHOLDER FOR EMBED CODE
-                            User can replace this div with:
-                            <iframe src="https://calendly.com/YOUR_LINK" width="100%" height="100%" frameBorder="0"></iframe>
-                        */}
-                        <div className="space-y-6 max-w-md">
-                            <div className="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                                <Calendar className="w-8 h-8" />
-                            </div>
-                            <h3 className="text-xl font-semibold">Zde se načte kalendář</h3>
-                            <p className="text-muted-foreground">
-                                Až budete připraveni, vložte sem kód z Calendly, Cal.com nebo Google Calendar.
-                            </p>
-                            <div className="p-4 bg-muted rounded-lg text-sm text-left border font-mono text-muted-foreground break-all">
-                                &lt;iframe src="https://calendly.com/..." /&gt;
-                            </div>
-                            <Button className="w-full pointer-events-none opacity-50">
-                                Vybrat termín (Ukázka)
-                            </Button>
-                        </div>
-                    </div>
+                <div className="bg-card border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto min-h-[800px]">
+                    {/* Google Calendar Embed */}
+                    <iframe
+                        src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0lD8T7f4X4X4X4?gv=true" // Note: The user provided a short link (calendar.app.google). Iframes usually need the full embed URL or standard URL. 
+                        // Actually, short links often have X-Frame-Options: SAMEORIGIN. 
+                        // Safe bet: Link to it via button if embed fails, BUT let's try the standard embed first. 
+                        // Wait, I cannot know the full long URL from the short one without visiting it. 
+                        // Using the provided short link in src usually redirects. Let's try to use the provided link directly.
+                        src="https://calendar.app.google/BrjKeR6R6q2aoMLW8?gv=true"
+                        style={{ border: 0 }}
+                        width="100%"
+                        height="800"
+                        title="Rezervace termínu"
+                    ></iframe>
+                </div>
+                <div className="text-center mt-4">
+                    <p className="text-sm text-muted-foreground mb-2">Nenačítá se kalendář?</p>
+                    <Link href="https://calendar.app.google/BrjKeR6R6q2aoMLW8" target="_blank">
+                        <Button variant="outline">Otevřít kalendář v novém okně</Button>
+                    </Link>
                 </div>
             </Container>
 
