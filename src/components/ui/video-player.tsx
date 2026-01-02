@@ -6,6 +6,13 @@ import Image from "next/image";
 
 export function VideoPlayer({ videoId, className }: { videoId: string, className?: string }) {
     const [isPlaying, setIsPlaying] = useState(false);
+    const [thumbnailUrl, setThumbnailUrl] = useState(`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`);
+
+    const handleImageError = () => {
+        if (thumbnailUrl.includes("maxresdefault")) {
+            setThumbnailUrl(`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`);
+        }
+    };
 
     if (isPlaying) {
         return (
@@ -27,10 +34,12 @@ export function VideoPlayer({ videoId, className }: { videoId: string, className
             onClick={() => setIsPlaying(true)}
         >
             <Image
-                src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+                src={thumbnailUrl}
                 alt="Video thumbnail"
                 fill
                 className="object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                onError={handleImageError}
+                unoptimized
             />
             <div className="absolute inset-0 flex items-center justify-center">
                 <div className="h-14 w-14 md:h-16 md:w-16 bg-primary/90 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:bg-primary transition-all duration-300">
