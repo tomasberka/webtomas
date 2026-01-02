@@ -9,3 +9,8 @@ dist
 .vscode
 
 
+
+# Next Image Export Optimizer
+public/images/nextImageExportOptimizer
+public/images/thumbnails/nextImageExportOptimizer
+public/nextImageExportOptimizer

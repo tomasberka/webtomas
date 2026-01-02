@@ -65,21 +65,20 @@ export default function RootLayout({
         {/* Cookie Banner */}
         <CookieBanner />
         {/* Google tag (gtag.js) */}
+        {/* Google tag (gtag.js) */}
         <Script
-          strategy="beforeInteractive"
+          strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-W75LP5M5EB"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-              gtag('config', 'G-W75LP5M5EB');
-            `,
-          }}
-        />
+            gtag('config', 'G-W75LP5M5EB');
+          `}
+        </Script>
         <Navbar />
         <main className="flex-1">
           {children}
