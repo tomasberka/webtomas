@@ -62,6 +62,14 @@ export default function RootLayout({
   return (
     <html lang="cs" className="dark">
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
+        <Script
+          strategy="beforeInteractive"
+          src="https://cdn.consentmanager.net/delivery/autoblocking/09a5cd0912b95.js"
+          data-cmp-ab="1"
+          data-cmp-host="a.delivery.consentmanager.net"
+          data-cmp-cdn="cdn.consentmanager.net"
+          data-cmp-codesrc="16"
+        />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-W75LP5M5EB"></script>
         <script
