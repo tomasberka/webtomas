@@ -30,22 +30,26 @@ export default function BookingPage() {
                 </Container>
             </section>
 
-            <Container className="py-12 -mt-8 relative z-10">
-                <div className="bg-card border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto min-h-[800px]">
-                    {/* Google Calendar Embed */}
-                    <iframe
-                        src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_?gv=true"
-                        style={{ border: 0 }}
-                        width="100%"
-                        height="800"
-                        title="Rezervace termínu"
-                    ></iframe>
-                </div>
-                <div className="text-center mt-4">
-                    <p className="text-sm text-muted-foreground mb-2">Nenačítá se kalendář?</p>
-                    <Link href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_" target="_blank">
-                        <Button variant="outline">Otevřít kalendář v novém okně</Button>
-                    </Link>
+            <Container className="py-12 -mt-8 relative z-10 text-center">
+                <div className="bg-card border rounded-2xl shadow-xl p-12 max-w-2xl mx-auto flex flex-col items-center justify-center gap-8">
+                    <div className="h-20 w-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <Calendar className="h-10 w-10 text-primary" />
+                    </div>
+
+                    <div>
+                        <h2 className="text-2xl font-bold mb-4">Otevřít kalendář</h2>
+                        <p className="text-muted-foreground mb-8">
+                            Klikněte na tlačítko níže pro výběr termínu v Google Kalendáři.
+                            <br />
+                            Otevře se v novém, přehledném okně.
+                        </p>
+
+                        <Link href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_" target="_blank">
+                            <Button size="lg" className="text-lg px-8 py-6 h-auto shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
+                                📅 Vybrat termín online
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
             </Container>
 
