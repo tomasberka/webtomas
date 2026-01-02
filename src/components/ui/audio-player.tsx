@@ -111,9 +111,7 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
                                     isPlayed ? "bg-primary" : "bg-muted-foreground/30 group-hover:bg-muted-foreground/50"
                                 )}
                                 style={{
-                                    height: `${height * 100}%`,
-                                    // Simple scaling animation on playing
-                                    transform: isPlaying && isPlayed ? `scaleY(${1 + Math.random() * 0.3})` : 'none'
+                                    height: `${height * 100}%`
                                 }}
                             />
                         )
