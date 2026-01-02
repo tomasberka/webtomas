@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { MobileNav } from "./mobile-nav";
@@ -7,8 +8,15 @@ export function Navbar() {
     return (
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <Container className="flex h-16 items-center justify-between">
-                <Link href="/" className="font-bold text-xl tracking-tight text-primary">
-                    JÁ JSEM TOMÁŠ
+                <Link href="/" className="flex items-center">
+                    <Image
+                        src="/images/logo.png"
+                        alt="Já jsem Tomáš - Video Produkce"
+                        width={180}
+                        height={60}
+                        className="h-10 w-auto object-contain"
+                        priority
+                    />
                 </Link>
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex gap-6 items-center">

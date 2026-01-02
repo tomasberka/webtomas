@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/ui/container";
 
 export function Footer() {
@@ -7,7 +8,15 @@ export function Footer() {
             <Container>
                 <div className="flex flex-col md:flex-row justify-between items-start gap-8">
                     <div className="space-y-4">
-                        <h3 className="text-lg font-bold text-primary">JÁ JSEM TOMÁŠ</h3>
+                        <Link href="/" className="block">
+                            <Image
+                                src="/images/logo.png"
+                                alt="Já jsem Tomáš"
+                                width={150}
+                                height={50}
+                                className="h-8 w-auto object-contain"
+                            />
+                        </Link>
                         <p className="text-sm text-muted-foreground max-w-xs">
                             Dělám videa. Reels, TikTok i kompletní produkci.
                             <br />
