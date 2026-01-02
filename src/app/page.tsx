@@ -155,11 +155,14 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative aspect-video rounded-xl bg-muted overflow-hidden border shadow-2xl">
-            {/* Placeholder for Showreel or Image */}
-            <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-zinc-900">
-              <MonitorPlay className="h-12 w-12 text-zinc-700" />
-            </div>
-            {/* Once we have a main showreel YouTube ID, we can put VideoPlayer here */}
+            <Image
+              src="/images/reels-packages-preview.png"
+              alt="Ukázka Reels Balíčků"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-700"
+            />
+            {/* Overlay for depth */}
+            <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
           </div>
         </Container>
       </section>

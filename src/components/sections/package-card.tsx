@@ -46,7 +46,7 @@ export function PackageCard({ pkg }: PackageCardProps) {
             </CardContent>
             <CardFooter>
                 <Link
-                    href={`/kontakt?package=${pkg.id}`}
+                    href={`/rezervace?package=${pkg.id}`}
                     className="w-full"
                     onClick={() => trackEvent("click_reels_package", { package: pkg.id, price: pkg.price })}
                 >
