@@ -11,7 +11,7 @@
       "Střih a titulky",
       "Hudba a efekty"
     ],
-    "image": "/images/service-reels.png"
+    "image": "/images/service-reels.jpg"
   },
   {
     "id": "creative",
@@ -95,6 +95,6 @@
         "url": "/audio/OREO TOMAS BERKA VOICEOVER.mp3"
       }
     ],
-    "image": "/images/service-voiceover.png"
+    "image": "/images/service-voiceover.jpg"
   }
 ]

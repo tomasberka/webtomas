@@ -33,7 +33,7 @@ export default function AboutPage() {
                     <div className="flex-1 w-full max-w-lg">
                         <div className="relative aspect-square rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500">
                             <img
-                                src="/images/tomas-portrait.png"
+                                src="/images/tomas-portrait.jpg"
                                 alt="Tomáš"
                                 className="object-cover w-full h-full"
                             />

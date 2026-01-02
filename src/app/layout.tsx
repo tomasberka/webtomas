@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Já jsem Tomáš",
     images: [
       {
-        url: "/images/tomas-portrait.png",
+        url: "/images/tomas-portrait.jpg",
         width: 1200,
         height: 630,
         alt: "Já jsem Tomáš - Video Produkce",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Já jsem Tomáš | Video Produkce & Reels",
     description: "Profesionální tvorba Reels, TikTok a video obsahu. Domluvte si natáčení za 10 minut.",
-    images: ["/images/tomas-portrait.png"],
+    images: ["/images/tomas-portrait.jpg"],
   },
   robots: {
     index: true,
