@@ -34,8 +34,7 @@ export default function BookingPage() {
                 <div className="bg-card border rounded-2xl shadow-xl overflow-hidden max-w-5xl mx-auto min-h-[800px]">
                     {/* Google Calendar Embed */}
                     <iframe
-                        // Note: Using the provided short link directly.
-                        src="https://calendar.app.google/BrjKeR6R6q2aoMLW8?gv=true"
+                        src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_?gv=true"
                         style={{ border: 0 }}
                         width="100%"
                         height="800"
@@ -44,7 +43,7 @@ export default function BookingPage() {
                 </div>
                 <div className="text-center mt-4">
                     <p className="text-sm text-muted-foreground mb-2">Nenačítá se kalendář?</p>
-                    <Link href="https://calendar.app.google/BrjKeR6R6q2aoMLW8" target="_blank">
+                    <Link href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_" target="_blank">
                         <Button variant="outline">Otevřít kalendář v novém okně</Button>
                     </Link>
                 </div>
