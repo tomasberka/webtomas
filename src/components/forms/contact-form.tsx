@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { sendEmail } from "@/app/actions/send-email";
+
 import { useState, useTransition } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Loader2 } from "lucide-react";
@@ -34,12 +34,25 @@ export function ContactForm() {
     const onSubmit = async (data: ContactFormData) => {
         setError(null);
         startTransition(async () => {
-            const result = await sendEmail(data);
-            if (result.success) {
-                trackEvent("submit_contact", { service: data.service });
-                router.push("/dekuji");
-            } else {
-                setError(result.error || "Něco se pokazilo. Zkuste to prosím znovu.");
+            try {
+                const response = await fetch("https://formspree.io/f/mpqwdzyb", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json"
+                    },
+                    body: JSON.stringify(data),
+                });
+
+                if (response.ok) {
+                    trackEvent("submit_contact", { service: data.service });
+                    router.push("/dekuji");
+                } else {
+                    const errorData = await response.json();
+                    setError(errorData.error || "Něco se pokazilo. Zkuste to prosím znovu.");
+                }
+            } catch (err) {
+                setError("Chyba připojení. Zkontrolujte internet nebo to zkuste později.");
             }
         });
     };
