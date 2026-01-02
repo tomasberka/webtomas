@@ -10,6 +10,8 @@ export function VideoPlayer({ videoId, className }: { videoId: string, className
 
     const handleImageError = () => {
         if (thumbnailUrl.includes("maxresdefault")) {
+            setThumbnailUrl(`https://img.youtube.com/vi/${videoId}/sddefault.jpg`);
+        } else if (thumbnailUrl.includes("sddefault")) {
             setThumbnailUrl(`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`);
         }
     };
