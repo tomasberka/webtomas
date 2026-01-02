@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { VideoPlayer } from "@/components/ui/video-player";
 import { Check, Mic, Star } from "lucide-react";
+import portfolioData from "@/content/portfolio.json";
+import { VideoCard } from "@/components/portfolio/video-card";
 
 export const metadata = {
     title: "UGC Tvůrce & Herec | Zvyšte prodeje videem | Já jsem Tomáš",
@@ -152,12 +154,6 @@ export default function UgcActorPage() {
                 </Container>
             </section>
 
-            import portfolioData from "@/content/portfolio.json";
-            import {VideoCard} from "@/components/portfolio/video-card";
-
-            // ... existing imports ...
-
-            // ... inside the component ...
             {/* Acting Portfolio Section */}
             <section id="showreel" className="py-20 bg-black text-white">
                 <Container>
