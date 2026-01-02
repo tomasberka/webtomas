@@ -293,5 +293,61 @@
         "duration": "PT0M00S",
         "youtubeId": "sohH2yjYMuk",
         "category": "Corporate"
+    },
+    {
+        "id": "acting_1",
+        "title": "Acting Scéna 1",
+        "youtubeId": "ByIt6OqrO_M",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_2",
+        "title": "Acting Scéna 2",
+        "youtubeId": "rAmmVBcAPPw",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_3",
+        "title": "Acting Scéna 3",
+        "youtubeId": "tkwezR4OQcM",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_4",
+        "title": "Acting Scéna 4",
+        "youtubeId": "ULGOOQhhCeY",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_5",
+        "title": "Acting Scéna 5",
+        "youtubeId": "jzq06eUqLKE",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_6",
+        "title": "Acting Scéna 6",
+        "youtubeId": "tdj0OJECb2E",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_7",
+        "title": "Acting Scéna 7",
+        "youtubeId": "7mjZlAx-RLQ",
+        "category": "Acting",
+        "orientation": "vertical"
+    },
+    {
+        "id": "acting_8",
+        "title": "Acting Scéna 8",
+        "youtubeId": "r3Jy6plTDzU",
+        "category": "Acting",
+        "orientation": "vertical"
     }
 ]
