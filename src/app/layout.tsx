@@ -60,7 +60,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="cs" className="dark">
+    <html lang="cs" className="dark" suppressHydrationWarning>
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
         <Script
           strategy="beforeInteractive"
