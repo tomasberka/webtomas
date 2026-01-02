@@ -42,6 +42,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         <p className="text-xl text-muted-foreground mb-8 text-pretty">
                             {service.description}
                         </p>
+
+                        {(service as any).content && (
+                            <div
+                                className="prose prose-invert prose-p:text-muted-foreground prose-p:leading-relaxed prose-strong:text-foreground mb-8 text-base"
+                                dangerouslySetInnerHTML={{ __html: (service as any).content }}
+                            />
+                        )}
                         <Link href="/rezervace">
                             <Button size="lg" className="font-bold">
                                 📅 Konzultovat balíček (15 min)

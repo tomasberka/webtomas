@@ -19,6 +19,9 @@ const icons = {
 export const metadata = {
   title: "Video Produkce Praha | Reklamy, Reels & Content | Já jsem Tomáš",
   description: "Komplexní video produkce pro firmy. Tvoříme reklamní spoty, Reels na sítě a firemní videa, která vydělávají. Zvyšte své prodeje videem.",
+  verification: {
+    google: "CeEtdfWCx-4OSJn7uLwjJF4OdVysGkHTkPGZRIt7PTY",
+  },
 };
 
 export default function Home() {
@@ -55,7 +58,7 @@ export default function Home() {
             🚀 Video produkce, co má výsledky
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6">
-            Video produkce, která<br className="hidden md:block" />
+            Video produkce, která <br className="hidden md:block" />
             buduje značky a <span className="text-primary">prodává.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8">
