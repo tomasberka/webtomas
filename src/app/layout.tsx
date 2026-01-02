@@ -65,12 +65,12 @@ export default function RootLayout({
   return (
     <html lang="cs" className="dark">
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
+        <GoogleAnalytics />
         <Navbar />
         <main className="flex-1">
           {children}
         </main>
         <Footer />
-        <GoogleAnalytics />
       </body>
     </html>
   );
