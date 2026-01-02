@@ -47,14 +47,8 @@ export default function AboutPage() {
                 <Container>
                     <div className="bg-card border rounded-2xl p-6 md:p-12 shadow-xl max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl font-bold mb-8">Kdo jsem v 60 vteřinách?</h2>
-                        <div className="aspect-video rounded-xl overflow-hidden bg-black border relative shadow-inner">
-                            {/* Placeholder for VSL - User to replace videoId */}
-                            {/* <VideoPlayer videoId="YOUR_VSL_ID" /> */}
-                            <div className="absolute inset-0 flex flex-col items-center justify-center text-zinc-500 bg-zinc-900">
-                                <MonitorPlay className="w-16 h-16 opacity-50 mb-4" />
-                                <p className="font-medium">Zde bude vaše představení (VSL)</p>
-                                <p className="text-sm opacity-60">Doplňte video ID do kódu</p>
-                            </div>
+                        <div className="aspect-[9/16] max-w-sm mx-auto rounded-xl overflow-hidden bg-black border relative shadow-2xl">
+                            <VideoPlayer videoId="o0Vw3UNIKaQ" className="h-full w-full" />
                         </div>
                     </div>
                 </Container>
