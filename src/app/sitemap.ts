@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import servicesData from "@/content/services.json";
+import blogData from "@/content/blog.json";
 
 export const dynamic = 'force-static'
 
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/portfolio',
         '/partner-socialvids',
         '/kontakt',
+        '/blog',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
@@ -27,5 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }))
 
-    return [...staticRoutes, ...serviceRoutes]
+    const blogRoutes = blogData.map((post) => ({
+        url: `${baseUrl}/blog/${post.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+    }))
+
+    return [...staticRoutes, ...serviceRoutes, ...blogRoutes]
 }
