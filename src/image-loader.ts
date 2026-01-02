@@ -5,10 +5,20 @@ export default function myImageLoader({ src, width, quality }: { src: string; wi
         return src
     }
     const q = quality || 75
-    // Flatten the path: extract filename, remove extension
-    const fileName = src.split('/').pop()
-    const fileNameWithoutExtension = fileName?.split('.').slice(0, -1).join('.')
 
-    // Default optimized format is WEBP. Naming convention: [name]-opt-[width].WEBP
-    return `/${process.env.nextImageExportOptimizer_exportFolderName}/${fileNameWithoutExtension}-opt-${width}.WEBP`
+    // Split the path to handle directories correctly.
+    // Example: "/images/logo.png" -> path="/images", name="logo"
+    // Example: "/1.png" -> path="", name="1"
+
+    const parts = src.split('/')
+    const filename = parts.pop()
+    const path = parts.join('/')
+
+    const nameWithoutExtension = filename?.split('.').slice(0, -1).join('.')
+
+    // The optimizer outputs files relative to their source directory.
+    // So /images/logo.png -> /images/nextImageExportOptimizer/logo-opt...
+    // And /1.png -> /nextImageExportOptimizer/1-opt... (path is empty)
+
+    return `${path}/${process.env.nextImageExportOptimizer_exportFolderName}/${nameWithoutExtension}-opt-${width}.WEBP`
 }
