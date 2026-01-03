@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     description: "Premium event videography and social media reels in London. Fast 24h turnaround for corporate events, parties, and brand activations. Partnered with SocialVids.",
     keywords: ["London Videographer", "Event Video London", "Corporate Reels", "SocialVids", "Videography UK", "Event Highlights London", "Same-day Edit London"],
     alternates: {
-        canonical: "https://jajsemtomas.cz/london",
+        canonical: "https://en.jajsemtomas.cz",
     },
     openGraph: {
         title: "Event Videographer London | Fast Reels & Corporate Video SocialVids",
         description: "Capture your London event's energy with premium, fast-turnaround reels. From Shoreditch to The City.",
-        url: "https://jajsemtomas.cz/london",
+        url: "https://en.jajsemtomas.cz",
         locale: "en_GB",
         siteName: "Tomáš | Videographer",
         images: [
