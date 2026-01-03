@@ -1,2 +1,5 @@
+# Serve sitemap-en.xml as sitemap.xml on English subdomain
+https://en.jajsemtomas.cz/sitemap.xml https://en.jajsemtomas.cz/sitemap-en.xml 200
+
 # Redirect robots.txt on English subdomain to robots-en.txt
 https://en.jajsemtomas.cz/robots.txt https://en.jajsemtomas.cz/robots-en.txt 301
