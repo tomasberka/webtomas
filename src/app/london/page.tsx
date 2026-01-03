@@ -183,7 +183,7 @@ export default function LondonPage() {
                                 Powered by <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">SocialVids</span>
                             </h2>
                             <p className="text-xl text-muted-foreground mb-8 text-pretty">
-                                For large-scale events and campaigns, I partner with <strong>SocialVids</strong>, a premier production house with a proven track record in London and across Europe.
+                                For large-scale <strong>event video production</strong> and campaigns, I partner with <strong>SocialVids</strong>, a premier production house with a proven track record in London and across Europe.
                             </p>
 
                             <div className="space-y-6">
@@ -242,7 +242,7 @@ export default function LondonPage() {
                 <Container>
                     <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                         <div>
-                            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Event & Commercial</h2>
+                            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">Event Video Production</h2>
                             <p className="text-muted-foreground max-w-xl">
                                 Cinematic highlights and promo videos.
                             </p>
