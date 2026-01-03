@@ -8,7 +8,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     return (
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <Container className="flex h-16 items-center justify-between">
-                <Link href={locale === 'en' ? "/en" : "/"} className="flex items-center">
+                <Link href="/" className="flex items-center">
                     <Image
                         src="/images/logo.png"
                         alt={locale === 'en' ? "Video Production Prague - Reels & TikTok - Tomas" : "Video Produkce Praha - Reels a TikTok - Já jsem Tomáš"}
@@ -78,7 +78,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                 </div>
                 <div className="flex items-center gap-4">
                     <div className="hidden md:block">
-                        <Link href={locale === 'en' ? "/en#contact" : "/rezervace"}>
+                        <Link href={locale === 'en' ? "/contact" : "/rezervace"}>
                             <Button className="font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
                                 {locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}
                             </Button>

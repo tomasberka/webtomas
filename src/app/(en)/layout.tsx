@@ -66,7 +66,7 @@ export default function RootLayout({
             CookieBanner component might need localization too. 
             For now, let's keep it as is, it might be auto-translated or English by default? 
             Let's check CookieBanner later. */}
-                <CookieBanner />
+                <CookieBanner locale="en" />
 
                 {/* Consent Mode and Tags - replicated from CZ */}
                 <Script id="consent-mode" strategy="beforeInteractive">

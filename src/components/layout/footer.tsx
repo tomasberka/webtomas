@@ -8,7 +8,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             <Container>
                 <div className="flex flex-col md:flex-row justify-between items-start gap-8">
                     <div className="space-y-4">
-                        <Link href={locale === 'en' ? "/en" : "/"} className="block">
+                        <Link href="/" className="block">
                             <Image
                                 src="/images/logo.png"
                                 alt={locale === 'en' ? "Video Production - Tomas" : "Video Produkce Praha - Já jsem Tomáš"}
@@ -35,7 +35,9 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/en" className="hover:text-primary">Video Production</Link></li>
+                                        <li><Link href="/reels-packages" className="hover:text-primary">Reels Packages</Link></li>
+                                        <li><Link href="/services/creative-production" className="hover:text-primary">Creative Production</Link></li>
+                                        <li><Link href="/services/event-video" className="hover:text-primary">Event Video</Link></li>
                                     </>
                                 )}
                             </ul>
@@ -51,8 +53,9 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/en" className="hover:text-primary">Portfolio</Link></li>
-                                        <li><Link href="/en" className="hover:text-primary">Contact</Link></li>
+                                        <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
+                                        <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
+                                        <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
                                     </>
                                 )}
                             </ul>

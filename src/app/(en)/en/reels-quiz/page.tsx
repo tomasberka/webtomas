@@ -16,7 +16,7 @@ export default function QuizPage() {
                 <p className="text-xl text-muted-foreground mb-8">
                     The quiz is currently being localized. Please check back later or contact me directly.
                 </p>
-                <Link href="/en/contact">
+                <Link href="/contact">
                     <Button size="lg">Contact Me</Button>
                 </Link>
             </Container>

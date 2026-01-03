@@ -58,7 +58,7 @@ export default function ContactPage() {
 
                     <div className="bg-card border rounded-2xl p-6 md:p-8 shadow-sm">
                         <Suspense fallback={<div>Loading form...</div>}>
-                            <ContactForm />
+                            <ContactForm locale="en" />
                         </Suspense>
                     </div>
                 </div>

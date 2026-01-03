@@ -176,12 +176,12 @@ export default function AboutPage() {
                         I'd love to hear your story. Let's grab a coffee or jump on a call.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
-                        <Link href="/en/contact">
+                        <Link href="/contact">
                             <Button size="lg" className="px-8">
                                 Send a message
                             </Button>
                         </Link>
-                        <Link href="/en/portfolio">
+                        <Link href="/portfolio">
                             <Button variant="outline" size="lg">
                                 See any work
                             </Button>

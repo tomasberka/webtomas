@@ -94,7 +94,7 @@ export default function Home() {
                         <strong>Fast. Efficient. No unnecessary costs.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
-                        <Link href="/en#contact">
+                        <Link href="/contact">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                                 📅 Book a 15 min Call
                             </Button>
@@ -104,6 +104,34 @@ export default function Home() {
                                 Pricing & Packages
                             </Button>
                         </Link>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Quiz CTA Section */}
+            <section className="py-16 bg-gradient-to-br from-primary/10 via-background to-background border-t">
+                <Container>
+                    <div className="max-w-4xl mx-auto text-center">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
+                            🎮 Interactive Test
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            Are you making these Reels mistakes?
+                        </h2>
+                        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+                            Find out in 2 minutes if your Reels have a chance of success.
+                            Interactive quiz with instant feedback.
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+                            <Link href="/reels-quiz">
+                                <Button size="lg" className="text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                                    🎯 Start Quiz
+                                </Button>
+                            </Link>
+                            <p className="text-sm text-muted-foreground">
+                                ✓ 5 Scenarios ✓ Instant Feedback ✓ No Email Required
+                            </p>
+                        </div>
                     </div>
                 </Container>
             </section>

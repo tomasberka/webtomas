@@ -62,7 +62,7 @@ export default function ReelsPackagesPage() {
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Packages</h1>
                     <p className="text-xl text-muted-foreground">
                         Every project is unique.
-                        Book a <Link href="/en/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we will set up a strategy exactly for you.
+                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we will set up a strategy exactly for you.
                     </p>
                 </div>
 

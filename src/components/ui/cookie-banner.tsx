@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 
-export function CookieBanner() {
+export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const [isVisible, setIsVisible] = useState(false)
 
     const updateConsent = useCallback((status: 'granted' | 'denied') => {
@@ -43,15 +43,27 @@ export function CookieBanner() {
 
     if (!isVisible) return null
 
+    const t = {
+        title: locale === 'en' ? "Cookies and data protection" : "Soubory cookies a ochrana údajů",
+        description: locale === 'en'
+            ? "I use cookies and Google Analytics to measure traffic and improve the website. Your data is processed according to the "
+            : "Používám soubory cookie a Google Analytics k měření návštěvnosti a vylepšování webu. Vaše data jsou zpracovávána dle ",
+        policyLink: locale === 'en' ? "Privacy Policy" : "Zásad ochrany osobních údajů",
+        policyUrl: locale === 'en' ? "/privacy-policy" : "/ochrana-udaju",
+        descriptionSuffix: locale === 'en' ? ". I don't collect any analytical data without your consent." : ". Bez vašeho souhlasu žádná analytická data nesbírám.",
+        reject: locale === 'en' ? "Reject" : "Odmítnout",
+        accept: locale === 'en' ? "I agree and continue" : "Souhlasím a pokračovat",
+    }
+
     return (
         <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500">
             <div className="container max-w-7xl mx-auto p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex-1 space-y-2 text-center md:text-left">
-                    <h3 className="font-semibold text-base">Soubory cookies a ochrana údajů</h3>
+                    <h3 className="font-semibold text-base">{t.title}</h3>
                     <p className="text-sm text-muted-foreground max-w-2xl">
-                        Používám soubory cookie a Google Analytics k měření návštěvnosti a vylepšování webu.
-                        Vaše data jsou zpracovávána dle <a href="/ochrana-udaju" className="underline hover:text-foreground transition-colors">Zásad ochrany osobních údajů</a>.
-                        Bez vašeho souhlasu žádná analytická data nesbírám.
+                        {t.description}
+                        <a href={t.policyUrl} className="underline hover:text-foreground transition-colors">{t.policyLink}</a>
+                        {t.descriptionSuffix}
                     </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
@@ -61,14 +73,14 @@ export function CookieBanner() {
                         size="sm"
                         className="w-full sm:w-auto hover:bg-muted"
                     >
-                        Odmítnout
+                        {t.reject}
                     </Button>
                     <Button
                         onClick={handleAccept}
                         size="sm"
                         className="w-full sm:w-auto font-medium shadow-sm"
                     >
-                        Souhlasím a pokračovat
+                        {t.accept}
                     </Button>
                 </div>
             </div>
