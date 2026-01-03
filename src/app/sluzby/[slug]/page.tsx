@@ -3,9 +3,11 @@ import { ContactForm } from "@/components/forms/contact-form"
 import { AudioPlayer } from "@/components/ui/audio-player";
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import servicesData from "@/content/services.json";
-import { Check } from "lucide-react";
+import faqData from "@/content/faq.json";
+import { Check, HelpCircle } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
 
 interface ServicePageProps {
@@ -29,6 +31,9 @@ export default async function ServicePage({ params }: ServicePageProps) {
     if (!service) {
         notFound();
     }
+
+    // Get FAQ for this service
+    const serviceFaq = (faqData as any)[slug] || [];
 
     return (
         <div className="py-20">
@@ -92,7 +97,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     </div>
                 </div>
 
-                <div className="max-w-3xl">
+                <div className="max-w-3xl mb-16">
                     <h2 className="text-2xl font-bold mb-6">Co služba zahrnuje?</h2>
                     <ul className="grid sm:grid-cols-2 gap-4">
                         {service.features.map((feature, i) => (
@@ -103,6 +108,28 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         ))}
                     </ul>
                 </div>
+
+                {/* FAQ Section */}
+                {serviceFaq.length > 0 && (
+                    <div className="max-w-3xl">
+                        <h2 className="text-2xl font-bold mb-6">Časté dotazy</h2>
+                        <div className="space-y-4">
+                            {serviceFaq.map((faq: any, index: number) => (
+                                <Card key={index}>
+                                    <CardHeader>
+                                        <CardTitle className="text-lg flex items-center gap-2">
+                                            <HelpCircle className="h-5 w-5 text-muted-foreground" />
+                                            {faq.question}
+                                        </CardTitle>
+                                    </CardHeader>
+                                    <CardContent className="text-muted-foreground">
+                                        {faq.answer}
+                                    </CardContent>
+                                </Card>
+                            ))}
+                        </div>
+                    </div>
+                )}
             </Container>
         </div>
     );

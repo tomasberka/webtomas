@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
+import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"] });
 
@@ -64,6 +65,9 @@ export default function RootLayout({
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
         {/* Cookie Banner */}
         <CookieBanner />
+
+        {/* Exit Intent Popup */}
+        <ExitIntentPopup />
 
         {/* Consent Mode - Default Denied */}
         <Script id="consent-mode" strategy="beforeInteractive">

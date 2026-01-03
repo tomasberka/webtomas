@@ -46,11 +46,25 @@ export function MobileNav() {
                             Portfolio
                         </Link>
                         <Link
+                            href="/pripadove-studie"
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            Reference
+                        </Link>
+                        <Link
                             href="/blog"
                             onClick={() => setOpen(false)}
                             className="text-lg font-medium hover:text-primary transition-colors"
                         >
                             Blog
+                        </Link>
+                        <Link
+                            href="/reels-quiz"
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            🎯 Reels Quiz
                         </Link>
                         <Link
                             href="/o-mne"

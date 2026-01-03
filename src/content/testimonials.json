@@ -1,30 +1,170 @@
 [
     {
-        "id": "oict",
-        "text": "Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.",
-        "author": "Peter Svoboda",
-        "role": "Projektový manažer OICT",
-        "company": "OICT"
+        "id": "wikyhracky",
+        "name": "WikyHracky.cz",
+        "company": "WikyHracky.cz",
+        "role": "E-commerce",
+        "quote": "Tomášovi jsme svěřili natočení videa pro on-line kampaň i televizní spot pro vánoční kampaň. Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
+        "rating": 5,
+        "project": "Online kampaň + TV spot",
+        "highlights": [
+            "TV spot pro vánoční kampaň",
+            "Online video kampaň",
+            "Rychlé dodání"
+        ],
+        "image": "/images/testimonials/wikyhracky.jpg"
     },
     {
-        "id": "wiky",
-        "text": "Tomášovi jsme v roce 2019 svěřili natočení videa pro on-line kampaň... Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
-        "author": "Ing. Renáta Beránková",
-        "role": "Marketing specialist",
-        "company": "WikyHracky.cz"
+        "id": "oict",
+        "name": "OICT",
+        "company": "OICT",
+        "role": "Městská správa",
+        "quote": "Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.",
+        "rating": 5,
+        "project": "Projektová spolupráce",
+        "highlights": [
+            "Flexibilní spolupráce",
+            "Rychlé jednání",
+            "Samostatné řešení projektů"
+        ],
+        "image": "/images/testimonials/oict.jpg"
+    },
+    {
+        "id": "roklen24",
+        "name": "Roklen24",
+        "company": "Roklen24",
+        "role": "Finanční portál",
+        "quote": "Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu. Pro finanční portál Roklen24 natáčí videa a fotí.",
+        "rating": 5,
+        "project": "Video produkce + fotografie",
+        "result": "Dlouhodobá spolupráce od 2018",
+        "highlights": [
+            "Dlouhodobá spolupráce od 2018",
+            "Video produkce pro portál",
+            "Profesionální fotografie"
+        ],
+        "image": "/images/testimonials/roklen.jpg"
     },
     {
         "id": "dekra",
-        "text": "Jak bych stručně popsala spolupráci? Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.",
-        "author": "Ing. Dana Berková, MBA",
-        "role": "Vedoucí divize vzdělávání a školení",
-        "company": "DEKRA"
+        "name": "DEKRA",
+        "company": "DEKRA",
+        "role": "Vzdělávání a školení",
+        "quote": "Jak bych stručně popsala spolupráci? Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.",
+        "rating": 5,
+        "project": "Vzdělávací videa",
+        "highlights": [
+            "Vzdělávací videa",
+            "Spolehlivost a serióznost",
+            "Kreativní přístup"
+        ],
+        "image": "/images/testimonials/dekra.jpg"
     },
     {
-        "id": "roklen",
-        "text": "Tomáš Berka spolupracuje s firmou Roklen od ledna 2018. Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu.",
-        "author": "Jaroslav Průcha",
-        "role": "Šéfredaktor",
-        "company": "Roklen24"
+        "id": "legonid",
+        "name": "Legonid",
+        "company": "Legonid",
+        "role": "LEGO Serious Play",
+        "quote": "",
+        "rating": 5,
+        "project": "Video produkce pro LEGO Serious Play",
+        "highlights": [
+            "Natočení certifikačního kurzu",
+            "Profesionální video dokumentace",
+            "Zachycení workshopové atmosféry"
+        ],
+        "image": "/images/testimonials/legonid.jpg"
+    },
+    {
+        "id": "slavia-hk",
+        "name": "FC Slavia Hradec Králové",
+        "company": "FC Slavia HK",
+        "role": "Fotbalový klub",
+        "quote": "",
+        "rating": 5,
+        "project": "Sportovní video",
+        "highlights": [
+            "Natáčení sportovních eventů",
+            "Zachycení akce a atmosféry",
+            "Dynamické záběry"
+        ],
+        "image": "/images/testimonials/slavia.jpg"
+    },
+    {
+        "id": "easy-optic",
+        "name": "Easy Optic",
+        "company": "Easy Optic",
+        "role": "Optika",
+        "quote": "",
+        "rating": 5,
+        "project": "Reels balíček + fotografie",
+        "result": "3 Reels + 15 profesionálních fotek",
+        "highlights": [
+            "3 Instagram Reels",
+            "15 profesionálních fotek",
+            "Konzistentní vizuální styl"
+        ],
+        "image": "/images/testimonials/easy-optic.jpg"
+    },
+    {
+        "id": "patrik-horenovský",
+        "name": "Patrik Hořeňovský",
+        "company": "Dům Samopše",
+        "role": "Nemovitosti",
+        "quote": "",
+        "rating": 5,
+        "project": "Video prezentace nemovitosti",
+        "videoId": "ygYPjGmLTnI",
+        "highlights": [
+            "Profesionální video tour",
+            "Prezentace interiéru i exteriéru",
+            "Podpora prodeje nemovitosti"
+        ],
+        "image": "/images/testimonials/patrik.jpg"
+    },
+    {
+        "id": "icon-barber",
+        "name": "ICON Barber Shop & Tattoo",
+        "company": "ICON Barber Shop & Tattoo",
+        "role": "Barber Shop",
+        "quote": "",
+        "rating": 5,
+        "project": "Vertikální video obsah",
+        "youtubeShorts": [
+            "x2S2_0xHsjg",
+            "TyVQ27BmnpQ",
+            "3Hro_3rsPbo",
+            "s10MsaHGk7s",
+            "UdxMX-x5VP4",
+            "FPWtRbUPZ6c",
+            "ZXnP2KkSTwg"
+        ],
+        "highlights": [
+            "7 profesionálních Shorts",
+            "Obsah pro Instagram & TikTok",
+            "Moderní barber shop estetika"
+        ],
+        "image": "/images/testimonials/icon.jpg"
+    },
+    {
+        "id": "space-cbd",
+        "name": "SPACE CBD",
+        "company": "SPACE CBD",
+        "role": "CBD produkty",
+        "quote": "",
+        "rating": 5,
+        "project": "Vertikální video produkce",
+        "instagramReels": [
+            "DSQHEFYDIK0",
+            "DObacWvDIqh",
+            "DNSvxd9Mbjl",
+            "DMfDg5jMmRA"
+        ],
+        "highlights": [
+            "4 Instagram Reels",
+            "Produktová prezentace",
+            "Kreativní concept"
+        ],
+        "image": "/images/testimonials/space-cbd.jpg"
     }
 ]

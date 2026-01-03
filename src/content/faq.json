@@ -1,0 +1,110 @@
+{
+    "reels-balicky": [
+        {
+            "question": "Jak dlouho trvá natáčení?",
+            "answer": "Jeden natáčecí den trvá cca 4 hodiny. Za tu dobu natočíme materiály na 4-8 Reels videí."
+        },
+        {
+            "question": "Musím mít připravené scénáře?",
+            "answer": "Ne! V balíčcích Růst a Dominance je tvorba scénářů součástí. Společně vymyslíme témata, která budou vaše publikum bavit."
+        },
+        {
+            "question": "Jak rychle dostanu hotová videa?",
+            "answer": "První náhledy obvykle do 3-5 dnů. Finální verze po vaší zpětné vazbě."
+        },
+        {
+            "question": "Mohu použít videa i na jiných sítích?",
+            "answer": "Ano! Vertikální videa (9:16) fungují skvěle na Instagramu, TikToku, YouTube Shorts i LinkedInu."
+        }
+    ],
+    "kreativni-produkce": [
+        {
+            "question": "Kolik stojí reklamní spot?",
+            "answer": "Záleží na rozsahu projektu. Základní spot od 20 000 Kč, komplexní produkce s herci a lokacemi od 50 000 Kč. Vždy vám řeknu cenu předem."
+        },
+        {
+            "question": "Jak dlouho trvá výroba?",
+            "answer": "Od prvního callu po finální video obvykle 2-4 týdny. Záleží na složitosti projektu."
+        },
+        {
+            "question": "Zajistíte i herce a lokace?",
+            "answer": "Ano, můžu zajistit kompletní produkci včetně castingu, lokací a techniky."
+        },
+        {
+            "question": "Můžete natočit i televizní reklamu?",
+            "answer": "Ano, pro velké projekty spolupracuji s SocialVids, který má zkušenosti s TV reklamami."
+        }
+    ],
+    "event-video": [
+        {
+            "question": "Natáčíte i mimo Prahu?",
+            "answer": "Ano, natáčím po celé ČR i v zahraničí (především Londýn)."
+        },
+        {
+            "question": "Jak rychle dostanu video z akce?",
+            "answer": "Nabízím expresní dodání - krátké klipy na sociální sítě ještě tentýž večer, kompletní aftermovie do 5-7 dnů."
+        },
+        {
+            "question": "Potřebuji více kameramanů?",
+            "answer": "Pro menší akce stačím sám. Pro velké eventy můžu zajistit celý tým."
+        },
+        {
+            "question": "Zahrnuje cena i dron záběry?",
+            "answer": "Dron záběry jsou za příplatek. Řekneme si to předem na konzultaci."
+        }
+    ],
+    "live-stream": [
+        {
+            "question": "Jaké připojení potřebujeme?",
+            "answer": "Ideálně stabilní internet min. 10 Mbps upload. Můžu zajistit i záložní 4G/5G připojení."
+        },
+        {
+            "question": "Kam můžeme vysílat?",
+            "answer": "YouTube, Facebook, LinkedIn, Zoom, nebo vaši vlastní platformu. Můžeme vysílat i na více platforem současně."
+        },
+        {
+            "question": "Co když vypadne internet?",
+            "answer": "Mám vždy záložní připojení a lokální záznam. I kdyby vypadl stream, video se neztrácí."
+        },
+        {
+            "question": "Kolik kamer používáte?",
+            "answer": "Záleží na projektu. Základní setup = 2 kamery, pro velké konference až 4-5 kamer + režie."
+        }
+    ],
+    "postprodukce": [
+        {
+            "question": "Můžete sestříhat moje vlastní záběry?",
+            "answer": "Ano! Pošlete mi materiály a já z nich udělám profesionální video."
+        },
+        {
+            "question": "Jak dlouho trvá střih?",
+            "answer": "Záleží na délce a složitosti. Krátké Reels video (60s) = 1-2 dny. Delší video (5-10 min) = 3-5 dnů."
+        },
+        {
+            "question": "Zahrnuje cena i hudbu?",
+            "answer": "Ano, použiju licencovanou hudbu z knihoven, které mám. Pokud chcete konkrétní skladbu, můžeme ji dokoupit."
+        },
+        {
+            "question": "Kolik revizí mám?",
+            "answer": "Obvykle 2 kola revizí. Pokud potřebujete víc, domluvíme se."
+        }
+    ],
+    "voiceover": [
+        {
+            "question": "Jak rychle dostanu nahrávku?",
+            "answer": "Většinu zakázek dodávám do 24 hodin. Pokud je to urgentní, můžu i během pár hodin."
+        },
+        {
+            "question": "Můžu slyšet ukázky?",
+            "answer": "Ano! Na této stránce najdete audio ukázky z mých projektů (Prazdroj, ČSOB, Oreo)."
+        },
+        {
+            "question": "Jaké formáty dodáváte?",
+            "answer": "MP3, WAV, nebo jakýkoliv formát, který potřebujete. Vždy ve vysoké kvalitě."
+        },
+        {
+            "question": "Můžete udělat i dabing?",
+            "answer": "Ano, dělám i dabing pro videa, e-learning kurzy nebo animace."
+        }
+    ]
+}

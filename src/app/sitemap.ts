@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/reels-balicky',
         '/sluzby',
         '/portfolio',
+        '/pripadove-studie',
         '/partner-socialvids',
         '/kontakt',
         '/blog',

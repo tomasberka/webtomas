@@ -122,6 +122,34 @@ export default function Home() {
         </Container>
       </section>
 
+      {/* Quiz CTA Section */}
+      <section className="py-16 bg-gradient-to-br from-primary/10 via-background to-background border-t">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
+              🎮 Interaktivní test
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+              Děláte tyto chyby v Reels?
+            </h2>
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Zjistěte za 2 minuty, jestli vaše Reels mají šanci na úspěch.
+              Interaktivní quiz s okamžitou zpětnou vazbou.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+              <Link href="/reels-quiz">
+                <Button size="lg" className="text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
+                  🎯 Spustit Quiz
+                </Button>
+              </Link>
+              <p className="text-sm text-muted-foreground">
+                ✓ 5 scénářů ✓ Okamžitá zpětná vazba ✓ Žádný email
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Trust Section - Why Us */}
       <section className="border-y bg-muted/20 py-12">
         <Container>
@@ -135,8 +163,39 @@ export default function Home() {
               <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš marketér. Vymýšlím co a proč točit.</p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">💰 Jasné ceny</h3>
-              <p className="text-muted-foreground">Žádné skryté "produkční poplatky". Víte předem, kolik zaplatíte.</p>
+              <h3 className="text-xl font-bold">🎯 7+ let zkušeností</h3>
+              <p className="text-muted-foreground">Stovky projektů pro firmy i osobní značky. Vím, co funguje.</p>
+            </div>
+          </div>
+
+          {/* Client Logos/Brands */}
+          <div className="mt-12 pt-8 border-t">
+            <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
+            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/oict.png" alt="OICT" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/dekra.png" alt="DEKRA" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/tatra.png" alt="Tatra" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/easyoptic.jpg" alt="Easy Optic" className="h-12 w-auto" />
+              </div>
             </div>
           </div>
         </Container>
@@ -200,17 +259,24 @@ export default function Home() {
             </Link>
           </div>
           <div className="relative aspect-video rounded-xl bg-muted overflow-hidden border shadow-2xl">
-            <Image
-              src="/images/reels-packages-preview.png"
-              alt="Ukázka Reels Balíčků"
-              fill
-              className="object-cover hover:scale-105 transition-transform duration-700"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            >
+              <source src="/videos/packages.mp4" type="video/mp4" />
+              Váš prohlížeč nepodporuje video.
+            </video>
             {/* Overlay for depth */}
             <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
           </div>
         </Container>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* SocialVids Trust Indicator */}
       <section className="text-center py-12">

@@ -29,11 +29,17 @@ export function Navbar() {
                     <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                         Portfolio
                     </Link>
+                    <Link href="/pripadove-studie" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                        Reference
+                    </Link>
                     <Link href="/ugc-herec" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                         UGC & Herectví
                     </Link>
                     <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                         Blog
+                    </Link>
+                    <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                        🎯 Quiz
                     </Link>
                     <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                         O mně
