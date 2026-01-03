@@ -1,0 +1,2 @@
+# Redirect robots.txt on English subdomain to robots-en.txt
+https://en.jajsemtomas.cz/robots.txt https://en.jajsemtomas.cz/robots-en.txt 301

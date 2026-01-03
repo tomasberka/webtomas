@@ -5,6 +5,7 @@ import blogData from "@/content/blog.json";
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+    // For the main Czech site
     const baseUrl = 'https://jajsemtomas.cz'
 
     const staticRoutes = [

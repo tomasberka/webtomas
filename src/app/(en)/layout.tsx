@@ -10,7 +10,7 @@ import { CookieBanner } from "@/components/ui/cookie-banner";
 const inter = Inter({ subsets: ["latin", "latin-ext"] });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://jajsemtomas.cz"), // Or en.jajsemtomas.cz if mapped
+    metadataBase: new URL("https://en.jajsemtomas.cz"),
     title: {
         default: "I am Tomas | Filmmaker & Video Production",
         template: "%s | I am Tomas",

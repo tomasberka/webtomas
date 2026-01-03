@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://en.jajsemtomas.cz/sitemap-en.xml
