@@ -1,22 +1,47 @@
 "use client";
 
-import React from "react"; // Added React import for useState
+import React from "react";
 import { Container } from "@/components/ui/container";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
-import testimonialsData from "@/content/testimonials.json";
+import testimonialsDataCs from "@/content/testimonials.json";
+import testimonialsDataEn from "@/content/testimonials-en.json";
 
-export function Testimonials() {
+interface TestimonialsProps {
+    locale?: "cs" | "en";
+}
+
+export function Testimonials({ locale = "cs" }: TestimonialsProps) {
     const [showAll, setShowAll] = React.useState(false);
+    const testimonialsData = locale === "en" ? testimonialsDataEn : testimonialsDataCs;
     const displayedTestimonials = showAll ? testimonialsData : testimonialsData.slice(0, 6);
+
+    const labels = {
+        cs: {
+            title: "Projekty a spolupráce",
+            subtitle: "Ukázky projektů a dodaných řešení pro klienty z různých odvětví.",
+            result: "Výsledek:",
+            showLess: "Zobrazit méně",
+            showMore: "Zobrazit všechny projekty",
+        },
+        en: {
+            title: "Projects & Collaboration",
+            subtitle: "Showcase of projects and delivered solutions for clients from various industries.",
+            result: "Result:",
+            showLess: "Show less",
+            showMore: "Show all projects",
+        }
+    };
+
+    const t = labels[locale];
 
     return (
         <section className="py-20 bg-muted/50">
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Projekty a spolupráce</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t.title}</h2>
                     <p className="text-xl text-muted-foreground">
-                        Ukázky projektů a dodaných řešení pro klienty z různých odvětví.
+                        {t.subtitle}
                     </p>
                 </div>
 
@@ -80,7 +105,7 @@ export function Testimonials() {
                                 {/* Project/Result */}
                                 {testimonial.result && (
                                     <div className="pt-2 border-t">
-                                        <p className="text-xs text-muted-foreground">Výsledek:</p>
+                                        <p className="text-xs text-muted-foreground">{t.result}</p>
                                         <p className="text-sm font-medium text-foreground">{testimonial.result}</p>
                                     </div>
                                 )}
@@ -98,14 +123,14 @@ export function Testimonials() {
                         >
                             {showAll ? (
                                 <>
-                                    Zobrazit méně
+                                    {t.showLess}
                                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
                                     </svg>
                                 </>
                             ) : (
                                 <>
-                                    Zobrazit všechny projekty ({testimonialsData.length})
+                                    {t.showMore} ({testimonialsData.length})
                                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                     </svg>
@@ -118,3 +143,4 @@ export function Testimonials() {
         </section>
     );
 }
+

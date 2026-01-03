@@ -261,6 +261,9 @@ export default function Home() {
                 </Container>
             </section>
 
+            {/* Testimonials Section */}
+            <Testimonials locale="en" />
+
             {/* SocialVids Trust Indicator */}
             <section className="text-center py-12">
                 <Container>

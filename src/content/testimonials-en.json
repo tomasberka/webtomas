@@ -1,0 +1,124 @@
+[
+    {
+        "id": "wikyhracky",
+        "name": "WikyHracky.cz",
+        "company": "WikyHracky.cz",
+        "role": "E-commerce",
+        "quote": "Tomášovi jsme svěřili natočení videa pro on-line kampaň i televizní spot pro vánoční kampaň. Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
+        "rating": 5,
+        "project": "Online campaign + TV spot",
+        "highlights": [
+            "TV spot for Christmas campaign",
+            "Online video campaign",
+            "Fast delivery"
+        ],
+        "image": "/images/clients/wikyhracky.png"
+    },
+    {
+        "id": "legonid",
+        "name": "Legonid",
+        "company": "Legonid",
+        "role": "LEGO Serious Play",
+        "quote": "",
+        "rating": 5,
+        "project": "Video production for LEGO Serious Play",
+        "highlights": [
+            "Filming certification course",
+            "Professional video documentation",
+            "Capturing workshop atmosphere"
+        ],
+        "image": "/images/clients/legonid.png"
+    },
+    {
+        "id": "slavia-hk",
+        "name": "FC Slavia Hradec Králové",
+        "company": "FC Slavia HK",
+        "role": "Football club",
+        "quote": "",
+        "rating": 5,
+        "project": "Sports video",
+        "highlights": [
+            "Filming sports events",
+            "Capturing action and atmosphere",
+            "Dynamic shots"
+        ],
+        "image": "/images/clients/slavia.png"
+    },
+    {
+        "id": "easy-optic",
+        "name": "Easy Optic",
+        "company": "Easy Optic",
+        "role": "Optics",
+        "quote": "",
+        "rating": 5,
+        "project": "Reels package + photography",
+        "result": "3 Reels + 15 professional photos",
+        "highlights": [
+            "3 Instagram Reels",
+            "15 professional photos",
+            "Consistent visual style"
+        ],
+        "image": "/images/clients/easyoptic.jpg"
+    },
+    {
+        "id": "patrik-horenovský",
+        "name": "Patrik Hořeňovský",
+        "company": "Dům Samopše",
+        "role": "Real Estate",
+        "quote": "",
+        "rating": 5,
+        "project": "Real estate video presentation",
+        "videoId": "ygYPjGmLTnI",
+        "highlights": [
+            "Professional video tour",
+            "Interior and exterior presentation",
+            "Property sales support"
+        ],
+        "image": ""
+    },
+    {
+        "id": "icon-barber",
+        "name": "ICON Barber Shop & Tattoo",
+        "company": "ICON Barber Shop & Tattoo",
+        "role": "Barber Shop",
+        "quote": "",
+        "rating": 5,
+        "project": "Vertical video content",
+        "youtubeShorts": [
+            "x2S2_0xHsjg",
+            "TyVQ27BmnpQ",
+            "3Hro_3rsPbo",
+            "s10MsaHGk7s",
+            "UdxMX-x5VP4",
+            "FPWtRbUPZ6c",
+            "ZXnP2KkSTwg"
+        ],
+        "highlights": [
+            "7 professional Shorts",
+            "Content for Instagram & TikTok",
+            "Modern barber shop aesthetics"
+        ],
+        "image": ""
+    },
+    {
+        "id": "space-cbd",
+        "name": "SPACE CBD",
+        "company": "SPACE CBD",
+        "role": "CBD products",
+        "quote": "",
+        "rating": 5,
+        "project": "Vertical video production",
+        "instagramReels": [
+            "DSQHEFYDIK0",
+            "DObacWvDIqh",
+            "DNSvxd9Mbjl",
+            "DMfDg5jMmRA"
+        ],
+        "highlights": [
+            "4 Instagram Reels",
+            "Product presentation",
+            "Creative concept"
+        ],
+        "image": ""
+    }
+]

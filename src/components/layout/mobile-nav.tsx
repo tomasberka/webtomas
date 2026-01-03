@@ -115,6 +115,41 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 >
                                     Contact
                                 </Link>
+                                <Link
+                                    href="/case-studies"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    Case Studies
+                                </Link>
+                                <Link
+                                    href="/ugc-creator"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    UGC & Acting
+                                </Link>
+                                <Link
+                                    href="/blog"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    Blog
+                                </Link>
+                                <Link
+                                    href="/reels-quiz"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    🎯 Quiz
+                                </Link>
+                                <Link
+                                    href="/about"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    About Me
+                                </Link>
 
                                 <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
                                     <a href="https://jajsemtomas.cz" className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale">

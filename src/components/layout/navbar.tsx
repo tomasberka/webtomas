@@ -68,6 +68,22 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 Contact
                             </Link>
 
+                            <Link href="/case-studies" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Case Studies
+                            </Link>
+                            <Link href="/ugc-creator" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                UGC & Acting
+                            </Link>
+                            <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Blog
+                            </Link>
+                            <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                🎯 Quiz
+                            </Link>
+                            <Link href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                About Me
+                            </Link>
+
                             {/* Language Switcher */}
                             <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
                                 <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Přepnout do češtiny">🇨🇿</a>
