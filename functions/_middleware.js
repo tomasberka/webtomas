@@ -17,7 +17,8 @@ export async function onRequest(context) {
             return context.env.ASSETS.fetch(url);
         }
         if (url.pathname === "/sitemap.xml") {
-            url.pathname = "/sitemap-en.xml";
+            // Serve the sitemap from public/en/sitemap.xml
+            url.pathname = "/en/sitemap.xml";
             return context.env.ASSETS.fetch(url);
         }
 
@@ -28,9 +29,6 @@ export async function onRequest(context) {
             return context.env.ASSETS.fetch(url);
         }
     }
-
-    // Determine visitor country for potential future auto-redirects (optional)
-    // const country = context.request.cf.country;
 
     return context.next();
 }
