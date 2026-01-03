@@ -42,7 +42,7 @@ export default function ServicesPage() {
                     {servicesData.map((service) => {
                         const Icon = icons[service.icon as keyof typeof icons] || Clapperboard;
                         return (
-                            <Link href={`/${service.slug}`} key={service.id} className="group">
+                            <Link href={`/services/${service.slug.replace("services/", "")}`} key={service.id} className="group">
                                 <Card className="h-full hover:border-primary/50 transition-all hover:shadow-md">
                                     <CardHeader>
                                         <div className="flex items-center justify-between mb-4">

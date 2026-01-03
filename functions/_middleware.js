@@ -9,9 +9,17 @@ export async function onRequest(context) {
             url.pathname.startsWith("/images") ||
             url.pathname.startsWith("/videos") ||
             url.pathname.startsWith("/audio") ||
-            url.pathname === "/favicon.ico" ||
-            url.pathname === "/robots.txt" ||
-            url.pathname === "/sitemap.xml";
+            url.pathname === "/favicon.ico";
+
+        // Handle robots.txt and sitemap.xml specifically for 'en' subdomain
+        if (url.pathname === "/robots.txt") {
+            url.pathname = "/robots-en.txt";
+            return context.env.ASSETS.fetch(url);
+        }
+        if (url.pathname === "/sitemap.xml") {
+            url.pathname = "/sitemap-en.xml";
+            return context.env.ASSETS.fetch(url);
+        }
 
         // Only rewrite if it's NOT a static asset and NOT already prefixed with /en
         if (!isStaticAsset && !url.pathname.startsWith("/en")) {
