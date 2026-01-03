@@ -64,10 +64,6 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Portfolio
                             </Link>
-                            <Link href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Contact
-                            </Link>
-
                             <Link href="/case-studies" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Case Studies
                             </Link>

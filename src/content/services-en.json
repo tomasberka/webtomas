@@ -73,5 +73,34 @@
             "Subtitling"
         ],
         "image": "/images/service-postproduction.jpg"
+    },
+    {
+        "id": "voiceover",
+        "title": "Voiceover",
+        "slug": "services/voiceover",
+        "description": "Professional voice for your videos. Ads, spots, e-learning.",
+        "content": "<p>Visuals are only half the experience. A <strong>professional voiceover</strong> adds credibility and emotion to your video. You may recognize my voice from ads for brands like Plzeňský Prazdroj, ČSOB, or Oreo.</p><p>I have my own professional recording studio, which means two things: <strong>top-notch sound quality</strong> and <strong>extreme speed</strong>. I deliver most orders within 24 hours.</p><p>Whether you need a 'punchy' voice for an ad, a calm tone for e-learning, or character dubbing, we will find the right style.</p>",
+        "icon": "Mic",
+        "features": [
+            "Commercial Spots",
+            "E-learning",
+            "Dubbing",
+            "Professional Studio"
+        ],
+        "audioSamples": [
+            {
+                "title": "Plzeňský Prazdroj (Ad)",
+                "url": "/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"
+            },
+            {
+                "title": "ČSOB (TV Spot)",
+                "url": "/audio/CSOB TOMAS BERKA VOICEOVER.mp3"
+            },
+            {
+                "title": "Oreo (Social)",
+                "url": "/audio/OREO TOMAS BERKA VOICEOVER.mp3"
+            }
+        ],
+        "image": "/images/service-voiceover.jpg"
     }
 ]
