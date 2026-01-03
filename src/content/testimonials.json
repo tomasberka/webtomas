@@ -15,52 +15,6 @@
         "image": "/images/testimonials/wikyhracky.jpg"
     },
     {
-        "id": "oict",
-        "name": "OICT",
-        "company": "OICT",
-        "role": "Městská správa",
-        "quote": "Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.",
-        "rating": 5,
-        "project": "Projektová spolupráce",
-        "highlights": [
-            "Flexibilní spolupráce",
-            "Rychlé jednání",
-            "Samostatné řešení projektů"
-        ],
-        "image": "/images/testimonials/oict.jpg"
-    },
-    {
-        "id": "roklen24",
-        "name": "Roklen24",
-        "company": "Roklen24",
-        "role": "Finanční portál",
-        "quote": "Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu. Pro finanční portál Roklen24 natáčí videa a fotí.",
-        "rating": 5,
-        "project": "Video produkce + fotografie",
-        "result": "Dlouhodobá spolupráce od 2018",
-        "highlights": [
-            "Dlouhodobá spolupráce od 2018",
-            "Video produkce pro portál",
-            "Profesionální fotografie"
-        ],
-        "image": "/images/testimonials/roklen.jpg"
-    },
-    {
-        "id": "dekra",
-        "name": "DEKRA",
-        "company": "DEKRA",
-        "role": "Vzdělávání a školení",
-        "quote": "Jak bych stručně popsala spolupráci? Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.",
-        "rating": 5,
-        "project": "Vzdělávací videa",
-        "highlights": [
-            "Vzdělávací videa",
-            "Spolehlivost a serióznost",
-            "Kreativní přístup"
-        ],
-        "image": "/images/testimonials/dekra.jpg"
-    },
-    {
         "id": "legonid",
         "name": "Legonid",
         "company": "Legonid",

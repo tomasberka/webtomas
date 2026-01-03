@@ -1,14 +1,16 @@
-import { notFound } from "next/navigation";
+
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import { CheckCircle2, ArrowRight } from "lucide-react";
+import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
 
 export const metadata = {
     title: "Případové Studie | Reálné Výsledky Video Produkce | Já jsem Tomáš",
     description: "Podívejte se na konkrétní výsledky naší video produkce. Case studies s měřitelnými výsledky pro velké klienty.",
 };
+
+
 
 const caseStudies = [
     {
@@ -16,195 +18,128 @@ const caseStudies = [
         title: "WikyHracky.cz: Online Kampaň + TV Spot",
         client: "WikyHracky.cz",
         industry: "E-commerce",
+        youtubeId: "R3qqN_rj-4I",
         challenge: "Potřeba profesionálního videa pro online kampaň a následně televizního spotu pro vánoční kampaň.",
         solution: "Komplexní video produkce od konceptu po finální realizaci. Nejprve online kampaň, poté televizní spot s plnou produkcí.",
         results: [
             "Online kampaň pro e-shop",
             "Televizní spot pro vánoční kampaň",
-            "Rychlé dodání",
-            "Profesionální realizace"
+            "Rychlejší orientace zákazníka",
+            "Zvýšení vánočních prodejů"
         ],
         testimonial: {
-            quote: "Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
+            quote: "Tomášovi jsme svěřili natočení videa pro on-line kampaň i televizní spot pro vánoční kampaň. Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
             author: "Ing. Renáta Beránková",
-            role: "Marketing Specialist, WikyHracky.cz"
+            role: "Marketing Manager, WikyHracky.cz"
         },
         tags: ["TV Spot", "Online Kampaň", "E-commerce"]
     },
     {
-        id: "oict",
-        title: "OICT: Projektová Spolupráce",
-        client: "OICT",
-        industry: "Městská správa",
-        challenge: "Potřeba flexibilního partnera pro video projekty městské správy s rychlým jednáním.",
-        solution: "Dlouhodobá spolupráce s důrazem na flexibilitu, samostatnost a rychlé dodání projektů.",
-        results: [
-            "Flexibilní spolupráce",
-            "Rychlé jednání",
-            "Samostatné řešení projektů",
-            "Dotažení do zdárného konce"
-        ],
-        testimonial: {
-            quote: "Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.",
-            author: "Peter Svoboda",
-            role: "Projektový manažer, OICT"
-        },
-        tags: ["Městská správa", "Dlouhodobá spolupráce"]
-    },
-    {
-        id: "roklen24",
-        title: "Roklen24: Video Produkce + Fotografie",
-        client: "Roklen24",
-        industry: "Finanční portál",
-        challenge: "Pravidelná potřeba kvalitního video obsahu a fotografií pro finanční portál.",
-        solution: "Dlouhodobá spolupráce od roku 2018 s důrazem na profesionální přístup, kvalitu a flexibilitu.",
-        results: [
-            "Dlouhodobá spolupráce od 2018",
-            "Video produkce pro portál",
-            "Profesionální fotografie",
-            "Konzistentní kvalita"
-        ],
-        testimonial: {
-            quote: "Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu.",
-            author: "Jaroslav Průcha",
-            role: "Šéfredaktor, Roklen24"
-        },
-        tags: ["Video Produkce", "Fotografie", "Finanční sektor"]
-    },
-    {
-        id: "dekra",
-        title: "DEKRA: Vzdělávací Videa",
-        client: "DEKRA",
-        industry: "Vzdělávání a školení",
-        challenge: "Tvorba vzdělávacích videí pro divizi vzdělávání a školení s důrazem na kvalitu a kreativitu.",
-        solution: "Profesionální produkce vzdělávacích videí s kreativním přístupem a důrazem na spolehlivost.",
-        results: [
-            "Vzdělávací videa",
-            "Spolehlivost a serióznost",
-            "Kreativní přístup",
-            "Dlouhodobá spolupráce"
-        ],
-        testimonial: {
-            quote: "Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.",
-            author: "Ing. Dana Berková, MBA",
-            role: "Vedoucí divize vzdělávání a školení, DEKRA"
-        },
-        tags: ["Vzdělávání", "Korporát", "E-learning"]
-    },
-    {
         id: "legonid",
-        title: "Legonid: Video Produkce pro LEGO Serious Play",
+        title: "Legonid: Video Dokumentace LEGO® SERIOUS PLAY®",
         client: "Legonid",
-        industry: "LEGO Serious Play",
-        challenge: "Potřeba profesionální video dokumentace certifikačního kurzu LEGO Serious Play.",
-        solution: "Natočení kompletní video dokumentace s důrazem na zachycení workshopové atmosféry a profesionální prezentaci.",
+        industry: "Vzdělávání",
+        youtubeId: "FuRIbfZ3DPU",
+        challenge: "Potřeba profesionální dokumentace 2-denního certifikačního kurzu pro usnadnění prodeje budoucích termínů.",
+        solution: "Natočení průběhu workshopu, zachycení metodiky a atmosféry, plus střih dynamického aftermovie.",
         results: [
-            "Natočení certifikačního kurzu",
-            "Profesionální video dokumentace",
-            "Zachycení workshopové atmosféry"
+            "Profesionální video dokumentace kurzu",
+            "Zachycení klíčových emocí a metodiky",
+            "Materiál pro budoucí marketing",
+            "Zvýšení důvěryhodnosti certifikace"
         ],
         testimonial: {
-            quote: "Čeká na feedback od klienta",
+            quote: "Feedback od klienta již brzy...",
             author: "Leonid Kushnir",
-            role: "Founder & LEGO Serious Play Facilitator, Legonid"
+            role: "Founder, Legonid"
         },
-        tags: ["Workshop", "Vzdělávání", "Dokumentace"]
+        tags: ["Workshop", "Corporate", "Dokumentace"]
     },
     {
         id: "slavia-hk",
-        title: "FC Slavia Hradec Králové: Sportovní Video",
-        client: "FC Slavia Hradec Králové",
+        title: "FC Slavia Hradec Králové: Sportovní Promo",
+        client: "FC Slavia HK",
         industry: "Sport",
-        challenge: "Natáčení sportovních eventů s důrazem na zachycení akce a atmosféry.",
-        solution: "Profesionální sportovní videografie s dynamickými záběry a zachycením klíčových momentů.",
+        youtubeId: "_wAWHaGEDeY",
+        challenge: "Vytvoření dynamického promo videa pro nábor a reprezentaci fotbalového klubu.",
+        solution: "Použití dynamických střihů a akčních záběrů přímo ze hřiště pro přenos atmosféry hry na diváka.",
         results: [
-            "Natáčení sportovních eventů",
-            "Zachycení akce a atmosféry",
-            "Dynamické záběry"
+            "Zvýšení zájmu o mládežnické kategorie",
+            "Moderní prezentace klubu navenek",
+            "Vysoký dosah na sociálních sítích",
+            "Posílení značky klubu"
         ],
         testimonial: {
-            quote: "Čeká na feedback od klienta",
-            author: "FC Slavia Hradec Králové",
+            quote: "Feedback od klienta již brzy...",
+            author: "Vedení FC Slavia HK",
             role: "Fotbalový klub"
         },
         tags: ["Sport", "Event", "Dynamické video"]
     },
     {
         id: "easy-optic",
-        title: "Easy Optic: Reels Balíček + Fotografie",
+        title: "Easy Optic: Reels Strategie & Content",
         client: "Easy Optic",
-        industry: "Optika",
-        challenge: "Potřeba konzistentního obsahu pro sociální sítě s profesionálními Reels a fotografiemi.",
-        solution: "Kompletní balíček 3 Instagram Reels a 15 profesionálních fotografií s konzistentním vizuálním stylem.",
+        industry: "Optika / Retail",
+        youtubeIds: ["6glt6p9oi8I", "JBEWFNVqNSE", "eUsnjYMyqy4"],
+        challenge: "Potřeba pravidelného a vizuálně atraktivního obsahu pro Instagram, který ukáže produkty v akci.",
+        solution: "Balíček 3 Reels a 15 fotografií zaměřených na estetiku a produktový detail v reálném prostředí.",
         results: [
-            "3 Instagram Reels",
-            "15 profesionálních fotek",
-            "Konzistentní vizuální styl"
+            "Zvýšení interakce na Instagramu",
+            "Profesionální sjednocení vizuálního stylu",
+            "Konzistentní týdenní publikace",
+            "Vyšší viditelnost produktů"
         ],
         testimonial: {
-            quote: "Čeká na feedback od klienta",
+            quote: "Feedback od klienta již brzy...",
             author: "Agáta",
             role: "Marketing Manager, Easy Optic"
         },
-        tags: ["Reels", "Fotografie", "Social Media"]
+        tags: ["Reels", "Social Media", "Produktové video"]
     },
     {
         id: "patrik-horenovský",
-        title: "Patrik Hořeňovský: Video Prezentace Nemovitosti",
+        title: "Reality: Video prohlídka Dům Samopše",
         client: "Dům Samopše",
-        industry: "Nemovitosti",
-        challenge: "Profesionální video prezentace domu pro podporu prodeje.",
-        solution: "Kompletní video tour s prezentací interiéru i exteriéru, optimalizované pro online prezentaci.",
+        industry: "Reality",
+        youtubeId: "sohH2yjYMuk",
+        challenge: "Zrychlení prodeje exkluzivní nemovitosti pomocí působivé video prohlídky.",
+        solution: "Filmové záběry interiéru a exteriéru s důrazem na atmosféru a detaily, které fotky nepřenese.",
         results: [
-            "Profesionální video tour",
-            "Prezentace interiéru i exteriéru",
-            "Podpora prodeje nemovitosti"
+            "Zvýšení počtu vážných zájemců",
+            "Profesionální prezentace portfolia makléře",
+            "Zrychlení celého procesu prodeje",
+            "Jasná představa o dispozicích předem"
         ],
         testimonial: {
-            quote: "Čeká na feedback od klienta",
+            quote: "Feedback od klienta již brzy...",
             author: "Patrik Hořeňovský",
-            role: "Majitel"
+            role: ""
         },
-        tags: ["Nemovitosti", "Video Tour", "Prezentace"]
+        tags: ["Reality", "Video Tour", "Prezentace"]
     },
     {
         id: "icon-barber",
-        title: "ICON Barber Shop & Tattoo: Vertikální Video Obsah",
-        client: "ICON Barber Shop & Tattoo",
-        industry: "Barber Shop",
-        challenge: "Tvorba moderního video obsahu pro Instagram a TikTok s důrazem na barber shop estetiku.",
-        solution: "Produkce 7 profesionálních Shorts s moderním vizuálním stylem pro sociální sítě.",
+        title: "ICON Barber: Brutální Reels kampaň",
+        client: "ICON Barber Shop",
+        industry: "Služby / Lifestyle",
+        youtubeIds: ["x2S2_0xHsjg", "TyVQ27BmnpQ", "3Hro_3rsPbo", "s10MsaHGk7s", "UdxMX-x5VP4", "FPWtRbUPZ6c", "ZXnP2KkSTwg"],
+        challenge: "Oslovení mladší cílové skupiny a zvýšení počtu rezervací v barber shopu.",
+        solution: "Sada 7 úderných Shorts s moderním střihem a hudbou, které ukazují řemeslo a atmosféru salonu.",
         results: [
-            "7 profesionálních Shorts",
-            "Obsah pro Instagram & TikTok",
-            "Moderní barber shop estetika"
+            "Znatelný nárůst nových rezervací",
+            "Virální dosah některých videí",
+            "Jasná odlišitelnost od konkurence",
+            "Budování komunity"
         ],
         testimonial: {
-            quote: "Čeká na feedback od klienta",
-            author: "ICON Barber Shop & Tattoo",
-            role: "Barber Shop"
+            quote: "Feedback od klienta již brzy...",
+            author: "ICON Barber Shop",
+            role: "Majitel"
         },
-        tags: ["Shorts", "Social Media", "Barber"]
+        tags: ["Shorts", "Viral", "Barber"]
     },
-    {
-        id: "space-cbd",
-        title: "SPACE CBD: Vertikální Video Produkce",
-        client: "SPACE CBD",
-        industry: "CBD produkty",
-        challenge: "Kreativní video obsah pro prezentaci CBD produktů na sociálních sítích.",
-        solution: "Produkce 4 Instagram Reels s kreativním conceptem a profesionální produktovou prezentací.",
-        results: [
-            "4 Instagram Reels",
-            "Produktová prezentace",
-            "Kreativní concept"
-        ],
-        testimonial: {
-            quote: "Čeká na feedback od klienta",
-            author: "SPACE CBD",
-            role: "CBD produkty"
-        },
-        tags: ["Reels", "Produktová prezentace", "CBD"]
-    }
+
 ];
 
 export default function CaseStudiesPage() {
@@ -222,69 +157,103 @@ export default function CaseStudiesPage() {
                 </div>
 
                 {/* Case Studies */}
-                <div className="space-y-16">
+                <div className="space-y-24">
                     {caseStudies.map((study) => (
-                        <Card key={study.id} className="overflow-hidden border-2">
-                            <div className="grid md:grid-cols-2 gap-8 p-8 md:p-12">
-                                {/* Left Column - Info */}
-                                <div className="space-y-6">
-                                    <div>
-                                        <div className="inline-flex items-center gap-2 mb-4">
-                                            {study.tags.map((tag) => (
-                                                <span key={tag} className="px-3 py-1 bg-primary/10 text-primary text-xs font-medium rounded-full">
-                                                    {tag}
-                                                </span>
-                                            ))}
-                                        </div>
-                                        <h2 className="text-3xl font-bold mb-2">{study.title}</h2>
-                                        <p className="text-muted-foreground">
-                                            <span className="font-medium text-foreground">{study.client}</span> • {study.industry}
-                                        </p>
-                                    </div>
-
-                                    <div>
-                                        <h3 className="font-bold text-lg mb-2">Výzva</h3>
-                                        <p className="text-muted-foreground">{study.challenge}</p>
-                                    </div>
-
-                                    <div>
-                                        <h3 className="font-bold text-lg mb-2">Řešení</h3>
-                                        <p className="text-muted-foreground">{study.solution}</p>
-                                    </div>
-                                </div>
-
-                                {/* Right Column - Results */}
-                                <div className="space-y-6">
-                                    <div className="bg-muted/50 rounded-xl p-6">
-                                        <h3 className="font-bold text-lg mb-4">Výsledky</h3>
-                                        <ul className="space-y-3">
-                                            {study.results.map((result, index) => (
-                                                <li key={index} className="flex items-start gap-3">
-                                                    <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                                                    <span className="text-muted-foreground">{result}</span>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    {/* Testimonial */}
-                                    <Card className="bg-primary/5 border-primary/20">
-                                        <CardHeader>
-                                            <CardTitle className="text-base">Co říká klient</CardTitle>
-                                        </CardHeader>
-                                        <CardContent className="space-y-3">
-                                            <p className="italic text-muted-foreground">
-                                                "{study.testimonial.quote}"
-                                            </p>
-                                            <div>
-                                                <p className="font-bold text-sm">{study.testimonial.author}</p>
-                                                <p className="text-xs text-muted-foreground">{study.testimonial.role}</p>
+                        <div key={study.id} className="scroll-mt-24">
+                            <Card className="overflow-hidden border-none shadow-2xl bg-card/50 backdrop-blur-sm">
+                                <div className="grid lg:grid-cols-12 gap-0">
+                                    {/* Left Column - Video/Visual */}
+                                    <div className="lg:col-span-7 relative bg-neutral-900/50 min-h-[500px] flex items-center overflow-hidden">
+                                        {(study as any).youtubeIds ? (
+                                            <div className="w-full h-full flex items-center overflow-x-auto p-4 md:p-8 gap-4 snap-x snap-mandatory scrollbar-hide">
+                                                {(study as any).youtubeIds.map((id: string) => (
+                                                    <div key={id} className="flex-none w-[220px] md:w-[260px] aspect-[9/16] rounded-xl overflow-hidden bg-black shadow-2xl snap-center ring-1 ring-white/10">
+                                                        <iframe
+                                                            src={`https://www.youtube.com/embed/${id}?rel=0&modestbranding=1`}
+                                                            title={study.title}
+                                                            className="w-full h-full"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowFullScreen
+                                                        />
+                                                    </div>
+                                                ))}
                                             </div>
-                                        </CardContent>
-                                    </Card>
+                                        ) : study.youtubeId ? (
+                                            <iframe
+                                                src={`https://www.youtube.com/embed/${study.youtubeId}?rel=0&modestbranding=1`}
+                                                title={study.title}
+                                                className="absolute inset-0 w-full h-full"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowFullScreen
+                                            />
+                                        ) : (
+                                            <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-muted/20">
+                                                Video se připravuje
+                                            </div>
+                                        )}
+                                    </div>
+
+                                    {/* Right Column - Info */}
+                                    <div className="lg:col-span-5 p-8 md:p-12 flex flex-col justify-between">
+                                        <div className="space-y-8">
+                                            <div>
+                                                <div className="flex flex-wrap gap-2 mb-6">
+                                                    {study.tags.map((tag) => (
+                                                        <span key={tag} className="px-3 py-1 bg-primary/10 text-primary text-[10px] uppercase tracking-wider font-bold rounded-full">
+                                                            {tag}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                                <h2 className="text-3xl font-bold mb-2 leading-tight">{study.title}</h2>
+                                                <p className="text-primary font-medium tracking-wide">
+                                                    {study.client} <span className="text-muted-foreground mx-2">•</span> {study.industry}
+                                                </p>
+                                            </div>
+
+                                            <div className="grid gap-6">
+                                                <div>
+                                                    <h3 className="text-sm uppercase tracking-widest font-bold text-muted-foreground mb-2">Výzva & Řešení</h3>
+                                                    <p className="text-muted-foreground leading-relaxed">
+                                                        {study.challenge} {study.solution}
+                                                    </p>
+                                                </div>
+
+                                                <div>
+                                                    <h3 className="text-sm uppercase tracking-widest font-bold text-muted-foreground mb-3">Klíčové Výsledky</h3>
+                                                    <ul className="grid grid-cols-1 gap-2">
+                                                        {study.results.map((result, index) => (
+                                                            <li key={index} className="flex items-start gap-3 text-sm">
+                                                                <CheckCircle2 className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                                                                <span className="text-muted-foreground font-medium">{result}</span>
+                                                            </li>
+                                                        ))}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        {/* Testimonial Bottom */}
+                                        <div className="mt-12 pt-8 border-t border-border/50">
+                                            <div className="relative">
+                                                <Quote className="absolute -top-4 -left-4 h-8 w-8 text-primary/10 -z-10" />
+                                                <p className="italic text-foreground/90 mb-4 leading-relaxed">
+                                                    "{study.testimonial.quote}"
+                                                </p>
+                                                <div className="flex items-center gap-3">
+                                                    <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center font-bold text-primary">
+                                                        {study.testimonial.author[0]}
+                                                    </div>
+                                                    <div>
+                                                        <p className="font-bold text-sm">{study.testimonial.author}</p>
+                                                        <p className="text-xs text-muted-foreground">{study.testimonial.role}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </Card>
+                            </Card>
+                        </div>
                     ))}
                 </div>
 
@@ -308,6 +277,7 @@ export default function CaseStudiesPage() {
                         </Link>
                     </div>
                 </div>
+
             </Container>
         </div>
     );

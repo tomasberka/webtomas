@@ -176,15 +176,6 @@ export default function Home() {
                 <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-12 w-auto" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/oict.png" alt="OICT" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/dekra.png" alt="DEKRA" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                 <img src="/images/clients/tatra.png" alt="Tatra" className="h-12 w-auto" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
