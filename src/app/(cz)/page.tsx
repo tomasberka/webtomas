@@ -57,7 +57,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Já jsem Tomáš - Video Produkce",
-            "image": "https://jajsemtomas.cz/images/tomas-portrait.jpg",
+            "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
             "description": "Profesionální video produkce v Praze specializující se na Reels, TikTok a reklamní obsah pro sociální sítě.",
             "address": {
               "@type": "PostalAddress",

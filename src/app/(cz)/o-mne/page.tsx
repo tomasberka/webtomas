@@ -33,7 +33,7 @@ export default function AboutPage() {
                     <div className="flex-1 w-full max-w-lg">
                         <div className="relative aspect-square rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500">
                             <img
-                                src="/images/tomas-portrait.jpg"
+                                src="/images/tomas-hero.jpg"
                                 alt="Tomáš"
                                 className="object-cover w-full h-full"
                             />
@@ -118,6 +118,39 @@ export default function AboutPage() {
                             <p className="text-muted-foreground">
                                 Nedám z ruky nic, za co bych se sám nestyděl. Každé video je mou vizitkou.
                             </p>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Photo Gallery */}
+            <section className="py-20 bg-zinc-950 text-white overflow-hidden">
+                <Container>
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">Život v záběru</h2>
+                        <p className="text-zinc-400">Když zrovna nedržím kameru, tak si užívám momenty, které stojí za to zachytit.</p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 group">
+                            <img
+                                src="/images/tomas-gallery-1.jpg"
+                                alt="Tomáš moment 1"
+                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
+                            />
+                        </div>
+                        <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 md:mt-12 group">
+                            <img
+                                src="/images/tomas-gallery-2.jpg"
+                                alt="Tomáš moment 2"
+                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
+                            />
+                        </div>
+                        <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 group">
+                            <img
+                                src="/images/tomas-gallery-3.jpg"
+                                alt="Tomáš moment 3"
+                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
+                            />
                         </div>
                     </div>
                 </Container>

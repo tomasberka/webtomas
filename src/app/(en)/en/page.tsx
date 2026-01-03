@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         siteName: "I am Tomas",
         images: [
             {
-                url: "/images/tomas-portrait.jpg",
+                url: "/images/tomas-hero.jpg",
                 width: 1200,
                 height: 630,
                 alt: "I am Tomas - Filmmaker & Content Creator",
@@ -50,7 +50,7 @@ export default function Home() {
                         "@context": "https://schema.org",
                         "@type": "LocalBusiness",
                         "name": "I am Tomas - Video Production",
-                        "image": "https://jajsemtomas.cz/images/tomas-portrait.jpg",
+                        "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
                         "description": "Professional video production specializing in Reels, TikTok, and commercial content for social media.",
                         "address": {
                             "@type": "PostalAddress",
