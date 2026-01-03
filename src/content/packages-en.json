@@ -1,0 +1,49 @@
+[
+    {
+        "id": "starter",
+        "title": "Starter",
+        "price": "From £800 / month",
+        "description": "Ideal for starting regular communication.",
+        "features": [
+            "4 vertical videos (Reels/TikTok)",
+            "4 hours of shooting",
+            "Scenario & Concept",
+            "Editing & Post-production",
+            "Subtitles & Music"
+        ],
+        "highlight": false,
+        "cta": "I want to start"
+    },
+    {
+        "id": "growth",
+        "title": "Growth",
+        "price": "From £1,500 / month",
+        "description": "For brands that want to grow fast.",
+        "features": [
+            "8 vertical videos (Reels/TikTok)",
+            "1 full shooting day",
+            "Complete Strategy",
+            "Advanced Post-production",
+            "Thumbnail & Feed Cover",
+            "Priority Delivery"
+        ],
+        "highlight": true,
+        "cta": "I want to grow"
+    },
+    {
+        "id": "dominance",
+        "title": "Dominance",
+        "price": "Custom Pricing",
+        "description": "Complete content domination.",
+        "features": [
+            "12+ vertical videos",
+            "2 shooting days",
+            "Dedicated Social Media Manager",
+            "Community Management",
+            "Performance Reporting",
+            "Ads Management (Optional)"
+        ],
+        "highlight": false,
+        "cta": "I want to dominate"
+    }
+]
