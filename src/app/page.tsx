@@ -71,8 +71,6 @@ export default function Home() {
             },
             "url": "https://jajsemtomas.cz",
             "telephone": "+420735846329",
-
-            "priceRange": "14900-50000 CZK",
             "areaServed": [
               {
                 "@type": "City",

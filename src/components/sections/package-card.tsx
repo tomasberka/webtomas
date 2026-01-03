@@ -33,7 +33,7 @@ export function PackageCard({ pkg }: PackageCardProps) {
             </CardHeader>
             <CardContent className="flex-1">
                 <div className="text-4xl font-bold mb-6">
-                    {pkg.price} <span className="text-base font-normal text-muted-foreground">/ měsíc</span>
+                    {pkg.price}
                 </div>
                 <ul className="space-y-3">
                     {pkg.features.map((feature, i) => (

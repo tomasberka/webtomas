@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 import { PackageCard } from "@/components/sections/package-card";
 
 export const metadata = {
-    title: "Reels Balíčky a Ceny 2026 | Instagram & TikTok Obsah | Já jsem Tomáš",
-    description: "Měsíční Reels balíčky od 14 900 Kč. Kompletní tvorba obsahu pro Instagram, TikTok a YouTube Shorts. Scénáře, natáčení i střih v ceně. Praha a okolí.",
+    title: "Reels Balíčky | Instagram & TikTok Obsah 2026 | Já jsem Tomáš",
+    description: "Kompletní tvorba obsahu pro Instagram, TikTok a YouTube Shorts. Scénáře, natáčení i střih. Získejte konzultaci zdarma.",
 };
 
 export default function ReelsPackagesPage() {
@@ -54,8 +54,8 @@ export default function ReelsPackagesPage() {
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Balíčky</h1>
                     <p className="text-xl text-muted-foreground">
-                        Ceny jsou orientační. Každý projekt je unikátní.
-                        Rezervujte si <Link href="/kontakt" className="text-primary hover:underline">10 minutovou konzultaci zdarma</Link>, kde nastavíme finální cenu a strategii přesně pro vás.
+                        Každý projekt je unikátní.
+                        Rezervujte si <Link href="/kontakt" className="text-primary hover:underline">10 minutovou konzultaci zdarma</Link>, kde nastavíme strategii přesně pro vás.
                     </p>
                 </div>
 
