@@ -74,6 +74,13 @@ export function MobileNav() {
                             O mně
                         </Link>
                         <Link
+                            href="/london"
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors flex items-center gap-2 text-foreground"
+                        >
+                            London / Global 🇬🇧
+                        </Link>
+                        <Link
                             href="/partner-socialvids"
                             onClick={() => setOpen(false)}
                             className="text-lg font-medium hover:text-primary transition-colors"

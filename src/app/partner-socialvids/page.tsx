@@ -20,7 +20,7 @@ export default function PartnerPage() {
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">SocialVids & Tomáš</h1>
                         <p className="text-xl text-muted-foreground mb-8 text-pretty">
-                            Pro projekty, které vyžadují velký tým, mezinárodní dosah nebo specifickou techniku, spojuji síly s produkcí SocialVids.
+                            Pro projekty, které vyžadují velký tým, mezinárodní dosah nebo specifickou techniku, spojuji síly s <strong>Martinem</strong> a jeho produkcí <strong>SocialVids</strong>.
                             Společně pokrýváme konference, festivaly a globální kampaně.
                         </p>
                         <div className="flex gap-4">

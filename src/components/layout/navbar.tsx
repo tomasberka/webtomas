@@ -44,6 +44,9 @@ export function Navbar() {
                     <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                         O mně
                     </Link>
+                    <Link href="/london" className="text-sm font-medium text-foreground hover:text-primary transition-colors flex items-center gap-1.5 ml-2 pl-2 border-l border-border/50">
+                        London / Global 🇬🇧
+                    </Link>
                 </div>
                 <div className="flex items-center gap-4">
                     <div className="hidden md:block">
