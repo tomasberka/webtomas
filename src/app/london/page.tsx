@@ -34,15 +34,17 @@ export const metadata: Metadata = {
 export default function LondonPage() {
     // 1. Horizontal Videos: Lego (1), Academy (17) top, then others
     const horizontalIds = ["1", "17", "26", "21", "3", "5", "7", "6", "4", "12"];
-    const horizontalVideos = horizontalIds.map(id => portfolioData.find(p => p.id === id)).filter(Boolean);
+    const horizontalVideos = horizontalIds
+        .map(id => portfolioData.find(p => p.id === id))
+        .filter((p): p is typeof portfolioData[number] => p !== undefined);
 
     // 2. Vertical Videos: User requested "optiky, legonid" + shorts 10, 13
     const requestedVerticalIds = ["shorts_10", "shorts_13"];
     const otherVerticals = portfolioData.filter(p => (p.orientation === "vertical" || p.category === "Reels") && !requestedVerticalIds.includes(p.id)).slice(0, 4);
     const verticalVideos = [
-        ...requestedVerticalIds.map(id => portfolioData.find(p => p.id === id)).filter(Boolean),
+        ...requestedVerticalIds.map(id => portfolioData.find(p => p.id === id)),
         ...otherVerticals
-    ];
+    ].filter((p): p is typeof portfolioData[number] => p !== undefined);
 
     const jsonLd = {
         "@context": "https://schema.org",
