@@ -12,7 +12,7 @@
             "Online video kampaň",
             "Rychlé dodání"
         ],
-        "image": "/images/testimonials/wikyhracky.jpg"
+        "image": "/images/clients/wikyhracky.png"
     },
     {
         "id": "legonid",
@@ -27,7 +27,7 @@
             "Profesionální video dokumentace",
             "Zachycení workshopové atmosféry"
         ],
-        "image": "/images/testimonials/legonid.jpg"
+        "image": "/images/clients/legonid.png"
     },
     {
         "id": "slavia-hk",
@@ -42,7 +42,7 @@
             "Zachycení akce a atmosféry",
             "Dynamické záběry"
         ],
-        "image": "/images/testimonials/slavia.jpg"
+        "image": "/images/clients/slavia.png"
     },
     {
         "id": "easy-optic",
@@ -58,7 +58,7 @@
             "15 profesionálních fotek",
             "Konzistentní vizuální styl"
         ],
-        "image": "/images/testimonials/easy-optic.jpg"
+        "image": "/images/clients/easyoptic.jpg"
     },
     {
         "id": "patrik-horenovský",
@@ -74,7 +74,7 @@
             "Prezentace interiéru i exteriéru",
             "Podpora prodeje nemovitosti"
         ],
-        "image": "/images/testimonials/patrik.jpg"
+        "image": ""
     },
     {
         "id": "icon-barber",
@@ -98,7 +98,7 @@
             "Obsah pro Instagram & TikTok",
             "Moderní barber shop estetika"
         ],
-        "image": "/images/testimonials/icon.jpg"
+        "image": ""
     },
     {
         "id": "space-cbd",
@@ -119,6 +119,6 @@
             "Produktová prezentace",
             "Kreativní concept"
         ],
-        "image": "/images/testimonials/space-cbd.jpg"
+        "image": ""
     }
 ]

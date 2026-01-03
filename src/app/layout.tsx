@@ -13,33 +13,33 @@ const inter = Inter({ subsets: ["latin", "latin-ext"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://jajsemtomas.cz"),
   title: {
-    default: "Já jsem Tomáš | Video Produkce & Reels",
+    default: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
     template: "%s | Já jsem Tomáš",
   },
-  description: "Profesionální tvorba Reels, TikTok a video obsahu. Kameraman a video produkce pro B2B i osobní značky. Domluvte si natáčení za 10 minut.",
-  keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
+  description: "Profesionální filmmaker a content creator. Tvorba Reels, TikTok a video obsahu. Kameraman a video produkce pro B2B i osobní značky.",
+  keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "filmmaker", "content creator", "tvůrce obsahu", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
   authors: [{ name: "Tomáš" }],
   creator: "Tomáš",
   openGraph: {
     type: "website",
     locale: "cs_CZ",
     url: "https://jajsemtomas.cz",
-    title: "Já jsem Tomáš | Video Produkce & Reels",
-    description: "Profesionální tvorba Reels, TikTok a video obsahu. Zvyšte své prodeje videem.",
+    title: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
+    description: "Profesionální filmmaker a content creator. Tvorba Reels, TikTok a video obsahu. Zvyšte své prodeje videem.",
     siteName: "Já jsem Tomáš",
     images: [
       {
         url: "/images/tomas-portrait.jpg",
         width: 1200,
         height: 630,
-        alt: "Já jsem Tomáš - Video Produkce",
+        alt: "Já jsem Tomáš - Filmmaker & Content Creator",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Já jsem Tomáš | Video Produkce & Reels",
-    description: "Profesionální tvorba Reels, TikTok a video obsahu. Domluvte si natáčení za 10 minut.",
+    title: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
+    description: "Profesionální filmmaker a content creator. Domluvte si natáčení za 10 minut.",
     images: ["/images/tomas-portrait.jpg"],
   },
   robots: {

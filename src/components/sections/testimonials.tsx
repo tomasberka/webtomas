@@ -33,7 +33,18 @@ export function Testimonials() {
                                     </>
                                 ) : (
                                     <div className="space-y-3">
-                                        <p className="text-sm font-medium text-primary">{testimonial.project}</p>
+                                        <div className="flex items-center gap-3 mb-2">
+                                            {testimonial.image && (
+                                                <div className="h-10 w-10 rounded-full overflow-hidden relative">
+                                                    <img
+                                                        src={testimonial.image}
+                                                        alt={testimonial.name}
+                                                        className="object-cover w-full h-full"
+                                                    />
+                                                </div>
+                                            )}
+                                            <p className="text-sm font-medium text-primary">{testimonial.project}</p>
+                                        </div>
                                         {testimonial.highlights && (
                                             <ul className="space-y-1.5">
                                                 {testimonial.highlights.map((highlight, idx) => (

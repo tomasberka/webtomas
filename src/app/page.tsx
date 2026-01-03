@@ -104,7 +104,7 @@ export default function Home() {
             buduje značky a <span className="text-primary">prodává.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8">
-            Už žádná videa "do šuplíku". Tvořím reklamní spoty, Reels a obsah, který má strategii a cíl.<br />
+            Jako <strong>kameraman a filmmaker</strong> netvořím jen videa "do šuplíku". Jsem váš <strong>content creator</strong>, který tvoří obsah se strategií a cílem.<br />
             <strong>Rychle. Efektivně. Bez zbytečných nákladů.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
@@ -160,11 +160,11 @@ export default function Home() {
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">💡 Strategie v ceně</h3>
-              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš marketér. Vymýšlím co a proč točit.</p>
+              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>filmmaker</strong> a marketér. Vymýšlím co a proč točit.</p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">🎯 7+ let zkušeností</h3>
-              <p className="text-muted-foreground">Stovky projektů pro firmy i osobní značky. Vím, co funguje.</p>
+              <p className="text-muted-foreground">Stovky projektů jako <strong>content creator</strong> pro firmy i osobní značky. Vím, co funguje.</p>
             </div>
           </div>
 
@@ -174,6 +174,15 @@ export default function Home() {
             <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
               <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                 <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-12 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/dekra.png" alt="Dekra" className="h-10 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/oict.png" alt="OICT" className="h-10 w-auto" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
+                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-8 w-auto" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                 <img src="/images/clients/tatra.png" alt="Tatra" className="h-12 w-auto" />
