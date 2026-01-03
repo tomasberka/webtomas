@@ -46,19 +46,33 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 O mně
                             </Link>
-                            <Link href="/en" className="text-sm font-medium text-foreground hover:text-primary transition-colors flex items-center gap-1.5 ml-2 pl-2 border-l border-border/50">
-                                London / Global 🇬🇧
-                            </Link>
+
+                            {/* Language Switcher */}
+                            <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                                <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇨🇿</span>
+                                <a href="https://en.jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to English">🇬🇧</a>
+                            </div>
                         </>
                     ) : (
                         <>
-                            <Link href="/en" className="text-sm font-medium hover:text-primary transition-colors">
-                                Home
+                            <Link href="/reels-packages" className="text-sm font-medium hover:text-primary transition-colors">
+                                Packages
                             </Link>
-                            {/* Placeholder for future EN pages, currently just pointing to sections or keeping simple */}
-                            <Link href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors flex items-center gap-1.5 ml-2 pl-2 border-l border-border/50">
-                                Česky 🇨🇿
+                            <Link href="/services" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Services
                             </Link>
+                            <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Portfolio
+                            </Link>
+                            <Link href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Contact
+                            </Link>
+
+                            {/* Language Switcher */}
+                            <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                                <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Přepnout do češtiny">🇨🇿</a>
+                                <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇬🇧</span>
+                            </div>
                         </>
                     )}
                 </div>
@@ -71,7 +85,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         </Link>
                     </div>
                     {/* Mobile Navigation */}
-                    <MobileNav />
+                    <MobileNav locale={locale} />
                 </div>
             </Container>
         </nav>
