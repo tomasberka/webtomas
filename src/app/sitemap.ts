@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/partner-socialvids',
         '/kontakt',
         '/blog',
+        '/london',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
