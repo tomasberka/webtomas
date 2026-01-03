@@ -172,14 +172,7 @@ export default function UgcActorPage() {
                         ))}
                     </div>
 
-                    <div className="mt-16 text-center">
-                        <div className="inline-flex items-center justify-center p-1 rounded-full bg-white/5 border border-white/10 mb-6">
-                            {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-5 h-5 fill-primary text-primary mx-1" />)}
-                        </div>
-                        <p className="text-zinc-400 max-w-xl mx-auto italic">
-                            "Tomáš je jeden z mála tvůrců, který doručil přesně to, co jsme potřebovali, hned na první dobrou."
-                        </p>
-                    </div>
+
                 </Container>
             </section>
 
