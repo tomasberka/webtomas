@@ -17,11 +17,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/kontakt',
         '/blog',
         '/london',
+        '/en',
+        '/en/services',
+        '/en/portfolio',
+        '/en/contact',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
-        priority: route === '' ? 1 : 0.8,
+        priority: route === '' ? 1 : route.startsWith('/en') ? 0.8 : 0.8,
     }))
 
     const serviceRoutes = servicesData.map((service) => ({

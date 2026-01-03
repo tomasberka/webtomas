@@ -17,9 +17,4 @@ export const trackEvent = (eventName: string, properties?: Record<string, any>) 
             ...properties,
         });
     }
-
-    // Log for development
-    if (process.env.NODE_ENV === "development") {
-        console.log(`[Analytics] ${eventName}`, properties);
-    }
 };
