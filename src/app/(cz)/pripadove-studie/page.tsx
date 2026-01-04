@@ -14,6 +14,27 @@ export const metadata = {
 
 const caseStudies = [
     {
+        id: "patrik-horenovsky-combined",
+        title: "FC Slavia HK & Reality: Sportovní a Investiční Video Produkce",
+        client: "Patrik Hořeňovský",
+        industry: "Sport / Reality / Development",
+        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk", "ygYPjGmLTnI"],
+        challenge: "Potřeba komplexní video produkce pro rozdílné segmenty – od zviditelnění sportovního klubu až po podporu prodeje nemovitostí a oslovení investorů pro výstavbu Alzheimer center.",
+        solution: "Dlouhodobá spolupráce zahrnující dynamická sportovní videa, rozhovory i precizní videoprohlídky nemovitostí. Důraz na flexibilitu, rychlost a detailní zachycení atmosféry každého projektu.",
+        results: [
+            "Zviditelnění fotbalového klubu a akademie",
+            "Rychlejší prodej nabízených nemovitostí",
+            "Úspěšné oslovení investorů pro Alzheimer centra",
+            "Dlouhodobá flexibilní spolupráce"
+        ],
+        testimonial: {
+            quote: "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel. Pomohl mi zejména ke zviditelnění a propagaci FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji nemovitostí a oslovení nových investorů. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Dále musím vyzdvihnout slušné jednání a dochvilnost, což bohužel u jiných produkcí nebývá samozřejmostí.",
+            author: "Patrik Hořeňovský",
+            role: "Manažer & Investor"
+        },
+        tags: ["Sport", "Reality", "Investice", "Dlouhodobá spolupráce"]
+    },
+    {
         id: "wikyhracky",
         title: "WikyHracky.cz: Online Kampaň + TV Spot",
         client: "WikyHracky.cz",
@@ -56,27 +77,6 @@ const caseStudies = [
         tags: ["Workshop", "Corporate", "Dokumentace"]
     },
     {
-        id: "slavia-hk",
-        title: "FC Slavia Hradec Králové: Sportovní Promo",
-        client: "FC Slavia HK",
-        industry: "Sport",
-        youtubeId: "_wAWHaGEDeY",
-        challenge: "Vytvoření dynamického promo videa pro nábor a reprezentaci fotbalového klubu.",
-        solution: "Použití dynamických střihů a akčních záběrů přímo ze hřiště pro přenos atmosféry hry na diváka.",
-        results: [
-            "Zvýšení zájmu o mládežnické kategorie",
-            "Moderní prezentace klubu navenek",
-            "Vysoký dosah na sociálních sítích",
-            "Posílení značky klubu"
-        ],
-        testimonial: {
-            quote: "Feedback od klienta již brzy...",
-            author: "Vedení FC Slavia HK",
-            role: "Fotbalový klub"
-        },
-        tags: ["Sport", "Event", "Dynamické video"]
-    },
-    {
         id: "easy-optic",
         title: "Easy Optic: Reels Strategie & Content",
         client: "Easy Optic",
@@ -98,27 +98,6 @@ const caseStudies = [
         tags: ["Reels", "Social Media", "Produktové video"]
     },
     {
-        id: "patrik-horenovský",
-        title: "Reality: Video prohlídka Dům Samopše",
-        client: "Dům Samopše",
-        industry: "Reality",
-        youtubeId: "sohH2yjYMuk",
-        challenge: "Zrychlení prodeje exkluzivní nemovitosti pomocí působivé video prohlídky.",
-        solution: "Filmové záběry interiéru a exteriéru s důrazem na atmosféru a detaily, které fotky nepřenese.",
-        results: [
-            "Zvýšení počtu vážných zájemců",
-            "Profesionální prezentace portfolia makléře",
-            "Zrychlení celého procesu prodeje",
-            "Jasná představa o dispozicích předem"
-        ],
-        testimonial: {
-            quote: "Feedback od klienta již brzy...",
-            author: "Patrik Hořeňovský",
-            role: ""
-        },
-        tags: ["Reality", "Video Tour", "Prezentace"]
-    },
-    {
         id: "icon-barber",
         title: "ICON Barber: Brutální Reels kampaň",
         client: "ICON Barber Shop",
@@ -138,8 +117,7 @@ const caseStudies = [
             role: "Majitel"
         },
         tags: ["Shorts", "Viral", "Barber"]
-    },
-
+    }
 ];
 
 export default function CaseStudiesPage() {

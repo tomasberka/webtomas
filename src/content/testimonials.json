@@ -1,5 +1,21 @@
 [
     {
+        "id": "patrik-horenovský",
+        "name": "Patrik Hořeňovský",
+        "company": "FC Slavia HK & Reality",
+        "role": "Manažer & Investor",
+        "quote": "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel. Pomohl mi zejména ke zviditelnění a propagaci FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji nemovitostí a oslovení nových investorů do Alzheimer center. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Dále musím vyzdvihnout slušné jednání a dochvilnost, což bohužel u jiných produkcí nebývá samozřejmostí.",
+        "rating": 5,
+        "project": "Sportovní & Realitní Video Produkce",
+        "videoId": "ygYPjGmLTnI",
+        "highlights": [
+            "Zviditelnění sportovní akademie",
+            "Rychlejší prodej nemovitostí",
+            "Flexibilní a spolehlivá spolupráce"
+        ],
+        "image": ""
+    },
+    {
         "id": "oict",
         "name": "Peter Svoboda",
         "company": "OICT",
@@ -75,21 +91,6 @@
         "image": "/images/clients/legonid.png"
     },
     {
-        "id": "slavia-hk",
-        "name": "FC Slavia Hradec Králové",
-        "company": "FC Slavia HK",
-        "role": "Fotbalový klub",
-        "quote": "",
-        "rating": 5,
-        "project": "Sportovní video",
-        "highlights": [
-            "Natáčení sportovních eventů",
-            "Zachycení akce a atmosféry",
-            "Dynamické záběry"
-        ],
-        "image": "/images/clients/slavia.png"
-    },
-    {
         "id": "easy-optic",
         "name": "Easy Optic",
         "company": "Easy Optic",
@@ -104,22 +105,6 @@
             "Konzistentní vizuální styl"
         ],
         "image": "/images/clients/easyoptic.jpg"
-    },
-    {
-        "id": "patrik-horenovský",
-        "name": "Patrik Hořeňovský",
-        "company": "Dům Samopše",
-        "role": "Nemovitosti",
-        "quote": "",
-        "rating": 5,
-        "project": "Video prezentace nemovitosti",
-        "videoId": "ygYPjGmLTnI",
-        "highlights": [
-            "Profesionální video tour",
-            "Prezentace interiéru i exteriéru",
-            "Podpora prodeje nemovitosti"
-        ],
-        "image": ""
     },
     {
         "id": "icon-barber",

@@ -36,8 +36,40 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
 
     const t = labels[locale];
 
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Tomáš Berka",
+        "url": "https://jajsemtomas.cz",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": testimonialsData.length,
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": testimonialsData.map(testimonial => ({
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": testimonial.name
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": testimonial.rating || 5,
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "reviewBody": testimonial.quote || (locale === "cs" ? "Skvělá spolupráce." : "Great collaboration.")
+        }))
+    };
+
     return (
         <section className="py-20 bg-muted/50">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold mb-6">&QUOT;Video, které má výsledky&QUOT;</h2>

@@ -15,6 +15,27 @@ export const metadata: Metadata = {
 
 const caseStudies = [
     {
+        id: "patrik-horenovsky-combined",
+        title: "FC Slavia HK & Real Estate: Sports & Investment Video Production",
+        client: "Patrik Hořeňovský",
+        industry: "Sports / Real Estate / Development",
+        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk", "ygYPjGmLTnI"],
+        challenge: "Need for comprehensive video production for diverse segments – from promoting a sports club to supporting property sales and attracting investors for Alzheimer's centers.",
+        solution: "Long-term collaboration involving dynamic sports videos, interviews, and precise property video tours. Emphasis on flexibility, speed, and capturing the atmosphere of each project in detail.",
+        results: [
+            "Increased visibility for the football club and academy",
+            "Faster sales of offered properties",
+            "Successful investor outreach for Alzheimer's centers",
+            "Long-term flexible collaboration"
+        ],
+        testimonial: {
+            quote: "I decided to collaborate with Tomáš based on recommendations from friends. He helped me especially with the visibility and promotion of FC Slavia Hradec Králové and its sports academy. In the real estate business, it led to faster property sales and reaching new investors. I appreciate the responsible approach, speed of preparation, attention to detail, and flexibility. I must also highlight the polite conduct and punctuality, which unfortunately is not always a given with other productions.",
+            author: "Patrik Hořeňovský",
+            role: "Manager & Investor"
+        },
+        tags: ["Sports", "Real Estate", "Investment", "Long-term Collaboration"]
+    },
+    {
         id: "wikyhracky",
         title: "WikyHracky.cz: Online Campaign + TV Spot",
         client: "WikyHracky.cz",
@@ -57,27 +78,6 @@ const caseStudies = [
         tags: ["Workshop", "Corporate", "Documentation"]
     },
     {
-        id: "slavia-hk",
-        title: "FC Slavia Hradec Králové: Sports Promo",
-        client: "FC Slavia HK",
-        industry: "Sports",
-        youtubeId: "_wAWHaGEDeY",
-        challenge: "Creating a dynamic promo video for recruitment and representation of the football club.",
-        solution: "Use of dynamic cuts and action shots directly from the field to convey the atmosphere of the game to the viewer.",
-        results: [
-            "Increased interest in youth categories",
-            "Modern presentation of the club externally",
-            "High reach on social media",
-            "Strengthening of the club brand"
-        ],
-        testimonial: {
-            quote: "Client feedback coming soon...",
-            author: "FC Slavia HK Management",
-            role: "Football Club"
-        },
-        tags: ["Sports", "Event", "Dynamic Video"]
-    },
-    {
         id: "easy-optic",
         title: "Easy Optic: Reels Strategy & Content",
         client: "Easy Optic",
@@ -97,27 +97,6 @@ const caseStudies = [
             role: "Marketing Manager, Easy Optic"
         },
         tags: ["Reels", "Social Media", "Product Video"]
-    },
-    {
-        id: "patrik-horenovsky",
-        title: "Real Estate: Video Tour Samopše House",
-        client: "Samopše House",
-        industry: "Real Estate",
-        youtubeId: "sohH2yjYMuk",
-        challenge: "Accelerating the sale of an exclusive property using an impactful video tour.",
-        solution: "Cinematic shots of the interior and exterior with emphasis on atmosphere and details that photos can't convey.",
-        results: [
-            "Increased number of serious prospects",
-            "Professional presentation of the agent's portfolio",
-            "Acceleration of the entire sales process",
-            "Clear idea of layout in advance"
-        ],
-        testimonial: {
-            quote: "Client feedback coming soon...",
-            author: "Patrik Hořeňovský",
-            role: ""
-        },
-        tags: ["Real Estate", "Video Tour", "Presentation"]
     },
     {
         id: "icon-barber",

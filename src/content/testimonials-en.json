@@ -1,5 +1,21 @@
 [
     {
+        "id": "patrik-horenovský",
+        "name": "Patrik Hořeňovský",
+        "company": "FC Slavia HK & Real Estate",
+        "role": "Manager & Investor",
+        "quote": "I decided to collaborate with Tomáš based on recommendations from friends. He helped me especially with the visibility and promotion of FC Slavia Hradec Králové and its sports academy. In the real estate business, it led to faster property sales and reaching new investors for Alzheimer's centers. I appreciate the responsible approach, speed of preparation, attention to detail, and flexibility. I must also highlight the polite conduct and punctuality, which unfortunately is not always a given with other productions.",
+        "rating": 5,
+        "project": "Sports & Real Estate Video Production",
+        "videoId": "ygYPjGmLTnI",
+        "highlights": [
+            "Sports academy visibility",
+            "Faster real estate sales",
+            "Flexible and reliable collaboration"
+        ],
+        "image": ""
+    },
+    {
         "id": "oict",
         "name": "Peter Svoboda",
         "company": "OICT",
@@ -75,21 +91,6 @@
         "image": "/images/clients/legonid.png"
     },
     {
-        "id": "slavia-hk",
-        "name": "FC Slavia Hradec Králové",
-        "company": "FC Slavia HK",
-        "role": "Football club",
-        "quote": "",
-        "rating": 5,
-        "project": "Sports video",
-        "highlights": [
-            "Filming sports events",
-            "Capturing action and atmosphere",
-            "Dynamic shots"
-        ],
-        "image": "/images/clients/slavia.png"
-    },
-    {
         "id": "easy-optic",
         "name": "Easy Optic",
         "company": "Easy Optic",
@@ -104,22 +105,6 @@
             "Consistent visual style"
         ],
         "image": "/images/clients/easyoptic.jpg"
-    },
-    {
-        "id": "patrik-horenovský",
-        "name": "Patrik Hořeňovský",
-        "company": "Dům Samopše",
-        "role": "Real Estate",
-        "quote": "",
-        "rating": 5,
-        "project": "Real estate video presentation",
-        "videoId": "ygYPjGmLTnI",
-        "highlights": [
-            "Professional video tour",
-            "Interior and exterior presentation",
-            "Property sales support"
-        ],
-        "image": ""
     },
     {
         "id": "icon-barber",

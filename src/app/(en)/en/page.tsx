@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle } from "lucide-react";
 import servicesData from "@/content/services-en.json";
+import testimonialsData from "@/content/testimonials-en.json";
 import { Metadata } from "next";
 
 // Map icon strings to components
@@ -74,7 +75,21 @@ export default function Home() {
                             "https://www.instagram.com/jajsemtomas.cz/",
                             "https://www.facebook.com/tomasberkaofficial/",
                             "https://www.linkedin.com/in/berkatomas"
-                        ]
+                        ],
+                        "review": testimonialsData
+                            .filter(t => t.quote && t.quote.length > 0)
+                            .map(t => ({
+                                "@type": "Review",
+                                "reviewRating": {
+                                    "@type": "Rating",
+                                    "ratingValue": t.rating || 5
+                                },
+                                "author": {
+                                    "@type": "Person",
+                                    "name": t.name
+                                },
+                                "reviewBody": t.quote
+                            }))
                     })
                 }}
             />
