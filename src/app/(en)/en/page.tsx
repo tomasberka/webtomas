@@ -4,7 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle } from "lucide-react";
 import servicesData from "@/content/services-en.json";
 import { Metadata } from "next";
 
@@ -95,15 +95,21 @@ export default function Home() {
                         <strong>Premium Visuals. Powerful Stories. Real Impact.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-                        <Link href="/contact">
+                        <Link href="/en/booking">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                                 📅 Book a 15 min Call
                             </Button>
                         </Link>
-                        <Link href="/reels-packages">
-                            <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                Pricing & Packages
+                        <a href="https://api.whatsapp.com/message/WWFB72BIE4NED1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
+                            <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12 gap-2 border-green-500/50 hover:bg-green-500/10 hover:border-green-500">
+                                <MessageCircle className="h-5 w-5 text-green-500" />
+                                WhatsApp
                             </Button>
+                        </a>
+                    </div>
+                    <div className="flex justify-center mt-4 animate-fade-in-up animation-delay-300">
+                        <Link href="/en/reels-packages" className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline">
+                            View Pricing & Packages →
                         </Link>
                     </div>
                 </Container>
