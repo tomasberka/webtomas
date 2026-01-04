@@ -104,8 +104,8 @@ export default function Home() {
             buduje značky a <span className="text-primary">prodává.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8">
-            Jako <strong>kameraman a filmmaker</strong> netvořím jen videa "do šuplíku". Jsem váš <strong>content creator</strong>, který tvoří obsah se strategií a cílem.<br />
-            <strong>Rychle. Efektivně. Bez zbytečných nákladů.</strong>
+            Jako váš <strong>strategický partner</strong> netvořím jen videa "do šuplíku". Jsem váš <strong>business partner</strong>, který tvoří obsah s jasným cílem: vydělat vám peníze.<br />
+            <strong>Rychle. Efektivně. S měřitelnými výsledky.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
             <Link href="/rezervace">
@@ -160,7 +160,7 @@ export default function Home() {
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">💡 Strategie v ceně</h3>
-              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>filmmaker</strong> a marketér. Vymýšlím co a proč točit.</p>
+              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>strategický partner</strong>. Každý záběr má jediný cíl: <strong>zvýšit vaše tržby</strong>.</p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">🎯 7+ let zkušeností</h3>

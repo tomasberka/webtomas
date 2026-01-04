@@ -90,8 +90,8 @@ export default function Home() {
                         builds brands and <span className="text-primary">sells.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8">
-                        As a <strong>filmmaker</strong>, I don't just make videos for the drawer. I am your <strong>content creator</strong> who creates content with strategy and purpose.<br />
-                        <strong>Fast. Efficient. No unnecessary costs.</strong>
+                        As your <strong>Strategic Partner</strong>, I don't just make videos for the drawer. I am your <strong>business partner</strong> who creates content with a clear goal: to make you money.<br />
+                        <strong>Fast. Efficient. With measurable results.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
                         <Link href="/contact">
@@ -146,7 +146,7 @@ export default function Home() {
                         </div>
                         <div className="space-y-2">
                             <h3 className="text-xl font-bold">💡 Strategy Included</h3>
-                            <p className="text-muted-foreground">I'm not just a cameraman, I'm your <strong>filmmaker</strong> and marketer. I figure out what to shoot and why.</p>
+                            <p className="text-muted-foreground">I'm not just a cameraman, I'm your <strong>Strategic Partner</strong>. Every shot has one goal: <strong>to increase your revenue</strong>.</p>
                         </div>
                         <div className="space-y-2">
                             <h3 className="text-xl font-bold">🎯 7+ Years Experience</h3>
