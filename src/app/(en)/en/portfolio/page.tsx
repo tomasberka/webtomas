@@ -4,15 +4,15 @@ import { PortfolioGrid } from "@/components/portfolio/portfolio-grid";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Portfolio | Tomas",
-    description: "Check out my work. Reels, event videos, commercial spots, and livestreams.",
+    title: "Portfolio | Work That Sells | Tomas",
+    description: "Selected works for clients like OICT, WikyToys, DEKRA. Video production that drives tangible business results.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/portfolio",
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/portfolio",
-        title: "Portfolio | Tomas",
-        description: "Check out my work. Reels, event videos, commercial spots, and livestreams.",
+        title: "Portfolio | Work That Sells | Tomas",
+        description: "Selected works for clients. Video production that drives tangible business results.",
     },
 };
 
@@ -21,9 +21,9 @@ export default function PortfolioPage() {
         <div className="py-20 md:py-32">
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Selected Works</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Work With Impact</h1>
                     <p className="text-xl text-muted-foreground">
-                        Browse the complete archive of my production.
+                        I don't make videos for the drawer. Every project has a clear goal: sell, explain, engage.
                     </p>
                 </div>
 

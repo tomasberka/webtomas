@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     default: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
     template: "%s | Já jsem Tomáš",
   },
-  description: "Profesionální filmmaker a content creator. Tvorba Reels, TikTok a video obsahu. Kameraman a video produkce pro B2B i osobní značky.",
-  keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "filmmaker", "content creator", "tvůrce obsahu", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
+  description: "Profesionální filmmaker a content creator. Event video, Livestream a tvorba Reels. Kameraman a video produkce pro firmy a CEO.",
+  keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "event video", "livestreaming", "konferenční video", "video pro ceo", "filmmaker", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
   authors: [{ name: "Tomáš" }],
   creator: "Tomáš",
   openGraph: {

@@ -7,15 +7,15 @@ import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Reels Packages | Instagram & TikTok Content 2026 | I am Tomas",
-    description: "Complete content creation for Instagram, TikTok, and YouTube Shorts. Scripts, shooting, and editing. Get a free consultation.",
+    title: "Reels Packages | Corporate Content Strategy London | I am Tomas",
+    description: "Turn-key video marketing for businesses. Strategy, scripts, and production that saves time and drives revenue. For brands ready to dominate.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/reels-packages",
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/reels-packages",
-        title: "Reels Packages | Instagram & TikTok Content 2026 | I am Tomas",
-        description: "Complete content creation for Instagram, TikTok, and YouTube Shorts.",
+        title: "Reels Packages | Corporate Content Strategy London | I am Tomas",
+        description: "Turn-key video marketing for businesses. Strategy, scripts, and production that drives revenue.",
     },
 };
 

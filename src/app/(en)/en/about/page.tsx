@@ -6,15 +6,15 @@ import { VideoPlayer } from "@/components/ui/video-player"; // Reuse video playe
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About Me - Tomas | Video Producer & Filmmaker London",
-    description: "Actor, director and video producer. I specialize in creating Reels, TikTok videos and commercials. I will help you with camera presence and content strategy.",
+    title: "About Me | Premium Video Partner for CEOs & Brands | London",
+    description: "More than just a cameraman. I am your strategic partner for corporate video and growth. Helping businesses in London & Prague drive revenue through video.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/about",
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/about",
-        title: "About Me - Tomas | Video Producer & Filmmaker London",
-        description: "Actor, director and video producer. I specialize in creating Reels, TikTok videos and commercials.",
+        title: "About Me | Premium Video Partner for CEOs & Brands | London",
+        description: "More than just a cameraman. I am your strategic partner for corporate video and growth.",
     },
 };
 
@@ -29,14 +29,14 @@ export default function AboutPage() {
                 <Container className="relative z-10 flex flex-col md:flex-row items-center gap-12">
                     <div className="flex-1 space-y-6 text-center md:text-left">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-white/20 bg-white/5 text-white mb-4">
-                            👋 Meet the Creator
+                            👋 Your Business Partner
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4">
-                            I'm not just a "cameraman".<br />
-                            <span className="text-primary">I am your creative partner.</span>
+                            You're not looking for a "cameraman".<br />
+                            <span className="text-primary">You're looking for results.</span>
                         </h1>
                         <p className="text-xl text-zinc-400 max-w-xl leading-relaxed">
-                            Most people in the industry know how to press REC. I know what needs to happen <strong>before</strong> and <strong>after</strong> for people to actually care about the video.
+                            Most creators only care about how the video looks. I care about <strong>how much it sells</strong>. I am your strategic partner who understands business, marketing, and sales psychology.
                         </p>
                     </div>
                     <div className="flex-1 w-full max-w-lg">

@@ -6,8 +6,8 @@ import Link from "next/link";
 import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
 
 export const metadata = {
-    title: "Případové Studie | Reálné Výsledky Video Produkce | Já jsem Tomáš",
-    description: "Podívejte se na konkrétní výsledky naší video produkce. Case studies s měřitelnými výsledky pro velké klienty.",
+    title: "Případové Studie | Reálné Výsledky & ROI | Já jsem Tomáš",
+    description: "Konkrétní čísla a výsledky. Podívejte se, jak naše video kampaně zvýšily prodeje pro WikyHračky, Easy Optic a další.",
 };
 
 

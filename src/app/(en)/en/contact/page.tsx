@@ -5,15 +5,15 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact | Tomas",
-    description: "Get in touch and let's create a video strategy for your business together.",
+    title: "Contact | Strategic Video Consultation London & Prague",
+    description: "Book a strategic consultation. We'll discuss your revenue goals and how video can scale your brand in London or globally.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/contact",
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/contact",
-        title: "Contact | Tomas",
-        description: "Get in touch and let's create a video strategy for your business together.",
+        title: "Contact | Strategic Video Consultation London & Prague",
+        description: "Book a strategic consultation. We'll discuss your revenue goals.",
     },
 };
 
@@ -23,9 +23,9 @@ export default function ContactPage() {
             <Container>
                 <div className="grid lg:grid-cols-2 gap-12 md:gap-24">
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Let's create together</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Got a Vision? Let's Strategize.</h1>
                         <p className="text-xl text-muted-foreground mb-12">
-                            Interested in collaboration? Fill out the form or email me directly. I reply within 24 hours.
+                            I don't just "take orders". I partner with brands for growth. Tell me about your business challenge.
                         </p>
 
                         <div className="space-y-8">

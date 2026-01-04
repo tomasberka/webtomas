@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 export const metadata = {
-    title: "Kontakt | Tomáš",
-    description: "Ozvěte se mi a společně vymyslíme video strategii pro váš byznys.",
+    title: "Kontakt | Strategická Konzultace Video Marketingu",
+    description: "Rezervujte si nezávaznou strategickou konzultaci. Probereme vaše cíle, rozpočet a jak vám video pomůže vydělat.",
 };
 
 export default function ContactPage() {
@@ -14,9 +14,9 @@ export default function ContactPage() {
             <Container>
                 <div className="grid lg:grid-cols-2 gap-12 md:gap-24">
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Pojďme tvořit společně</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Máte vizi? Dáme jí strategii.</h1>
                         <p className="text-xl text-muted-foreground mb-12">
-                            Máte zájem o spolupráci? Vyplňte formulář nebo mi napište přímo. Odpovím do 24 hodin.
+                            Nehledám jen "zakázky". Hledám partnery pro dlouhodobý růst. Napište mi, co řešíte za byznys výzvu.
                         </p>
 
                         <div className="space-y-8">

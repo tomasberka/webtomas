@@ -15,8 +15,8 @@ export const metadata: Metadata = {
         default: "I am Tomas | Filmmaker & Video Production",
         template: "%s | I am Tomas",
     },
-    description: "Professional filmmaker and content creator. Reels, TikTok and video production. Cameraman and video production for B2B and personal brands.",
-    keywords: ["video production", "reels creation", "camera operator prague", "filmmaker", "content creator", "london video production"],
+    description: "Professional filmmaker and content creator. Event video, Livestream and Reels. Corporate video production for businesses and personal brands.",
+    keywords: ["video production", "reels creation", "event video", "livestream services", "conference filming", "corporate video london", "camera operator praha", "filmmaker", "content creator"],
     authors: [{ name: "Tomas" }],
     creator: "Tomas",
     openGraph: {

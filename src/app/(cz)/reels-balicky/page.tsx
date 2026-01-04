@@ -8,8 +8,8 @@ import { cn } from "@/lib/utils";
 import { PackageCard } from "@/components/sections/package-card";
 
 export const metadata = {
-    title: "Reels Balíčky | Instagram & TikTok Obsah 2026 | Já jsem Tomáš",
-    description: "Kompletní tvorba obsahu pro Instagram, TikTok a YouTube Shorts. Scénáře, natáčení i střih. Získejte konzultaci zdarma.",
+    title: "Reels Balíčky | Obsahová Strategie pro Firmy & CEO",
+    description: "Komplexní video marketing na klíč. Strategie, scénáře a produkce, která šetří váš čas a vydělává peníze. Pro firmy, které chtějí dominovat trhu.",
 };
 
 export default function ReelsPackagesPage() {

@@ -5,8 +5,8 @@ import { Check, Clapperboard, Award, Heart, MonitorPlay } from "lucide-react";
 import { VideoPlayer } from "@/components/ui/video-player";
 
 export const metadata = {
-    title: "O mně - Tomáš | Video Producer & Kameraman Praha",
-    description: "Herec, režisér a video producent z Prahy. Specializuji se na tvorbu Reels, TikTok videí a reklamních spotů. Pomůžu vám s vedením před kamerou i strategií obsahu.",
+    title: "O mně - Tomáš | Video Partner pro Firmy, CEO & Eventy",
+    description: "Víc než jen kameraman. Jsem váš strategický partner pro video marketing. Pomáhám firmám a CEO růst pomocí videa. Eventy, Reels, Kampaně.",
 };
 
 export default function AboutPage() {
@@ -20,14 +20,14 @@ export default function AboutPage() {
                 <Container className="relative z-10 flex flex-col md:flex-row items-center gap-12">
                     <div className="flex-1 space-y-6 text-center md:text-left">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-white/20 bg-white/5 text-white mb-4">
-                            👋 Poznejte tvůrce
+                            👋 Váš obchodní partner
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4">
-                            Nejsem jen "kameraman".<br />
-                            <span className="text-primary">Jsem your creative partner.</span>
+                            Nehledáte "kameramana".<br />
+                            <span className="text-primary">Hledáte výsledky.</span>
                         </h1>
                         <p className="text-xl text-zinc-400 max-w-xl leading-relaxed">
-                            Většina lidí v oboru umí zmáčknout REC. Já vím, co se musí stát <strong>předtím</strong> a <strong>potom</strong>, aby to video někoho zajímalo.
+                            Většina tvůrců řeší jen to, jak video vypadá. Já řeším, <strong>kolik vám vydělá</strong>. Jsem váš strategický partner, který chápe byznys, marketing i psychologii prodeje.
                         </p>
                     </div>
                     <div className="flex-1 w-full max-w-lg">

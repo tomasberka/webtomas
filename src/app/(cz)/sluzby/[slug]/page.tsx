@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ContactForm } from "@/components/forms/contact-form"
 import { AudioPlayer } from "@/components/ui/audio-player";
@@ -14,6 +15,27 @@ interface ServicePageProps {
     params: Promise<{
         slug: string;
     }>;
+}
+
+export async function generateMetadata({ params }: ServicePageProps): Promise<Metadata> {
+    const { slug } = await params;
+    const service = servicesData.find((s) => s.slug === `sluzby/${slug}`);
+
+    if (!service) {
+        return {
+            title: "Služba nenalezena | Já jsem Tomáš",
+        };
+    }
+
+    return {
+        title: `${service.title} | Já jsem Tomáš`,
+        description: service.description,
+        openGraph: {
+            title: `${service.title} | Já jsem Tomáš`,
+            description: service.description,
+            type: "website",
+        }
+    };
 }
 
 export async function generateStaticParams() {
@@ -35,8 +57,39 @@ export default async function ServicePage({ params }: ServicePageProps) {
     // Get FAQ for this service
     const serviceFaq = (faqData as any)[slug] || [];
 
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": service.title,
+        "description": service.description,
+        "provider": {
+            "@type": "Person",
+            "name": "Tomáš Berka",
+            "url": "https://jajsemtomas.cz"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Praha"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Video Služby",
+            "itemListElement": service.features.map((feature: string) => ({
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": feature
+                }
+            }))
+        }
+    };
+
     return (
         <div className="py-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <Container>
                 <Link href="/sluzby" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Zpět na služby
@@ -103,7 +156,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         {service.features.map((feature, i) => (
                             <li key={i} className="flex items-center p-4 bg-card border rounded-lg">
                                 <Check className="h-5 w-5 text-primary mr-3" />
-                                <span>{feature}</span>
+                                <span className="text-sm">{feature}</span>
                             </li>
                         ))}
                     </ul>

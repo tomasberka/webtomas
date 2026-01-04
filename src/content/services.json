@@ -31,30 +31,30 @@
   },
   {
     "id": "event",
-    "title": "Event Video",
+    "title": "Event Video & Konference",
     "slug": "sluzby/event-video",
-    "description": "Zachyťte atmosféru vaší akce. Aftermovies, reportáže a záznamy.",
-    "content": "<p>Pořádáte konferenci, večírek nebo festival? Pokud z akce nemáte vido, jako by se nestala. <strong>Eventové video</strong> (aftermovie) je tím nejlepším nástrojem pro propagaci dalších ročníků a budování brandu zaměstnavatele.</p><p>Při natáčení jsem jako ninja. Neruším průběh akce, ale jsem všude tam, kde se něco děje. Zachytím emoce, atmosféru a klíčové momenty. Výsledkem je dynamický sestřih, který budete chtít sdílet všude.</p><p>Kromě klasických sestřihů nabízím i expresní dodání výstupů 'na střídačku' přímo z místa pro vaše sociální sítě.</p>",
+    "description": "Video z konferencí a eventů, které buduje prestiž. Reportáže, rozhovory s CEO a záznamy.",
+    "content": "<p>Pořádáte klíčovou konferenci nebo firemní event? Video není jen vzpomínka, je to <strong>obchodní nástroj</strong>. Profesionální výstup buduje důvěru u partnerů a přiláká sponzory pro další ročníky.</p><p>Specializuji se na B2B eventy, kde je nutná <strong>reprezentativnost a diskrétnost</strong>. Natočím rozhovory s řečníky, VIP hosty i CEO. Výsledkem není jen sestřih atmosféry, ale materiál, který prodává vaši značku celý rok.</p><p>Díky spolupráci se <strong>SocialVids</strong> zvládneme i velké mezinárodní akce s vícečlenným štábem.</p>",
     "icon": "Calendar",
     "features": [
-      "Dynmický střih",
-      "Rozhovory s účastníky",
+      "Reprezentativní výstup",
+      "Rozhovory a testimonially",
       "Dron záběry",
-      "Rychlé dodání"
+      "Expresní dodání pro PR"
     ],
     "image": "/images/service-event.jpg"
   },
   {
     "id": "livestream",
-    "title": "Live Stream",
+    "title": "Live Stream & Webináře",
     "slug": "sluzby/live-stream",
-    "description": "Profesionální živé vysílání z vašich akcí do celého světa.",
-    "content": "<p>Přeneste svou akci k divákům po celém světě. Ať už jde o webinář, konferenci nebo koncert, zajistím <strong>profesionální live stream</strong> ve vysílací kvalitě.</p><p>Zapomeňte na roztřesený obraz z mobilu. Používám více kamer, profesionální zvuk a vlastní režii. Do vysílání vložím vaše prezentace, loga, jména řečníků (titulky) i předtočená videa.</p><p>Vysílat můžeme na YouTube, Facebook, LinkedIn nebo vaši privátní platformu. Součástí je vždy i záznam ve 4K kvalitě pro další použití.</p>",
+    "description": "Spolehlivý stream pro vaše konference a webináře. Kdekoliv v Praze i Evropě.",
+    "content": "<p>Hybridní eventy jsou novým standardem. Umožněte účast i těm, kteří nemohou dorazit osobně, a <strong>zvyšte dosah své akce</strong>. Zajišťuji technicky bezchybný stream, který reprezentuje vaši firmu.</p><p>Žádný amatérský pokus s mobilem. Profesionální zvuk, střih více kamer v reálném čase a vkládání prezentací přímo do obrazu. Ideální pro <strong>tiskové konference, valné hromady a školení</strong>.</p><p>Vysíláme na zabezpečené platformy pro interní potřeby nebo veřejně na YouTube/LinkedIn pro maximální zásah.</p>",
     "icon": "Radio",
     "features": [
       "Vícekamerový přenos",
-      "Vlastní grafika",
-      "Stabilní připojení",
+      "Integrace prezentací",
+      "Záložní internet",
       "Záznam ve 4K"
     ],
     "image": "/images/service-livestream.jpg"

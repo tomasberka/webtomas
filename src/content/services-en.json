@@ -31,30 +31,30 @@
     },
     {
         "id": "event",
-        "title": "Event Video",
+        "title": "Event Video & Conferences",
         "slug": "services/event-video",
-        "description": "Capture the atmosphere of your event. Aftermovies, reports, and recordings.",
-        "content": "<p>Organizing a conference, party, or festival? If you don't have a video, it's like it never happened. <strong>Event video</strong> (aftermovie) is the best tool for promoting future editions and building employer branding.</p><p>I am like a ninja when filming. I don't disturb the event, but I am everywhere something is happening. I capture emotions, atmosphere, and key moments. The result is a dynamic edit you'll want to share everywhere.</p><p>Besides classic edits, I also offer express delivery of content 'on the fly' directly from the venue for your social media.</p>",
+        "description": "Premium coverage for conferences and B2B events. CEO interviews, reports, and full recordings.",
+        "content": "<p>Organizing a key conference or corporate summit? Video isn't just a memory; it's a <strong>business asset</strong>. Professional coverage builds trust with stakeholders and attracts sponsors for future editions.</p><p>I specialize in B2B events where <strong>professionalism and discretion</strong> are paramount. I capture interviews with speakers, VIP guests, and CEOs. The result is not just a highlight reel, but content that sells your brand year-round.</p><p>In partnership with <strong>SocialVids</strong>, we handle large international events with multi-person crews.</p>",
         "icon": "Calendar",
         "features": [
-            "Dynamic Editing",
-            "Interviews with Attendees",
+            "Executive Interviews",
+            "Highlight Reels",
             "Drone Footage",
-            "Fast Delivery"
+            "Express PR Delivery"
         ],
         "image": "/images/service-event.jpg"
     },
     {
         "id": "livestream",
-        "title": "Live Stream",
+        "title": "Live Stream & Webinars",
         "slug": "services/live-stream",
-        "description": "Professional live broadcasting from your events to the world.",
-        "content": "<p>Bring your event to viewers worldwide. Whether it's a webinar, conference, or concert, I ensure <strong>professional live stream</strong> in broadcast quality.</p><p>Forget shaky mobile footage. I use multiple cameras, professional audio, and my own direction. I integrate your presentations, logos, speaker names (titles), and pre-recorded videos into the broadcast.</p><p>We can stream to YouTube, Facebook, LinkedIn, or your private platform. 4K recording for future use is always included.</p>",
+        "description": "Reliable streaming for conferences and webinars. Anywhere in London, Prague or Europe.",
+        "content": "<p>Hybrid events are the new standard. Allow participation for those who can't attend in person and <strong>maximize your event's reach</strong>. I deliver a technically flawless stream that represents your company professionally.</p><p>No amateur mobile attempts. Professional audio, real-time multi-camera editing, and direct presentation integration. Perfect for <strong>press conferences, AGM meetings, and corporate training</strong>.</p><p>We stream to secure platforms for internal use or publicly to YouTube/LinkedIn for maximum reach.</p>",
         "icon": "Radio",
         "features": [
-            "Multi-camera Broadcast",
-            "Custom Graphics",
-            "Stable Connection",
+            "Multi-cam Broadcast",
+            "Slide Integration",
+            "Backup Internet",
             "4K Recording"
         ],
         "image": "/images/service-livestream.jpg"
