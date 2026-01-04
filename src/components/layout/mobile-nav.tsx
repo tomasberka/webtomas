@@ -77,6 +77,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     UGC & Herectví
                                 </Link>
                                 <Link
+                                    href="/partner-socialvids"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    🤝 SocialVids
+                                </Link>
+                                <Link
                                     href="/o-mne"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -136,6 +143,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     UGC & Acting
+                                </Link>
+                                <Link
+                                    href="/partner-socialvids"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    🤝 SocialVids
                                 </Link>
                                 <Link
                                     href="/blog"

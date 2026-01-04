@@ -37,6 +37,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/ugc-herec" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 UGC & Herectví
                             </Link>
+                            <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                🤝 SocialVids
+                            </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog
                             </Link>
@@ -69,6 +72,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </Link>
                             <Link href="/ugc-creator" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 UGC & Acting
+                            </Link>
+                            <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                🤝 SocialVids
                             </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog
