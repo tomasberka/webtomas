@@ -1,7 +1,7 @@
 import { Container } from "@/components/ui/container";
 import { ContactForm } from "@/components/forms/contact-form";
 import { Suspense } from "react";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
 
 export const metadata = {
     title: "Kontakt | Strategická Konzultace Video Marketingu",
@@ -22,10 +22,24 @@ export default function ContactPage() {
                         <div className="space-y-8">
 
                             <div className="flex items-start">
+                                <Mail className="h-6 w-6 text-primary mr-4 mt-1" />
+                                <div>
+                                    <h3 className="font-semibold mb-1">Email</h3>
+                                    <a href="mailto:msg@jajsemtomas.cz" className="text-muted-foreground hover:text-primary transition-colors">msg@jajsemtomas.cz</a>
+                                </div>
+                            </div>
+                            <div className="flex items-start">
                                 <Phone className="h-6 w-6 text-primary mr-4 mt-1" />
                                 <div>
                                     <h3 className="font-semibold mb-1">Telefon</h3>
                                     <a href="tel:+420735846329" className="text-muted-foreground hover:text-primary transition-colors">+420 735 846 329</a>
+                                </div>
+                            </div>
+                            <div className="flex items-start">
+                                <Linkedin className="h-6 w-6 text-primary mr-4 mt-1" />
+                                <div>
+                                    <h3 className="font-semibold mb-1">LinkedIn</h3>
+                                    <a href="https://www.linkedin.com/in/berkatomas" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">linkedin.com/in/berkatomas</a>
                                 </div>
                             </div>
                             <div className="flex items-start">

@@ -1,5 +1,50 @@
 [
     {
+        "id": "oict",
+        "name": "Peter Svoboda",
+        "company": "OICT",
+        "role": "Projektový manažer",
+        "quote": "Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.",
+        "rating": 5,
+        "project": "Video produkce pro OICT",
+        "highlights": [
+            "Flexibilní přístup",
+            "Samostatné jednání",
+            "Dotažení projektů do konce"
+        ],
+        "image": "/images/clients/oict.png"
+    },
+    {
+        "id": "roklen",
+        "name": "Jaroslav Průcha",
+        "company": "Roklen24",
+        "role": "Šéfredaktor",
+        "quote": "Tomáš Berka spolupracuje s firmou Roklen od ledna 2018. Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu. Pro finanční portál Roklen24 natáčí videa a fotí.",
+        "rating": 5,
+        "project": "Video & foto pro Roklen24",
+        "highlights": [
+            "Dlouhodobá spolupráce od 2018",
+            "Profesionální přístup",
+            "Video i foto produkce"
+        ],
+        "image": "/images/clients/roklen.png"
+    },
+    {
+        "id": "dekra",
+        "name": "Ing. Dana Berková, MBA",
+        "company": "DEKRA",
+        "role": "Vedoucí divize vzdělávání a školení",
+        "quote": "Jak bych stručně popsala spolupráci? Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.",
+        "rating": 5,
+        "project": "Video produkce pro DEKRA",
+        "highlights": [
+            "Spolehlivost a serióznost",
+            "Kreativní přístup",
+            "Doporučená spolupráce"
+        ],
+        "image": "/images/clients/dekra.png"
+    },
+    {
         "id": "wikyhracky",
         "name": "WikyHracky.cz",
         "company": "WikyHracky.cz",

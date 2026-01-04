@@ -1,10 +1,55 @@
 [
     {
+        "id": "oict",
+        "name": "Peter Svoboda",
+        "company": "OICT",
+        "role": "Project Manager",
+        "quote": "What I appreciate most about the collaboration is the flexibility and ability to act independently and quickly, as well as seeing things through to a successful conclusion.",
+        "rating": 5,
+        "project": "Video production for OICT",
+        "highlights": [
+            "Flexible approach",
+            "Independent action",
+            "Projects delivered to completion"
+        ],
+        "image": "/images/clients/oict.png"
+    },
+    {
+        "id": "roklen",
+        "name": "Jaroslav Průcha",
+        "company": "Roklen24",
+        "role": "Editor-in-Chief",
+        "quote": "Tomáš Berka has been working with Roklen since January 2018. I highly appreciate his professional approach to work and especially the quality and flexibility. He shoots videos and photos for the Roklen24 financial portal.",
+        "rating": 5,
+        "project": "Video & photo for Roklen24",
+        "highlights": [
+            "Long-term collaboration since 2018",
+            "Professional approach",
+            "Video and photo production"
+        ],
+        "image": "/images/clients/roklen.png"
+    },
+    {
+        "id": "dekra",
+        "name": "Ing. Dana Berková, MBA",
+        "company": "DEKRA",
+        "role": "Head of Education & Training Division",
+        "quote": "How would I briefly describe the collaboration? Reliability – professionalism – creativity – quality. I can recommend the collaboration with a clear conscience and look forward to future projects.",
+        "rating": 5,
+        "project": "Video production for DEKRA",
+        "highlights": [
+            "Reliability and professionalism",
+            "Creative approach",
+            "Highly recommended"
+        ],
+        "image": "/images/clients/dekra.png"
+    },
+    {
         "id": "wikyhracky",
         "name": "WikyHracky.cz",
         "company": "WikyHracky.cz",
         "role": "E-commerce",
-        "quote": "Tomášovi jsme svěřili natočení videa pro on-line kampaň i televizní spot pro vánoční kampaň. Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!",
+        "quote": "We entrusted Tomáš with filming for our online campaign and TV spot for Christmas. The team is fast, reliable, ready to go and driven. Thank you for the collaboration!",
         "rating": 5,
         "project": "Online campaign + TV spot",
         "highlights": [
