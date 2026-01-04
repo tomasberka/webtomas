@@ -8,6 +8,9 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: '*',
             disallow: ['/dekuji'],
         },
-        sitemap: 'https://jajsemtomas.cz/sitemap.xml',
+        sitemap: [
+            'https://jajsemtomas.cz/sitemap.xml',
+            'https://en.jajsemtomas.cz/sitemap.xml'
+        ],
     }
 }

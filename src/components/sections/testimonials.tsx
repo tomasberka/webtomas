@@ -4,6 +4,7 @@ import React from "react";
 import { Container } from "@/components/ui/container";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Quote, Star } from "lucide-react";
+import Image from "next/image";
 import testimonialsDataCs from "@/content/testimonials.json";
 import testimonialsDataEn from "@/content/testimonials-en.json";
 
@@ -39,7 +40,7 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
         <section className="py-20 bg-muted/50">
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">{t.title}</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">&QUOT;Video, které má výsledky&QUOT;</h2>
                     <p className="text-xl text-muted-foreground">
                         {t.subtitle}
                     </p>
@@ -61,10 +62,12 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
                                         <div className="flex items-center gap-3 mb-2">
                                             {testimonial.image && (
                                                 <div className="h-10 w-10 rounded-full overflow-hidden relative">
-                                                    <img
+                                                    <Image
                                                         src={testimonial.image}
-                                                        alt={testimonial.name}
-                                                        className="object-cover w-full h-full"
+                                                        alt={testimonial.company}
+                                                        width={60}
+                                                        height={60}
+                                                        className="h-full w-full object-contain opacity-80 group-hover:opacity-100 transition-opacity"
                                                     />
                                                 </div>
                                             )}

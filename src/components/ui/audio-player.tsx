@@ -15,13 +15,7 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentTime, setCurrentTime] = useState(0)
     const [duration, setDuration] = useState(0)
-    const [waveformdata, setWaveformdata] = useState<number[]>([])
-
-    useEffect(() => {
-        // Generate random waveform data for visual effect
-        const data = Array.from({ length: 40 }, () => Math.random() * 0.5 + 0.3)
-        setWaveformdata(data)
-    }, [])
+    const [waveformdata] = useState<number[]>(() => Array.from({ length: 40 }, () => Math.random() * 0.5 + 0.3))
 
     useEffect(() => {
         const audio = audioRef.current
