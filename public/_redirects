@@ -1,5 +1,5 @@
 # Serve sitemap-en.xml as sitemap.xml on English subdomain
-https://en.jajsemtomas.cz/sitemap.xml https://en.jajsemtomas.cz/sitemap-en.xml 200
+https://en.jajsemtomas.cz/sitemap.xml /en/sitemap.xml 200
 
 # Rewrite all other requests on English subdomain to /en folder
 https://en.jajsemtomas.cz/* /en/:splat 200

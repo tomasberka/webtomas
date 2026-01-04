@@ -25,6 +25,25 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     return {
         title: `${post.title} | Blog Já jsem Tomáš`,
         description: post.excerpt,
+        openGraph: {
+            title: post.title,
+            description: post.excerpt,
+            type: "article",
+            url: `https://jajsemtomas.cz/blog/${post.slug}`,
+            images: [
+                {
+                    url: `https://jajsemtomas.cz${post.image}`,
+                    width: 1200,
+                    height: 630,
+                    alt: post.title,
+                },
+            ],
+            publishedTime: post.date,
+            authors: ["Tomáš"],
+        },
+        alternates: {
+            canonical: `https://jajsemtomas.cz/blog/${post.slug}`,
+        },
     };
 }
 
@@ -38,6 +57,29 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
     return (
         <div className="py-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BlogPosting",
+                        "headline": post.title,
+                        "image": [`https://jajsemtomas.cz${post.image}`],
+                        "datePublished": post.date,
+                        "dateModified": post.date,
+                        "author": [{
+                            "@type": "Person",
+                            "name": "Tomáš",
+                            "url": "https://jajsemtomas.cz"
+                        }],
+                        "description": post.excerpt,
+                        "mainEntityOfPage": {
+                            "@type": "WebPage",
+                            "@id": `https://jajsemtomas.cz/blog/${post.slug}`
+                        }
+                    })
+                }}
+            />
             <Container className="max-w-3xl">
                 <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Zpět na blog

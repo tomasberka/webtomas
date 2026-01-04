@@ -25,6 +25,25 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     return {
         title: `${post.title} | Blog I am Tomas`,
         description: post.excerpt,
+        openGraph: {
+            title: post.title,
+            description: post.excerpt,
+            type: "article",
+            url: `https://en.jajsemtomas.cz/blog/${post.slug}`,
+            images: [
+                {
+                    url: `https://en.jajsemtomas.cz${post.image}`,
+                    width: 1200,
+                    height: 630,
+                    alt: post.title,
+                },
+            ],
+            publishedTime: post.date,
+            authors: ["Tomas"],
+        },
+        alternates: {
+            canonical: `https://en.jajsemtomas.cz/blog/${post.slug}`,
+        },
     };
 }
 
@@ -38,6 +57,29 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
     return (
         <div className="py-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "BlogPosting",
+                        "headline": post.title,
+                        "image": [`https://en.jajsemtomas.cz${post.image}`],
+                        "datePublished": post.date,
+                        "dateModified": post.date,
+                        "author": [{
+                            "@type": "Person",
+                            "name": "Tomas",
+                            "url": "https://en.jajsemtomas.cz"
+                        }],
+                        "description": post.excerpt,
+                        "mainEntityOfPage": {
+                            "@type": "WebPage",
+                            "@id": `https://en.jajsemtomas.cz/blog/${post.slug}`
+                        }
+                    })
+                }}
+            />
             <Container className="max-w-3xl">
                 <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Back to blog
@@ -88,7 +130,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                             Don't miss more tips or book a video that works right away.
                         </p>
                         <div className="flex justify-center gap-4">
-                            <Link href="/contact">
+                            <Link href="/booking">
                                 <Button size="lg">I want a video that sells</Button>
                             </Link>
                             <Link href="/services">
