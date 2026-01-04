@@ -15,8 +15,8 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             </Button>
 
             {open && (
-                <div className="absolute top-16 left-0 w-full bg-background border-b shadow-lg p-6 flex flex-col gap-6 animate-in slide-in-from-top-5 z-50">
-                    <nav className="flex flex-col gap-4">
+                <div className="fixed top-16 left-0 w-full bg-background border-b shadow-lg p-6 flex flex-col z-[60] max-h-[calc(100vh-4rem)] overflow-y-auto animate-in slide-in-from-top-5">
+                    <nav className="flex flex-col gap-4 pb-8">
                         {locale === 'cs' ? (
                             <>
                                 <Link
@@ -62,11 +62,25 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     Blog
                                 </Link>
                                 <Link
+                                    href="/reels-quiz"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    🎯 Quiz
+                                </Link>
+                                <Link
                                     href="/ugc-herec"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     UGC & Herectví
+                                </Link>
+                                <Link
+                                    href="/o-mne"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    O mně
                                 </Link>
 
                                 <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
@@ -81,7 +95,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         ) : (
                             <>
                                 <Link
-                                    href="/en"
+                                    href="/"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
@@ -107,13 +121,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     Portfolio
-                                </Link>
-                                <Link
-                                    href="/contact"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Contact
                                 </Link>
                                 <Link
                                     href="/case-studies"
@@ -163,8 +170,8 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         )}
 
                         <div className="pt-2">
-                            <Link href={locale === 'en' ? "/booking" : "/kontakt"} onClick={() => setOpen(false)}>
-                                <Button className="w-full">{locale === 'en' ? "Book a Call" : "Spolupracovat"}</Button>
+                            <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => setOpen(false)}>
+                                <Button className="w-full font-bold">{locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}</Button>
                             </Link>
                         </div>
                     </nav>
