@@ -4,5 +4,19 @@ export const metadata = {
     openGraph: {
         title: "Děláš tyto chyby v Reels? Zjisti to za 2 minuty",
         description: "Interaktivní test o tvorbě Reels pro Instagram a TikTok. Otestuj své znalosti!",
+        images: [
+            {
+                url: "https://jajsemtomas.cz/images/quiz-thumbnail.png",
+                width: 1200,
+                height: 675,
+                alt: "Reels Quiz - Testuj své znalosti",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Děláš tyto chyby v Reels?",
+        description: "Interaktivní test. Otestuj se za 2 minuty!",
+        images: ["/images/quiz-thumbnail.png"],
     },
 };
