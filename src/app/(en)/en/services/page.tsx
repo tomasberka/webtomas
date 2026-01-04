@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/container";
 import servicesData from "@/content/services-en.json";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Mic } from "lucide-react";
 import { Metadata } from "next";
 
 // Reuse icons map or move to lib/constants if reused often
@@ -12,6 +12,7 @@ const icons = {
     Calendar,
     Radio,
     MonitorPlay,
+    Mic,
 };
 
 export const metadata: Metadata = {
