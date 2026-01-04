@@ -2,7 +2,7 @@
     {
         "id": "starter",
         "title": "Starter",
-        "price": "From £800 / month",
+        "price": "Custom Pricing",
         "description": "Ideal for starting regular communication.",
         "features": [
             "4 vertical videos (Reels/TikTok)",
@@ -17,7 +17,7 @@
     {
         "id": "growth",
         "title": "Growth",
-        "price": "From £1,500 / month",
+        "price": "Custom Pricing",
         "description": "For brands that want to grow fast.",
         "features": [
             "8 vertical videos (Reels/TikTok)",

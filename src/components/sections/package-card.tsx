@@ -17,9 +17,10 @@ interface PackageCardProps {
         cta: string;
         popular: boolean;
     };
+    bookingUrl?: string;
 }
 
-export function PackageCard({ pkg }: PackageCardProps) {
+export function PackageCard({ pkg, bookingUrl }: PackageCardProps) {
     return (
         <Card className={cn("flex flex-col relative", pkg.popular && "border-primary shadow-lg scale-105 z-10")}>
             {pkg.popular && (
@@ -46,7 +47,7 @@ export function PackageCard({ pkg }: PackageCardProps) {
             </CardContent>
             <CardFooter>
                 <Link
-                    href={`/rezervace?package=${pkg.id}`}
+                    href={bookingUrl || `/rezervace?package=${pkg.id}`}
                     className="w-full"
                     onClick={() => trackEvent("click_reels_package", { package: pkg.id, price: pkg.price })}
                 >
