@@ -19,7 +19,7 @@ const caseStudies = [
         title: "FC Slavia HK & Real Estate: Sports & Investment Video Production",
         client: "Patrik Hořeňovský",
         industry: "Sports / Real Estate / Development",
-        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk", "ygYPjGmLTnI"],
+        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk"],
         challenge: "Need for comprehensive video production for diverse segments – from promoting a sports club to supporting property sales and attracting investors for Alzheimer's centers.",
         solution: "Long-term collaboration involving dynamic sports videos, interviews, and precise property video tours. Emphasis on flexibility, speed, and capturing the atmosphere of each project in detail.",
         results: [

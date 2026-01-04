@@ -18,7 +18,7 @@ const caseStudies = [
         title: "FC Slavia HK & Reality: Sportovní a Investiční Video Produkce",
         client: "Patrik Hořeňovský",
         industry: "Sport / Reality / Development",
-        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk", "ygYPjGmLTnI"],
+        youtubeIds: ["_wAWHaGEDeY", "sohH2yjYMuk"],
         challenge: "Potřeba komplexní video produkce pro rozdílné segmenty – od zviditelnění sportovního klubu až po podporu prodeje nemovitostí a oslovení investorů pro výstavbu Alzheimer center.",
         solution: "Dlouhodobá spolupráce zahrnující dynamická sportovní videa, rozhovory i precizní videoprohlídky nemovitostí. Důraz na flexibilitu, rychlost a detailní zachycení atmosféry každého projektu.",
         results: [
