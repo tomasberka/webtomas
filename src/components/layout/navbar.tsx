@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
-import { Button } from "@/components/ui/button";
 import { MobileNav } from "./mobile-nav";
+import { BookingButton } from "@/components/tracking/booking-button";
 
 export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     return (
@@ -82,7 +82,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
 
                             {/* Language Switcher */}
                             <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
-                                <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Přepnout do češtiny">🇨🇿</a>
+                                <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to Czech">🇨🇿</a>
                                 <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇬🇧</span>
                             </div>
                         </>
@@ -90,11 +90,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                 </div>
                 <div className="flex items-center gap-4">
                     <div className="hidden md:block">
-                        <Link href={locale === 'en' ? "/booking" : "/rezervace"}>
-                            <Button className="font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
-                                {locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}
-                            </Button>
-                        </Link>
+                        <BookingButton locale={locale} source="header" />
                     </div>
                     {/* Mobile Navigation */}
                     <MobileNav locale={locale} />

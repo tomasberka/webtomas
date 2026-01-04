@@ -2,6 +2,7 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { CheckCircle } from "lucide-react";
+import { BookingCompleteTracker } from "@/components/tracking/booking-complete-tracker";
 
 export const metadata = {
     title: "Děkuji | Tomáš",
@@ -14,6 +15,7 @@ export const metadata = {
 export default function ThankYouPage() {
     return (
         <div className="py-32 flex items-center justify-center min-h-[60vh]">
+            <BookingCompleteTracker locale="cs" />
             <Container className="text-center flex flex-col items-center">
                 <div className="h-24 w-24 bg-green-500/10 rounded-full flex items-center justify-center mb-8">
                     <CheckCircle className="h-12 w-12 text-green-500" />

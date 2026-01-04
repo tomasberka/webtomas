@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Calendar } from "lucide-react";
 import { useEffect, useState } from "react";
+import { trackBookingClick } from "@/lib/analytics";
 
 interface StickyCTAProps {
     locale?: "cs" | "en";
@@ -26,9 +27,13 @@ export function StickyCTA({ locale = "cs" }: StickyCTAProps) {
     const href = locale === "en" ? "/booking" : "/rezervace";
     const text = locale === "en" ? "Book a Call" : "Rezervovat Call";
 
+    const handleClick = () => {
+        trackBookingClick("sticky_cta", locale);
+    };
+
     return (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 md:hidden animate-fade-in-up">
-            <Link href={href}>
+            <Link href={href} onClick={handleClick}>
                 <button className="flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-bold rounded-full shadow-2xl hover:bg-primary/90 transition-all cta-pulse">
                     <Calendar className="h-5 w-5" />
                     {text}
@@ -37,3 +42,4 @@ export function StickyCTA({ locale = "cs" }: StickyCTAProps) {
         </div>
     );
 }
+

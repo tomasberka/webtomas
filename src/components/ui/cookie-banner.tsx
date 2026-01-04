@@ -88,13 +88,14 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     )
 }
 
-// Add strict type for window.gtag
+// Add strict type for window.gtag and dataLayer
 declare global {
     interface Window {
         gtag: (
             command: 'consent' | 'config' | 'event' | 'js',
-            targetId: string,
+            targetId: string | Date,
             config?: Record<string, any> // eslint-disable-line @typescript-eslint/no-explicit-any
         ) => void;
+        dataLayer?: any[]; // eslint-disable-line @typescript-eslint/no-explicit-any
     }
 }

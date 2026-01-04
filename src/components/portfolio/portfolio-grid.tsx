@@ -7,9 +7,10 @@ import { cn } from "@/lib/utils";
 
 interface PortfolioGridProps {
     items: any[];
+    locale?: 'cs' | 'en';
 }
 
-export function PortfolioGrid({ items }: PortfolioGridProps) {
+export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
     const [filter, setFilter] = useState("All");
     const [orientation, setOrientation] = useState<"horizontal" | "vertical">("horizontal");
 
@@ -25,6 +26,13 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
         ? orientationItems
         : orientationItems.filter((item) => item.category === filter);
 
+    const labels = {
+        horizontal: locale === 'en' ? 'Horizontal (TV & Web)' : 'Horizontální (TV & Web)',
+        vertical: locale === 'en' ? 'Vertical (Reels & TikTok)' : 'Vertikální (Reels & TikTok)',
+        all: locale === 'en' ? 'All' : 'Vše',
+        empty: locale === 'en' ? 'No videos in this category yet.' : 'V této kategorii zatím nejsou žádná videa.',
+    };
+
     return (
         <div className="space-y-8">
             {/* Orientation Tabs */}
@@ -39,7 +47,7 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
                                 : "text-muted-foreground hover:text-foreground"
                         )}
                     >
-                        Horizontální (TV & Web)
+                        {labels.horizontal}
                     </button>
                     <button
                         onClick={() => { setOrientation("vertical"); setFilter("All"); }}
@@ -50,7 +58,7 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
                                 : "text-muted-foreground hover:text-foreground"
                         )}
                     >
-                        Vertikální (Reels & TikTok)
+                        {labels.vertical}
                     </button>
                 </div>
             </div>
@@ -65,7 +73,7 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
                         className="rounded-full"
                         size="sm"
                     >
-                        {category === "All" ? "Vše" : category}
+                        {category === "All" ? labels.all : category}
                     </Button>
                 ))}
             </div>
@@ -78,8 +86,9 @@ export function PortfolioGrid({ items }: PortfolioGridProps) {
             </div>
 
             {filteredItems.length === 0 && (
-                <p className="text-center text-muted-foreground py-12">V této kategorii zatím nejsou žádná videa.</p>
+                <p className="text-center text-muted-foreground py-12">{labels.empty}</p>
             )}
         </div>
     );
 }
+

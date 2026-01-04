@@ -45,7 +45,9 @@ export default function Home() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "customer service",
-
+              "telephone": "+420735846329",
+              "email": "msg@jajsemtomas.cz",
+              "availableLanguage": ["Czech", "English"]
             }
           })
         }}

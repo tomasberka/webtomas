@@ -27,7 +27,7 @@ export default function PortfolioPage() {
                     </p>
                 </div>
 
-                <PortfolioGrid items={portfolioData} />
+                <PortfolioGrid items={portfolioData} locale="en" />
             </Container>
         </div>
     );

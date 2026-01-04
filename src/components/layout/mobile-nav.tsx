@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { trackBookingClick } from "@/lib/analytics";
 
 export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const [open, setOpen] = useState(false);
@@ -170,7 +171,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         )}
 
                         <div className="pt-2">
-                            <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => setOpen(false)}>
+                            <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
                                 <Button className="w-full font-bold">{locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}</Button>
                             </Link>
                         </div>
