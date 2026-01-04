@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui/container";
-import portfolioData from "@/content/portfolio.json";
+import portfolioData from "@/content/portfolio-en.json";
 import { PortfolioGrid } from "@/components/portfolio/portfolio-grid";
 import { Metadata } from "next";
 

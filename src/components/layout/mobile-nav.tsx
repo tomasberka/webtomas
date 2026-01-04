@@ -163,8 +163,8 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         )}
 
                         <div className="pt-2">
-                            <Link href="/kontakt" onClick={() => setOpen(false)}>
-                                <Button className="w-full">Spolupracovat</Button>
+                            <Link href={locale === 'en' ? "/booking" : "/kontakt"} onClick={() => setOpen(false)}>
+                                <Button className="w-full">{locale === 'en' ? "Book a Call" : "Spolupracovat"}</Button>
                             </Link>
                         </div>
                     </nav>

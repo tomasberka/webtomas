@@ -90,7 +90,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                 </div>
                 <div className="flex items-center gap-4">
                     <div className="hidden md:block">
-                        <Link href={locale === 'en' ? "/contact" : "/rezervace"}>
+                        <Link href={locale === 'en' ? "/booking" : "/rezervace"}>
                             <Button className="font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
                                 {locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}
                             </Button>

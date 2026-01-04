@@ -1,7 +1,7 @@
 import { Container } from "@/components/ui/container";
 import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
-import blogData from "@/content/blog.json";
+import blogData from "@/content/blog-en.json";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Metadata } from "next";
 
