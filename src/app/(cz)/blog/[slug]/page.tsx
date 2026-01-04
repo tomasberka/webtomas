@@ -103,6 +103,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         <p className="text-xl text-muted-foreground leading-relaxed">
                             {post.excerpt}
                         </p>
+
                         <div className="mt-6 flex justify-center gap-3">
                             <a
                                 href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://jajsemtomas.cz/blog/${post.slug}`)}`}
