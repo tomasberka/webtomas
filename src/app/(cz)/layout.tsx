@@ -20,6 +20,11 @@ export const metadata: Metadata = {
   keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "event video", "livestreaming", "konferenční video", "video pro ceo", "filmmaker", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
   authors: [{ name: "Tomáš" }],
   creator: "Tomáš",
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "cs_CZ",

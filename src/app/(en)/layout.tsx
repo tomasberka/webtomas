@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     keywords: ["video production", "reels creation", "event video", "livestream services", "conference filming", "corporate video london", "camera operator praha", "filmmaker", "content creator"],
     authors: [{ name: "Tomas" }],
     creator: "Tomas",
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/favicon.ico",
+        apple: "/icon.png",
+    },
     openGraph: {
         type: "website",
         locale: "en_GB",
