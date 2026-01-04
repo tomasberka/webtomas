@@ -72,7 +72,8 @@ export default function Home() {
                         ],
                         "sameAs": [
                             "https://www.instagram.com/jajsemtomas.cz/",
-                            "https://www.facebook.com/tomasberkaofficial/"
+                            "https://www.facebook.com/tomasberkaofficial/",
+                            "https://www.linkedin.com/in/berkatomas"
                         ]
                     })
                 }}
@@ -85,15 +86,15 @@ export default function Home() {
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-8">
                         🚀 Video production that delivers results
                     </div>
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6">
+                    <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
                         Video production that <br className="hidden md:block" />
                         builds brands and <span className="text-primary">sells.</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8">
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
                         As your <strong>Strategic Partner</strong>, I don't just make videos for the drawer. I am your <strong>business partner</strong> who creates content with a clear goal: to make you money.<br />
                         <strong>Fast. Efficient. With measurable results.</strong>
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
+                    <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
                         <Link href="/contact">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                                 📅 Book a 15 min Call
@@ -198,7 +199,7 @@ export default function Home() {
                         {servicesData.map((service) => {
                             const Icon = icons[service.icon as keyof typeof icons] || Clapperboard;
                             return (
-                                <Link href={`/${service.slug}`} key={service.id} className="group">
+                                <Link href={`/${service.slug}`} key={service.id} className="group animate-fade-in-up">
                                     <Card className="h-full transition-all hover:border-primary/50 hover:shadow-lg hover:-translate-y-1">
                                         <CardHeader>
                                             <div className="mb-4 inline-block rounded-lg bg-primary/10 p-3 w-fit">

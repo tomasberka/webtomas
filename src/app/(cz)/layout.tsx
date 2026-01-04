@@ -7,6 +7,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
 import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"] });
 
@@ -73,6 +74,9 @@ export default function RootLayout({
 
         {/* Exit Intent Popup */}
         <ExitIntentPopup />
+
+        {/* Sticky Mobile CTA */}
+        <StickyCTA locale="cs" />
 
         {/* Consent Mode - Default Denied */}
         <Script id="consent-mode" strategy="beforeInteractive">

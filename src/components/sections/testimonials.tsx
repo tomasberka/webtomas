@@ -47,7 +47,7 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {displayedTestimonials.map((testimonial) => (
-                        <Card key={testimonial.id} className="border-none shadow-sm bg-card/80 backdrop-blur hover:shadow-md transition-shadow">
+                        <Card key={testimonial.id} className="border-none shadow-sm bg-card/80 backdrop-blur hover:shadow-md transition-shadow animate-fade-in-up">
                             <CardHeader className="pb-4">
                                 {testimonial.quote ? (
                                     <>

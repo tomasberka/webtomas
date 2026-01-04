@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function ReelsPackagesPage() {
     return (
-        <div className="py-20 md:py-32">
+        <div className="py-12 md:py-24">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{

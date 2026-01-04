@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"] });
 
@@ -15,8 +16,8 @@ export const metadata: Metadata = {
         default: "I am Tomas | Filmmaker & Video Production",
         template: "%s | I am Tomas",
     },
-    description: "Professional filmmaker and content creator. Event video, Livestream and Reels. Corporate video production for businesses and personal brands.",
-    keywords: ["video production", "reels creation", "event video", "livestream services", "conference filming", "corporate video london", "camera operator praha", "filmmaker", "content creator"],
+    description: "Professional video production in London & Prague. Reels, TikTok, corporate videos and event filming. Partner of SocialVids. Book a call today.",
+    keywords: ["video production london", "reels agency uk", "corporate video london", "tiktok for business uk", "event video production", "filmmaker london", "content creator prague", "video marketing agency", "ugc creator uk", "socialvids partner"],
     authors: [{ name: "Tomas" }],
     creator: "Tomas",
     icons: {
@@ -72,6 +73,9 @@ export default function RootLayout({
             For now, let's keep it as is, it might be auto-translated or English by default? 
             Let's check CookieBanner later. */}
                 <CookieBanner locale="en" />
+
+                {/* Sticky Mobile CTA */}
+                <StickyCTA locale="en" />
 
                 {/* Consent Mode and Tags - replicated from CZ */}
                 <Script id="consent-mode" strategy="beforeInteractive">
