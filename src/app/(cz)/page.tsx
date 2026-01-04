@@ -105,8 +105,8 @@ export default function Home() {
             buduje značky a <span className="text-primary">prodává.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-            Jako váš <strong>strategický partner</strong> netvořím jen videa "do šuplíku". Jsem váš <strong>business partner</strong>, který tvoří obsah s jasným cílem: vydělat vám peníze.<br />
-            <strong>Rychle. Efektivně. S měřitelnými výsledky.</strong>
+            Jako váš <strong>strategický partner</strong> netvořím jen videa. Buduji <strong>silné značky</strong> skrze obsah, který diváky baví a dává vašemu byznysu jasný směr.<br />
+            <strong>Prvotřídní vizuál. Silný příběh. Skutečný dopad.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
             <Link href="/rezervace">
@@ -160,8 +160,8 @@ export default function Home() {
               <p className="text-muted-foreground">První náhledy často do 3 dnů. Na sítích rozhoduje rychlost.</p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold">💡 Strategie v ceně</h3>
-              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>strategický partner</strong>. Každý záběr má jediný cíl: <strong>zvýšit vaše tržby</strong>.</p>
+              <h3 className="text-xl font-bold">💡 Strategie a zážitek</h3>
+              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>průvodce tvorbou</strong>. Každé video ladíme tak, aby dělalo radost vám i vašim klientům.</p>
             </div>
             <div className="space-y-2">
               <h3 className="text-xl font-bold">🎯 7+ let zkušeností</h3>

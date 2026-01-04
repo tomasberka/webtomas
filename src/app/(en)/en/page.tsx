@@ -91,8 +91,8 @@ export default function Home() {
                         builds brands and <span className="text-primary">sells.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        As your <strong>Strategic Partner</strong>, I don't just make videos for the drawer. I am your <strong>business partner</strong> who creates content with a clear goal: to make you money.<br />
-                        <strong>Fast. Efficient. With measurable results.</strong>
+                        As your <strong>Strategic Partner</strong>, I don't just make videos. I build <strong>strong brands</strong> through content that engages your audience and gives your business a clear path forward.<br />
+                        <strong>Premium Visuals. Powerful Stories. Real Impact.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
                         <Link href="/contact">
@@ -146,8 +146,8 @@ export default function Home() {
                             <p className="text-muted-foreground">First previews often within 3 days. Speed matters on social media.</p>
                         </div>
                         <div className="space-y-2">
-                            <h3 className="text-xl font-bold">💡 Strategy Included</h3>
-                            <p className="text-muted-foreground">I'm not just a cameraman, I'm your <strong>Strategic Partner</strong>. Every shot has one goal: <strong>to increase your revenue</strong>.</p>
+                            <h3 className="text-xl font-bold">💡 Strategy & Experience</h3>
+                            <p className="text-muted-foreground">I'm not just a cameraman, I'm your <strong>creative guide</strong>. Every shot is crafted to deliver both brand value and a premium feel.</p>
                         </div>
                         <div className="space-y-2">
                             <h3 className="text-xl font-bold">🎯 7+ Years Experience</h3>
