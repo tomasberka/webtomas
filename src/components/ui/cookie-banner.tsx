@@ -56,7 +56,7 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     }
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500">
+        <div className="fixed bottom-0 left-0 right-0 z-[100] bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500">
             <div className="container max-w-7xl mx-auto p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex-1 space-y-2 text-center md:text-left">
                     <h3 className="font-semibold text-base">{t.title}</h3>
