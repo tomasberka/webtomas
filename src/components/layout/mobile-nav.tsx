@@ -35,13 +35,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     Reels Balíčky
                                 </Link>
                                 <Link
-                                    href="/sluzby"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Služby
-                                </Link>
-                                <Link
                                     href="/portfolio"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -56,6 +49,20 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     Reference
                                 </Link>
                                 <Link
+                                    href="/ugc-herec"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    UGC / Herec
+                                </Link>
+                                <Link
+                                    href="/partner-socialvids"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    SocialVids
+                                </Link>
+                                <Link
                                     href="/blog"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -67,21 +74,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    🎯 Quiz
-                                </Link>
-                                <Link
-                                    href="/ugc-herec"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    UGC & Herectví
-                                </Link>
-                                <Link
-                                    href="/partner-socialvids"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    🤝 SocialVids
+                                    Quiz
                                 </Link>
                                 <Link
                                     href="/o-mne"
@@ -89,6 +82,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     O mně
+                                </Link>
+                                <Link
+                                    href="/kontakt"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    Kontakt
                                 </Link>
 
                                 <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
@@ -117,13 +117,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     Packages
                                 </Link>
                                 <Link
-                                    href="/services"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Services
-                                </Link>
-                                <Link
                                     href="/portfolio"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -142,14 +135,14 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    UGC & Acting
+                                    UGC / Acting
                                 </Link>
                                 <Link
                                     href="/partner-socialvids"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    🤝 SocialVids
+                                    SocialVids
                                 </Link>
                                 <Link
                                     href="/blog"
@@ -163,7 +156,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    🎯 Quiz
+                                    Quiz
                                 </Link>
                                 <Link
                                     href="/about"
@@ -171,6 +164,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     About Me
+                                </Link>
+                                <Link
+                                    href="/contact"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium hover:text-primary transition-colors"
+                                >
+                                    Contact
                                 </Link>
 
                                 <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
@@ -186,7 +186,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
 
                         <div className="pt-2">
                             <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
-                                <Button className="w-full font-bold">{locale === 'en' ? "📅 Book a Call" : "📅 Rezervovat Call"}</Button>
+                                <Button className="w-full font-bold">{locale === 'en' ? "📅 Free Consultation" : "📅 Konzultace zdarma"}</Button>
                             </Link>
                         </div>
                     </nav>

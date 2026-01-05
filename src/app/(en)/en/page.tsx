@@ -95,91 +95,62 @@ export default function Home() {
             />
 
             {/* Hero Section */}
-            <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
+            <section className="relative pt-8 pb-12 md:pt-20 md:pb-24 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
                 <Container className="flex flex-col items-center text-center gap-8">
-                    <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-8">
+                    <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
                         🚀 Video production that delivers results
                     </div>
                     <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-                        Video production that <br className="hidden md:block" />
-                        builds brands and <span className="text-primary">sells.</span>
+                        4 to 8 Reels in <br className="hidden md:block" />
+                        <span className="text-primary">one shooting day.</span>
                     </h1>
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        As your <strong>Strategic Partner</strong>, I don't just make videos. I build <strong>strong brands</strong> through content that engages your audience and gives your business a clear path forward.<br />
-                        <strong>Premium Visuals. Powerful Stories. Real Impact.</strong>
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
+                        <strong>Month of content. No long waiting.</strong><br />
+                        When you don't have time for 50 shooting days a year, I give you a solution: One day of shooting = a month of quality content that builds your brand and sells.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-                        <Link href="/en/booking">
+                        <Link href="/booking">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                                📅 Book a 15 min Call
+                                📅 Book a Date
                             </Button>
                         </Link>
-                        <a href="https://api.whatsapp.com/message/WWFB72BIE4NED1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
-                            <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12 gap-2 border-green-500/50 hover:bg-green-500/10 hover:border-green-500">
-                                <MessageCircle className="h-5 w-5 text-green-500" />
-                                WhatsApp
+                        <Link href="/case-studies">
+                            <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
+                                See Results
                             </Button>
-                        </a>
-                    </div>
-                    <div className="flex justify-center mt-4 animate-fade-in-up animation-delay-300">
-                        <Link href="/en/reels-packages" className="text-sm text-muted-foreground hover:text-primary transition-colors underline-offset-4 hover:underline">
-                            View Pricing & Packages →
                         </Link>
                     </div>
                 </Container>
             </section>
 
-            {/* Quiz CTA Section */}
-            <section className="py-16 bg-gradient-to-br from-primary/10 via-background to-background border-t">
+            {/* Trust Stats Bar */}
+            <section className="border-y bg-muted/40 py-8 md:py-12">
                 <Container>
-                    <div className="max-w-4xl mx-auto text-center">
-                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
-                            🎮 Interactive Test
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
+                        <div className="space-y-1">
+                            {/* Note: Values matched to CZ version for consistency */}
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">150+</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projects</div>
                         </div>
-                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                            Are you making these Reels mistakes?
-                        </h2>
-                        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                            Find out in 2 minutes if your Reels have a chance of success.
-                            Interactive quiz with instant feedback.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                            <Link href="/reels-quiz">
-                                <Button size="lg" className="text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                                    🎯 Start Quiz
-                                </Button>
-                            </Link>
-                            <p className="text-sm text-muted-foreground">
-                                ✓ 5 Scenarios ✓ Instant Feedback ✓ No Email Required
-                            </p>
+                        <div className="space-y-1">
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">7+ Years</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Experience</div>
                         </div>
-                    </div>
-                </Container>
-            </section>
-
-            {/* Trust Section - Why Us */}
-            <section className="border-y bg-muted/20 py-12">
-                <Container>
-                    <div className="grid md:grid-cols-3 gap-8 text-center">
-                        <div className="space-y-2">
-                            <h3 className="text-xl font-bold">⏱ Lightning Fast</h3>
-                            <p className="text-muted-foreground">First previews often within 3 days. Speed matters on social media.</p>
+                        <div className="space-y-1">
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">500K+</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Views</div>
                         </div>
-                        <div className="space-y-2">
-                            <h3 className="text-xl font-bold">💡 Strategy & Experience</h3>
-                            <p className="text-muted-foreground">I'm not just a cameraman, I'm your <strong>creative guide</strong>. Every shot is crafted to deliver both brand value and a premium feel.</p>
-                        </div>
-                        <div className="space-y-2">
-                            <h3 className="text-xl font-bold">🎯 7+ Years Experience</h3>
-                            <p className="text-muted-foreground">Hundreds of projects as a <strong>content creator</strong> for companies and personal brands. I know what works.</p>
+                        <div className="space-y-1">
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">1 Day</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Shooting Enough</div>
                         </div>
                     </div>
 
-                    {/* Client Logos/Brands */}
-                    <div className="mt-12 pt-8 border-t">
+                    {/* Client Logos */}
+                    <div className="mt-12 pt-8 border-t border-border/50">
                         <p className="text-center text-sm text-muted-foreground mb-6">Trusted by</p>
-                        <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
+                        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
                             <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                                 <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-12 w-auto" />
                             </div>
@@ -204,6 +175,50 @@ export default function Home() {
                             <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                                 <img src="/images/clients/easyoptic.jpg" alt="Easy Optic" className="h-12 w-auto" />
                             </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Value Proposition / CTA - Moved Up */}
+            <section className="py-16 md:py-24">
+                <Container className="grid md:grid-cols-2 gap-12 items-center">
+                    <div className="space-y-6 order-2 md:order-1">
+                        <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium border-primary/20 bg-primary/10 text-primary">
+                            ⭐ Most Popular Package
+                        </div>
+                        <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Quality content<br /> without stress.</h2>
+                        <p className="text-lg text-muted-foreground leading-relaxed">
+                            Your business needs visibility, but you don't have time to shoot stories every day. I get it.<br /><br />
+                            That's why I created a system where <strong>we get the maximum out of one shooting day</strong>.
+                            No complicated preparations for you – I arrive, we shoot, and within a week you have ready-made videos that you can post for a whole month.
+                        </p>
+                        <ul className="space-y-3 pt-2">
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 4 to 8 Reels videos</li>
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Scripts & direction included</li>
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Ready for social media</li>
+                        </ul>
+                        <div className="pt-4">
+                            <Link href="/reels-packages">
+                                <Button size="lg" className="px-8 h-12 text-base">Learn more about packages</Button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="relative aspect-[4/5] md:aspect-square rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                        >
+                            <source src="/videos/packages.mp4" type="video/mp4" />
+                            Your browser does not support video.
+                        </video>
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+                        <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
+                            <div className="font-bold text-lg mb-1">Reels Package</div>
+                            <div className="text-sm opacity-90">Effective production for modern brands.</div>
                         </div>
                     </div>
                 </Container>
@@ -249,36 +264,27 @@ export default function Home() {
                 </Container>
             </section>
 
-            {/* Value Proposition / CTA */}
-            <section className="py-20">
-                <Container className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="space-y-6">
-                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">One shooting day,<br /> a month of content.</h2>
-                        <p className="text-lg text-muted-foreground">
-                            My "Reels Package" is designed for maximum efficiency. We get the most out of one shoot – short videos, photos, stories. I save your time while your social media grows.
+            {/* Quiz CTA Section (Moved down) */}
+            <section className="py-16 bg-muted/20 border-y">
+                <Container>
+                    <div className="max-w-4xl mx-auto text-center">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
+                            🎮 Interactive Quiz
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            Are you making these Reels mistakes?
+                        </h2>
+                        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+                            Find out in 2 minutes if your Reels have a chance of success.
+                            Interactive quiz with instant feedback.
                         </p>
-                        <ul className="space-y-2">
-                            <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> 4 to 8 videos from one day</li>
-                            <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> Scripts written for you</li>
-                            <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> Ready-to-post content delivered</li>
-                        </ul>
-                        <Link href="/reels-packages">
-                            <Button size="lg" className="mt-4">Learn more about packages</Button>
-                        </Link>
-                    </div>
-                    <div className="relative aspect-video rounded-xl bg-muted overflow-hidden border shadow-2xl">
-                        <video
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                        >
-                            <source src="/videos/packages.mp4" type="video/mp4" />
-                            Your browser does not support video.
-                        </video>
-                        {/* Overlay for depth */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+                            <Link href="/reels-quiz">
+                                <Button size="lg" variant="outline" className="text-base h-12 px-8 font-bold hover:shadow-lg transition-all hover:-translate-y-1">
+                                    🎯 Start Quiz
+                                </Button>
+                            </Link>
+                        </div>
                     </div>
                 </Container>
             </section>

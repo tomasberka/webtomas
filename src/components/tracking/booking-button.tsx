@@ -12,7 +12,7 @@ interface BookingButtonProps {
 
 export function BookingButton({ locale = 'cs', source, className }: BookingButtonProps) {
     const href = locale === 'en' ? '/booking' : '/rezervace';
-    const text = locale === 'en' ? '📅 Book a Call' : '📅 Rezervovat Call';
+    const text = locale === 'en' ? '📅 Free Consultation' : '📅 Konzultace zdarma';
 
     const handleClick = () => {
         trackBookingClick(source, locale);

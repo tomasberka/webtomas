@@ -13,6 +13,7 @@ interface PackageCardProps {
         title: string;
         description: string;
         price: string;
+        priceNote?: string;
         features: string[];
         cta: string;
         popular: boolean;
@@ -33,8 +34,11 @@ export function PackageCard({ pkg, bookingUrl }: PackageCardProps) {
                 <CardDescription className="min-h-[50px]">{pkg.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
-                <div className="text-4xl font-bold mb-6">
-                    {pkg.price}
+                <div className="mb-6">
+                    <div className="text-4xl font-bold">{pkg.price}</div>
+                    {pkg.priceNote && (
+                        <div className="text-sm text-muted-foreground mt-1">{pkg.priceNote}</div>
+                    )}
                 </div>
                 <ul className="space-y-3">
                     {pkg.features.map((feature, i) => (

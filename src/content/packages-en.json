@@ -1,49 +1,67 @@
 [
     {
-        "id": "starter",
-        "title": "Starter",
+        "id": "start",
+        "title": "Start",
         "price": "Custom Pricing",
+        "priceNote": "from £400",
         "description": "Ideal for starting regular communication.",
         "features": [
             "4 vertical videos (Reels/TikTok)",
-            "4 hours of shooting",
-            "Scenario & Concept",
-            "Editing & Post-production",
-            "Subtitles & Music"
+            "1 shooting day (4 hours)",
+            "Basic Scripts",
+            "Editing, Music, Subtitles",
+            "9:16 Format"
         ],
-        "highlight": false,
-        "cta": "I want to start"
+        "cta": "Free Consultation",
+        "popular": false
     },
     {
         "id": "growth",
         "title": "Growth",
         "price": "Custom Pricing",
-        "description": "For brands that want to grow fast.",
+        "description": "Most popular for fast growth.",
         "features": [
             "8 vertical videos (Reels/TikTok)",
-            "1 full shooting day",
-            "Complete Strategy",
-            "Advanced Post-production",
-            "Thumbnail & Feed Cover",
-            "Priority Delivery"
+            "2 shooting days",
+            "Advanced Scripts & Strategy",
+            "Editing, Music, Effects, Subtitles",
+            "Thumbnails",
+            "Reporting & Analysis"
         ],
-        "highlight": true,
-        "cta": "I want to grow"
+        "cta": "Free Consultation",
+        "popular": true
     },
     {
         "id": "dominance",
         "title": "Dominance",
         "price": "Custom Pricing",
-        "description": "Complete content domination.",
+        "description": "Massive reach and maximum quality.",
         "features": [
             "12+ vertical videos",
-            "2 shooting days",
-            "Dedicated Social Media Manager",
-            "Community Management",
-            "Performance Reporting",
-            "Ads Management (Optional)"
+            "Flexible shooting",
+            "Complete Content Management",
+            "Priority Processing",
+            "Advanced Animations",
+            "Monthly Reporting"
         ],
-        "highlight": false,
-        "cta": "I want to dominate"
+        "cta": "Free Consultation",
+        "popular": false
+    },
+    {
+        "id": "postprod",
+        "title": "Just Editing",
+        "price": "Custom Pricing",
+        "priceNote": "from £160",
+        "description": "You shoot, we edit.",
+        "features": [
+            "You provide raw footage",
+            "Professional Editing",
+            "Subtitles & Music",
+            "Color Grading",
+            "Preview within 48h",
+            "Monthly Cooperation"
+        ],
+        "cta": "Request Editing",
+        "popular": false
     }
 ]

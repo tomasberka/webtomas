@@ -66,7 +66,7 @@ export default function ReelsPackagesPage() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-3 gap-8 mb-24">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24 items-start">
                     {packagesData.map((pkg) => (
                         <PackageCard key={pkg.id} pkg={pkg as any} bookingUrl="/booking" />
                     ))}

@@ -4,6 +4,7 @@
         "title": "Start",
         "description": "Ideální pro začátek konzistentní tvorby.",
         "price": "Cena na míru",
+        "priceNote": "od 12 000 Kč",
         "features": [
             "4 Reels videa měsíčně",
             "1 natáčecí den (4 hodiny)",
@@ -24,7 +25,8 @@
             "2 natáčecí dny",
             "Pokročilé scénáře a strategie",
             "Střih, hudba, efekty, titulky",
-            "Thumbnail grafika"
+            "Thumbnail grafika",
+            "Reporting a analýza"
         ],
         "cta": "Konzultovat zdarma",
         "popular": true
@@ -42,7 +44,24 @@
             "Pokročilé animace",
             "Měsíční reporting"
         ],
-        "cta": "Rezervovat Call",
+        "cta": "Konzultovat zdarma",
+        "popular": false
+    },
+    {
+        "id": "postprod",
+        "title": "Jen Střih",
+        "description": "Máte natočeno? My to sestříháme.",
+        "price": "Cena na míru",
+        "priceNote": "od 4 900 Kč",
+        "features": [
+            "Dodáte surová videa",
+            "Profesionální střih",
+            "Titulky a hudba",
+            "Color grading",
+            "Do 48 hodin náhled",
+            "Měsíční spolupráce"
+        ],
+        "cta": "Poptat střih",
         "popular": false
     }
 ]

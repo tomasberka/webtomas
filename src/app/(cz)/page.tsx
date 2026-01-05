@@ -111,109 +111,126 @@ export default function Home() {
         }}
       />
       {/* Hero Section */}
-      <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
+      <section className="relative pt-8 pb-12 md:pt-20 md:pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
         <Container className="flex flex-col items-center text-center gap-8">
-          <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-8">
+          <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
             🚀 Video produkce, co má výsledky
           </div>
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-            Video produkce, která <br className="hidden md:block" />
-            buduje značky a <span className="text-primary">prodává.</span>
+            4 až 8 Reels za <br className="hidden md:block" />
+            <span className="text-primary">jeden natáčecí den.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-            Jako váš <strong>strategický partner</strong> netvořím jen videa. Buduji <strong>silné značky</strong> skrze obsah, který diváky baví a dává vašemu byznysu jasný směr.<br />
-            <strong>Prvotřídní vizuál. Silný příběh. Skutečný dopad.</strong>
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
+            <strong>Obsah na měsíc. Bez dlouhého čekání.</strong><br />
+            Když nemáte čas na 50 natáčecích dní v roce, dám vám řešení: Jeden den natáčení = měsíc kvalitního obsahu, který buduje značku a prodává.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
             <Link href="/rezervace">
               <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                📅 Rezervovat 15 min Call
+                📅 Rezervovat termín
               </Button>
             </Link>
-            <Link href="/reels-balicky">
+            <Link href="/pripadove-studie">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                Ceník a Balíčky
+                Vidět výsledky
               </Button>
             </Link>
           </div>
         </Container>
       </section>
 
-      {/* Quiz CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-primary/10 via-background to-background border-t">
+      {/* Trust Stats Bar */}
+      <section className="border-y bg-muted/40 py-8 md:py-12">
         <Container>
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
-              🎮 Interaktivní test
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
+            <div className="space-y-1">
+              <div className="text-3xl md:text-4xl font-bold text-foreground">150+</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projektů</div>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-              Děláte tyto chyby v Reels?
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Zjistěte za 2 minuty, jestli vaše Reels mají šanci na úspěch.
-              Interaktivní quiz s okamžitou zpětnou vazbou.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-              <Link href="/reels-quiz">
-                <Button size="lg" className="text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                  🎯 Spustit Quiz
-                </Button>
-              </Link>
-              <p className="text-sm text-muted-foreground">
-                ✓ 5 scénářů ✓ Okamžitá zpětná vazba ✓ Žádný email
-              </p>
+            <div className="space-y-1">
+              <div className="text-3xl md:text-4xl font-bold text-foreground">7+ let</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Zkušeností</div>
+            </div>
+            <div className="space-y-1">
+              <div className="text-3xl md:text-4xl font-bold text-foreground">500K+</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Views</div>
+            </div>
+            <div className="space-y-1">
+              <div className="text-3xl md:text-4xl font-bold text-foreground">1 den</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Natáčení stačí</div>
+            </div>
+          </div>
+
+          {/* Client Logos */}
+          <div className="mt-12 pt-8 border-t border-border/50">
+            <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-10 md:h-12 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/dekra.png" alt="Dekra" className="h-8 md:h-10 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/oict.png" alt="OICT" className="h-8 md:h-10 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-6 md:h-8 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/tatra.png" alt="Tatra" className="h-10 md:h-12 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové" className="h-10 md:h-12 w-auto object-contain" />
+              </div>
+              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play" className="h-10 md:h-12 w-auto object-contain" />
+              </div>
             </div>
           </div>
         </Container>
       </section>
 
-      {/* Trust Section - Why Us */}
-      <section className="border-y bg-muted/20 py-12">
-        <Container>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <h3 className="text-xl font-bold">⏱ Rychlost blesku</h3>
-              <p className="text-muted-foreground">První náhledy často do 3 dnů. Na sítích rozhoduje rychlost.</p>
+      {/* Value Proposition / Main Offer (Moved UP) */}
+      <section className="py-16 md:py-24">
+        <Container className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6 order-2 md:order-1">
+            <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium border-primary/20 bg-primary/10 text-primary">
+              ⭐ Nejoblíbenější balíček
             </div>
-            <div className="space-y-2">
-              <h3 className="text-xl font-bold">💡 Strategie a zážitek</h3>
-              <p className="text-muted-foreground">Nejsem jen kameraman, jsem váš <strong>průvodce tvorbou</strong>. Každé video ladíme tak, aby dělalo radost vám i vašim klientům.</p>
-            </div>
-            <div className="space-y-2">
-              <h3 className="text-xl font-bold">🎯 7+ let zkušeností</h3>
-              <p className="text-muted-foreground">Stovky projektů jako <strong>content creator</strong> pro firmy i osobní značky. Vím, co funguje.</p>
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Kvalitní obsah<br /> bez stresu.</h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Váš byznys potřebuje být vidět, ale vy nemáte čas točit každý den stories. Chápu to.<br /><br />
+              Proto jsem vytvořil systém, kde <strong>z jednoho natáčecího dne vytěžíme maximum</strong>.
+              Žádné složité přípravy pro vás – přijedu, natočíme, a do týdne máte hotová videa, která můžete postovat celý měsíc.
+            </p>
+            <ul className="space-y-3 pt-2">
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 4 až 8 Reels videí</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Scénáře a režie v ceně</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Okamžité použití na sítě</li>
+            </ul>
+            <div className="pt-4">
+              <Link href="/reels-balicky">
+                <Button size="lg" className="px-8 h-12 text-base">Zjistit více o balíčcích</Button>
+              </Link>
             </div>
           </div>
-
-          {/* Client Logos/Brands */}
-          <div className="mt-12 pt-8 border-t">
-            <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
-            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-16">
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/dekra.png" alt="Dekra" className="h-10 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/oict.png" alt="OICT" className="h-10 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-8 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/tatra.png" alt="Tatra" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play" className="h-12 w-auto" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
-                <img src="/images/clients/easyoptic.jpg" alt="Easy Optic" className="h-12 w-auto" />
-              </div>
+          <div className="relative aspect-[4/5] md:aspect-square rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+            >
+              <source src="/videos/packages.mp4" type="video/mp4" />
+              Váš prohlížeč nepodporuje video.
+            </video>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+            <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
+              <div className="font-bold text-lg mb-1">Reels Balíček</div>
+              <div className="text-sm opacity-90">Efektivní produkce pro moderní značky.</div>
             </div>
           </div>
         </Container>
@@ -260,41 +277,35 @@ export default function Home() {
       </section>
 
       {/* Value Proposition / CTA */}
-      <section className="py-20">
-        <Container className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Jeden natáčecí den,<br /> měsíc obsahu.</h2>
-            <p className="text-lg text-muted-foreground">
-              Můj "Reels Balíček" je navržen pro maximální efektivitu. Z jednoho natáčení vytěžíme maximum – krátká videa, fotky, stories. Šetřím váš čas, zatímco vaše sociální sítě rostou.
-            </p>
-            <ul className="space-y-2">
-              <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> 4 až 8 videí z jednoho dne</li>
-              <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> Scénáře napíšu za vás</li>
-              <li className="flex items-center font-medium"><span className="text-primary mr-2">✓</span> Dodání hotového contentu na klíč</li>
-            </ul>
-            <Link href="/reels-balicky">
-              <Button size="lg" className="mt-4">Zjistit více o balíčcích</Button>
-            </Link>
-          </div>
-          <div className="relative aspect-video rounded-xl bg-muted overflow-hidden border shadow-2xl">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            >
-              <source src="/videos/packages.mp4" type="video/mp4" />
-              Váš prohlížeč nepodporuje video.
-            </video>
-            {/* Overlay for depth */}
-            <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
-          </div>
-        </Container>
-      </section>
+
 
       {/* Testimonials Section */}
       <Testimonials />
+
+      {/* Quiz CTA Section (Moved down) */}
+      <section className="py-16 bg-muted/20 border-y">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6">
+              🎮 Interaktivní test
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+              Děláte tyto chyby v Reels?
+            </h2>
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Zjistěte za 2 minuty, jestli vaše Reels mají šanci na úspěch.
+              Interaktivní quiz s okamžitou zpětnou vazbou.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+              <Link href="/reels-quiz">
+                <Button size="lg" variant="outline" className="text-base h-12 px-8 font-bold hover:shadow-lg transition-all hover:-translate-y-1">
+                  🎯 Spustit Quiz
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* SocialVids Trust Indicator */}
       <section className="text-center py-12">

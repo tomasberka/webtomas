@@ -23,10 +23,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {locale === 'cs' ? (
                         <>
                             <Link href="/reels-balicky" className="text-sm font-medium hover:text-primary transition-colors">
-                                Reels Balíčky
-                            </Link>
-                            <Link href="/sluzby" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Služby
+                                Balíčky
                             </Link>
                             <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Portfolio
@@ -35,19 +32,22 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 Reference
                             </Link>
                             <Link href="/ugc-herec" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                UGC & Herectví
+                                UGC / Herec
                             </Link>
                             <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                🤝 SocialVids
+                                SocialVids
                             </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog
                             </Link>
                             <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                🎯 Quiz
+                                Quiz
                             </Link>
                             <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 O mně
+                            </Link>
+                            <Link href="/kontakt" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Kontakt
                             </Link>
 
                             {/* Language Switcher */}
@@ -61,9 +61,6 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/reels-packages" className="text-sm font-medium hover:text-primary transition-colors">
                                 Packages
                             </Link>
-                            <Link href="/services" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Services
-                            </Link>
                             <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Portfolio
                             </Link>
@@ -71,19 +68,22 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 Case Studies
                             </Link>
                             <Link href="/ugc-creator" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                UGC & Acting
+                                UGC / Acting
                             </Link>
                             <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                🤝 SocialVids
+                                SocialVids
                             </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog
                             </Link>
                             <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                🎯 Quiz
+                                Quiz
                             </Link>
                             <Link href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 About Me
+                            </Link>
+                            <Link href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Contact
                             </Link>
 
                             {/* Language Switcher */}
