@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const staticRoutes = [
         '',
+        '/akce-3-reels',
         '/reels-balicky',
         '/sluzby',
         '/portfolio',

@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const staticRoutes = [
         '',
+        '/promo-3-reels',
         '/reels-packages',
         '/services',
         '/portfolio',
