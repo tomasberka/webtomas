@@ -21,6 +21,7 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
         cs: {
             title: "Projekty a spolupráce",
             subtitle: "Ukázky projektů a dodaných řešení pro klienty z různých odvětví.",
+            headline: "Video, které má výsledky",
             result: "Výsledek:",
             showLess: "Zobrazit méně",
             showMore: "Zobrazit všechny projekty",
@@ -28,6 +29,7 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
         en: {
             title: "Projects & Collaboration",
             subtitle: "Showcase of projects and delivered solutions for clients from various industries.",
+            headline: "Video that gets results",
             result: "Result:",
             showLess: "Show less",
             showMore: "Show all projects",
@@ -72,7 +74,7 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
             />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">&QUOT;Video, které má výsledky&QUOT;</h2>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">&quot;{t.headline}&quot;</h2>
                     <p className="text-xl text-muted-foreground">
                         {t.subtitle}
                     </p>
