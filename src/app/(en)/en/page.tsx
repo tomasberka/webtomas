@@ -204,7 +204,7 @@ export default function Home() {
                             </Link>
                         </div>
                     </div>
-                    <div className="relative aspect-[9/16] max-w-sm mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
+                    <div className="relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
                         <video
                             autoPlay
                             loop
