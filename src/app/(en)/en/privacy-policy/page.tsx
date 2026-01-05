@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-semibold mb-4">1. Introductory Provisions</h2>
                     <p>
-                        This policy explains how Tomáš Berka, based in Prague 3 (hereinafter "the Controller"), processes your personal data when using the jajsemtomas.cz website.
+                        This policy explains how Tomáš Berka (hereinafter "the Controller") processes your personal data when using the jajsemtomas.cz website.
                     </p>
                 </section>
 
@@ -25,7 +25,7 @@ export default function PrivacyPolicyPage() {
                             <strong>Contact Forms:</strong> If you contact me via the form, I process your name, email, and phone number to respond to your inquiry. The legal basis is negotiations for entering into a contract. I keep this data for as long as necessary to handle the communication.
                         </li>
                         <li>
-                            <strong>Google Analytics:</strong> This website uses Google Analytics 4 to measure traffic. This data is anonymized and used to improve the website. This only occurs if you grant consent in the cookie banner ("Analytical" category).
+                            <strong>Google Analytics:</strong> This website uses Google Analytics 4 to measure traffic. This data is anonymized and used to improve the website. This only occurs if you grant consent in the cookie banner (&quot;Analytical&quot; category). For more information, see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Google&apos;s Privacy Policy</a>.
                         </li>
                     </ul>
                 </section>

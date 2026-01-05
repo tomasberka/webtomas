@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
                 <section>
                     <h2 className="text-2xl font-semibold mb-4">1. Úvodní ustanovení</h2>
                     <p>
-                        Tyto zásady vysvětlují, jak Tomáš Berka, se sídlem Praha 3 (dále jen "Správce"), zpracovává vaše osobní údaje při používání webových stránek jajsemtomas.cz.
+                        Tyto zásady vysvětlují, jak Tomáš Berka (dále jen "Správce") zpracovává vaše osobní údaje při používání webových stránek jajsemtomas.cz.
                     </p>
                 </section>
 
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
                             <strong>Kontaktní formuláře:</strong> Pokud mě kontaktujete přes formulář, zpracovávám vaše jméno, e-mail a telefon, abych vám mohl odpovědět na vaši poptávku. Právním základem je jednání o uzavření smlouvy. Tato data uchovávám po dobu nezbytně nutnou pro vyřízení komunikace.
                         </li>
                         <li>
-                            <strong>Google Analytics:</strong> Tento web používá službu Google Analytics 4 pro měření návštěvnosti. Tato data jsou anonymizovaná a slouží k vylepšování webu. K tomuto dochází pouze pokud udělíte souhlas v cookie liště (kategorie "Analytické").
+                            <strong>Google Analytics:</strong> Tento web používá službu Google Analytics 4 pro měření návštěvnosti. Tato data jsou anonymizovaná a slouží k vylepšování webu. K tomuto dochází pouze pokud udělíte souhlas v cookie liště (kategorie &quot;Analytické&quot;). Více informací naleznete v <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Zásadách ochrany osobních údajů Google</a>.
                         </li>
                     </ul>
                 </section>

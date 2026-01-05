@@ -43,19 +43,21 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h4 className="text-sm font-medium">{locale === 'en' ? "Company" : "Společnost"}</h4>
+                            <h4 className="text-sm font-medium">{locale === 'en' ? "More" : "Další"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/kontakt" className="hover:text-primary">Kontakt</Link></li>
+                                        <li><Link href="/ochrana-udaju" className="hover:text-primary">Ochrana údajů</Link></li>
                                     </>
                                 ) : (
                                     <>
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
+                                        <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
                                     </>
                                 )}
                             </ul>
