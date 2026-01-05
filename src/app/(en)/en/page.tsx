@@ -4,7 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle, Sparkles, Timer } from "lucide-react";
 import servicesData from "@/content/services-en.json";
 import testimonialsData from "@/content/testimonials-en.json";
 import { Metadata } from "next";
@@ -176,6 +176,80 @@ export default function Home() {
                             </div>
                             <div className="grayscale hover:grayscale-0 transition-all opacity-70 hover:opacity-100">
                                 <img src="/images/clients/easyoptic.jpg" alt="Easy Optic" className="h-12 w-auto" />
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Limited Offer Promo */}
+            <section className="py-12 md:py-16 relative overflow-hidden">
+                {/* Gradients */}
+                <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-red-500/10" />
+                <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
+
+                <Container className="relative">
+                    <div className="bg-card border-2 border-amber-500/20 rounded-3xl p-8 md:p-12 overflow-hidden relative shadow-2xl shadow-orange-500/10">
+                        {/* Background elements */}
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+
+                        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center relative z-10">
+                            <div className="space-y-6 text-center md:text-left">
+                                <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1 text-sm font-bold text-amber-600 dark:text-amber-400 animate-pulse">
+                                    <Sparkles className="w-4 h-4" />
+                                    <span>NEW OFFER – Only 3 spots</span>
+                                </div>
+
+                                <h2 className="text-3xl md:text-5xl font-black tracking-tight">
+                                    3 Reels + 15 Photos
+                                    <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600 mt-2">
+                                        for £1,000
+                                    </span>
+                                </h2>
+
+                                <p className="text-xl text-muted-foreground">
+                                    Get a complete month of content with a significant discount.
+                                    I need new case studies, you save £500.
+                                </p>
+
+                                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                                    <Link href="/promo-3-reels">
+                                        <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg font-bold bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white shadow-lg shadow-orange-500/20 hover:scale-105 transition-all">
+                                            I want a spot
+                                            <ArrowRight className="ml-2 w-5 h-5" />
+                                        </Button>
+                                    </Link>
+                                    <div className="flex items-center justify-center gap-2 text-sm font-bold text-muted-foreground bg-muted/50 px-4 py-2 rounded-lg">
+                                        <Timer className="w-4 h-4 text-orange-500" />
+                                        3 spots left
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Visual side */}
+                            <div className="relative hidden md:block">
+                                <div className="grid grid-cols-2 gap-4">
+                                    <div className="space-y-4 translate-y-8">
+                                        <div className="aspect-[9/16] bg-primary/5 rounded-2xl border border-primary/10 p-2 transform -rotate-6 transition-transform hover:rotate-0">
+                                            <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl relative overflow-hidden">
+                                                <div className="absolute inset-0 flex items-center justify-center">
+                                                    <Clapperboard className="w-12 h-12 text-white/20" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="space-y-4">
+                                        <div className="aspect-square bg-amber-500/10 rounded-2xl border border-amber-500/20 p-2 transform rotate-6 transition-transform hover:rotate-0">
+                                            <div className="w-full h-full bg-gradient-to-br from-amber-100 to-orange-50 rounded-xl relative overflow-hidden flex items-center justify-center">
+                                                <span className="text-4xl font-black text-amber-500">15×</span>
+                                            </div>
+                                        </div>
+                                        <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
+                                            <div className="text-sm font-medium text-green-600 mb-1">Save</div>
+                                            <div className="text-3xl font-black text-green-600">£500</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
