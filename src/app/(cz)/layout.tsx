@@ -68,7 +68,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs" className="dark" suppressHydrationWarning>
-      <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
+      <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")} suppressHydrationWarning>
         {/* Cookie Banner */}
         <CookieBanner />
 

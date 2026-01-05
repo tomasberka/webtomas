@@ -94,6 +94,22 @@ export default function Home() {
                 }}
             />
 
+            {/* Limited Offer Promo Banner */}
+            <section className="bg-gradient-to-r from-amber-500/90 via-orange-500/90 to-red-500/90 text-white py-3 md:py-4">
+                <Container>
+                    <Link href="/promo-3-reels" className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center group">
+                        <span className="text-lg md:text-xl font-bold animate-pulse">🔥 OFFER:</span>
+                        <span className="text-base md:text-lg font-medium">
+                            Looking for <strong className="underline decoration-2">3 companies</strong> to get
+                            <strong className="bg-white/20 px-2 py-0.5 rounded ml-1">3 Reels + 15 Photos for 15,000 CZK</strong>
+                        </span>
+                        <span className="inline-flex items-center gap-1 bg-white/20 px-3 py-1 rounded-full text-sm font-bold group-hover:bg-white/30 transition-colors">
+                            Learn more <ArrowRight className="h-4 w-4" />
+                        </span>
+                    </Link>
+                </Container>
+            </section>
+
             {/* Hero Section */}
             <section className="relative pt-8 pb-12 md:pt-20 md:pb-24 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
