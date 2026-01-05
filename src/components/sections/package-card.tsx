@@ -19,14 +19,15 @@ interface PackageCardProps {
         popular: boolean;
     };
     bookingUrl?: string;
+    popularLabel?: string;
 }
 
-export function PackageCard({ pkg, bookingUrl }: PackageCardProps) {
+export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenější" }: PackageCardProps) {
     return (
         <Card className={cn("flex flex-col relative", pkg.popular && "border-primary shadow-lg scale-105 z-10")}>
             {pkg.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground text-sm font-semibold px-3 py-1 rounded-full">
-                    Nejoblíbenější
+                    {popularLabel}
                 </div>
             )}
             <CardHeader>
