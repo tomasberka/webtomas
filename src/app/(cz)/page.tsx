@@ -110,24 +110,9 @@ export default function Home() {
           })
         }}
       />
-      {/* Limited Offer Promo Banner */}
-      <section className="bg-gradient-to-r from-amber-500/90 via-orange-500/90 to-red-500/90 text-white py-3 md:py-4">
-        <Container>
-          <Link href="/akce-3-reels" className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center group">
-            <span className="text-lg md:text-xl font-bold animate-pulse">🔥 AKCE:</span>
-            <span className="text-base md:text-lg font-medium">
-              Hledáme <strong className="underline decoration-2">3 firmy</strong>, které si nechají natočit
-              <strong className="bg-white/20 px-2 py-0.5 rounded ml-1">3 Reels + 15 fotek za 15 000 Kč</strong>
-            </span>
-            <span className="inline-flex items-center gap-1 bg-white/20 px-3 py-1 rounded-full text-sm font-bold group-hover:bg-white/30 transition-colors">
-              Zjistit více <ArrowRight className="h-4 w-4" />
-            </span>
-          </Link>
-        </Container>
-      </section>
 
       {/* Hero Section */}
-      <section className="relative pt-8 pb-12 md:pt-20 md:pb-24 overflow-hidden">
+      <section className="relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
         <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">

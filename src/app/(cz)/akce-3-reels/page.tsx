@@ -12,7 +12,7 @@ export default function PromoPage() {
     return (
         <div className="pb-20">
             {/* Hero with dramatic gradient */}
-            <section className="relative pt-16 pb-20 md:pt-24 md:pb-32 overflow-hidden">
+            <section className="relative pt-8 pb-20 md:pt-14 md:pb-32 overflow-hidden">
                 {/* Animated background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-amber-600/20 via-orange-500/10 to-red-600/20" />
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/20 via-transparent to-transparent" />

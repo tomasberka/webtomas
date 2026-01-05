@@ -111,6 +111,20 @@ export default function RootLayout({
                     {children}
                 </main>
                 <Footer locale="en" />
+                {/* Sticky Bottom Promo Banner */}
+                <div className="fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white py-3 md:py-4 shadow-[0_-4px_20px_rgba(0,0,0,0.3)]">
+                    <a href="/promo-3-reels" className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center group px-4">
+                        <span className="text-base md:text-lg font-bold animate-pulse">🔥 PROMO:</span>
+                        <span className="text-sm md:text-base font-medium">
+                            <strong className="underline decoration-2">3 Companies</strong> → 3 Reels + 15 Photos for £1,000
+                        </span>
+                        <span className="inline-flex items-center gap-1 bg-white/20 px-4 py-1.5 rounded-full text-xs md:text-sm font-bold group-hover:bg-white/30 transition-colors">
+                            More Info →
+                        </span>
+                    </a>
+                </div>
+                {/* Spacer for fixed bottom banner */}
+                <div className="h-16 md:h-14" />
             </body>
         </html>
     );
