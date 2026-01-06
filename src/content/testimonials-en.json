@@ -16,6 +16,37 @@
         "image": ""
     },
     {
+        "id": "wikyhracky",
+        "name": "WikyHracky.cz",
+        "company": "WikyHracky.cz",
+        "role": "E-commerce",
+        "quote": "We entrusted Tomáš with filming for our online campaign and TV spot for Christmas. The team is fast, reliable, ready to go and driven. Thank you for the collaboration!",
+        "rating": 5,
+        "project": "Online campaign + TV spot",
+        "highlights": [
+            "TV spot for Christmas campaign",
+            "Online video campaign",
+            "Fast delivery"
+        ],
+        "image": "/images/clients/wikyhracky.png"
+    },
+    {
+        "id": "easy-optic",
+        "name": "Agáta Šimánková",
+        "company": "Easy Optic",
+        "role": "Social Media Manager",
+        "quote": "Working with Tomáš was very pleasant from the first moment. The biggest challenge was entrusting our vision to someone who not only understands it but also transforms it into digital form, preserves its authenticity, and uses creativity. Tomáš handled it perfectly from the first meeting. All communication was immediate, the filming and photography were excellent, and the final result came quickly. The videos and photos now serve to present Easy Optic on social media, help build the brand, and attract new customers. I greatly appreciate the personal and pleasant approach, responsibility, creativity, speed, and especially the quality photos and videos that speak for themselves. We look forward to more projects together in the future.",
+        "rating": 5,
+        "project": "Reels package + photography",
+        "result": "3 Reels + 15 professional photos",
+        "highlights": [
+            "Vision understanding and authenticity",
+            "Immediate communication",
+            "Quality photos and videos for social media"
+        ],
+        "image": "/images/clients/easyoptic.jpg"
+    },
+    {
         "id": "oict",
         "name": "Peter Svoboda",
         "company": "OICT",
@@ -61,21 +92,6 @@
         "image": "/images/clients/dekra.png"
     },
     {
-        "id": "wikyhracky",
-        "name": "WikyHracky.cz",
-        "company": "WikyHracky.cz",
-        "role": "E-commerce",
-        "quote": "We entrusted Tomáš with filming for our online campaign and TV spot for Christmas. The team is fast, reliable, ready to go and driven. Thank you for the collaboration!",
-        "rating": 5,
-        "project": "Online campaign + TV spot",
-        "highlights": [
-            "TV spot for Christmas campaign",
-            "Online video campaign",
-            "Fast delivery"
-        ],
-        "image": "/images/clients/wikyhracky.png"
-    },
-    {
         "id": "legonid",
         "name": "Legonid",
         "company": "Legonid",
@@ -89,22 +105,6 @@
             "Capturing workshop atmosphere"
         ],
         "image": "/images/clients/legonid.png"
-    },
-    {
-        "id": "easy-optic",
-        "name": "Agáta Šimánková",
-        "company": "Easy Optic",
-        "role": "Social Media Manager",
-        "quote": "Working with Tomáš was very pleasant from the first moment. The biggest challenge was entrusting our vision to someone who not only understands it but also transforms it into digital form, preserves its authenticity, and uses creativity. Tomáš handled it perfectly from the first meeting. All communication was immediate, the filming and photography were excellent, and the final result came quickly. The videos and photos now serve to present Easy Optic on social media, help build the brand, and attract new customers. I greatly appreciate the personal and pleasant approach, responsibility, creativity, speed, and especially the quality photos and videos that speak for themselves. We look forward to more projects together in the future.",
-        "rating": 5,
-        "project": "Reels package + photography",
-        "result": "3 Reels + 15 professional photos",
-        "highlights": [
-            "Vision understanding and authenticity",
-            "Immediate communication",
-            "Quality photos and videos for social media"
-        ],
-        "image": "/images/clients/easyoptic.jpg"
     },
     {
         "id": "icon-barber",
