@@ -34,10 +34,10 @@ export const metadata: Metadata = {
         siteName: "I am Tomas",
         images: [
             {
-                url: "/images/tomas-portrait.jpg",
+                url: "https://en.jajsemtomas.cz/images/og-image-en.png",
                 width: 1200,
                 height: 630,
-                alt: "I am Tomas - Filmmaker & Content Creator",
+                alt: "I am Tomas - Filmmaker & Content Creator London",
             },
         ],
     },
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "I am Tomas | Filmmaker & Video Production",
         description: "Professional filmmaker and content creator. Book a shoot in 10 minutes.",
-        images: ["/images/tomas-portrait.jpg"],
+        images: ["https://en.jajsemtomas.cz/images/og-image-en.png"],
     },
     robots: {
         index: true,

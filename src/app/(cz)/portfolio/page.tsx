@@ -1,10 +1,18 @@
 import { Container } from "@/components/ui/container";
 import portfolioData from "@/content/portfolio.json";
 import { PortfolioGrid } from "@/components/portfolio/portfolio-grid";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Portfolio | Výsledky, které prodávají | Tomáš",
-    description: "Ukázky práce pro klienty jako OICT, WikyHračky nebo DEKRA. Video, které firmám vydělává peníze. Případové studie.",
+export const metadata: Metadata = {
+    title: "Portfolio | Video Produkce Praha | OICT, WikyHračky, DEKRA",
+    description: "🎬 Ukázky práce pro klienty jako OICT, WikyHračky, DEKRA. Video produkce Praha - Reels, TV spoty, firemní videa. Podívejte se na výsledky.",
+    keywords: ["video portfolio praha", "ukázky práce kameraman", "video produkce reference", "firemní videa ukázky"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/portfolio",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/portfolio"
+        }
+    },
 };
 
 export default function PortfolioPage() {

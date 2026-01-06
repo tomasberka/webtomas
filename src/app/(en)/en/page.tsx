@@ -32,10 +32,10 @@ export const metadata: Metadata = {
         siteName: "I am Tomas",
         images: [
             {
-                url: "/images/tomas-hero.jpg",
+                url: "https://en.jajsemtomas.cz/images/og-image-en.png",
                 width: 1200,
                 height: 630,
-                alt: "I am Tomas - Filmmaker & Content Creator",
+                alt: "I am Tomas - Video Production London",
             },
         ],
     },
@@ -51,7 +51,7 @@ export default function Home() {
                         "@context": "https://schema.org",
                         "@type": "LocalBusiness",
                         "name": "I am Tomas - Video Production",
-                        "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
+                        "image": "https://en.jajsemtomas.cz/images/og-image-en.png",
                         "description": "Professional video production specializing in Reels, TikTok, and commercial content for social media.",
                         "address": {
                             "@type": "PostalAddress",

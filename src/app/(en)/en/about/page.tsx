@@ -6,15 +6,19 @@ import { VideoPlayer } from "@/components/ui/video-player"; // Reuse video playe
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About Me | Premium Video Partner for CEOs & Brands | London",
-    description: "More than just a cameraman. I am your strategic partner for corporate video and growth. Helping businesses in London & Prague drive revenue through video.",
+    title: "About Me | Filmmaker London | Video Partner for CEOs & Brands",
+    description: "👋 More than just a cameraman. 500+ projects, 7+ years experience. Strategic partner for video marketing in London & worldwide. Reels, events, campaigns.",
+    keywords: ["filmmaker london", "video producer uk", "content creator london", "corporate videographer london"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/about",
+        languages: {
+            "cs": "https://jajsemtomas.cz/o-mne"
+        }
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/about",
-        title: "About Me | Premium Video Partner for CEOs & Brands | London",
-        description: "More than just a cameraman. I am your strategic partner for corporate video and growth.",
+        title: "About Me | Filmmaker London | Video Partner for CEOs & Brands",
+        description: "👋 More than just a cameraman. Strategic partner for corporate video and growth.",
     },
 };
 

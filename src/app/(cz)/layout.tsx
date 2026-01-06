@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Já jsem Tomáš",
     images: [
       {
-        url: "/images/tomas-portrait.jpg",
+        url: "https://jajsemtomas.cz/images/tomas-portrait.jpg",
         width: 1200,
         height: 630,
         alt: "Já jsem Tomáš - Filmmaker & Content Creator",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
     description: "Profesionální filmmaker a content creator. Domluvte si natáčení za 10 minut.",
-    images: ["/images/tomas-portrait.jpg"],
+    images: ["https://jajsemtomas.cz/images/tomas-portrait.jpg"],
   },
   robots: {
     index: true,

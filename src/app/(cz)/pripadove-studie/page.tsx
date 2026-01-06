@@ -4,10 +4,18 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Případové Studie | Reálné Výsledky & ROI | Já jsem Tomáš",
-    description: "Konkrétní čísla a výsledky. Podívejte se, jak naše video kampaně zvýšily prodeje pro WikyHračky, Easy Optic a další.",
+export const metadata: Metadata = {
+    title: "Případové Studie Praha | Video Produkce s Výsledky | Já jsem Tomáš",
+    description: "📊 Konkrétní výsledky video kampaní. WikyHračky, Easy Optic, FC Slavia HK. Podívejte se, jak video zvyšuje prodeje. Reference z Prahy a ČR.",
+    keywords: ["případové studie video", "video marketing výsledky", "reference video produkce praha", "roi video reklama"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/pripadove-studie",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/case-studies"
+        }
+    },
 };
 
 

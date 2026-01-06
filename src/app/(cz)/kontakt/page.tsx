@@ -2,10 +2,18 @@ import { Container } from "@/components/ui/container";
 import { ContactForm } from "@/components/forms/contact-form";
 import { Suspense } from "react";
 import { Mail, Phone, MapPin, Linkedin } from "lucide-react";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Kontakt | Strategická Konzultace Video Marketingu",
-    description: "Rezervujte si nezávaznou strategickou konzultaci. Probereme vaše cíle, rozpočet a jak vám video pomůže vydělat.",
+export const metadata: Metadata = {
+    title: "Kontakt | Video Produkce Praha & Celá ČR | Já jsem Tomáš",
+    description: "📞 Domluvte si konzultaci zdarma. Video produkce v Praze, Brně a celé ČR. Odpovídám do 24 hodin. Kameraman, Reels, TikTok, firemní videa.",
+    keywords: ["kameraman praha kontakt", "video producent česká republika", "filmmaker brno", "video produkce kontakt"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/kontakt",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/contact"
+        }
+    },
 };
 
 export default function ContactPage() {

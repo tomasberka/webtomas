@@ -6,10 +6,18 @@ import Link from "next/link";
 import packagesData from "@/content/packages.json";
 import { cn } from "@/lib/utils";
 import { PackageCard } from "@/components/sections/package-card";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Reels Balíčky | Obsahová Strategie pro Firmy & CEO",
-    description: "Komplexní video marketing na klíč. Strategie, scénáře a produkce, která šetří váš čas a vydělává peníze. Pro firmy, které chtějí dominovat trhu.",
+export const metadata: Metadata = {
+    title: "Reels Balíčky Praha | Tvorba TikTok & Instagram Videí pro Firmy",
+    description: "📹 Profesionální tvorba Reels a TikTok videí v Praze. 4-8 videí za jeden natáčecí den. Strategie, scénáře, produkce na klíč. Konzultace zdarma.",
+    keywords: ["reels tvorba praha", "tiktok videa pro firmy", "video marketing praha", "instagram reels produkce", "kameraman praha", "video produkce brno"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/reels-balicky",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/reels-packages"
+        }
+    },
 };
 
 export default function ReelsPackagesPage() {

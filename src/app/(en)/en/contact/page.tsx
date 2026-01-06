@@ -5,15 +5,19 @@ import { Mail, Phone, MapPin, Linkedin, MessageCircle } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact | Strategic Video Consultation London & Prague",
-    description: "Book a strategic consultation. We'll discuss your revenue goals and how video can scale your brand in London or globally.",
+    title: "Contact | Video Production London & Prague | I am Tomas",
+    description: "📞 Book a free video consultation. Video production in London, Prague & worldwide. Reply within 24 hours. Reels, TikTok, corporate videos.",
+    keywords: ["video producer london contact", "filmmaker uk contact", "video production london enquiry", "corporate video london"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/contact",
+        languages: {
+            "cs": "https://jajsemtomas.cz/kontakt"
+        }
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/contact",
-        title: "Contact | Strategic Video Consultation London & Prague",
-        description: "Book a strategic consultation. We'll discuss your revenue goals.",
+        title: "Contact | Video Production London & Prague | I am Tomas",
+        description: "📞 Book a free video consultation. Video production in London & Prague.",
     },
 };
 

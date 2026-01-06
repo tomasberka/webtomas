@@ -7,15 +7,19 @@ import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Reels Packages | Corporate Content Strategy London | I am Tomas",
-    description: "Turn-key video marketing for businesses. Strategy, scripts, and production that saves time and drives revenue. For brands ready to dominate.",
+    title: "Reels Packages London | TikTok & Instagram Video Production UK",
+    description: "📹 Professional Reels & TikTok video production in London. 4-8 videos in one shooting day. Strategy, scripts, full production. Free consultation.",
+    keywords: ["reels production london", "tiktok videos for business uk", "video marketing london", "instagram reels agency uk", "filmmaker london", "video production uk"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/reels-packages",
+        languages: {
+            "cs": "https://jajsemtomas.cz/reels-balicky"
+        }
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/reels-packages",
-        title: "Reels Packages | Corporate Content Strategy London | I am Tomas",
-        description: "Turn-key video marketing for businesses. Strategy, scripts, and production that drives revenue.",
+        title: "Reels Packages London | TikTok & Instagram Video Production UK",
+        description: "📹 Professional Reels & TikTok video production in London. 4-8 videos in one shooting day.",
     },
 };
 

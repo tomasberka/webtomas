@@ -6,10 +6,14 @@ import { CheckCircle2, ArrowRight, Quote } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Case Studies | Real Video Production Results | I am Tomas",
-    description: "See the specific results of our video production. Case studies with measurable results for major clients.",
+    title: "Case Studies | Video Production Results London | I am Tomas",
+    description: "📊 Real video campaign results. WikyToys, Easy Optic, FC Slavia. See how video increases sales. References from London & worldwide.",
+    keywords: ["video case studies", "video marketing results uk", "video production references london", "roi video advertising"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/case-studies",
+        languages: {
+            "cs": "https://jajsemtomas.cz/pripadove-studie"
+        }
     },
 };
 

@@ -4,15 +4,19 @@ import { PortfolioGrid } from "@/components/portfolio/portfolio-grid";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Portfolio | Work That Sells | Tomas",
-    description: "Selected works for clients like OICT, WikyToys, DEKRA. Video production that drives tangible business results.",
+    title: "Portfolio | Video Production London | Work That Sells",
+    description: "🎬 Selected video works for clients like OICT, WikyToys, DEKRA. Video production London - Reels, TV spots, corporate videos. See the results.",
+    keywords: ["video portfolio london", "filmmaker work samples", "video production references uk", "corporate video examples"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/portfolio",
+        languages: {
+            "cs": "https://jajsemtomas.cz/portfolio"
+        }
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/portfolio",
-        title: "Portfolio | Work That Sells | Tomas",
-        description: "Selected works for clients. Video production that drives tangible business results.",
+        title: "Portfolio | Video Production London | Work That Sells",
+        description: "🎬 Selected works for clients. Video production that drives tangible business results.",
     },
 };
 

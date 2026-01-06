@@ -3,10 +3,18 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Check, Clapperboard, Award, Heart, MonitorPlay } from "lucide-react";
 import { VideoPlayer } from "@/components/ui/video-player";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "O mně - Tomáš | Video Partner pro Firmy, CEO & Eventy",
-    description: "Víc než jen kameraman. Jsem váš strategický partner pro video marketing. Pomáhám firmám a CEO růst pomocí videa. Eventy, Reels, Kampaně.",
+export const metadata: Metadata = {
+    title: "O mně - Tomáš | Kameraman Praha | Video Partner pro Firmy & CEO",
+    description: "👋 Víc než jen kameraman. 500+ projektů, 7+ let zkušeností. Strategický partner pro video marketing v Praze a celé ČR. Reels, eventy, kampaně.",
+    keywords: ["kameraman praha", "filmmaker česká republika", "video producent praha", "content creator čr"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/o-mne",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/about"
+        }
+    },
 };
 
 export default function AboutPage() {
