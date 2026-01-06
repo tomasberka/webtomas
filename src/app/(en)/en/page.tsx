@@ -19,14 +19,18 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "Video Production London | Commercials, Reels & Content | I am Tomas",
-    description: "Comprehensive video production for businesses. We create commercial spots, social media Reels, and corporate videos that sell. Boost your sales with video.",
+    title: "Video Production London | Filmmaker, Reels & Commercials | I am Tomas",
+    description: "📹 Professional video production for businesses in London. Commercial spots, Reels, corporate videos. 500+ projects, 7 years experience. Free consultation.",
+    keywords: ["video production london", "filmmaker london", "video producer uk", "commercial video london", "reels production uk"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",
+        languages: {
+            "cs": "https://jajsemtomas.cz"
+        }
     },
     openGraph: {
-        title: "Video Production London | Commercials, Reels & Content | I am Tomas",
-        description: "Comprehensive video production for businesses. We create commercial spots, social media Reels, and corporate videos that sell.",
+        title: "Video Production London | Filmmaker, Reels & Commercials | I am Tomas",
+        description: "📹 Professional video production for businesses in London. Commercial spots, Reels, corporate videos.",
         url: "https://en.jajsemtomas.cz",
         locale: "en_GB",
         siteName: "I am Tomas",

@@ -16,15 +16,19 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "Video Production & Services London | Reels, Ads, Events | Tomas",
-    description: "Professional video production in London: Reels & TikTok creation, commercial spots, event videos, live streams. Monthly packages and ad-hoc projects. Free consultation.",
+    title: "Video Production Services London | Reels, Ads, Events | I am Tomas",
+    description: "📹 Professional video production in London: Reels, TikTok, commercial spots, event videos, live streams. Monthly packages and ad-hoc. Free consultation.",
+    keywords: ["video production london", "video services uk", "commercial video london", "event video uk", "live stream production"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/services",
+        languages: {
+            "cs": "https://jajsemtomas.cz/sluzby"
+        }
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/services",
-        title: "Video Production & Services London | Reels, Ads, Events | Tomas",
-        description: "Professional video production in London: Reels & TikTok creation, commercial spots, event videos, live streams.",
+        title: "Video Production Services London | Reels, Ads, Events | I am Tomas",
+        description: "📹 Professional video production in London: Reels, TikTok, commercial spots, event videos.",
     },
 };
 

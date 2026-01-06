@@ -7,10 +7,14 @@ import { VideoCard } from "@/components/portfolio/video-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "UGC Creator & Actor | Increase Sales with Video | I am Tomas",
-    description: "Professional UGC videos for TikTok, Instagram, and Facebook Ads. I am an experienced actor who creates authentic content that converts viewers into customers.",
+    title: "UGC Creator & Actor London | TikTok & Instagram Ads | I am Tomas",
+    description: "🎭 Professional UGC videos for TikTok, Instagram and Facebook Ads. Experienced actor creating authentic content that converts. London & worldwide.",
+    keywords: ["ugc creator london", "ugc actor uk", "tiktok ads video", "instagram ads actor", "authentic videos uk"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/ugc-creator",
+        languages: {
+            "cs": "https://jajsemtomas.cz/ugc-herec"
+        }
     },
 };
 

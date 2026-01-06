@@ -5,10 +5,18 @@ import { VideoPlayer } from "@/components/ui/video-player";
 import { Check, Mic, Star } from "lucide-react";
 import portfolioData from "@/content/portfolio.json";
 import { VideoCard } from "@/components/portfolio/video-card";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "UGC Tvůrce & Herec | Zvyšte prodeje videem | Já jsem Tomáš",
-    description: "Profesionální UGC videa pro TikTok, Instagram a Facebook Ads. Jsem zkušený herec, který tvoří autentický obsah konvertující diváky na zákazníky.",
+export const metadata: Metadata = {
+    title: "UGC Tvůrce & Herec Praha | TikTok & Instagram Ads | Já jsem Tomáš",
+    description: "🎭 Profesionální UGC videa pro TikTok, Instagram a Facebook Ads. Zkušený herec tvořící autentický obsah, který konvertuje. Praha & celá ČR.",
+    keywords: ["ugc creator praha", "ugc herec", "tiktok ads video", "instagram reklamy herec", "autentická videa čr"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/ugc-herec",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/ugc-creator"
+        }
+    },
 };
 
 export default function UgcActorPage() {

@@ -2,10 +2,18 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Check, Calendar } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Rezervace Konzultace Zdarma | Video Produkce Praha",
-    description: "Rezervujte si bezplatnou 15min konzultaci s video producentem. Probereme vaši video strategii, ceny a termíny natáčení. Online nebo osobně v Praze.",
+export const metadata: Metadata = {
+    title: "Rezervace Konzultace Zdarma | Video Produkce Praha | Já jsem Tomáš",
+    description: "📅 Rezervujte si bezplatnou 15min konzultaci s video producentem v Praze. Probereme video strategii, ceny a termíny. Online nebo osobně.",
+    keywords: ["video konzultace zdarma", "kameraman rezervace praha", "video produkce schůzka"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/rezervace",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/booking"
+        }
+    },
 };
 
 export default function BookingPage() {

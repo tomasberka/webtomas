@@ -7,6 +7,7 @@ import Image from "next/image";
 import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Sparkles, Timer } from "lucide-react";
 import servicesData from "@/content/services.json";
 import testimonialsData from "@/content/testimonials.json";
+import { Metadata } from "next";
 
 // Map icon strings to components
 const icons = {
@@ -17,9 +18,16 @@ const icons = {
   MonitorPlay,
 };
 
-export const metadata = {
-  title: "Video Produkce Praha | Reklamy, Reels & Content | Já jsem Tomáš",
-  description: "Komplexní video produkce pro firmy. Tvoříme reklamní spoty, Reels na sítě a firemní videa, která vydělávají. Zvyšte své prodeje videem.",
+export const metadata: Metadata = {
+  title: "Video Produkce Praha | Kameraman, Reels & Reklamy | Já jsem Tomáš",
+  description: "📹 Komplexní video produkce pro firmy v Praze. Reklamní spoty, Reels, firemní videa. 500+ projektů, 7 let zkušeností. Konzultace zdarma.",
+  keywords: ["video produkce praha", "kameraman praha", "filmmaker česká republika", "reklamní video brno", "reels tvorba čr"],
+  alternates: {
+    canonical: "https://jajsemtomas.cz",
+    languages: {
+      "en": "https://en.jajsemtomas.cz"
+    }
+  },
   verification: {
     google: "CeEtdfWCx-4OSJn7uLwjJF4OdVysGkHTkPGZRIt7PTY",
   },

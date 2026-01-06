@@ -2,10 +2,18 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Check, Calendar } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Book a Free Consultation | Video Production London",
-    description: "Book a free 15-minute consultation with a video producer. We'll discuss your video strategy, pricing, and shooting dates. Online or in person.",
+export const metadata: Metadata = {
+    title: "Book Free Consultation | Video Production London | I am Tomas",
+    description: "📅 Book a free 15-minute consultation with a video producer in London. We'll discuss video strategy, pricing and dates. Online or in person.",
+    keywords: ["video consultation free", "filmmaker booking london", "video production meeting"],
+    alternates: {
+        canonical: "https://en.jajsemtomas.cz/booking",
+        languages: {
+            "cs": "https://jajsemtomas.cz/rezervace"
+        }
+    },
 };
 
 export default function BookingPage() {

@@ -6,10 +6,14 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Video Marketing Blog | I am Tomas",
-    description: "Tips and tricks from the world of video production, Reels, and online marketing. How to film videos that sell.",
+    title: "Video Marketing Blog London | Tips for Reels & TikTok | I am Tomas",
+    description: "📚 Tips and tricks from video production, Reels and online marketing. How to film videos that sell. Practical advice for businesses.",
+    keywords: ["video marketing blog", "reels tips", "how to make tiktok", "video production tutorials"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/blog",
+        languages: {
+            "cs": "https://jajsemtomas.cz/blog"
+        }
     },
 };
 

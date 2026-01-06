@@ -3,10 +3,18 @@ import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
 import blogData from "@/content/blog.json";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Metadata } from "next";
 
-export const metadata = {
-    title: "Blog o video marketingu | Já jsem Tomáš",
-    description: "Tipy a triky ze světa video produkce, Reels a online marketingu. Jak točit videa, která prodávají.",
+export const metadata: Metadata = {
+    title: "Blog o Video Marketingu Praha | Tipy pro Reels & TikTok | Já jsem Tomáš",
+    description: "📚 Tipy a triky ze světa video produkce, Reels a online marketingu. Jak točit videa, která prodávají. Praktické rady pro firmy.",
+    keywords: ["video marketing blog", "reels tipy čeština", "jak točit tiktok", "video produkce návody"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/blog",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/blog"
+        }
+    },
 };
 
 export default function BlogPage() {

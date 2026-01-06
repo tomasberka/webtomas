@@ -3,6 +3,7 @@ import servicesData from "@/content/services.json";
 import Link from "next/link";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay } from "lucide-react";
+import { Metadata } from "next";
 
 // Reuse icons map or move to lib/constants if reused often
 const icons = {
@@ -13,9 +14,16 @@ const icons = {
     MonitorPlay,
 };
 
-export const metadata = {
-    title: "Video Produkce a Služby Praha | Reels, Reklamy, Events | Já jsem Tomáš",
-    description: "Profesionální video produkce v Praze: Reels a TikTok tvorba, reklamní spoty, eventová videa, live streamy. Měsíční balíčky i ad-hoc projekty. Konzultace zdarma.",
+export const metadata: Metadata = {
+    title: "Video Produkce Praha | Služby - Reels, Reklamy, Events | Já jsem Tomáš",
+    description: "📹 Profesionální video produkce v Praze: Reels, TikTok, reklamní spoty, eventová videa, live streamy. Měsíční balíčky i ad-hoc projekty. Konzultace zdarma.",
+    keywords: ["video produkce praha", "kameraman služby", "reklamní video brno", "event video česká republika", "live stream produkce"],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/sluzby",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/services"
+        }
+    },
 };
 
 export default function ServicesPage() {
