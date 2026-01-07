@@ -3,6 +3,7 @@ import { Container } from "@/components/ui/container";
 import Link from "next/link";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import blogData from "@/content/blog.json";
+import blogDataEn from "@/content/blog-en.json";
 import { Button } from "@/components/ui/button";
 
 interface BlogPostPageProps {
@@ -19,8 +20,13 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
     const { slug } = await params;
-    const post = blogData.find((p) => p.slug === slug);
+    const postIndex = blogData.findIndex((p) => p.slug === slug);
+    const post = blogData[postIndex];
     if (!post) return {};
+
+    // Find corresponding EN post for hreflang
+    const enPost = blogDataEn[postIndex];
+    const enSlug = enPost?.slug;
 
     return {
         title: `${post.title} | Blog Já jsem Tomáš`,
@@ -43,6 +49,10 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         },
         alternates: {
             canonical: `https://jajsemtomas.cz/blog/${post.slug}`,
+            languages: {
+                'cs': `https://jajsemtomas.cz/blog/${post.slug}`,
+                'en': enSlug ? `https://en.jajsemtomas.cz/blog/${enSlug}` : "https://en.jajsemtomas.cz/blog",
+            },
         },
     };
 }
