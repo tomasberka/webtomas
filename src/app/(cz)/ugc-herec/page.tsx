@@ -1,9 +1,9 @@
 import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { VideoPlayer } from "@/components/ui/video-player";
-import { Check, Mic, Star } from "lucide-react";
+import { Check, Mic } from "lucide-react";
 import portfolioData from "@/content/portfolio.json";
+import faqData from "@/content/faq.json";
 import { VideoCard } from "@/components/portfolio/video-card";
 import { Metadata } from "next";
 
@@ -20,6 +20,8 @@ export const metadata: Metadata = {
 };
 
 export default function UgcActorPage() {
+    const ugcFaq = faqData["ugc"];
+
     return (
         <div className="pb-20">
             <script
@@ -38,7 +40,15 @@ export default function UgcActorPage() {
                         "offers": {
                             "@type": "Offer",
                             "availability": "https://schema.org/InStock"
-                        }
+                        },
+                        "mainEntity": ugcFaq.map(item => ({
+                            "@type": "Question",
+                            "name": item.question,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": item.answer
+                            }
+                        }))
                     })
                 }}
             />
@@ -77,16 +87,6 @@ export default function UgcActorPage() {
                             </Button>
                         </Link>
                     </div>
-                </Container>
-            </section>
-
-            {/* Trust/Logo Section (Optional placeholder strategy) */}
-            <section className="py-10 border-b bg-muted/10">
-                <Container>
-                    <p className="text-center text-sm font-medium text-muted-foreground mb-6">
-                        Důvěryhodný partner pro agentury i přímé klienty
-                    </p>
-                    {/* Add logos here if available in future */}
                 </Container>
             </section>
 
@@ -142,7 +142,7 @@ export default function UgcActorPage() {
             </section>
 
             {/* Process Section */}
-            <section className="py-20">
+            <section id="process" className="py-20">
                 <Container>
                     <h2 className="text-3xl font-bold mb-12 text-center">Jak probíhá spolupráce?</h2>
                     <div className="grid md:grid-cols-4 gap-8">
@@ -176,11 +176,9 @@ export default function UgcActorPage() {
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                         {portfolioData.filter(p => p.category === "Acting").map((video) => (
-                            <VideoCard key={video.id} video={video} />
+                            <VideoCard key={video.id} video={video} locale="cs" />
                         ))}
                     </div>
-
-
                 </Container>
             </section>
 
@@ -205,20 +203,15 @@ export default function UgcActorPage() {
                 </Container>
             </section>
 
-            {/* FAQ Section - SEO Rich Snippets */}
+            {/* FAQ Section */}
             <section className="py-20 bg-muted/30">
                 <Container className="max-w-3xl">
                     <h2 className="text-3xl font-bold mb-12 text-center">Časté dotazy (FAQ)</h2>
                     <div className="space-y-6">
-                        {[
-                            { q: "Kolik stojí jedno UGC video?", a: "Cena se odvíjí od délky, počtu videí (balíčky jsou výhodnější) a požadavků na produkci. Napište mi o ceník." },
-                            { q: "Musím poslat produkt?", a: "Ano, pro autentické video je potřeba mít produkt fyzicky u sebe. Po natáčení ho mohu zaslat zpět." },
-                            { q: "Za jak dlouho bude video hotové?", a: "Standardně dodávám první náhled do 3-5 pracovních dnů od doručení produktu." },
-                            { q: "Zahrnuje cena i práva k reklamě?", a: "Ano, v ceně jsou obvykle zahrnuta práva pro použití v reklamách (Usage Rights) na 12 měsíců." }
-                        ].map((faq, i) => (
+                        {ugcFaq.map((faq, i) => (
                             <div key={i} className="bg-card p-6 rounded-xl border">
-                                <h3 className="font-bold text-lg mb-2">{faq.q}</h3>
-                                <p className="text-muted-foreground">{faq.a}</p>
+                                <h3 className="font-bold text-lg mb-2">{faq.question}</h3>
+                                <p className="text-muted-foreground">{faq.answer}</p>
                             </div>
                         ))}
                     </div>

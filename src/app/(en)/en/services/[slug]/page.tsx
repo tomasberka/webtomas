@@ -8,7 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import servicesData from "@/content/services-en.json";
 import servicesDataCz from "@/content/services.json";
-import faqData from "@/content/faq.json";
+import faqData from "@/content/faq-en.json";
 import { Check, HelpCircle } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
 
@@ -111,7 +111,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
             <Container>
-                <Link href="/services" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
+                <Link href="/#services" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Back to services
                 </Link>
                 <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

@@ -50,6 +50,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/kontakt" className="hover:text-primary">Kontakt</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
                                         <li><Link href="/ochrana-udaju" className="hover:text-primary">Ochrana údajů</Link></li>
                                     </>
                                 ) : (
@@ -57,6 +58,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
                                         <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
                                     </>
                                 )}

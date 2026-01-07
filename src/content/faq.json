@@ -106,5 +106,23 @@
             "question": "Můžete udělat i dabing?",
             "answer": "Ano, dělám i dabing pro videa, e-learning kurzy nebo animace."
         }
+    ],
+    "ugc": [
+        {
+            "question": "Kolik stojí jedno UGC video?",
+            "answer": "Cena se odvíjí od délky, počtu videí (balíčky jsou výhodnější) a požadavků na produkci. Napište mi o ceník."
+        },
+        {
+            "question": "Musím poslat produkt?",
+            "answer": "Ano, pro autentické video je potřeba mít produkt fyzicky u sebe. Po natáčení ho mohu zaslat zpět."
+        },
+        {
+            "question": "Za jak dlouho bude video hotové?",
+            "answer": "Standardně dodávám první náhled do 3-5 pracovních dnů od doručení produktu."
+        },
+        {
+            "question": "Zahrnuje cena i práva k reklamě?",
+            "answer": "Ano, v ceně jsou obvykle zahrnuta práva pro použití v reklamách (Usage Rights) na 12 měsíců."
+        }
     ]
 }

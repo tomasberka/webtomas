@@ -43,6 +43,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Quiz
                             </Link>
+                            <Link href="/faq" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                FAQ
+                            </Link>
                             <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 O mně
                             </Link>
@@ -78,6 +81,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </Link>
                             <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Quiz
+                            </Link>
+                            <Link href="/faq" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                FAQ
                             </Link>
                             <Link href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 About Me

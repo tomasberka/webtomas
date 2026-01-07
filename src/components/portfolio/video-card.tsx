@@ -15,10 +15,20 @@ interface VideoCardProps {
         orientation?: string;
         thumbnail?: string;
     };
+    locale?: "cs" | "en";
 }
 
-export function VideoCard({ video }: VideoCardProps) {
+export function VideoCard({ video, locale = "cs" }: VideoCardProps) {
     const isVertical = video.orientation === "vertical";
+    const translations = {
+        cs: {
+            notAvailable: "Video není dostupné na YouTube"
+        },
+        en: {
+            notAvailable: "Video not available on YouTube"
+        }
+    };
+    const t = translations[locale];
     return (
         <Card className="overflow-hidden group hover:border-primary/50 transition-all border-border/50 bg-card/50 h-full flex flex-col">
             <div className="relative">
@@ -30,7 +40,7 @@ export function VideoCard({ video }: VideoCardProps) {
                     />
                 ) : (
                     <div className={cn("bg-muted flex items-center justify-center text-muted-foreground w-full", isVertical ? "aspect-[9/16]" : "aspect-video")}>
-                        <span className="text-sm">Video není dostupné na YouTube</span>
+                        <span className="text-sm">{t.notAvailable}</span>
                     </div>
                 )}
                 <div className="absolute top-2 right-2">

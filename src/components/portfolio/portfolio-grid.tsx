@@ -81,7 +81,7 @@ export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
             {/* Grid */}
             <div className={cn("grid gap-6", orientation === "vertical" ? "md:grid-cols-3 lg:grid-cols-4" : "md:grid-cols-2 lg:grid-cols-3")}>
                 {filteredItems.map((item) => (
-                    <VideoCard key={item.id} video={item} />
+                    <VideoCard key={item.id} video={item} locale={locale} />
                 ))}
             </div>
 

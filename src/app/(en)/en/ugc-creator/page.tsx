@@ -2,7 +2,8 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Check, Mic } from "lucide-react";
-import portfolioData from "@/content/portfolio.json";
+import portfolioData from "@/content/portfolio-en.json";
+import faqData from "@/content/faq-en.json";
 import { VideoCard } from "@/components/portfolio/video-card";
 import { Metadata } from "next";
 
@@ -19,6 +20,8 @@ export const metadata: Metadata = {
 };
 
 export default function UgcActorPage() {
+    const ugcFaq = faqData["ugc"];
+
     return (
         <div className="pb-20">
             <script
@@ -37,7 +40,15 @@ export default function UgcActorPage() {
                         "offers": {
                             "@type": "Offer",
                             "availability": "https://schema.org/InStock"
-                        }
+                        },
+                        "mainEntity": ugcFaq.map(item => ({
+                            "@type": "Question",
+                            "name": item.question,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": item.answer
+                            }
+                        }))
                     })
                 }}
             />
@@ -165,7 +176,7 @@ export default function UgcActorPage() {
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                         {portfolioData.filter(p => p.category === "Acting").map((video) => (
-                            <VideoCard key={video.id} video={video} />
+                            <VideoCard key={video.id} video={video} locale="en" />
                         ))}
                     </div>
                 </Container>
@@ -197,15 +208,10 @@ export default function UgcActorPage() {
                 <Container className="max-w-3xl">
                     <h2 className="text-3xl font-bold mb-12 text-center">Frequently Asked Questions (FAQ)</h2>
                     <div className="space-y-6">
-                        {[
-                            { q: "How much does one UGC video cost?", a: "The price depends on the length, number of videos (packages are more cost-effective), and production requirements. Contact me for a price list." },
-                            { q: "Do I have to send the product?", a: "Yes, for an authentic video it's necessary to have the product physically. I can send it back after filming." },
-                            { q: "How long will the video take?", a: "Standardly I deliver the first preview within 3-5 working days of receiving the product." },
-                            { q: "Does the price include advertising rights?", a: "Yes, the price usually includes usage rights for ads (Usage Rights) for 12 months." }
-                        ].map((faq, i) => (
+                        {ugcFaq.map((faq, i) => (
                             <div key={i} className="bg-card p-6 rounded-xl border">
-                                <h3 className="font-bold text-lg mb-2">{faq.q}</h3>
-                                <p className="text-muted-foreground">{faq.a}</p>
+                                <h3 className="font-bold text-lg mb-2">{faq.question}</h3>
+                                <p className="text-muted-foreground">{faq.answer}</p>
                             </div>
                         ))}
                     </div>

@@ -27,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '/portfolio', priority: 0.7, changefreq: 'weekly' as const },
         { route: '/kontakt', priority: 0.7, changefreq: 'monthly' as const },
         { route: '/reels-quiz', priority: 0.7, changefreq: 'monthly' as const },
+        { route: '/faq', priority: 0.7, changefreq: 'monthly' as const },
 
         // Priority 0.6 - Tertiary pages
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },

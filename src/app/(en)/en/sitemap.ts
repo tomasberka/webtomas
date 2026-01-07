@@ -21,12 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 0.8 - Main content pages
         { route: '/about', priority: 0.8, changefreq: 'monthly' as const },
         { route: '/case-studies', priority: 0.8, changefreq: 'weekly' as const },
-        { route: '/services', priority: 0.8, changefreq: 'monthly' as const },
 
         // Priority 0.7 - Secondary pages
         { route: '/portfolio', priority: 0.7, changefreq: 'weekly' as const },
         { route: '/contact', priority: 0.7, changefreq: 'monthly' as const },
         { route: '/reels-quiz', priority: 0.7, changefreq: 'monthly' as const },
+        { route: '/faq', priority: 0.7, changefreq: 'monthly' as const },
 
         // Priority 0.6 - Tertiary pages
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },

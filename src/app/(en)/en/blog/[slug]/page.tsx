@@ -164,7 +164,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                             <Link href="/booking">
                                 <Button size="lg">I want a video that sells</Button>
                             </Link>
-                            <Link href="/services">
+                            <Link href="/#services">
                                 <Button variant="outline" size="lg">View Services</Button>
                             </Link>
                         </div>

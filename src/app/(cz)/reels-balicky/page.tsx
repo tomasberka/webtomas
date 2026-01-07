@@ -1,10 +1,9 @@
-import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check, HelpCircle } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { HelpCircle } from "lucide-react";
 import Link from "next/link";
 import packagesData from "@/content/packages.json";
-import { cn } from "@/lib/utils";
+import faqData from "@/content/faq.json";
 import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
@@ -21,6 +20,8 @@ export const metadata: Metadata = {
 };
 
 export default function ReelsPackagesPage() {
+    const reelsFaq = faqData["reels-balicky"];
+
     return (
         <div className="py-12 md:py-24">
             <script
@@ -29,32 +30,14 @@ export default function ReelsPackagesPage() {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "FAQPage",
-                        "mainEntity": [
-                            {
-                                "@type": "Question",
-                                "name": "Jak probíhá natáčení?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Přijedu za vámi s kompletní technikou. Během 4 hodin natočíme materiály na celý měsíc. Vy jen mluvíte, já se starám o zbytek."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Co když nemám nápady na scénáře?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "To nevadí! Součástí balíčků Růst a Dominance je tvorba strategie a scénářů. Společně vymyslíme témata, která budou vaše publikum bavit."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                "name": "Mohu použít videa i na LinkedIn?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "Ano, vertikální videa (9:16) fungují skvěle na Instagramu, TikToku, YouTube Shorts i LinkedInu. Dodám vám formáty připravené pro všechny sítě."
-                                }
+                        "mainEntity": reelsFaq.map(item => ({
+                            "@type": "Question",
+                            "name": item.question,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": item.answer
                             }
-                        ]
+                        }))
                     })
                 }}
             />
@@ -76,30 +59,19 @@ export default function ReelsPackagesPage() {
                 <div className="max-w-3xl mx-auto">
                     <h2 className="text-3xl font-bold mb-8 text-center">Časté dotazy</h2>
                     <div className="space-y-4">
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-lg flex items-center gap-2"><HelpCircle className="h-5 w-5 text-muted-foreground" /> Jak probíhá natáčení?</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-muted-foreground">
-                                Přijedu za vámi s kompletní technikou. Během 4 hodin natočíme materiály na celý měsíc. Vy jen mluvíte, já se starám o zbytek.
-                            </CardContent>
-                        </Card>
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-lg flex items-center gap-2"><HelpCircle className="h-5 w-5 text-muted-foreground" /> Co když nemám nápady na scénáře?</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-muted-foreground">
-                                To nevadí! Součástí balíčků Růst a Dominance je tvorba strategie a scénářů. Společně vymyslíme témata, která budou vaše publikum bavit.
-                            </CardContent>
-                        </Card>
-                        <Card>
-                            <CardHeader>
-                                <CardTitle className="text-lg flex items-center gap-2"><HelpCircle className="h-5 w-5 text-muted-foreground" /> Mohu použít videa i na LinkedIn?</CardTitle>
-                            </CardHeader>
-                            <CardContent className="text-muted-foreground">
-                                Ano, vertikální videa (9:16) fungují skvěle na Instagramu, TikToku, YouTube Shorts i LinkedInu. Dodám vám formáty připravené pro všechny sítě.
-                            </CardContent>
-                        </Card>
+                        {reelsFaq.map((item, i) => (
+                            <Card key={i}>
+                                <CardHeader>
+                                    <CardTitle className="text-lg flex items-center gap-2">
+                                        <HelpCircle className="h-5 w-5 text-muted-foreground" />
+                                        {item.question}
+                                    </CardTitle>
+                                </CardHeader>
+                                <CardContent className="text-muted-foreground">
+                                    {item.answer}
+                                </CardContent>
+                            </Card>
+                        ))}
                     </div>
                 </div>
             </Container>
