@@ -16,7 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '/promo-3-reels', priority: 0.95, changefreq: 'daily' as const },
 
         // Priority 0.9 - Conversion pages
-        { route: '/reels-packages', priority: 0.9, changefreq: 'weekly' as const },
         { route: '/booking', priority: 0.9, changefreq: 'monthly' as const },
 
         // Priority 0.8 - Main content pages
@@ -33,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },
         { route: '/partner-socialvids', priority: 0.6, changefreq: 'monthly' as const },
         { route: '/ugc-creator', priority: 0.6, changefreq: 'monthly' as const },
+        { route: '/privacy-policy', priority: 0.3, changefreq: 'yearly' as const },
     ].map(({ route, priority, changefreq }) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
