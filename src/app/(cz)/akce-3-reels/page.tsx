@@ -6,6 +6,7 @@ import { Check, Clock, Users, Video, Camera, Sparkles, ArrowRight } from "lucide
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export const metadata: Metadata = {
     title: "Akce 3 Reels + 15 fotek za 15 000 Kč | Já jsem Tomáš",
@@ -36,9 +37,9 @@ export default function PromoPage() {
 
                     {/* Main headline */}
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[0.9]">
-                        <span className="block text-white">Prémiový obsah</span>
+                        <span className="block text-white">Získejte zákazníky</span>
                         <span className="block mt-2 bg-gradient-to-r from-amber-300 via-orange-400 to-amber-300 bg-clip-text text-transparent">
-                            za cenu case study
+                            přes prémiová Reels
                         </span>
                     </h1>
 
@@ -51,9 +52,9 @@ export default function PromoPage() {
                     </div>
 
                     {/* Subtitle */}
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-                        Chceme s kolegou Kimlou rozšířit portfolio o <strong className="text-foreground">Reality, Kliniky, Právo a Development</strong>.
-                        Výměnou za vaši referenci získáte naši plnou produkci za zlomek běžné ceny.
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+                        Hledáme reference z těchto oborů: <strong className="text-foreground">Reality, Kliniky, Právo, Development</strong> a jakýkoliv <strong className="text-foreground">showroom nebo obchod s duší</strong>. Získáte
+                        produkci za cenu, která se nebude opakovat.
                     </p>
 
                     {/* Availability boxes */}
@@ -75,12 +76,14 @@ export default function PromoPage() {
                     </div>
 
                     {/* CTA */}
-                    <Link href="/rezervace">
-                        <Button size="lg" className="text-xl h-16 px-12 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-400 hover:via-orange-400 hover:to-amber-400 text-white font-bold shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all hover:-translate-y-1 hover:scale-105">
-                            📅 Chci jedno z míst
-                            <ArrowRight className="ml-2 h-6 w-6" />
-                        </Button>
-                    </Link>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link href="/rezervace">
+                            <Button size="lg" className="text-xl h-16 px-12 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-400 hover:via-orange-400 hover:to-amber-400 text-white font-bold shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all hover:-translate-y-1 hover:scale-105">
+                                📅 Chci jedno z míst
+                            </Button>
+                        </Link>
+                        <WhatsAppButton text="Napsat na WhatsApp" className="h-16 px-8 text-xl" />
+                    </div>
                 </Container>
             </section>
 

@@ -6,6 +6,7 @@ import { Check, Clock, Users, Video, Camera, Sparkles, ArrowRight } from "lucide
 import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export const metadata: Metadata = {
     title: "Promo: 3 Reels + 15 Photos for £1,000 | I am Tomas",
@@ -36,9 +37,9 @@ export default function PromoPage() {
 
                     {/* Main headline */}
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[0.9]">
-                        <span className="block text-white">Premium Content</span>
+                        <span className="block text-white">Get More Leads</span>
                         <span className="block mt-2 bg-gradient-to-r from-amber-300 via-orange-400 to-amber-300 bg-clip-text text-transparent">
-                            at Case Study Price
+                            Through Premium Reels
                         </span>
                     </h1>
 
@@ -51,9 +52,9 @@ export default function PromoPage() {
                     </div>
 
                     {/* Subtitle */}
-                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-                        My colleague Kimla and I are looking to expand our London portfolio with <strong className="text-foreground">Real Estate, High-end Clinics, and Professional Services</strong>.
-                        Get a full production for a fraction of the standard price in exchange for a case study.
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
+                        Expanding our London portfolio in: <strong className="text-foreground">Real Estate, Clinics, Law</strong> and <strong className="text-foreground">Showrooms with soul</strong>. Get elite production at a
+                        price that won't happen again.
                     </p>
 
                     {/* Availability boxes */}
@@ -75,12 +76,14 @@ export default function PromoPage() {
                     </div>
 
                     {/* CTA */}
-                    <Link href="/booking">
-                        <Button size="lg" className="text-xl h-16 px-12 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-400 hover:via-orange-400 hover:to-amber-400 text-white font-bold shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all hover:-translate-y-1 hover:scale-105">
-                            📅 I want one of the spots
-                            <ArrowRight className="ml-2 h-6 w-6" />
-                        </Button>
-                    </Link>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link href="/booking">
+                            <Button size="lg" className="text-xl h-16 px-12 bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 hover:from-amber-400 hover:via-orange-400 hover:to-amber-400 text-white font-bold shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 transition-all hover:-translate-y-1 hover:scale-105">
+                                📅 Book Your Spot
+                            </Button>
+                        </Link>
+                        <WhatsAppButton text="Chat on WhatsApp" className="h-16 px-8 text-xl" />
+                    </div>
                 </Container>
             </section>
 
