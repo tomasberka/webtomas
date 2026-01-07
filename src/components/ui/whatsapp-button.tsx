@@ -8,17 +8,25 @@ interface WhatsAppButtonProps {
     variant?: "default" | "outline" | "secondary";
     size?: "default" | "sm" | "lg" | "icon";
     text?: string;
+    locale?: "cs" | "en";
 }
 
 export function WhatsAppButton({
     className,
     variant = "default",
     size = "lg",
-    text = "Napsat na WhatsApp"
+    text,
+    locale = "cs"
 }: WhatsAppButtonProps) {
     const phoneNumber = "420735846329";
-    const message = encodeURIComponent("Ahoj Tomáši, mám zájem o Case Study Program (3 Reels + 15 fotek).");
+    const message = encodeURIComponent(
+        locale === "en"
+            ? "Hi Tomas, I'm interested in the Case Study Program (3 Reels + 15 photos)."
+            : "Ahoj Tomáši, mám zájem o Case Study Program (3 Reels + 15 fotek)."
+    );
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+
+    const defaultText = locale === "en" ? "Chat on WhatsApp" : "Napsat na WhatsApp";
 
     return (
         <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
@@ -32,8 +40,9 @@ export function WhatsAppButton({
                 )}
             >
                 <MessageCircle className="w-5 h-5 fill-current" />
-                {text}
+                {text || defaultText}
             </Button>
         </Link>
     );
 }
+

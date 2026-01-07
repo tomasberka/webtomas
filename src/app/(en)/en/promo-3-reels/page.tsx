@@ -82,7 +82,7 @@ export default function PromoPage() {
                                 📅 Book Your Spot
                             </Button>
                         </Link>
-                        <WhatsAppButton text="Chat on WhatsApp" className="h-16 px-8 text-xl" />
+                        <WhatsAppButton text="Chat on WhatsApp" className="h-16 px-8 text-xl" locale="en" />
                     </div>
                 </Container>
             </section>
@@ -391,7 +391,7 @@ export default function PromoPage() {
                             My colleague Kimla (SocialVids) and I want to expand our portfolio with case studies from the London market.
                         </p>
                         <p className="text-lg text-muted-foreground mb-8">
-                            In exchange for a <strong className="text-foreground">£200 discount</strong>, we get references and work samples that we can showcase. This is a full-service production by our standard two-person team.
+                            In exchange for a <strong className="text-foreground">£500 discount</strong>, we get references and work samples that we can showcase. This is a full-service production by our standard two-person team.
                         </p>
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-300 px-4 py-2 rounded-full text-sm">
                             <span>📋</span>
