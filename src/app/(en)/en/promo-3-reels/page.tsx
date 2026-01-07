@@ -45,9 +45,9 @@ export default function PromoPage() {
 
                     {/* Price comparison */}
                     <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">£1,200</span>
+                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">£1,500</span>
                         <span className="bg-green-500/20 text-green-400 font-bold px-3 py-1 rounded-full text-sm">
-                            SAVE £200
+                            SAVE £500
                         </span>
                     </div>
 
