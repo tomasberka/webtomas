@@ -8,7 +8,7 @@ import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 
-const inter = Inter({ subsets: ["latin", "latin-ext"] });
+const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://en.jajsemtomas.cz"),
@@ -67,6 +67,14 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="dark" suppressHydrationWarning>
+            <head>
+                {/* Preconnect for faster external resource loading */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                <link rel="preconnect" href="https://www.googletagmanager.com" />
+                <link rel="dns-prefetch" href="https://img.youtube.com" />
+                <link rel="dns-prefetch" href="https://www.youtube.com" />
+            </head>
             <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
                 {/* Cookie Banner - reusing CZ one for now or should be localized? 
             CookieBanner component might need localization too. 

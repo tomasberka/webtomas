@@ -9,7 +9,7 @@ import { CookieBanner } from "@/components/ui/cookie-banner";
 import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 
-const inter = Inter({ subsets: ["latin", "latin-ext"] });
+const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jajsemtomas.cz"),
@@ -68,6 +68,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="cs" className="dark" suppressHydrationWarning>
+      <head>
+        {/* Preconnect for faster external resource loading */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://img.youtube.com" />
+        <link rel="dns-prefetch" href="https://www.youtube.com" />
+      </head>
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")} suppressHydrationWarning>
         {/* Cookie Banner */}
         <CookieBanner />
