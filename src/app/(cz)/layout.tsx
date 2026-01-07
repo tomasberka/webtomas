@@ -13,6 +13,13 @@ const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jajsemtomas.cz"),
+  alternates: {
+    canonical: "https://jajsemtomas.cz",
+    languages: {
+      'cs': 'https://jajsemtomas.cz',
+      'en': 'https://en.jajsemtomas.cz',
+    },
+  },
   title: {
     default: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
     template: "%s | Já jsem Tomáš",
