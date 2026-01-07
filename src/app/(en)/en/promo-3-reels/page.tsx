@@ -30,30 +30,30 @@ export default function PromoPage() {
                 <Container className="relative text-center max-w-5xl">
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 rounded-full border-2 border-amber-500/40 bg-amber-500/10 backdrop-blur-sm px-5 py-2 text-sm font-bold text-amber-300 mb-8 animate-pulse shadow-lg shadow-amber-500/20">
-                        <span className="text-xl">🔥</span>
-                        <span>LIMITED OFFER – Only 3 spots available</span>
+                        <Sparkles className="h-4 w-4" />
+                        <span>CASE STUDY PROGRAM – Luxury Real Estate, Clinics & Law</span>
                     </div>
 
                     {/* Main headline */}
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[0.9]">
-                        <span className="block text-white">3 Reels + 15 Photos</span>
+                        <span className="block text-white">Premium Content</span>
                         <span className="block mt-2 bg-gradient-to-r from-amber-300 via-orange-400 to-amber-300 bg-clip-text text-transparent">
-                            for £1,000
+                            at Case Study Price
                         </span>
                     </h1>
 
                     {/* Price comparison */}
                     <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">£1,500</span>
+                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">£1,200</span>
                         <span className="bg-green-500/20 text-green-400 font-bold px-3 py-1 rounded-full text-sm">
-                            SAVE £500
+                            SAVE £200
                         </span>
                     </div>
 
                     {/* Subtitle */}
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-                        I'm looking for <strong className="text-foreground">3 bold companies</strong> wanting to stand out
-                        on social media. Full-service production in London.
+                        My colleague Kimla and I are looking to expand our London portfolio with <strong className="text-foreground">Real Estate, High-end Clinics, and Professional Services</strong>.
+                        Get a full production for a fraction of the standard price in exchange for a case study.
                     </p>
 
                     {/* Availability boxes */}
@@ -167,11 +167,11 @@ export default function PromoPage() {
                         </div>
                         <div className="bg-card/50 border rounded-xl p-4 text-center">
                             <Users className="h-6 w-6 text-primary mx-auto mb-2" />
-                            <div className="font-medium text-sm">Personal Approach</div>
+                            <div className="font-medium text-sm">Optimized Team (2 People)</div>
                         </div>
                         <div className="bg-card/50 border rounded-xl p-4 text-center">
                             <Check className="h-6 w-6 text-primary mx-auto mb-2" />
-                            <div className="font-medium text-sm">6-7h Shooting</div>
+                            <div className="font-medium text-sm">Premium Quality Guaranteed</div>
                         </div>
                     </div>
                 </Container>
@@ -295,7 +295,7 @@ export default function PromoPage() {
                                     <div className="h-px flex-1 bg-gradient-to-r from-orange-500/50 to-transparent" />
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Shooting Day</h3>
-                                <p className="text-sm text-muted-foreground">6-7 hours at your location or my studio – you just talk, I handle the rest</p>
+                                <p className="text-sm text-muted-foreground">6 hours at your location or my studio – you just talk, I handle the rest</p>
                             </div>
                         </div>
 
@@ -319,14 +319,16 @@ export default function PromoPage() {
             <section className="py-16 md:py-20">
                 <Container className="max-w-3xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">Why This Offer?</h2>
-                    <div className="bg-card/50 border rounded-2xl p-8 md:p-10">
-                        <p className="text-lg text-muted-foreground mb-4">
-                            I want to expand my portfolio with case studies from the London market.
-                            In exchange for the <strong className="text-foreground">£500 discount</strong>, I get references and work samples.
+                    <div className="bg-card/50 border rounded-2xl p-8 md:p-10 text-left">
+                        <p className="text-lg text-muted-foreground mb-6">
+                            My colleague Kimla (SocialVids) and I want to expand our portfolio with case studies from the London market.
+                        </p>
+                        <p className="text-lg text-muted-foreground mb-8">
+                            In exchange for a <strong className="text-foreground">£200 discount</strong>, we get references and work samples that we can showcase. This is a full-service production by our standard two-person team.
                         </p>
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-300 px-4 py-2 rounded-full text-sm">
                             <span>📋</span>
-                            <span><strong>Condition:</strong> You agree to let me use the content in my portfolio</span>
+                            <span><strong>Condition:</strong> You agree to let us use the content in our portfolio</span>
                         </div>
                     </div>
                 </Container>

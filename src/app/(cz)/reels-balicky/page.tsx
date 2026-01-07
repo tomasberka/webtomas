@@ -9,7 +9,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Reels Balíčky Praha | Tvorba TikTok & Instagram Videí pro Firmy",
-    description: "📹 Profesionální tvorba Reels a TikTok videí v Praze. 4-8 videí za jeden natáčecí den. Strategie, scénáře, produkce na klíč. Konzultace zdarma.",
+    description: "📹 Profesionální tvorba Reels a TikTok videí v Praze. 3-8 videí za jeden natáčecí den. Strategie, scénáře, produkce na klíč. Konzultace zdarma.",
     keywords: ["reels tvorba praha", "tiktok videa pro firmy", "video marketing praha", "instagram reels produkce", "kameraman praha", "video produkce brno"],
     alternates: {
         canonical: "https://jajsemtomas.cz/reels-balicky",

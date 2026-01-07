@@ -30,30 +30,30 @@ export default function PromoPage() {
                 <Container className="relative text-center max-w-5xl">
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 rounded-full border-2 border-amber-500/40 bg-amber-500/10 backdrop-blur-sm px-5 py-2 text-sm font-bold text-amber-300 mb-8 animate-pulse shadow-lg shadow-amber-500/20">
-                        <span className="text-xl">🔥</span>
-                        <span>LIMITOVANÁ AKCE – Pouze pro 3 firmy</span>
+                        <Sparkles className="h-4 w-4" />
+                        <span>CASE STUDY PROGRAM – Pouze pro 4 vybrané obory</span>
                     </div>
 
                     {/* Main headline */}
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[0.9]">
-                        <span className="block text-white">3 Reels + 15 fotek</span>
+                        <span className="block text-white">Prémiový obsah</span>
                         <span className="block mt-2 bg-gradient-to-r from-amber-300 via-orange-400 to-amber-300 bg-clip-text text-transparent">
-                            za 15 000 Kč
+                            za cenu case study
                         </span>
                     </h1>
 
                     {/* Price comparison */}
                     <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">21 000 Kč</span>
+                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">25 000 Kč</span>
                         <span className="bg-green-500/20 text-green-400 font-bold px-3 py-1 rounded-full text-sm">
-                            UŠETŘÍTE 6 000 Kč
+                            UŠETŘÍTE 10 000 Kč
                         </span>
                     </div>
 
                     {/* Subtitle */}
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
-                        Hledám <strong className="text-foreground">3 odvážné firmy</strong>, které chtějí vyniknout
-                        na sociálních sítích. Kompletní produkce na klíč.
+                        Chceme s kolegou Kimlou rozšířit portfolio o <strong className="text-foreground">Reality, Kliniky, Právo a Development</strong>.
+                        Výměnou za vaši referenci získáte naši plnou produkci za zlomek běžné ceny.
                     </p>
 
                     {/* Availability boxes */}
@@ -167,11 +167,11 @@ export default function PromoPage() {
                         </div>
                         <div className="bg-card/50 border rounded-xl p-4 text-center">
                             <Users className="h-6 w-6 text-primary mx-auto mb-2" />
-                            <div className="font-medium text-sm">Osobní přístup</div>
+                            <div className="font-medium text-sm">Optimalizovaný tým (2 lidé)</div>
                         </div>
                         <div className="bg-card/50 border rounded-xl p-4 text-center">
                             <Check className="h-6 w-6 text-primary mx-auto mb-2" />
-                            <div className="font-medium text-sm">6-7h natáčení</div>
+                            <div className="font-medium text-sm">Prémiová kvalita zaručena</div>
                         </div>
                     </div>
                 </Container>
@@ -295,7 +295,7 @@ export default function PromoPage() {
                                     <div className="h-px flex-1 bg-gradient-to-r from-orange-500/50 to-transparent" />
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Natočíme a nafotíme</h3>
-                                <p className="text-sm text-muted-foreground">6-7 hodin u vás nebo v mém studiu – vy jen mluvíte, já se starám</p>
+                                <p className="text-sm text-muted-foreground">6 hodin u vás nebo v mém studiu – vy jen mluvíte, já se starám</p>
                             </div>
                         </div>
 
@@ -319,14 +319,16 @@ export default function PromoPage() {
             <section className="py-16 md:py-20">
                 <Container className="max-w-3xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">Proč tato akce?</h2>
-                    <div className="bg-card/50 border rounded-2xl p-8 md:p-10">
-                        <p className="text-lg text-muted-foreground mb-4">
-                            Chci rozšířit své portfolio o nové case studies z různých odvětví.
-                            Výměnou za slevu <strong className="text-foreground">6 000 Kč</strong> získám reference a ukázky práce.
+                    <div className="bg-card/50 border rounded-2xl p-8 md:p-10 text-left">
+                        <p className="text-lg text-muted-foreground mb-6">
+                            Chceme s kolegou Kimlou (SocialVids) rozšířit naše portfolio o nové case studies z konkrétních odvětví (Reality, Kliniky, Právo, Development).
+                        </p>
+                        <p className="text-lg text-muted-foreground mb-8">
+                            Výměnou za slevu <strong className="text-foreground">10 000 Kč</strong> získáme reference a ukázky práce, které můžeme veřejně prezentovat. Jde o plnohodnotnou produkci v našem standardním dvoučlenném složení.
                         </p>
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-300 px-4 py-2 rounded-full text-sm">
                             <span>📋</span>
-                            <span><strong>Podmínka:</strong> Souhlasíte s použitím obsahu v mém portfoliu</span>
+                            <span><strong>Podmínka:</strong> Souhlasíte s použitím obsahu v našem portfoliu</span>
                         </div>
                     </div>
                 </Container>
@@ -345,9 +347,9 @@ export default function PromoPage() {
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">
                         Nečekejte, až bude pozdě
                     </h2>
-                    <p className="text-xl text-muted-foreground mb-10">
-                        Akce platí do obsazení všech míst.<br />
-                        Rezervujte si call zdarma a zajistěte si své místo.
+                    <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8">
+                        Vytvořím vám měsíc obsahu, který buduje jméno a prodává.
+                        <strong> Ideální pro: Reality, Kliniky, Právo, Development.</strong>
                     </p>
 
                     <Link href="/rezervace">

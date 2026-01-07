@@ -127,7 +127,7 @@ export default function Home() {
             🚀 Video produkce, co má výsledky
           </div>
           <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-            4 až 8 Reels za <br className="hidden md:block" />
+            3 až 8 Reels za <br className="hidden md:block" />
             <span className="text-primary">jeden natáčecí den.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
@@ -228,7 +228,7 @@ export default function Home() {
 
                 <p className="text-xl text-muted-foreground">
                   Získejte kompletní obsah na měsíc s výraznou slevou.
-                  Potřebuji nové case studies, vy ušetříte 6 000 Kč.
+                  Potřebuji nové case studies, vy ušetříte 10 000 Kč.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -265,7 +265,7 @@ export default function Home() {
                     </div>
                     <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
                       <div className="text-sm font-medium text-green-600 mb-1">Ušetříte</div>
-                      <div className="text-3xl font-black text-green-600">6tis.</div>
+                      <div className="text-3xl font-black text-green-600">10tis.</div>
                     </div>
                   </div>
                 </div>
@@ -289,7 +289,7 @@ export default function Home() {
               Žádné složité přípravy pro vás – přijedu, natočíme, a do týdne máte hotová videa, která můžete postovat celý měsíc.
             </p>
             <ul className="space-y-3 pt-2">
-              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 4 až 8 Reels videí</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 3 až 8 Reels videí</li>
               <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Scénáře a režie v ceně</li>
               <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Okamžité použití na sítě</li>
             </ul>
