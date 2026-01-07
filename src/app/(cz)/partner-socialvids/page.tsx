@@ -8,6 +8,12 @@ import { Globe, Users, Video, Camera, Scissors, Radio, MapPin, Image as ImageIco
 export const metadata = {
     title: "Partner SocialVids | Velké Produkce & Eventy | Já jsem Tomáš",
     description: "Spolupráce se SocialVids pro event videografii, živá vysílání a mezinárodní projekty v 10+ zemích. Konference, bootcampy, award ceremonies.",
+    alternates: {
+        canonical: "https://jajsemtomas.cz/partner-socialvids",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/partner-socialvids"
+        }
+    }
 };
 
 const services = [

@@ -3,6 +3,12 @@ import { Container } from "@/components/ui/container";
 export const metadata = {
     title: "Privacy Policy | I am Tomas",
     description: "Information about personal data processing and the use of cookies.",
+    alternates: {
+        canonical: "https://en.jajsemtomas.cz/privacy-policy",
+        languages: {
+            "cs": "https://jajsemtomas.cz/ochrana-udaju"
+        }
+    }
 };
 
 export default function PrivacyPolicyPage() {

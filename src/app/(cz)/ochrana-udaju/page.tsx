@@ -4,6 +4,12 @@ import { Container } from "@/components/ui/container";
 export const metadata = {
     title: "Ochrana osobních údajů | Já jsem Tomáš",
     description: "Informace o zpracování osobních údajů a používání souborů cookies.",
+    alternates: {
+        canonical: "https://jajsemtomas.cz/ochrana-udaju",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/privacy-policy"
+        }
+    }
 };
 
 export default function PrivacyPolicyPage() {

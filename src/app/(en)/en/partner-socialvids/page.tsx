@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     description: "Collaboration with SocialVids for event videography, live streaming, and international projects across 10+ countries. Conferences, bootcamps, award ceremonies.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/partner-socialvids",
+        languages: {
+            "cs": "https://jajsemtomas.cz/partner-socialvids"
+        }
     },
     openGraph: {
         title: "Partner SocialVids | Large Productions & Events | I am Tomas",

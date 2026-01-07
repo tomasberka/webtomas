@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +5,18 @@ import { VideoPlayer } from "@/components/ui/video-player";
 import { Check, Clock, Users, Video, Camera, Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Akce 3 Reels + 15 fotek za 15 000 Kč | Já jsem Tomáš",
+    description: "🔥 Speciální nabídka pro 3 firmy. Kompletní video produkce na klíč za zvýhodněnou cenu. Podívejte se na výsledky Easy Optic.",
+    alternates: {
+        canonical: "https://jajsemtomas.cz/akce-3-reels",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/promo-3-reels"
+        }
+    }
+};
 
 export default function PromoPage() {
     return (

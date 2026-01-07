@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +5,18 @@ import { VideoPlayer } from "@/components/ui/video-player";
 import { Check, Clock, Users, Video, Camera, Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Promo: 3 Reels + 15 Photos for £1,000 | I am Tomas",
+    description: "🔥 Special offer for 3 companies in London. Complete video production at a discounted price. See the results of Easy Optic.",
+    alternates: {
+        canonical: "https://en.jajsemtomas.cz/promo-3-reels",
+        languages: {
+            "cs": "https://jajsemtomas.cz/akce-3-reels"
+        }
+    }
+};
 
 export default function PromoPage() {
     return (
