@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import servicesData from "@/content/services-en.json";
+import servicesDataCz from "@/content/services.json";
 import faqData from "@/content/faq.json";
 import { Check, HelpCircle } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
@@ -21,6 +22,10 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
     const { slug } = await params;
     const service = servicesData.find((s) => s.slug === `services/${slug}` || s.slug === slug);
 
+    // Find corresponding CZ service for hreflang
+    const czService = servicesDataCz.find(s => s.id === service?.id);
+    const czSlug = czService?.slug;
+
     if (!service) {
         return {
             title: "Service Not Found | I am Tomas",
@@ -34,7 +39,14 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
             title: `${service.title} | I am Tomas`,
             description: service.description,
             type: "website",
-        }
+        },
+        alternates: {
+            canonical: `https://en.jajsemtomas.cz/${service.slug}`,
+            languages: {
+                'en': `https://en.jajsemtomas.cz/${service.slug}`,
+                'cs': czSlug ? `https://jajsemtomas.cz/${czSlug}` : "https://jajsemtomas.cz",
+            },
+        },
     };
 }
 
