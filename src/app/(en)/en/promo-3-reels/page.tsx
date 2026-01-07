@@ -180,6 +180,70 @@ export default function PromoPage() {
                 </Container>
             </section>
 
+            {/* Strategic Value Section */}
+            <section className="py-20 md:py-32 bg-black text-white overflow-hidden relative">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent opacity-50" />
+                <Container className="relative">
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                        <div>
+                            <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
+                                Why these Reels <br />
+                                <span className="text-amber-400">will pay for themselves in a week</span>
+                            </h2>
+                            <div className="space-y-6">
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Real Estate & Development</h3>
+                                        <p className="text-zinc-400 leading-relaxed">Video sells the emotion. People don't buy square meters; they buy a lifestyle. A well-crafted Reel can cut your sales cycle by weeks.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Clinics & Services</h3>
+                                        <p className="text-zinc-400 leading-relaxed">It's all about trust. When patients see you speak, their anxiety drops and booking rates climb. Reels are the most cost-effective way to get into their pockets.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Showrooms & Shops with Soul</h3>
+                                        <p className="text-zinc-400 leading-relaxed">We showcase the "soul" of your space. The atmosphere, the details, the uniqueness. We turn your shop into a destination people want to visit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Social Proof Box */}
+                        <div className="relative group text-left">
+                            <div className="absolute -inset-2 bg-gradient-to-r from-amber-500 to-orange-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
+                            <Card className="relative bg-zinc-900 border-zinc-800 p-8 md:p-10 text-white rounded-3xl">
+                                <div className="flex gap-1 mb-4">
+                                    {[1, 2, 3, 4, 5].map((s) => <span key={s} className="text-amber-400" aria-hidden="true">★</span>)}
+                                </div>
+                                <p className="text-xl italic leading-relaxed mb-8 text-zinc-300">
+                                    "In the real estate business, Tomas helped me with <strong>faster property sales</strong> and reaching new investors. I appreciate his professional approach and speed."
+                                </p>
+                                <div className="flex items-center gap-4">
+                                    <div className="h-14 w-14 rounded-full bg-amber-500/20 flex items-center justify-center border border-amber-500/30 font-bold text-amber-400">PH</div>
+                                    <div>
+                                        <div className="font-bold text-lg text-white">Patrik Horenovsky</div>
+                                        <div className="text-sm text-zinc-500">Manager & Real Estate Investor</div>
+                                    </div>
+                                </div>
+                            </Card>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
             {/* Easy Optic Showcase */}
             <section className="py-20 md:py-28 bg-gradient-to-b from-muted/30 to-background">
                 <Container>

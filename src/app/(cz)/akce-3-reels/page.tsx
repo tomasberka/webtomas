@@ -180,6 +180,70 @@ export default function PromoPage() {
                 </Container>
             </section>
 
+            {/* Strategic Value Section */}
+            <section className="py-20 md:py-32 bg-black text-white overflow-hidden relative">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent opacity-50" />
+                <Container className="relative">
+                    <div className="grid lg:grid-cols-2 gap-16 items-center">
+                        <div>
+                            <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
+                                Proč tyto Reels <br />
+                                <span className="text-amber-400">reálně zaplatíte za týden?</span>
+                            </h2>
+                            <div className="space-y-6">
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Reality & Development</h3>
+                                        <p className="text-zinc-400 leading-relaxed">Video prodává emoci. Lidé nekupují metry čtvereční, ale životní styl. Jedno dobře udělané Reel může zkrátit dobu prodeje o týdny.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Kliniky & Služby</h3>
+                                        <p className="text-zinc-400 leading-relaxed">Budujete důvěru. Když vás lidé vidí mluvit, přestanou se bát a objednají se. Reels jsou nejlevnější cesta, jak se dostat do telefonu tisíců lidí.</p>
+                                    </div>
+                                </div>
+                                <div className="flex gap-4">
+                                    <div className="h-12 w-12 rounded-full bg-amber-500/20 flex items-center justify-center shrink-0 border border-amber-500/30">
+                                        <Sparkles className="h-6 w-6 text-amber-400" />
+                                    </div>
+                                    <div>
+                                        <h3 className="text-xl font-bold mb-2">Showroomy & Obchody s duší</h3>
+                                        <p className="text-zinc-400 leading-relaxed">Ukážeme "duši" vašeho místa. Atmosféru, detaily, unikátnost. Uděláme z vašeho obchodu cíl, kam lidé chtějí přijet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Social Proof Box */}
+                        <div className="relative group text-left">
+                            <div className="absolute -inset-2 bg-gradient-to-r from-amber-500 to-orange-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
+                            <Card className="relative bg-zinc-900 border-zinc-800 p-8 md:p-10 text-white rounded-3xl">
+                                <div className="flex gap-1 mb-4">
+                                    {[1, 2, 3, 4, 5].map((s) => <span key={s} className="text-amber-400" aria-hidden="true">★</span>)}
+                                </div>
+                                <p className="text-xl italic leading-relaxed mb-8 text-zinc-300">
+                                    "V realitním byznysu mi Tomáš pomohl k <strong>rychlejšímu prodeji nabízených nemovitostí</strong> a oslovení nových investorů. Oceňuji zodpovědný přístup a rychlost."
+                                </p>
+                                <div className="flex items-center gap-4">
+                                    <div className="h-14 w-14 rounded-full bg-amber-500/20 flex items-center justify-center border border-amber-500/30 font-bold text-amber-400">PH</div>
+                                    <div>
+                                        <div className="font-bold text-lg text-white">Patrik Hořeňovský</div>
+                                        <div className="text-sm text-zinc-500">Manažer & Realitní investor</div>
+                                    </div>
+                                </div>
+                            </Card>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
             {/* Easy Optic Showcase */}
             <section className="py-20 md:py-28 bg-gradient-to-b from-muted/30 to-background">
                 <Container>
