@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '',
         '/akce-3-reels',
         '/reels-balicky',
-        '/sluzby',
         '/portfolio',
         '/pripadove-studie',
         '/partner-socialvids',

@@ -154,7 +154,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                             <Link href="/kontakt">
                                 <Button size="lg">Chci video, co prodává</Button>
                             </Link>
-                            <Link href="/sluzby">
+                            <Link href="/#services">
                                 <Button variant="outline" size="lg">Prohlédnout služby</Button>
                             </Link>
                         </div>

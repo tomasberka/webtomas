@@ -4,7 +4,7 @@
         "name": "Patrik Hořeňovský",
         "company": "FC Slavia HK & Reality",
         "role": "Manažer & Investor",
-        "quote": "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel. Pomohl mi zejména ke zviditelnění a propagaci FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji nemovitostí a oslovení nových investorů do Alzheimer center. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Dále musím vyzdvihnout slušné jednání a dochvilnost, což bohužel u jiných produkcí nebývá samozřejmostí.",
+        "quote": "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel, kteří s Tomášem spolupracují již řadu let. Pomohl mi zejména ke zviditelnění a propagaci fotbalového klubu FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji mnou nabízených nemovitostí, nebo oslovení nových investorů do segmentu výstavby nových Alzheimer center. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Je pro mě jako pro klienta na telefonu a mohu se s ním často podělit o své pocity a názory na danou zakázku. Dále musím ocenit slušné jednání a dochvilnost, což se zdá být samozřejmost, ale často u jiných produkcí bohužel není.",
         "rating": 5,
         "project": "Sportovní & Realitní Video Produkce",
         "videoId": "ygYPjGmLTnI",
@@ -12,6 +12,43 @@
             "Zviditelnění sportovní akademie",
             "Rychlejší prodej nemovitostí",
             "Flexibilní a spolehlivá spolupráce"
+        ],
+        "image": ""
+    },
+    {
+        "id": "easy-optic",
+        "name": "Agáta Šimánková",
+        "company": "Easy Optic",
+        "role": "Social Media Manager",
+        "quote": "Spolupráce s Tomášem byla od prvního momentu velice příjemná. Největší výzvou bylo svěřit naši vizi někomu, kdo ji nejen pochopí, ale také přetvoří do digitální podoby, zachová její autenticitu a zároveň využije kreativitu. Tomáš to od první schůzky dokonale zvládl. Veškerá komunikace probíhala okamžitě, natáčení i focení bylo skvělé a finální výsledek na sebe nenechal dlouho čekat. Videa a fotografie nyní slouží k prezentaci Easy Optic na sociálních sítích, pomáhají budovat značku a přivádět nové zákazníky. Na spolupráci si velmi vážím osobního a příjemného přístupu, zodpovědnosti, kreativity, rychlosti a hlavně kvalitních fotografií a videí, které mluví samy za sebe. Do budoucna se těšíme na další společné projekty.",
+        "rating": 5,
+        "project": "Reels balíček + fotografie",
+        "result": "3 Reels + 15 profesionálních fotek",
+        "highlights": [
+            "Pochopení vize a autenticita",
+            "Okamžitá komunikace",
+            "Kvalitní fotky a videa pro sociální sítě"
+        ],
+        "image": "/images/clients/easyoptic.jpg"
+    },
+    {
+        "id": "space-cbd",
+        "name": "Majitel Space CBD",
+        "company": "Space CBD",
+        "role": "Majitel",
+        "quote": "Spolupráce s videomakerem Tomášem Berkou byla naprosto skvělá. Natáčeli jsme spolu hudební videoklipy a i reklamní videa pro značku Space CBD a výsledek vždy předčil očekávání. Tomáš dokáže přesně pochopit značku a převést ji do vizuálně silného a profesionálního videa. Velké plus je jeho kreativita, technická zručnost, spolehlivost a lidský přístup. Komunikace byla rychlá, věcná a bez zbytečných komplikací, natáčení probíhalo v pohodové, ale zároveň velmi profesionální atmosféře. Oceňuji i jeho vlastní nápady, které posunuly výsledná videa o úroveň výš. Pokud hledáte někoho, kdo dodá špičkový výstup, rozumí marketingu a umí vyprávět obrazem, Tomáš Berka je jasná volba. Rád s ním budu spolupracovat i do budoucna.",
+        "rating": 5,
+        "project": "Hudební videoklipy & reklamní videa",
+        "instagramReels": [
+            "DSQHEFYDIK0",
+            "DObacWvDIqh",
+            "DNSvxd9Mbjl",
+            "DMfDg5jMmRA"
+        ],
+        "highlights": [
+            "Hudební videoklipy",
+            "Reklamní videa pro značku",
+            "Kreativní concept"
         ],
         "image": ""
     },
@@ -29,22 +66,6 @@
             "Rychlé dodání"
         ],
         "image": "/images/clients/wikyhracky.png"
-    },
-    {
-        "id": "easy-optic",
-        "name": "Agáta Šimánková",
-        "company": "Easy Optic",
-        "role": "Social Media Manager",
-        "quote": "Spolupráce s Tomášem byla od prvního momentu velice příjemná. Největší výzvou bylo svěřit naši vizi někomu, kdo ji nejen pochopí, ale také přetvoří do digitální podoby, zachová její autenticitu a zároveň využije kreativitu. Tomáš to od první schůzky dokonale zvládl. Veškerá komunikace probíhala okamžitě, natáčení i focení bylo skvělé a finální výsledek na sebe nenechal dlouho čekat. Videa a fotografie nyní slouží k prezentaci Easy Optic na sociálních sítích, pomáhají budovat značku a přivádět nové zákazníky. Na spolupráci si velmi vážím osobního a příjemného přístupu, zodpovědnosti, kreativity, rychlosti a hlavně kvalitních fotografií a videí, které mluví samy za sebe. Do budoucna se těšíme na další společné projekty.",
-        "rating": 5,
-        "project": "Reels balíček + fotografie",
-        "result": "3 Reels + 15 profesionálních fotek",
-        "highlights": [
-            "Pochopení vize a autenticita",
-            "Okamžitá komunikace",
-            "Kvalitní fotky a videa pro sociální sítě"
-        ],
-        "image": "/images/clients/easyoptic.jpg"
     },
     {
         "id": "oict",
@@ -127,27 +148,6 @@
             "7 profesionálních Shorts",
             "Obsah pro Instagram & TikTok",
             "Moderní barber shop estetika"
-        ],
-        "image": ""
-    },
-    {
-        "id": "space-cbd",
-        "name": "SPACE CBD",
-        "company": "SPACE CBD",
-        "role": "CBD produkty",
-        "quote": "",
-        "rating": 5,
-        "project": "Vertikální video produkce",
-        "instagramReels": [
-            "DSQHEFYDIK0",
-            "DObacWvDIqh",
-            "DNSvxd9Mbjl",
-            "DMfDg5jMmRA"
-        ],
-        "highlights": [
-            "4 Instagram Reels",
-            "Produktová prezentace",
-            "Kreativní concept"
         ],
         "image": ""
     }

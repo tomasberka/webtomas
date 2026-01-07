@@ -91,7 +91,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
             <Container>
-                <Link href="/sluzby" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
+                <Link href="/#services" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Zpět na služby
                 </Link>
                 <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">

@@ -22,6 +22,27 @@ export const metadata: Metadata = {
 
 const caseStudies = [
     {
+        id: "easy-optic",
+        title: "Easy Optic: Reels Strategie & Content",
+        client: "Easy Optic",
+        industry: "Optika / Retail",
+        youtubeIds: ["6glt6p9oi8I", "JBEWFNVqNSE", "eUsnjYMyqy4"],
+        challenge: "Potřeba pravidelného a vizuálně atraktivního obsahu pro Instagram, který ukáže produkty v akci.",
+        solution: "Balíček 3 Reels a 15 fotografií zaměřených na estetiku a produktový detail v reálném prostředí.",
+        results: [
+            "Zvýšení interakce na Instagramu",
+            "Profesionální sjednocení vizuálního stylu",
+            "Konzistentní týdenní publikace",
+            "Vyšší viditelnost produktů"
+        ],
+        testimonial: {
+            quote: "Spolupráce s Tomášem byla od prvního momentu velice příjemná. Největší výzvou bylo svěřit naši vizi někomu, kdo ji nejen pochopí, ale také přetvoří do digitální podoby, zachová její autenticitu a zároveň využije kreativitu. Tomáš to od první schůzky dokonale zvládl. Veškerá komunikace probíhala okamžitě, natáčení i focení bylo skvělé a finální výsledek na sebe nenechal dlouho čekat. Videa a fotografie nyní slouží k prezentaci Easy Optic na sociálních sítích, pomáhají budovat značku a přivádět nové zákazníky. Na spolupráci si velmi vážím osobního a příjemného přístupu, zodpovědnosti, kreativity, rychlosti a hlavně kvalitních fotografií a videí, které mluví samy za sebe. Do budoucna se těšíme na další společné projekty.",
+            author: "Easy Optic",
+            role: "Marketing Manager, Easy Optic"
+        },
+        tags: ["Reels", "Social Media", "Produktové video"]
+    },
+    {
         id: "patrik-horenovsky-combined",
         title: "FC Slavia HK & Reality: Sportovní a Investiční Video Produkce",
         client: "Patrik Hořeňovský",
@@ -36,7 +57,7 @@ const caseStudies = [
             "Dlouhodobá flexibilní spolupráce"
         ],
         testimonial: {
-            quote: "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel. Pomohl mi zejména ke zviditelnění a propagaci FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji nemovitostí a oslovení nových investorů. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Dále musím vyzdvihnout slušné jednání a dochvilnost, což bohužel u jiných produkcí nebývá samozřejmostí.",
+            quote: "Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel, kteří s Tomášem spolupracují již řadu let. Pomohl mi zejména ke zviditelnění a propagaci fotbalového klubu FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji mnou nabízených nemovitostí, nebo oslovení nových investorů do segmentu výstavby nových Alzheimer center. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Je pro mě jako pro klienta na telefonu a mohu se s ním často podělit o své pocity a názory na danou zakázku. Dále musím ocenit slušné jednání a dochvilnost, což se zdá být samozřejmost, ale často u jiných produkcí bohužel není.",
             author: "Patrik Hořeňovský",
             role: "Manažer & Investor"
         },
@@ -83,48 +104,6 @@ const caseStudies = [
             role: "Founder, Legonid"
         },
         tags: ["Workshop", "Corporate", "Dokumentace"]
-    },
-    {
-        id: "easy-optic",
-        title: "Easy Optic: Reels Strategie & Content",
-        client: "Easy Optic",
-        industry: "Optika / Retail",
-        youtubeIds: ["6glt6p9oi8I", "JBEWFNVqNSE", "eUsnjYMyqy4"],
-        challenge: "Potřeba pravidelného a vizuálně atraktivního obsahu pro Instagram, který ukáže produkty v akci.",
-        solution: "Balíček 3 Reels a 15 fotografií zaměřených na estetiku a produktový detail v reálném prostředí.",
-        results: [
-            "Zvýšení interakce na Instagramu",
-            "Profesionální sjednocení vizuálního stylu",
-            "Konzistentní týdenní publikace",
-            "Vyšší viditelnost produktů"
-        ],
-        testimonial: {
-            quote: "Feedback od klienta již brzy...",
-            author: "Agáta",
-            role: "Marketing Manager, Easy Optic"
-        },
-        tags: ["Reels", "Social Media", "Produktové video"]
-    },
-    {
-        id: "icon-barber",
-        title: "ICON Barber: Brutální Reels kampaň",
-        client: "ICON Barber Shop",
-        industry: "Služby / Lifestyle",
-        youtubeIds: ["x2S2_0xHsjg", "TyVQ27BmnpQ", "3Hro_3rsPbo", "s10MsaHGk7s", "UdxMX-x5VP4", "FPWtRbUPZ6c", "ZXnP2KkSTwg"],
-        challenge: "Oslovení mladší cílové skupiny a zvýšení počtu rezervací v barber shopu.",
-        solution: "Sada 7 úderných Shorts s moderním střihem a hudbou, které ukazují řemeslo a atmosféru salonu.",
-        results: [
-            "Znatelný nárůst nových rezervací",
-            "Virální dosah některých videí",
-            "Jasná odlišitelnost od konkurence",
-            "Budování komunity"
-        ],
-        testimonial: {
-            quote: "Feedback od klienta již brzy...",
-            author: "ICON Barber Shop",
-            role: "Majitel"
-        },
-        tags: ["Shorts", "Viral", "Barber"]
     }
 ];
 
