@@ -213,7 +213,7 @@ export default function Home() {
 
                                 <p className="text-xl text-muted-foreground">
                                     Get a complete month of content with a significant discount.
-                                    I need new case studies, you save £200.
+                                    I need new case studies, you save £500.
                                 </p>
 
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -250,7 +250,7 @@ export default function Home() {
                                         </div>
                                         <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
                                             <div className="text-sm font-medium text-green-600 mb-1">Save</div>
-                                            <div className="text-3xl font-black text-green-600">£200</div>
+                                            <div className="text-3xl font-black text-green-600">£500</div>
                                         </div>
                                     </div>
                                 </div>
