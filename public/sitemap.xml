@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage CZ -->
+  <url>
+    <loc>https://jajsemtomas.cz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.jajsemtomas.cz" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://jajsemtomas.cz" />
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Homepage EN -->
+  <url>
+    <loc>https://en.jajsemtomas.cz</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.jajsemtomas.cz" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://jajsemtomas.cz" />
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- CZ Pages -->
+  <url>
+    <loc>https://jajsemtomas.cz/o-mne</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/reels-balicky</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/akce-3-reels</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/pripadove-studie</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/portfolio</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/kontakt</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/rezervace</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/blog</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/partner-socialvids</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/ugc-herec</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/reels-quiz</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/ochrana-udaju</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://jajsemtomas.cz/dekuji</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  
+  <!-- EN Pages -->
+  <url>
+    <loc>https://en.jajsemtomas.cz/about</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/reels-packages</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/promo-3-reels</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/case-studies</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/portfolio</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/contact</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/booking</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/blog</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/partner-socialvids</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/ugc-creator</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/reels-quiz</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/privacy-policy</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://en.jajsemtomas.cz/thank-you</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>

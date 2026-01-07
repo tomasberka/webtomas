@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
+import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 
 const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
@@ -81,6 +82,9 @@ export default function RootLayout({
             For now, let's keep it as is, it might be auto-translated or English by default? 
             Let's check CookieBanner later. */}
                 <CookieBanner locale="en" />
+
+                {/* Exit Intent Popup */}
+                <ExitIntentPopup locale="en" />
 
                 {/* Sticky Mobile CTA */}
                 <StickyCTA locale="en" />
