@@ -1,41 +1,150 @@
-# Tomáš - Video Produkce Web
+# Já jsem Tomáš — Video Produkce
 
-Moderní webová stránka pro video produkci a Reels balíčky.
-Postaveno na Next.js 14 (App Router), TypeScript, Tailwind CSS.
+![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat&logo=tailwindcss)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
 
-## Funkce
-- **Reels Balíčky**: Přehledná nabídka s `packages.json` daty.
-- **Dynamické Služby**: Stránky služeb generované z `services.json`.
-- **Portfolio**: Prezentace práce.
-- **Kontakt**: Formulář s validací (Zod) a odesíláním emailů (Resend).
-- **SEO Ready**: Generovaný sitemap.xml, robots.txt, metadata.
-- **Analytics**: Připraveno pro tracking událostí.
+**🔗 Live**: [jajsemtomas.cz](https://jajsemtomas.cz) | [en.jajsemtomas.cz](https://en.jajsemtomas.cz)
 
-## Lokální Vývoj
+Profesionální webová stránka pro video produkci, Reels balíčky a filmmaking služby. Postaveno na Next.js 16 s statickým exportem pro maximální rychlost.
 
-1.  Instalace závislostí:
-    ```bash
-    npm install
-    ```
+---
 
-2.  Spuštění vývojového serveru:
-    ```bash
-    npm run dev
-    ```
+## ✨ Funkce
 
-3.  Otevřete [http://localhost:3000](http://localhost:3000).
+### Obsah & Služby
+- **Reels Balíčky** — 4 cenové balíčky (Start, Růst, Dominance, Jen Střih)
+- **Dynamické Služby** — 6 služeb (Reels, Kreativní produkce, Event, Livestream, Postprodukce, Voiceover)
+- **Portfolio** — Prezentace práce s lightbox galerií
+- **Blog** — Dynamicky generované články
+- **Případové studie** — Reference a výsledky klientů
+- **FAQ** — Centralizovaný systém otázek a odpovědí
 
-## Nasazení (Vercel)
+### Bilingvální podpora
+- 🇨🇿 Čeština (primární)
+- 🇬🇧 Angličtina
+- Hreflang tagy pro SEO
 
-1.  Pushněte kód na GitHub.
-2.  Importujte projekt ve Vercel Dashboardu.
-3.  Nastavte proměnné prostředí (Environment Variables):
-    - `RESEND_API_KEY`: Váš API klíč z Resend.com.
-4.  Deploy.
+### SEO & Marketing
+- Dynamický `sitemap.xml` s prioritami
+- `robots.txt` s crawl rules
+- Open Graph & Twitter Cards metadata
+- Strukturovaná data
 
-## Struktura Obsahu
-Veškerý textový obsah služeb a balíčků lze upravit v `src/content/`.
-- `services.json`: Seznam služeb.
-- `packages.json`: Reels balíčky.
-- `portfolio.json`: Položky portfolia.
-# webtomas
+### Konverzní nástroje
+- 📧 Kontaktní formulář (Zod validace + Resend)
+- 🚪 Exit-intent popup
+- 📱 Sticky mobile CTA
+- 🍪 Cookie consent banner (GDPR)
+- 📊 GA4 s Consent Mode v2
+- 🔥 Promo banner (akce-3-reels)
+
+### Technické
+- ⚡ Statický export pro rychlé načítání
+- 🖼️ Automatická WEBP optimalizace obrázků
+- 🎬 Framer Motion animace
+- 📐 Plně responzivní design
+
+---
+
+## 📁 Struktura projektu
+
+```
+src/
+├── app/
+│   ├── (cz)/           # České stránky
+│   ├── (en)/           # Anglické stránky
+│   ├── sitemap.ts      # Dynamický sitemap
+│   └── robots.ts       # Robots.txt
+├── components/
+│   ├── layout/         # Navbar, Footer
+│   ├── sections/       # Page sections
+│   └── ui/             # Reusable components
+├── content/            # JSON datové soubory
+│   ├── services.json   # Služby (CZ)
+│   ├── packages.json   # Balíčky (CZ)
+│   ├── portfolio.json  # Portfolio
+│   ├── blog.json       # Blog články
+│   ├── faq.json        # FAQ
+│   └── testimonials.json
+└── lib/                # Utility funkce
+```
+
+---
+
+## 🚀 Lokální vývoj
+
+### Instalace
+
+```bash
+npm install
+```
+
+### Spuštění dev serveru
+
+```bash
+npm run dev
+```
+
+Otevřete [http://localhost:3000](http://localhost:3000)
+
+### Build pro produkci
+
+```bash
+npm run build
+```
+
+> Build automaticky spustí `next-image-export-optimizer` pro WEBP konverzi.
+
+---
+
+## 🔐 Environment Variables
+
+| Proměnná | Popis | Povinná |
+|----------|-------|---------|
+| `RESEND_API_KEY` | API klíč z [Resend.com](https://resend.com) pro email | ✅ Ano |
+
+---
+
+## 📦 NPM Scripts
+
+| Script | Popis |
+|--------|-------|
+| `npm run dev` | Spustí vývojový server |
+| `npm run build` | Build + optimalizace obrázků |
+| `npm run start` | Spustí production server |
+| `npm run lint` | ESLint kontrola |
+
+---
+
+## 🌍 Nasazení (Vercel)
+
+1. Push kódu na GitHub
+2. Import projektu ve [Vercel Dashboard](https://vercel.com)
+3. Nastavte Environment Variables:
+   - `RESEND_API_KEY`
+4. Deploy
+
+---
+
+## 📝 Úprava obsahu
+
+Veškerý obsah je v `src/content/`:
+
+| Soubor | Obsah |
+|--------|-------|
+| `services.json` | Služby a jejich popisy |
+| `packages.json` | Reels balíčky a ceny |
+| `portfolio.json` | Portfolio položky |
+| `blog.json` | Blog články |
+| `faq.json` | FAQ otázky |
+| `testimonials.json` | Reference klientů |
+
+Pro anglickou verzi použijte `-en.json` suffix (např. `services-en.json`).
+
+---
+
+## 📄 License
+
+Private project © 2025 Tomáš Berka
