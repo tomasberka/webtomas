@@ -3,7 +3,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat&logo=tailwindcss)
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
+![Cloudflare](https://img.shields.io/badge/Deploy-Cloudflare-F38020?style=flat&logo=cloudflare)
 
 **🔗 Live**: [jajsemtomas.cz](https://jajsemtomas.cz) | [en.jajsemtomas.cz](https://en.jajsemtomas.cz)
 
@@ -118,13 +118,16 @@ npm run build
 
 ---
 
-## 🌍 Nasazení (Vercel)
+## 🌍 Nasazení (Cloudflare Pages)
 
 1. Push kódu na GitHub
-2. Import projektu ve [Vercel Dashboard](https://vercel.com)
-3. Nastavte Environment Variables:
+2. Import projektu v [Cloudflare Dashboard](https://dash.cloudflare.com) → Pages
+3. Build nastavení:
+   - Build command: `npm run build`
+   - Output directory: `out`
+4. Nastavte Environment Variables:
    - `RESEND_API_KEY`
-4. Deploy
+5. Deploy
 
 ---
 
