@@ -35,6 +35,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     Reels Balíčky
                                 </Link>
                                 <Link
+                                    href="/vstup-na-trh"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium text-emerald-600 hover:text-emerald-500 transition-colors"
+                                >
+                                    🌍 Vstup na trh
+                                </Link>
+                                <Link
                                     href="/portfolio"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -122,6 +129,13 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     Packages
+                                </Link>
+                                <Link
+                                    href="/gateway-strategy"
+                                    onClick={() => setOpen(false)}
+                                    className="text-lg font-medium text-emerald-600 hover:text-emerald-500 transition-colors"
+                                >
+                                    🌍 Gateway Strategy
                                 </Link>
                                 <Link
                                     href="/portfolio"

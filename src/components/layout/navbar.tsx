@@ -25,6 +25,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/reels-balicky" className="text-sm font-medium hover:text-primary transition-colors">
                                 Balíčky
                             </Link>
+                            <Link href="/vstup-na-trh" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
+                                🌍 Vstup na trh
+                            </Link>
                             <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Portfolio
                             </Link>
@@ -63,6 +66,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         <>
                             <Link href="/reels-packages" className="text-sm font-medium hover:text-primary transition-colors">
                                 Packages
+                            </Link>
+                            <Link href="/gateway-strategy" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
+                                🌍 Gateway Strategy
                             </Link>
                             <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Portfolio
