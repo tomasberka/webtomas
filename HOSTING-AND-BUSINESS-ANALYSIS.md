@@ -119,22 +119,7 @@ Add to hero section:
 - Stats: "7+ let zkušeností | 300+ projektů | 150+ spokojených klientů"
 ```
 
-#### 3. **Pricing Is Hidden**
-**Problem**: People who don't see prices assume "expensive" and leave.
-
-**Current state**: No visible pricing on homepage or service pages.
-
-**Solution**:
-```
-Create a dedicated /cenik (pricing) page:
-- REELS BALÍČEK: od 29 000 Kč
-- CUSTOM PRODUKCE: dle briefu (od 15 000 Kč)
-- POSTPRODUKCE: od 5 000 Kč
-
-Add to each package card: "Od XX 000 Kč" indicator
-```
-
-#### 4. **Target Audience Is Too Broad**
+#### 3. **Target Audience Is Too Broad**
 **Problem**: "E-shopy, korporace i osobní brandy" = everyone = no one specific.
 
 **Reality**: When you try to serve everyone, you're not the expert for anyone.
@@ -147,7 +132,7 @@ Option B: "Obsah pro osobní značky, které chtějí růst na Instagramu"
 Option C: "Video produkce pro eventy a firemní akce"
 ```
 
-#### 5. **No Urgency or Scarcity**
+#### 4. **No Urgency or Scarcity**
 **Problem**: There's no reason to act NOW vs. "sometime later."
 
 **Missing**:
@@ -162,20 +147,22 @@ Add to CTA sections:
 "Aktuálně přijímám 3 nové klienty na tento měsíc"
 ```
 
-### Recommended Action Plan (30 Days)
+### Recommended Action Plan (30 Days) — Building on What You Already Have
+
+The goal is to make small improvements to your existing elements to increase awareness, reservations, and revenue.
 
 | Week | Priority | Action |
 |------|----------|--------|
-| Week 1 | 🔴 Critical | 1. Add sticky "Zarezervuj konzultaci" CTA to navbar |
-| | | 2. Add client logos + stats to hero section |
-| | | 3. Create /cenik page with package pricing |
-| Week 2 | 🟠 High | 4. Set up Calendly booking integration |
-| | | 5. Move quiz to separate landing page (for lead gen) |
-| | | 6. Add testimonials with photos to homepage |
+| Week 1 | 🔴 Critical | 1. Make your existing "Kontakt" button more prominent (sticky in navbar) |
+| | | 2. Move existing client logos higher in the page (more visible in hero section) |
+| | | 3. Add your project count to the hero ("7+ let zkušeností | 300+ projektů") |
+| Week 2 | 🟠 High | 4. Improve existing testimonials with photos (use what you already have) |
+| | | 5. Simplify hero section — reduce competing CTAs to one clear action |
+| | | 6. Add "Další volný termín" indicator to create urgency |
 | Week 3 | 🟡 Medium | 7. A/B test headline variations |
-| | | 8. Add urgency messaging ("Další volný termín...") |
-| Week 4 | 🟡 Medium | 9. Request video testimonials from past clients |
-| | | 10. Create "Behind the scenes" content |
+| | | 8. Ask existing clients for short video testimonials |
+| Week 4 | 🟡 Medium | 9. Create "Behind the scenes" content from existing footage |
+| | | 10. Review analytics and iterate on what's working |
 
 ### Key Metrics to Track
 
@@ -211,12 +198,12 @@ Add to CTA sections:
 ## Conclusion
 
 1. **Stay 100% on Cloudflare** — It's the right choice for your needs
-2. **Focus on conversion optimization** — Your site looks good, but doesn't convert
-3. **Add trust signals immediately** — This is the fastest path to more clients
-4. **Show your prices** — Hidden pricing kills conversions
-5. **One clear CTA** — "Zarezervuj konzultaci" everywhere
+2. **Build on what you already have** — Small improvements to existing elements
+3. **Make trust signals more visible** — Move client logos and stats higher on the page
+4. **One clear CTA** — Simplify your hero section to guide visitors to contact you
+5. **Create urgency** — Show availability to encourage immediate action
 
-The biggest risk to your business isn't the technology stack—it's that qualified visitors are leaving without contacting you because the path to becoming a client isn't clear enough.
+The biggest opportunity is making your existing great content more visible and guiding visitors clearly toward contacting you.
 
 ---
 
