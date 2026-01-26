@@ -8,9 +8,9 @@ import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Reels Packages London | TikTok & Instagram Video Production UK",
-    description: "📹 Professional Reels & TikTok video production in London. 4-8 videos in one shooting day. Strategy, scripts, full production. Free consultation.",
-    keywords: ["reels production london", "tiktok videos for business uk", "video marketing london", "instagram reels agency uk", "filmmaker london", "video production uk"],
+    title: "Video Production Packages | High-Retention Reels & TikTok | Growth Architecture",
+    description: "📹 Premium Reels & TikTok video production. High-Retention strategy for your growth. From $150. Trial package, monthly retainer or premium production.",
+    keywords: ["reels production", "tiktok videos for business", "video marketing", "instagram reels agency", "high retention video", "growth package video", "upwork video editor"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/reels-packages",
         languages: {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/reels-packages",
-        title: "Reels Packages London | TikTok & Instagram Video Production UK",
-        description: "📹 Professional Reels & TikTok video production in London. 4-8 videos in one shooting day.",
+        title: "Video Production Packages | High-Retention Reels & TikTok",
+        description: "📹 Premium Reels & TikTok video production. From trial package to monthly retainer.",
     },
 };
 
@@ -48,10 +48,16 @@ export default function ReelsPackagesPage() {
             />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Packages</h1>
+                    <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mb-4">
+                        🚀 High-Retention Video Production
+                    </div>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Growth Packages</h1>
                     <p className="text-xl text-muted-foreground">
-                        Every project is unique.
-                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we will set up a strategy exactly for you.
+                        We're not just editors. We're Growth Architects.<br />
+                        Every video is designed to stop the scroll.
+                    </p>
+                    <p className="text-base text-muted-foreground">
+                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we'll set up a strategy tailored for you.
                     </p>
                 </div>
 
