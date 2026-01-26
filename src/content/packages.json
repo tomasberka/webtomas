@@ -1,48 +1,51 @@
 [
     {
-        "id": "start",
-        "title": "Start",
-        "description": "Ideální pro začátek konzistentní tvorby.",
-        "price": "Cena na míru",
-        "priceNote": "od 25 000 Kč",
+        "id": "hook-test",
+        "title": "Hook Test",
+        "subtitle": "Trial balíček",
+        "description": "Otestujte si nás. 3 videa na zkoušku pro váš brand.",
+        "price": "$150 – $200",
+        "priceNote": "jednorázově (cca 3 500 – 4 600 Kč)",
         "features": [
-            "3 Reels videa měsíčně",
-            "1 natáčecí den (6 hodin)",
-            "Základní scénáře",
-            "Střih, hudba, titulky",
-            "Formát 9:16"
+            "3 videa (Trial balíček)",
+            "Dynamické titulky a clean cuts",
+            "Základní revize skriptů",
+            "Dodané záběry klientem",
+            "Formát 9:16 vertikální"
         ],
         "cta": "Konzultovat zdarma",
         "popular": false
     },
     {
-        "id": "growth",
-        "title": "Růst",
-        "description": "Nejoblíbenější pro rychlý růst na sociálních sítích.",
-        "price": "Cena na míru",
+        "id": "consistency-engine",
+        "title": "Consistency Engine",
+        "subtitle": "Měsíční paušál",
+        "description": "Stabilní růst. 8 videí měsíčně pro konzistentní přítomnost.",
+        "price": "$1,200",
+        "priceNote": "měsíčně (cca 28 000 Kč)",
         "features": [
-            "8 Reels videí měsíčně",
-            "2 natáčecí dny",
-            "Pokročilé scénáře a strategie",
-            "Střih, hudba, efekty, titulky",
-            "Thumbnail grafika",
-            "Reporting a analýza"
+            "8 videí měsíčně (2 týdně)",
+            "Motion graphics, B-roll, SFX",
+            "Konzultace skriptů a hooks",
+            "Výběr hudby a sound design",
+            "Formát 9:16 + adaptace LinkedIn"
         ],
         "cta": "Konzultovat zdarma",
         "popular": true
     },
     {
-        "id": "dominance",
-        "title": "Dominance",
-        "description": "Masivní dosah a maximální kvalita pro lídry trhu.",
-        "price": "Cena na míru",
+        "id": "authority-builder",
+        "title": "Authority Builder",
+        "subtitle": "Premium balíček",
+        "description": "Pozice lídra. Cinematic look + 1 natáčecí den v Praze.",
+        "price": "$3,000+",
+        "priceNote": "měsíčně (cca 70 000+ Kč)",
         "features": [
-            "12+ Reels videí měsíčně",
-            "Flexibilní natáčení",
-            "Kompletní správa contentu",
-            "Prioritní zpracování",
-            "Pokročilé animace",
-            "Měsíční reporting"
+            "15 videí (každý druhý den)",
+            "Cinematic look, VFX, Brand alignment",
+            "Content Calendar + analýza metrik",
+            "Zahrnuje 1× natáčecí den Praha",
+            "Formáty: 9:16, 1:1, 4:5 + Stories"
         ],
         "cta": "Konzultovat zdarma",
         "popular": false
@@ -50,16 +53,16 @@
     {
         "id": "postprod",
         "title": "Jen Střih",
-        "description": "Máte natočeno? My to sestříháme.",
-        "price": "Cena na míru",
-        "priceNote": "od 4 900 Kč",
+        "subtitle": "Pouze postprodukce",
+        "description": "Máte natočeno? My vytvoříme High-Retention video.",
+        "price": "od $160",
+        "priceNote": "za video (cca od 3 700 Kč)",
         "features": [
             "Dodáte surová videa",
-            "Profesionální střih",
-            "Titulky a hudba",
+            "Profesionální střih a SFX",
+            "Dynamické titulky a efekty",
             "Color grading",
-            "Do 48 hodin náhled",
-            "Měsíční spolupráce"
+            "Náhled do 48 hodin"
         ],
         "cta": "Poptat střih",
         "popular": false

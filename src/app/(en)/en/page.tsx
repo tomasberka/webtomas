@@ -19,9 +19,9 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "Video Production London | Filmmaker, Reels & Commercials | I am Tomas",
-    description: "📹 Professional video production for businesses in London. Commercial spots, Reels, corporate videos. 500+ projects, 7 years experience. Free consultation.",
-    keywords: ["video production london", "filmmaker london", "video producer uk", "commercial video london", "reels production uk"],
+    title: "High-Retention Video Production | Reels, TikTok & Shorts | Growth Architecture",
+    description: "🎯 Premium short-form video production. High-Retention Reels, TikTok & YouTube Shorts. From strategy to cinematic execution. 150+ projects, 7 years experience.",
+    keywords: ["high retention video", "reels production", "tiktok video editing", "short form video", "video marketing", "growth architecture", "upwork video editor"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",
         languages: {
@@ -29,17 +29,17 @@ export const metadata: Metadata = {
         }
     },
     openGraph: {
-        title: "Video Production London | Filmmaker, Reels & Commercials | I am Tomas",
-        description: "📹 Professional video production for businesses in London. Commercial spots, Reels, corporate videos.",
+        title: "High-Retention Video Production | Reels, TikTok & Shorts",
+        description: "🎯 Premium short-form video production. From strategy to cinematic execution.",
         url: "https://en.jajsemtomas.cz",
         locale: "en_GB",
-        siteName: "I am Tomas",
+        siteName: "I am Tomas - Growth Architecture",
         images: [
             {
                 url: "https://en.jajsemtomas.cz/images/og-image-en-new.png",
                 width: 1200,
                 height: 630,
-                alt: "I am Tomas - Video Production London",
+                alt: "High-Retention Video Production - Growth Architecture",
             },
         ],
     },
@@ -105,25 +105,25 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
                 <Container className="flex flex-col items-center text-center gap-8">
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-                        🚀 Video production that delivers results
+                        🎯 High-Retention Video Production | Growth Architecture
                     </div>
                     <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-                        3 to 8 Reels in <br className="hidden md:block" />
-                        <span className="text-primary">one shooting day.</span>
+                        Stop the Scroll.<br className="hidden md:block" />
+                        <span className="text-primary">Drive Growth.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        <strong>Month of content. No long waiting.</strong><br />
-                        When you don't have time for 50 shooting days a year, I give you a solution: One day of shooting = a month of quality content that builds your brand and sells.
+                        <strong>We&apos;re not just editors. We&apos;re Growth Architects.</strong><br />
+                        Premium short-form video production designed for high retention rates. From strategy to cinematic execution — we build content systems that convert.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
                         <Link href="/booking">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                                📅 Book a Date
+                                📅 Book Free Strategy Call
                             </Button>
                         </Link>
-                        <Link href="/case-studies">
+                        <Link href="/portfolio">
                             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                See Results
+                                View Portfolio
                             </Button>
                         </Link>
                     </div>
@@ -265,22 +265,21 @@ export default function Home() {
                 <Container className="grid md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6 order-2 md:order-1">
                         <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium border-primary/20 bg-primary/10 text-primary">
-                            ⭐ Most Popular Package
+                            🔥 Hybrid Model: Remote Editing + Physical Production
                         </div>
-                        <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Quality content<br /> without stress.</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Beyond cheap editors.<br />Premium results.</h2>
                         <p className="text-lg text-muted-foreground leading-relaxed">
-                            Your business needs visibility, but you don't have time to shoot stories every day. I get it.<br /><br />
-                            That's why I created a system where <strong>we get the maximum out of one shooting day</strong>.
-                            No complicated preparations for you – I arrive, we shoot, and within a week you have ready-made videos that you can post for a whole month.
+                            Unlike cheap overseas editors, our premium packages include <strong>physical production in Prague</strong>. Perfect for clients who need professional "Talking Head" videos but lack equipment.<br /><br />
+                            <strong>The best of both worlds:</strong> Remote post-production flexibility + European-quality filming when you need it.
                         </p>
                         <ul className="space-y-3 pt-2">
-                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 3 to 8 Reels videos</li>
-                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Scripts & direction included</li>
-                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Ready for social media</li>
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> High-retention video editing</li>
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Script strategy & hook optimization</li>
+                            <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Optional shooting days in Prague</li>
                         </ul>
                         <div className="pt-4">
                             <Link href="/reels-packages">
-                                <Button size="lg" className="px-8 h-12 text-base">Learn more about packages</Button>
+                                <Button size="lg" className="px-8 h-12 text-base">View Growth Packages</Button>
                             </Link>
                         </div>
                     </div>
@@ -297,8 +296,8 @@ export default function Home() {
                         </video>
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
                         <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
-                            <div className="font-bold text-lg mb-1">Reels Package</div>
-                            <div className="text-sm opacity-90">Effective production for modern brands.</div>
+                            <div className="font-bold text-lg mb-1">Growth Package</div>
+                            <div className="text-sm opacity-90">Designed for high retention & conversions.</div>
                         </div>
                     </div>
                 </Container>

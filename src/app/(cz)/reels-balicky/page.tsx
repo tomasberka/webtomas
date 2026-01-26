@@ -8,9 +8,9 @@ import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Reels Balíčky Praha | Tvorba TikTok & Instagram Videí pro Firmy",
-    description: "📹 Profesionální tvorba Reels a TikTok videí v Praze. 3-8 videí za jeden natáčecí den. Strategie, scénáře, produkce na klíč. Konzultace zdarma.",
-    keywords: ["reels tvorba praha", "tiktok videa pro firmy", "video marketing praha", "instagram reels produkce", "kameraman praha", "video produkce brno"],
+    title: "Video Produkce Balíčky | High-Retention Reels & TikTok | Growth Packages",
+    description: "📹 Profesionální tvorba Reels a TikTok videí. High-Retention strategie pro váš růst. Od $150. Trial balíček, měsíční paušál nebo premium produkce.",
+    keywords: ["reels tvorba", "tiktok videa pro firmy", "video marketing", "instagram reels produkce", "high retention video", "growth package video"],
     alternates: {
         canonical: "https://jajsemtomas.cz/reels-balicky",
         languages: {
@@ -43,9 +43,15 @@ export default function ReelsPackagesPage() {
             />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Balíčky</h1>
+                    <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mb-4">
+                        🚀 High-Retention Video Production
+                    </div>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Growth Packages</h1>
                     <p className="text-xl text-muted-foreground">
-                        Každý projekt je unikátní.
+                        Nejsme jen střihači. Jsme architekti vašeho růstu.<br />
+                        Každé video je navrženo tak, aby zastavilo scrollování.
+                    </p>
+                    <p className="text-base text-muted-foreground">
                         Rezervujte si <Link href="/kontakt" className="text-primary hover:underline">10 minutovou konzultaci zdarma</Link>, kde nastavíme strategii přesně pro vás.
                     </p>
                 </div>
