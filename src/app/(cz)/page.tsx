@@ -36,6 +36,57 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24 pb-16">
+      {/* VideoObject Schema for Hero Video */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "Reels Produkce - Video, které vydělává",
+            "description": "Profesionální video produkce pro firmy. 3 až 8 Reels za jeden natáčecí den. Obsah na měsíc bez dlouhého čekání.",
+            "thumbnailUrl": "https://jajsemtomas.cz/images/tomas-hero.jpg",
+            "uploadDate": "2025-01-01",
+            "duration": "PT30S",
+            "contentUrl": "https://jajsemtomas.cz/videos/packages.mp4",
+            "embedUrl": "https://jajsemtomas.cz/videos/packages.mp4"
+          })
+        }}
+      />
+      {/* ProfessionalService Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "Já jsem Tomáš - Video Produkce",
+            "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
+            "description": "Profesionální video produkce specializující se na Reels, TikTok a reklamní obsah. 3-8 Reels za jeden natáčecí den.",
+            "priceRange": "$$",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Praha",
+              "addressCountry": "CZ"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 50.0755,
+              "longitude": 14.4378
+            },
+            "url": "https://jajsemtomas.cz",
+            "telephone": "+420735846329",
+            "email": "msg@jajsemtomas.cz",
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "18:00"
+            },
+            "areaServed": ["Praha", "Česká republika", "Europe"]
+          })
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -129,13 +180,14 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
-        <Container className="flex flex-col items-center text-center gap-8">
+      <header>
+        <section aria-labelledby="hero-heading" className="relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
+          <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
             🚀 Video produkce, co má výsledky
           </div>
-          <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
+          <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
             3 až 8 Reels za <br className="hidden md:block" />
             <span className="text-primary">jeden natáčecí den.</span>
           </h1>
@@ -156,7 +208,8 @@ export default function Home() {
             </Link>
           </div>
         </Container>
-      </section>
+        </section>
+      </header>
 
       {/* Trust Stats Bar */}
       <section className="border-y bg-muted/40 py-8 md:py-12">
@@ -304,16 +357,18 @@ export default function Home() {
             </ul>
             <div className="pt-4">
               <Link href="/reels-balicky">
-                <Button size="lg" className="px-8 h-12 text-base">Zjistit více o produkci</Button>
+                <Button size="lg" className="px-8 h-12 text-base font-bold">🎬 Chci video, co vydělává</Button>
               </Link>
             </div>
           </div>
-          <div className="relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
+          <article className="relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
             <video
               autoPlay
               loop
               muted
               playsInline
+              preload="metadata"
+              poster="/images/tomas-hero.jpg"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             >
               <source src="/videos/packages.mp4" type="video/mp4" />
@@ -324,15 +379,15 @@ export default function Home() {
               <div className="font-bold text-lg mb-1">Reels Produkce</div>
               <div className="text-sm opacity-90">Efektivní produkce pro moderní značky.</div>
             </div>
-          </div>
+          </article>
         </Container>
       </section>
 
       {/* Services Grid */}
-      <section>
+      <section aria-labelledby="services-heading">
         <Container>
           <div className="flex flex-col gap-4 mb-12 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Co pro vás natočím?</h2>
+            <h2 id="services-heading" className="text-3xl md:text-4xl font-bold tracking-tight">Co pro vás natočím?</h2>
             <p className="text-muted-foreground text-lg max-w-2xl">Řešení pro e-shopy, korporace i osobní brandy.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

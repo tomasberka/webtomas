@@ -11,6 +11,7 @@ import servicesDataEn from "@/content/services-en.json";
 import faqData from "@/content/faq.json";
 import { Check, HelpCircle } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 interface ServicePageProps {
     params: Promise<{
@@ -70,20 +71,34 @@ export default async function ServicePage({ params }: ServicePageProps) {
     // Get FAQ for this service
     const serviceFaq = (faqData as any)[slug] || [];
 
+    // ProfessionalService Schema - better for SEO than generic Service
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": service.title,
+        "@type": "ProfessionalService",
+        "name": `${service.title} | Já jsem Tomáš`,
         "description": service.description,
+        "image": (service as any).image ? `https://jajsemtomas.cz${(service as any).image}` : "https://jajsemtomas.cz/images/tomas-hero.jpg",
+        "url": `https://jajsemtomas.cz/${service.slug}`,
+        "telephone": "+420735846329",
+        "email": "msg@jajsemtomas.cz",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Praha",
+            "addressCountry": "CZ"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 50.0755,
+            "longitude": 14.4378
+        },
         "provider": {
             "@type": "Person",
             "name": "Tomáš Berka",
-            "url": "https://jajsemtomas.cz"
+            "url": "https://jajsemtomas.cz",
+            "jobTitle": "Video Producer & Filmmaker"
         },
-        "areaServed": {
-            "@type": "City",
-            "name": "Praha"
-        },
+        "areaServed": ["Praha", "Česká republika", "Europe"],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Video Služby",
@@ -96,13 +111,39 @@ export default async function ServicePage({ params }: ServicePageProps) {
             }))
         }
     };
+    
+    // FAQ Schema for service FAQ
+    const faqSchema = serviceFaq.length > 0 ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": serviceFaq.map((faq: any) => ({
+            "@type": "Question",
+            "name": faq.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+            }
+        }))
+    } : null;
 
     return (
-        <div className="py-20">
+        <article className="py-20">
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Služby", url: "https://jajsemtomas.cz/#services" },
+                { name: service.title, url: `https://jajsemtomas.cz/${service.slug}` }
+            ]} />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
+            {faqSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
             <Container>
                 <Link href="/#services" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Zpět na služby
@@ -197,6 +238,6 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     </div>
                 )}
             </Container>
-        </div>
+        </article>
     );
 }

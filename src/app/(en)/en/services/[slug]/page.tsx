@@ -11,6 +11,7 @@ import servicesDataCz from "@/content/services.json";
 import faqData from "@/content/faq-en.json";
 import { Check, HelpCircle } from "lucide-react";
 import { ArrowLeft } from "lucide-react";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 interface ServicePageProps {
     params: Promise<{
@@ -71,26 +72,29 @@ export default async function ServicePage({ params }: ServicePageProps) {
     // Get FAQ for this service (using the base slug for lookup)
     const serviceFaq = (faqData as any)[slug] || [];
 
+    // ProfessionalService Schema - better for SEO than generic Service
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "name": service.title,
+        "@type": "ProfessionalService",
+        "name": `${service.title} | I am Tomas`,
         "description": service.description,
+        "image": (service as any).image ? `https://en.jajsemtomas.cz${(service as any).image}` : "https://en.jajsemtomas.cz/images/og-image-en-new.png",
+        "url": `https://en.jajsemtomas.cz/${service.slug}`,
+        "telephone": "+420735846329",
+        "email": "msg@jajsemtomas.cz",
+        "priceRange": "££",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "London",
+            "addressCountry": "UK"
+        },
         "provider": {
             "@type": "Person",
-            "name": "Tomas",
-            "url": "https://en.jajsemtomas.cz"
+            "name": "Tomas Berka",
+            "url": "https://en.jajsemtomas.cz",
+            "jobTitle": "Video Producer & Filmmaker"
         },
-        "areaServed": [
-            {
-                "@type": "City",
-                "name": "London"
-            },
-            {
-                "@type": "City",
-                "name": "Prague"
-            }
-        ],
+        "areaServed": ["London", "United Kingdom", "Europe"],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Video Services",
@@ -103,13 +107,39 @@ export default async function ServicePage({ params }: ServicePageProps) {
             }))
         }
     };
+    
+    // FAQ Schema for service FAQ
+    const faqSchema = serviceFaq.length > 0 ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": serviceFaq.map((faq: any) => ({
+            "@type": "Question",
+            "name": faq.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+            }
+        }))
+    } : null;
 
     return (
-        <div className="py-20">
+        <article className="py-20">
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "Services", url: "https://en.jajsemtomas.cz/#services" },
+                { name: service.title, url: `https://en.jajsemtomas.cz/${service.slug}` }
+            ]} />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
             />
+            {faqSchema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+                />
+            )}
             <Container>
                 <Link href="/#services" className="inline-flex items-center text-sm text-muted-foreground hover:text-primary mb-8 transition-colors">
                     <ArrowLeft className="h-4 w-4 mr-2" /> Back to services
@@ -204,6 +234,6 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     </div>
                 )}
             </Container>
-        </div>
+        </article>
     );
 }

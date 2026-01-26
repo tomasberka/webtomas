@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, User } from "lucide-react";
 import blogData from "@/content/blog-en.json";
 import blogDataCz from "@/content/blog.json";
 import { Button } from "@/components/ui/button";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 interface BlogPostPageProps {
     params: Promise<{
@@ -66,7 +67,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     }
 
     return (
-        <div className="py-20">
+        <article className="py-20">
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "Blog", url: "https://en.jajsemtomas.cz/blog" },
+                { name: post.title, url: `https://en.jajsemtomas.cz/blog/${post.slug}` }
+            ]} />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -79,9 +86,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         "dateModified": post.date,
                         "author": [{
                             "@type": "Person",
-                            "name": "Tomas",
-                            "url": "https://en.jajsemtomas.cz"
+                            "name": "Tomas Berka",
+                            "url": "https://en.jajsemtomas.cz",
+                            "jobTitle": "Video Producer & Filmmaker"
                         }],
+                        "publisher": {
+                            "@type": "Organization",
+                            "name": "I am Tomas",
+                            "url": "https://en.jajsemtomas.cz",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://en.jajsemtomas.cz/images/logo.png"
+                            }
+                        },
                         "description": post.excerpt,
                         "mainEntityOfPage": {
                             "@type": "WebPage",
@@ -162,15 +179,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         </p>
                         <div className="flex justify-center gap-4">
                             <Link href="/booking">
-                                <Button size="lg">I want a video that sells</Button>
+                                <Button size="lg" className="font-bold">📅 Book a Strategy Call</Button>
                             </Link>
-                            <Link href="/#services">
-                                <Button variant="outline" size="lg">View Services</Button>
+                            <Link href="/reels-packages">
+                                <Button variant="outline" size="lg">🎬 View Growth Packages</Button>
                             </Link>
                         </div>
                     </div>
                 </article>
             </Container>
-        </div>
+        </article>
     );
 }
