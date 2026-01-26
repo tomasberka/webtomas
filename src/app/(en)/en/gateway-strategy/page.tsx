@@ -218,7 +218,7 @@ export default function GatewayStrategyPage() {
                             Get a local strategist who knows what actually works—and what will waste your budget.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/contact?service=Gateway+Strategy">
+                            <Link href="/booking">
                                 <Button size="lg" className="h-14 px-8 text-lg font-bold bg-emerald-600 hover:bg-emerald-700 shadow-lg">
                                     Book Strategy Call
                                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -460,7 +460,7 @@ export default function GatewayStrategyPage() {
                             Let&apos;s talk about your expansion goals. The first 30-minute call is on me.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/contact?service=Gateway+Strategy">
+                            <Link href="/booking">
                                 <Button size="lg" className="h-14 px-8 text-lg font-bold bg-emerald-600 hover:bg-emerald-700 shadow-lg">
                                     Book Free Strategy Call
                                     <ArrowRight className="ml-2 w-5 h-5" />

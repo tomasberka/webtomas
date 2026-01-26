@@ -212,7 +212,7 @@ export default function VstupNaTrhPage() {
                             Získejte lokálního stratéga, který ví, co skutečně funguje—a co promrhá váš rozpočet.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/kontakt?service=Vstup+na+trh">
+                            <Link href="/rezervace">
                                 <Button size="lg" className="h-14 px-8 text-lg font-bold bg-emerald-600 hover:bg-emerald-700 shadow-lg">
                                     Rezervovat strategický hovor
                                     <ArrowRight className="ml-2 w-5 h-5" />
@@ -454,7 +454,7 @@ export default function VstupNaTrhPage() {
                             Pojďme probrat vaše expanzní cíle. Prvních 30 minut je na mě.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link href="/kontakt?service=Vstup+na+trh">
+                            <Link href="/rezervace">
                                 <Button size="lg" className="h-14 px-8 text-lg font-bold bg-emerald-600 hover:bg-emerald-700 shadow-lg">
                                     Rezervovat bezplatný strategický hovor
                                     <ArrowRight className="ml-2 w-5 h-5" />
