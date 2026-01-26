@@ -37,6 +37,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 SocialVids
                             </Link>
+                            <Link href="/eve-and-talk" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Eve & Talk
+                            </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog
                             </Link>
@@ -75,6 +78,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </Link>
                             <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 SocialVids
+                            </Link>
+                            <Link href="/eve-and-talk" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                                Eve & Talk
                             </Link>
                             <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                                 Blog

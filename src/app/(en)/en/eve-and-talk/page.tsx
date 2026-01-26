@@ -1,0 +1,521 @@
+import { Container } from "@/components/ui/container";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import Link from "next/link";
+import Image from "next/image";
+import {
+    Video,
+    Camera,
+    Mic,
+    Monitor,
+    Lightbulb,
+    Shield,
+    Sparkles,
+    CheckCircle2,
+    ArrowRight,
+    Users,
+    Zap,
+    Calendar,
+    Settings,
+    Play,
+    Film,
+    Tv,
+    HardDrive,
+    Palette,
+} from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Eve and Talk | Mobile Video Studio for Events | Tomas × SocialVids",
+    description: "Transform fleeting moments from your event into lasting digital assets. Professional mobile studio directly at your venue. Broadcast quality, rapid delivery.",
+    keywords: ["event video", "mobile studio", "conference video", "event marketing", "video production event", "conference interviews", "live-to-tape"],
+    alternates: {
+        canonical: "https://en.jajsemtomas.cz/eve-and-talk",
+        languages: {
+            "cs": "https://jajsemtomas.cz/eve-and-talk",
+            "en": "https://en.jajsemtomas.cz/eve-and-talk"
+        }
+    },
+    openGraph: {
+        title: "Eve and Talk | Mobile Video Studio for Events",
+        description: "Transform fleeting moments from your event into lasting digital assets. Professional mobile studio directly at your venue.",
+        type: "website",
+        images: [
+            {
+                url: "https://en.jajsemtomas.cz/images/service-event.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Eve and Talk - Mobile Video Studio",
+            },
+        ],
+    },
+};
+
+const problems = [
+    {
+        icon: Settings,
+        title: "Logistics",
+        description: "No need to worry about equipment, lighting, or sound. We bring everything and set up the studio for you.",
+    },
+    {
+        icon: Tv,
+        title: "Quality",
+        description: "Guaranteed \"broadcast quality\" output thanks to Martin Kimla's technical expertise at SocialVids.",
+    },
+    {
+        icon: Zap,
+        title: "Speed",
+        description: "Utilizing \"rapid-turnaround\" processes enables near real-time content delivery.",
+    },
+];
+
+const equipment = [
+    {
+        icon: Camera,
+        title: "Multicam Setup",
+        description: "2-3 cameras (Sony FX series, Full Frame) for dynamic interview cuts with cinematic depth of field.",
+        features: ["Guest camera", "Host camera", "Wide shot"],
+    },
+    {
+        icon: Lightbulb,
+        title: "Studio Lighting",
+        description: "3-point lighting (Key, Fill, Backlight) with bi-color LED panels Aputure/Nanlite and softboxes.",
+        features: ["Flattering skin tones", "Subject separation", "Conference conditions"],
+    },
+    {
+        icon: Mic,
+        title: "Audio Redundancy",
+        description: "Redundant audio system for flawless recording even in noisy event environments.",
+        features: ["Shotgun microphones", "Lavalier mics", "Backup recording"],
+    },
+    {
+        icon: Monitor,
+        title: "Direction & Monitoring",
+        description: "Portable switcher (ATEM Mini Extreme ISO) for live cutting and \"Same Day Edit\".",
+        features: ["Live-to-Tape", "Instant preview", "Rapid post-production"],
+    },
+];
+
+const workflow = [
+    {
+        step: "01",
+        icon: Calendar,
+        title: "Pre-Event Strategy",
+        description: "Consultation with Tomas regarding visual style (branding) of the scene and interview script.",
+    },
+    {
+        step: "02",
+        icon: Settings,
+        title: "Setup & Calibration",
+        description: "Team (Martin + Tomas) arrives 2 hours early for scene setup and sound check.",
+    },
+    {
+        step: "03",
+        icon: Play,
+        title: "On-Site Execution",
+        description: "Recording in blocks. With live preview, you can see the result immediately on the monitor.",
+    },
+    {
+        step: "04",
+        icon: HardDrive,
+        title: "Rapid Ingest & Backup",
+        description: "Immediate data backup to SSD drives for maximum security of your content.",
+    },
+    {
+        step: "05",
+        icon: Palette,
+        title: "Post-Production",
+        description: "Editing, color grading, audio mastering, and graphics insertion (titles, logos).",
+    },
+];
+
+const benefits = [
+    {
+        icon: Film,
+        title: "TV Quality",
+        description: "Output that looks like professional TV production, not a mobile vlog.",
+    },
+    {
+        icon: Users,
+        title: "Visitor Magnet",
+        description: "The studio acts as an attraction – drawing people to your booth.",
+    },
+    {
+        icon: Zap,
+        title: "Content Factory",
+        description: "From one day you get dozens of interviews usable all year round.",
+    },
+    {
+        icon: Shield,
+        title: "Professional Backing",
+        description: "Tomas Berka × SocialVids partnership = quality and reliability guarantee.",
+    },
+];
+
+export default function EveAndTalkPage() {
+    return (
+        <div className="flex flex-col gap-16 md:gap-24 pb-16">
+            {/* JSON-LD Structured Data */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Service",
+                        "name": "Eve and Talk - Mobile Video Studio",
+                        "description": "Professional mobile video studio for events and conferences. Broadcast quality interviews on-site.",
+                        "provider": {
+                            "@type": "Organization",
+                            "name": "Tomas × SocialVids",
+                            "url": "https://en.jajsemtomas.cz"
+                        },
+                        "areaServed": {
+                            "@type": "Place",
+                            "name": "Europe"
+                        },
+                        "hasOfferCatalog": {
+                            "@type": "OfferCatalog",
+                            "name": "Event Video Services",
+                            "itemListElement": [
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Mobile studio setup"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Professional interviews"
+                                    }
+                                },
+                                {
+                                    "@type": "Offer",
+                                    "itemOffered": {
+                                        "@type": "Service",
+                                        "name": "Same Day Edit"
+                                    }
+                                }
+                            ]
+                        }
+                    })
+                }}
+            />
+
+            {/* Hero Section */}
+            <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-900/20 via-background to-background -z-10" />
+                <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-gradient-to-bl from-amber-500/10 via-transparent to-transparent -z-10" />
+
+                <Container className="flex flex-col lg:flex-row gap-12 items-center">
+                    <div className="flex-1 text-center lg:text-left">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-amber-500/30 bg-amber-500/10 text-amber-500 mb-6 animate-fade-in-up">
+                            <Sparkles className="h-4 w-4 mr-2" />
+                            TOMAS × SOCIALVIDS
+                        </div>
+
+                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 animate-fade-in-up animation-delay-100">
+                            Eve <span className="text-amber-500">&</span> Talk
+                        </h1>
+
+                        <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in-up animation-delay-200 leading-relaxed font-medium">
+                            Mobile Video Studio for Events
+                        </p>
+
+                        <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up animation-delay-200 max-w-xl">
+                            Transform fleeting moments from your event into <strong className="text-foreground">lasting digital assets</strong>.
+                            We bring the studio to you, conduct professional interviews, and deliver content
+                            that looks like TV production.
+                        </p>
+
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up animation-delay-300">
+                            <Link href="/booking">
+                                <Button size="lg" className="w-full sm:w-auto text-base h-14 px-8 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold shadow-lg shadow-orange-500/20 hover:shadow-xl transition-all hover:-translate-y-1">
+                                    📅 Free Consultation
+                                    <ArrowRight className="ml-2 h-5 w-5" />
+                                </Button>
+                            </Link>
+                            <Link href="#how-it-works">
+                                <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-14 border-amber-500/30 hover:bg-amber-500/10">
+                                    How does it work?
+                                </Button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="flex-1 w-full max-w-lg animate-fade-in-up animation-delay-200">
+                        <div className="relative aspect-[4/3] rounded-2xl bg-gradient-to-br from-amber-900/30 to-orange-900/30 p-1 border border-amber-500/20 shadow-2xl shadow-orange-500/10 overflow-hidden">
+                            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
+                            <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl flex items-center justify-center relative">
+                                <div className="text-center p-8">
+                                    <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-amber-500/20 mb-4">
+                                        <Video className="w-10 h-10 text-amber-500" />
+                                    </div>
+                                    <p className="text-xl font-bold text-white mb-2">Mobile Studio</p>
+                                    <p className="text-muted-foreground text-sm">Broadcast Quality</p>
+                                </div>
+                                {/* Decorative camera elements */}
+                                <div className="absolute top-4 left-4 w-8 h-8 rounded-full bg-red-500/80 animate-pulse flex items-center justify-center">
+                                    <span className="text-xs text-white font-bold">REC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Problems We Solve */}
+            <section className="border-y bg-muted/20 py-16 md:py-20">
+                <Container>
+                    <div className="text-center mb-12">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto mb-4">
+                            💡 What We Solve
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            3 Problems We Solve For You
+                        </h2>
+                        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                            Event marketing requires professional content, but most exhibitors lack the capacity.
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {problems.map((problem, index) => (
+                            <Card
+                                key={problem.title}
+                                className="p-8 text-center hover:border-amber-500/50 hover:shadow-lg hover:-translate-y-1 transition-all bg-card/50 backdrop-blur-sm animate-fade-in-up"
+                                style={{ animationDelay: `${index * 100}ms` }}
+                            >
+                                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-amber-500/10 mb-6">
+                                    <problem.icon className="w-8 h-8 text-amber-500" />
+                                </div>
+                                <h3 className="text-xl font-bold mb-3">{problem.title}</h3>
+                                <p className="text-muted-foreground">{problem.description}</p>
+                            </Card>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* Technical Equipment */}
+            <section id="equipment">
+                <Container>
+                    <div className="text-center mb-12">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto mb-4">
+                            🎬 Hardware-Enabled Service
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            Studio Technical Specifications
+                        </h2>
+                        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                            Professional equipment for broadcast quality output. No compromises.
+                        </p>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                        {equipment.map((item, index) => (
+                            <Card
+                                key={item.title}
+                                className="overflow-hidden hover:border-primary/50 hover:shadow-lg transition-all bg-card/50 backdrop-blur-sm animate-fade-in-up"
+                                style={{ animationDelay: `${index * 100}ms` }}
+                            >
+                                <div className="p-6 md:p-8">
+                                    <div className="flex items-start gap-4">
+                                        <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 flex-shrink-0">
+                                            <item.icon className="w-6 h-6 text-primary" />
+                                        </div>
+                                        <div className="flex-1">
+                                            <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                                            <p className="text-muted-foreground text-sm mb-4">{item.description}</p>
+                                            <ul className="flex flex-wrap gap-2">
+                                                {item.features.map((feature) => (
+                                                    <li key={feature} className="inline-flex items-center text-xs bg-muted px-3 py-1 rounded-full">
+                                                        <CheckCircle2 className="w-3 h-3 text-primary mr-1.5" />
+                                                        {feature}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </Card>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* Workflow Section */}
+            <section id="how-it-works" className="bg-muted/20 border-y py-16 md:py-20">
+                <Container>
+                    <div className="text-center mb-12">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto mb-4">
+                            ⚙️ Process Workflow
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            How Collaboration Works
+                        </h2>
+                        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                            Transparent process from first consultation to final content delivery.
+                        </p>
+                    </div>
+
+                    <div className="max-w-4xl mx-auto">
+                        <div className="space-y-6">
+                            {workflow.map((step, index) => (
+                                <div
+                                    key={step.step}
+                                    className="flex gap-6 items-start animate-fade-in-up"
+                                    style={{ animationDelay: `${index * 100}ms` }}
+                                >
+                                    <div className="flex-shrink-0 w-16 h-16 rounded-full bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-orange-500/20">
+                                        {step.step}
+                                    </div>
+                                    <Card className="flex-1 p-6 hover:border-amber-500/50 transition-all">
+                                        <div className="flex items-start gap-4">
+                                            <div className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-amber-500/10 flex-shrink-0">
+                                                <step.icon className="w-5 h-5 text-amber-500" />
+                                            </div>
+                                            <div>
+                                                <h3 className="text-lg font-bold mb-1">{step.title}</h3>
+                                                <p className="text-muted-foreground text-sm">{step.description}</p>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Benefits Grid */}
+            <section>
+                <Container>
+                    <div className="text-center mb-12">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto mb-4">
+                            ✨ Why Eve & Talk
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                            Benefits For Your Event
+                        </h2>
+                    </div>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {benefits.map((benefit, index) => (
+                            <Card
+                                key={benefit.title}
+                                className="p-6 text-center hover:border-primary/50 hover:shadow-lg hover:-translate-y-1 transition-all animate-fade-in-up"
+                                style={{ animationDelay: `${index * 100}ms` }}
+                            >
+                                <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 mb-4">
+                                    <benefit.icon className="w-7 h-7 text-primary" />
+                                </div>
+                                <h3 className="text-lg font-bold mb-2">{benefit.title}</h3>
+                                <p className="text-muted-foreground text-sm">{benefit.description}</p>
+                            </Card>
+                        ))}
+                    </div>
+                </Container>
+            </section>
+
+            {/* Partnership Section */}
+            <section className="border-y bg-gradient-to-r from-amber-900/10 via-orange-900/10 to-amber-900/10 py-16 md:py-20">
+                <Container>
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
+                        <div className="text-center md:text-left">
+                            <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-amber-500/30 bg-amber-500/10 text-amber-500 mb-4">
+                                🤝 Partnership
+                            </div>
+                            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                                Tomas Berka × SocialVids
+                            </h2>
+                            <p className="text-lg text-muted-foreground mb-6">
+                                Combining Tomas Berka&apos;s creative approach with Martin Kimla&apos;s technical expertise
+                                at SocialVids. Together we deliver premium quality for demanding clients.
+                            </p>
+                            <ul className="space-y-3 mb-8">
+                                <li className="flex items-center gap-3">
+                                    <CheckCircle2 className="w-5 h-5 text-amber-500 flex-shrink-0" />
+                                    <span>10+ years of event videography experience</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <CheckCircle2 className="w-5 h-5 text-amber-500 flex-shrink-0" />
+                                    <span>Projects across Europe</span>
+                                </li>
+                                <li className="flex items-center gap-3">
+                                    <CheckCircle2 className="w-5 h-5 text-amber-500 flex-shrink-0" />
+                                    <span>Rapid-turnaround processes</span>
+                                </li>
+                            </ul>
+                            <Link href="/partner-socialvids">
+                                <Button variant="outline" className="border-amber-500/30 hover:bg-amber-500/10">
+                                    More about partnership →
+                                </Button>
+                            </Link>
+                        </div>
+                        <div className="flex justify-center">
+                            <div className="relative">
+                                <div className="w-48 h-48 rounded-full bg-gradient-to-br from-amber-500/20 to-orange-600/20 flex items-center justify-center border border-amber-500/30">
+                                    <Image
+                                        src="/images/socialvids-logo.png"
+                                        alt="SocialVids Logo"
+                                        width={160}
+                                        height={60}
+                                        className="w-32 h-auto object-contain opacity-90"
+                                    />
+                                </div>
+                                <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full bg-gradient-to-br from-primary/20 to-blue-600/20 flex items-center justify-center border border-primary/30">
+                                    <span className="text-sm font-bold text-primary">×</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* CTA Section */}
+            <section className="text-center">
+                <Container>
+                    <div className="bg-gradient-to-r from-amber-900/20 via-orange-900/20 to-amber-900/20 border border-amber-500/20 rounded-2xl p-12 md:p-16">
+                        <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-amber-500/30 bg-amber-500/10 text-amber-500 mb-6">
+                            🚀 Get Started Today
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                            Set Your Event Up For Success
+                        </h2>
+                        <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+                            Free consultation, no commitment. We&apos;ll discuss your event, goals, and propose a tailored solution.
+                            No unnecessary meetings – concrete plan in 15 minutes.
+                        </p>
+                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                            <Link href="/booking">
+                                <Button size="lg" className="text-base h-14 px-8 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold shadow-lg shadow-orange-500/20 hover:shadow-xl transition-all hover:-translate-y-1">
+                                    📅 Book Free Consultation
+                                    <ArrowRight className="ml-2 h-5 w-5" />
+                                </Button>
+                            </Link>
+                            <a href="mailto:msg@jajsemtomas.cz">
+                                <Button variant="outline" size="lg" className="text-base h-14 px-8 border-amber-500/30 hover:bg-amber-500/10">
+                                    msg@jajsemtomas.cz
+                                </Button>
+                            </a>
+                        </div>
+
+                        {/* Trust indicators */}
+                        <div className="mt-12 pt-8 border-t border-border/50">
+                            <p className="text-sm text-muted-foreground mb-4">Trusted by</p>
+                            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+                                <span className="text-sm font-medium">Conferences</span>
+                                <span className="text-sm font-medium">Bootcamps</span>
+                                <span className="text-sm font-medium">Award Ceremonies</span>
+                                <span className="text-sm font-medium">Corporate Events</span>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+        </div>
+    );
+}
