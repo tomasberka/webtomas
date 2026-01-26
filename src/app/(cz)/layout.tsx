@@ -133,7 +133,7 @@ export default function RootLayout({
           <a href="/akce-3-reels" className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center group px-4">
             <span className="text-base md:text-lg font-bold animate-pulse">🔥 AKCE:</span>
             <span className="text-sm md:text-base font-medium">
-              <strong className="underline decoration-2">3 firmy</strong> → 3 Reels + 15 fotek za 15 000 Kč
+              <strong className="underline decoration-2">3 firmy</strong> → 3 Reels + 15 fotek – Probereme na callu
             </span>
             <span className="inline-flex items-center gap-1 bg-white/20 px-4 py-1.5 rounded-full text-xs md:text-sm font-bold group-hover:bg-white/30 transition-colors">
               Zjistit více →

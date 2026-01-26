@@ -3,8 +3,7 @@
         "id": "start",
         "title": "Start",
         "description": "Ideální pro začátek konzistentní tvorby.",
-        "price": "Cena na míru",
-        "priceNote": "od 25 000 Kč",
+        "price": "Domluvíme na callu",
         "features": [
             "3 Reels videa měsíčně",
             "1 natáčecí den (6 hodin)",
@@ -19,7 +18,7 @@
         "id": "growth",
         "title": "Růst",
         "description": "Nejoblíbenější pro rychlý růst na sociálních sítích.",
-        "price": "Cena na míru",
+        "price": "Domluvíme na callu",
         "features": [
             "8 Reels videí měsíčně",
             "2 natáčecí dny",
@@ -35,7 +34,7 @@
         "id": "dominance",
         "title": "Dominance",
         "description": "Masivní dosah a maximální kvalita pro lídry trhu.",
-        "price": "Cena na míru",
+        "price": "Domluvíme na callu",
         "features": [
             "12+ Reels videí měsíčně",
             "Flexibilní natáčení",
@@ -51,8 +50,7 @@
         "id": "postprod",
         "title": "Jen Střih",
         "description": "Máte natočeno? My to sestříháme.",
-        "price": "Cena na míru",
-        "priceNote": "od 4 900 Kč",
+        "price": "Domluvíme na callu",
         "features": [
             "Dodáte surová videa",
             "Profesionální střih",

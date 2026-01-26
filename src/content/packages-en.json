@@ -2,8 +2,7 @@
     {
         "id": "start",
         "title": "Start",
-        "price": "Custom Pricing",
-        "priceNote": "from £950",
+        "price": "Let's Discuss",
         "description": "Ideal for starting regular communication.",
         "features": [
             "3 vertical videos (Reels/TikTok)",
@@ -18,7 +17,7 @@
     {
         "id": "growth",
         "title": "Growth",
-        "price": "Custom Pricing",
+        "price": "Let's Discuss",
         "description": "Most popular for fast growth.",
         "features": [
             "8 vertical videos (Reels/TikTok)",
@@ -34,7 +33,7 @@
     {
         "id": "dominance",
         "title": "Dominance",
-        "price": "Custom Pricing",
+        "price": "Let's Discuss",
         "description": "Massive reach and maximum quality.",
         "features": [
             "12+ vertical videos",
@@ -50,8 +49,7 @@
     {
         "id": "postprod",
         "title": "Just Editing",
-        "price": "Custom Pricing",
-        "priceNote": "from £160",
+        "price": "Let's Discuss",
         "description": "You shoot, we edit.",
         "features": [
             "You provide raw footage",

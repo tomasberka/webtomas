@@ -222,13 +222,13 @@ export default function Home() {
                 <h2 className="text-3xl md:text-5xl font-black tracking-tight">
                   3 Reels + 15 fotek
                   <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600 mt-2">
-                    za 15 000 Kč
+                    Probereme na callu
                   </span>
                 </h2>
 
                 <p className="text-xl text-muted-foreground">
-                  Získejte kompletní obsah na měsíc s výraznou slevou.
-                  Potřebuji nové case studies, vy ušetříte 10 000 Kč.
+                  Získejte kompletní obsah na měsíc.
+                  Potřebuji nové case studies, vy získáte výhodnou cenu.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

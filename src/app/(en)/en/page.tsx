@@ -207,13 +207,13 @@ export default function Home() {
                                 <h2 className="text-3xl md:text-5xl font-black tracking-tight">
                                     3 Reels + 15 Photos
                                     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600 mt-2">
-                                        for £1,000
+                                        Let's Discuss
                                     </span>
                                 </h2>
 
                                 <p className="text-xl text-muted-foreground">
-                                    Get a complete month of content with a significant discount.
-                                    I need new case studies, you save £500.
+                                    Get a complete month of content.
+                                    I need new case studies, you get a great deal.
                                 </p>
 
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -249,8 +249,8 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
-                                            <div className="text-sm font-medium text-green-600 mb-1">Save</div>
-                                            <div className="text-3xl font-black text-green-600">£500</div>
+                                            <div className="text-sm font-medium text-green-600 mb-1">Great</div>
+                                            <div className="text-3xl font-black text-green-600">Deal</div>
                                         </div>
                                     </div>
                                 </div>

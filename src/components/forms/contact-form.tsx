@@ -24,7 +24,7 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         phone: locale === 'en' ? "Phone (optional)" : "Telefon (volitelné)",
         phonePlaceholder: locale === 'en' ? "+44 7123 456789" : "+420 123 456 789",
         budget: locale === 'en' ? "Estimated Budget (optional)" : "Orientační rozpočet (volitelné)",
-        budgetPlaceholder: locale === 'en' ? "e.g. £1,000" : "např. 20 000 Kč",
+        budgetPlaceholder: locale === 'en' ? "We'll discuss on call" : "Probereme na callu",
         service: locale === 'en' ? "Service" : "Služba",
         servicePlaceholder: locale === 'en' ? "Select a service..." : "Vyberte službu...",
         message: locale === 'en' ? "Message" : "Zpráva",

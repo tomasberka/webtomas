@@ -9,8 +9,8 @@ import { Metadata } from "next";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export const metadata: Metadata = {
-    title: "Promo: 3 Reels + 15 Photos for £1,000 | I am Tomas",
-    description: "🔥 Special offer for 3 companies in London. Complete video production at a discounted price. See the results of Easy Optic.",
+    title: "Promo: 3 Reels + 15 Photos | I am Tomas",
+    description: "🔥 Special offer for 3 companies in London. Complete video production. See the results of Easy Optic.",
     alternates: {
         canonical: "https://en.jajsemtomas.cz/promo-3-reels",
         languages: {
@@ -43,11 +43,10 @@ export default function PromoPage() {
                         </span>
                     </h1>
 
-                    {/* Price comparison */}
+                    {/* Price comparison - replaced with CTA */}
                     <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">£1,500</span>
-                        <span className="bg-green-500/20 text-green-400 font-bold px-3 py-1 rounded-full text-sm">
-                            SAVE £500
+                        <span className="bg-green-500/20 text-green-400 font-bold px-4 py-2 rounded-full text-base">
+                            📞 Let's discuss pricing on a call
                         </span>
                     </div>
 
@@ -391,7 +390,7 @@ export default function PromoPage() {
                             My colleague Kimla (SocialVids) and I want to expand our portfolio with case studies from the London market.
                         </p>
                         <p className="text-lg text-muted-foreground mb-8">
-                            In exchange for a <strong className="text-foreground">£500 discount</strong>, we get references and work samples that we can showcase. This is a full-service production by our standard two-person team.
+                            We get references and work samples that we can showcase. This is a full-service production by our standard two-person team. <strong className="text-foreground">Let's discuss pricing on a call.</strong>
                         </p>
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-300 px-4 py-2 rounded-full text-sm">
                             <span>📋</span>

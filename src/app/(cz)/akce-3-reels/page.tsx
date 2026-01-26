@@ -9,8 +9,8 @@ import { Metadata } from "next";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export const metadata: Metadata = {
-    title: "Akce 3 Reels + 15 fotek za 15 000 Kč | Já jsem Tomáš",
-    description: "🔥 Speciální nabídka pro 3 firmy. Kompletní video produkce na klíč za zvýhodněnou cenu. Podívejte se na výsledky Easy Optic.",
+    title: "Akce 3 Reels + 15 fotek | Já jsem Tomáš",
+    description: "🔥 Speciální nabídka pro 3 firmy. Kompletní video produkce na klíč. Podívejte se na výsledky Easy Optic.",
     alternates: {
         canonical: "https://jajsemtomas.cz/akce-3-reels",
         languages: {
@@ -43,11 +43,10 @@ export default function PromoPage() {
                         </span>
                     </h1>
 
-                    {/* Price comparison */}
+                    {/* Price comparison - replaced with CTA */}
                     <div className="flex items-center justify-center gap-4 mb-8">
-                        <span className="text-2xl text-muted-foreground line-through decoration-red-500 decoration-2">25 000 Kč</span>
-                        <span className="bg-green-500/20 text-green-400 font-bold px-3 py-1 rounded-full text-sm">
-                            UŠETŘÍTE 10 000 Kč
+                        <span className="bg-green-500/20 text-green-400 font-bold px-4 py-2 rounded-full text-base">
+                            📞 Cenu probereme na callu
                         </span>
                     </div>
 
@@ -391,7 +390,7 @@ export default function PromoPage() {
                             Chceme s kolegou Kimlou (SocialVids) rozšířit naše portfolio o nové case studies z konkrétních odvětví (Reality, Kliniky, Právo, Development).
                         </p>
                         <p className="text-lg text-muted-foreground mb-8">
-                            Výměnou za slevu <strong className="text-foreground">10 000 Kč</strong> získáme reference a ukázky práce, které můžeme veřejně prezentovat. Jde o plnohodnotnou produkci v našem standardním dvoučlenném složení.
+                            Získáte reference a ukázky práce, které můžeme veřejně prezentovat. Jde o plnohodnotnou produkci v našem standardním dvoučlenném složení. <strong className="text-foreground">Cenu probereme na callu.</strong>
                         </p>
                         <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-300 px-4 py-2 rounded-full text-sm">
                             <span>📋</span>
