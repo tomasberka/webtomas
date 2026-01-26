@@ -32,7 +32,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    Reels Balíčky
+                                    Reels Produkce
                                 </Link>
                                 <Link
                                     href="/vstup-na-trh"
@@ -128,7 +128,7 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
-                                    Packages
+                                    Reels Production
                                 </Link>
                                 <Link
                                     href="/gateway-strategy"

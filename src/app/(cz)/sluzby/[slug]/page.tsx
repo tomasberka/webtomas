@@ -122,7 +122,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         )}
                         <Link href="/rezervace">
                             <Button size="lg" className="font-bold">
-                                📅 Konzultovat balíček (15 min)
+                                📅 Konzultovat projekt (15 min)
                             </Button>
                         </Link>
 

@@ -29,13 +29,13 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
-                                        <li><Link href="/reels-balicky" className="hover:text-primary">Reels Balíčky</Link></li>
+                                        <li><Link href="/reels-balicky" className="hover:text-primary">Reels Produkce</Link></li>
                                         <li><Link href="/sluzby/kreativni-produkce" className="hover:text-primary">Kreativní Produkce</Link></li>
                                         <li><Link href="/sluzby/event-video" className="hover:text-primary">Event Video</Link></li>
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/reels-packages" className="hover:text-primary">Reels Packages</Link></li>
+                                        <li><Link href="/reels-packages" className="hover:text-primary">Reels Production</Link></li>
                                         <li><Link href="/services/creative-production" className="hover:text-primary">Creative Production</Link></li>
                                         <li><Link href="/services/event-video" className="hover:text-primary">Event Video</Link></li>
                                     </>

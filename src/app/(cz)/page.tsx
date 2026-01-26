@@ -280,7 +280,7 @@ export default function Home() {
         <Container className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 order-2 md:order-1">
             <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium border-primary/20 bg-primary/10 text-primary">
-              ⭐ Nejoblíbenější balíček
+              ⭐ Nejoblíbenější spolupráce
             </div>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight">Kvalitní obsah<br /> bez stresu.</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -295,7 +295,7 @@ export default function Home() {
             </ul>
             <div className="pt-4">
               <Link href="/reels-balicky">
-                <Button size="lg" className="px-8 h-12 text-base">Zjistit více o balíčcích</Button>
+                <Button size="lg" className="px-8 h-12 text-base">Zjistit více o produkci</Button>
               </Link>
             </div>
           </div>
@@ -312,7 +312,7 @@ export default function Home() {
             </video>
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
             <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
-              <div className="font-bold text-lg mb-1">Reels Balíček</div>
+              <div className="font-bold text-lg mb-1">Reels Produkce</div>
               <div className="text-sm opacity-90">Efektivní produkce pro moderní značky.</div>
             </div>
           </div>

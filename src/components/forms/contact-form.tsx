@@ -99,14 +99,14 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     id="service"
                     name="service"
                     className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    defaultValue={preselectedPackage ? (locale === 'en' ? `Package: ${preselectedPackage}` : `Balíček: ${preselectedPackage}`) : ""}
+                    defaultValue={preselectedPackage ? (locale === 'en' ? `Production: ${preselectedPackage}` : `Produkce: ${preselectedPackage}`) : ""}
                     disabled={isSubmitting}
                 >
                     <option value="">{t.servicePlaceholder}</option>
                     {locale === 'en' ? (
                         <>
                             <option value="Gateway Strategy">Gateway Strategy (Market Entry)</option>
-                            <option value="Reels Package">Reels Package</option>
+                            <option value="Reels Production">Reels Production</option>
                             <option value="Creative Production">Creative Production</option>
                             <option value="Event Video">Event Video</option>
                             <option value="Live Stream">Live Stream</option>
@@ -116,7 +116,7 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     ) : (
                         <>
                             <option value="Vstup na trh (Gateway Strategy)">Vstup na trh (Gateway Strategy)</option>
-                            <option value="Reels Balíček">Reels Balíček</option>
+                            <option value="Reels Produkce">Reels Produkce</option>
                             <option value="Kreativní Produkce">Kreativní Produkce</option>
                             <option value="Event Video">Event Video</option>
                             <option value="Live Stream">Live Stream</option>

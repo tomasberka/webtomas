@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Calendar } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
@@ -13,7 +13,7 @@ interface PackageCardProps {
         title: string;
         subtitle?: string;
         description: string;
-        price: string;
+        price?: string;
         priceNote?: string;
         features: string[];
         cta: string;
@@ -21,9 +21,12 @@ interface PackageCardProps {
     };
     bookingUrl?: string;
     popularLabel?: string;
+    locale?: 'cs' | 'en';
 }
 
-export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenější" }: PackageCardProps) {
+export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenější", locale = 'cs' }: PackageCardProps) {
+    const consultationText = locale === 'en' ? "Let's discuss your needs" : "Probereme vaše potřeby";
+    
     return (
         <Card className={cn("flex flex-col relative", pkg.popular && "border-primary shadow-lg scale-105 z-10")}>
             {pkg.popular && (
@@ -43,11 +46,14 @@ export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenějš�
                 <CardDescription className="min-h-[50px]">{pkg.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
-                <div className="mb-6">
-                    <div className="text-4xl font-bold">{pkg.price}</div>
-                    {pkg.priceNote && (
-                        <div className="text-sm text-muted-foreground mt-1">{pkg.priceNote}</div>
-                    )}
+                <div className="mb-6 flex items-center gap-3 p-4 bg-muted/50 rounded-lg border border-dashed border-muted-foreground/30">
+                    <Calendar className="h-6 w-6 text-primary shrink-0" />
+                    <div>
+                        <div className="font-semibold text-foreground">{consultationText}</div>
+                        <div className="text-sm text-muted-foreground">
+                            {locale === 'en' ? "Custom pricing based on your project" : "Cena na míru vašemu projektu"}
+                        </div>
+                    </div>
                 </div>
                 <ul className="space-y-3">
                     {pkg.features.map((feature, i) => (
@@ -60,11 +66,12 @@ export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenějš�
             </CardContent>
             <CardFooter>
                 <Link
-                    href={bookingUrl || `/rezervace?package=${pkg.id}`}
+                    href={bookingUrl || (locale === 'en' ? `/booking?package=${pkg.id}` : `/rezervace?package=${pkg.id}`)}
                     className="w-full"
-                    onClick={() => trackEvent("click_reels_package", { package: pkg.id, price: pkg.price })}
+                    onClick={() => trackEvent("click_reels_package", { package: pkg.id })}
                 >
                     <Button className="w-full" variant={pkg.popular ? "default" : "outline"} size="lg">
+                        <Calendar className="h-4 w-4 mr-2" />
                         {pkg.cta}
                     </Button>
                 </Link>

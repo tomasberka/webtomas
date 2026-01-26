@@ -8,9 +8,9 @@ import { PackageCard } from "@/components/sections/package-card";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Video Production Packages | High-Retention Reels & TikTok | Growth Architecture",
-    description: "📹 Premium Reels & TikTok video production. High-Retention strategy for your growth. From $150. Trial package, monthly retainer or premium production.",
-    keywords: ["reels production", "tiktok videos for business", "video marketing", "instagram reels agency", "high retention video", "growth package video", "upwork video editor"],
+    title: "Reels Production | Instagram & TikTok Video | Tomas",
+    description: "📹 Professional Reels & TikTok production for brands. 1 shooting day = month of content. From pilot project to premium partnership. Book a free consultation.",
+    keywords: ["reels production", "tiktok videos for business", "video marketing", "instagram reels agency", "content creator", "social media video production"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/reels-packages",
         languages: {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/reels-packages",
-        title: "Video Production Packages | High-Retention Reels & TikTok",
-        description: "📹 Premium Reels & TikTok video production. From trial package to monthly retainer.",
+        title: "Reels Production | Instagram & TikTok Video",
+        description: "📹 Professional Reels & TikTok production. From pilot project to premium partnership.",
     },
 };
 
@@ -49,21 +49,21 @@ export default function ReelsPackagesPage() {
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mb-4">
-                        🚀 High-Retention Video Production
+                        🎬 Professional Video Production
                     </div>
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Growth Packages</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Reels Production</h1>
                     <p className="text-xl text-muted-foreground">
-                        We&apos;re not just editors. We&apos;re Growth Architects.<br />
-                        Every video is designed to stop the scroll.
+                        From pilot project to long-term partnership.<br />
+                        Every video designed to stop the scroll and deliver results.
                     </p>
                     <p className="text-base text-muted-foreground">
-                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we&apos;ll set up a strategy tailored for you.
+                        Book a <Link href="/booking" className="text-primary hover:underline">free 15-minute consultation</Link> and we&apos;ll create a strategy tailored for you.
                     </p>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24 items-start">
                     {packagesData.map((pkg) => (
-                        <PackageCard key={pkg.id} pkg={pkg as any} bookingUrl="/booking" popularLabel="Most Popular" />
+                        <PackageCard key={pkg.id} pkg={pkg as any} bookingUrl="/booking" popularLabel="Most Popular" locale="en" />
                     ))}
                 </div>
 

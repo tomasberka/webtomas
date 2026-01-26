@@ -1,28 +1,24 @@
 [
     {
-        "id": "hook-test",
-        "title": "The Hook Test",
-        "subtitle": "Trial Package",
-        "description": "Test us out. 3 high-retention videos for your brand.",
-        "price": "$150 – $200",
-        "priceNote": "one-time",
+        "id": "pilot",
+        "title": "Pilot",
+        "subtitle": "Trial Production",
+        "description": "Test the collaboration. 3 videos tailored to your brand.",
         "features": [
-            "3 videos (Trial package)",
+            "3 videos (pilot project)",
             "Dynamic captions & clean cuts",
             "Basic script review",
             "You provide raw footage",
             "9:16 vertical format"
         ],
-        "cta": "Free Consultation",
+        "cta": "Book a Call",
         "popular": false
     },
     {
-        "id": "consistency-engine",
-        "title": "Consistency Engine",
-        "subtitle": "Monthly Retainer",
-        "description": "Steady growth. 8 videos per month for consistent presence.",
-        "price": "$1,200",
-        "priceNote": "per month",
+        "id": "monthly-production",
+        "title": "Monthly Production",
+        "subtitle": "Ongoing Partnership",
+        "description": "Consistent growth. 8 videos per month for steady presence.",
         "features": [
             "8 videos/month (2 per week)",
             "Motion graphics, B-roll, SFX",
@@ -30,33 +26,29 @@
             "Music selection & sound design",
             "9:16 + LinkedIn adaptation"
         ],
-        "cta": "Free Consultation",
+        "cta": "Book a Call",
         "popular": true
     },
     {
-        "id": "authority-builder",
-        "title": "Authority Builder",
-        "subtitle": "Premium Package",
-        "description": "Industry leader position. Cinematic look + 1 shooting day in Prague.",
-        "price": "$3,000+",
-        "priceNote": "per month",
+        "id": "premium",
+        "title": "Premium Partnership",
+        "subtitle": "Exclusive Collaboration",
+        "description": "Industry leader position. Cinematic look + shooting days in Prague.",
         "features": [
             "15 videos (every other day)",
             "Cinematic look, VFX, Brand alignment",
             "Content Calendar + metrics analysis",
-            "Includes 1× shooting day Prague",
+            "Includes shooting days Prague",
             "Formats: 9:16, 1:1, 4:5 + Stories"
         ],
-        "cta": "Free Consultation",
+        "cta": "Book a Call",
         "popular": false
     },
     {
-        "id": "postprod",
-        "title": "Just Editing",
-        "subtitle": "Post-production Only",
+        "id": "post-production",
+        "title": "Post-Production",
+        "subtitle": "Editing Only",
         "description": "You shoot, we create High-Retention videos.",
-        "price": "from $160",
-        "priceNote": "per video",
         "features": [
             "You provide raw footage",
             "Professional editing & SFX",
@@ -64,7 +56,7 @@
             "Color grading",
             "Preview within 48h"
         ],
-        "cta": "Request Editing",
+        "cta": "Request Quote",
         "popular": false
     }
 ]

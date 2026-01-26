@@ -23,7 +23,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {locale === 'cs' ? (
                         <>
                             <Link href="/reels-balicky" className="text-sm font-medium hover:text-primary transition-colors">
-                                Balíčky
+                                Reels Produkce
                             </Link>
                             <Link href="/vstup-na-trh" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
                                 🌍 Vstup na trh
@@ -65,7 +65,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     ) : (
                         <>
                             <Link href="/reels-packages" className="text-sm font-medium hover:text-primary transition-colors">
-                                Packages
+                                Reels Production
                             </Link>
                             <Link href="/gateway-strategy" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
                                 🌍 Gateway Strategy
