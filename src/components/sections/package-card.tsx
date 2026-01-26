@@ -11,6 +11,7 @@ interface PackageCardProps {
     pkg: {
         id: string;
         title: string;
+        subtitle?: string;
         description: string;
         price: string;
         priceNote?: string;
@@ -31,7 +32,14 @@ export function PackageCard({ pkg, bookingUrl, popularLabel = "Nejoblíbenějš�
                 </div>
             )}
             <CardHeader>
-                <CardTitle className="text-2xl">{pkg.title}</CardTitle>
+                <div className="flex items-center justify-between mb-1">
+                    <CardTitle className="text-2xl">{pkg.title}</CardTitle>
+                    {pkg.subtitle && (
+                        <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded-full">
+                            {pkg.subtitle}
+                        </span>
+                    )}
+                </div>
                 <CardDescription className="min-h-[50px]">{pkg.description}</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
