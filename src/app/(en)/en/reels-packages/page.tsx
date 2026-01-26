@@ -53,11 +53,11 @@ export default function ReelsPackagesPage() {
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Growth Packages</h1>
                     <p className="text-xl text-muted-foreground">
-                        We're not just editors. We're Growth Architects.<br />
+                        We&apos;re not just editors. We&apos;re Growth Architects.<br />
                         Every video is designed to stop the scroll.
                     </p>
                     <p className="text-base text-muted-foreground">
-                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we'll set up a strategy tailored for you.
+                        Book a <Link href="/contact" className="text-primary hover:underline">free 10-minute consultation</Link>, where we&apos;ll set up a strategy tailored for you.
                     </p>
                 </div>
 

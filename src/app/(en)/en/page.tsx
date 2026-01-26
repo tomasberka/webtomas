@@ -112,7 +112,7 @@ export default function Home() {
                         <span className="text-primary">Drive Growth.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        <strong>We're not just editors. We're Growth Architects.</strong><br />
+                        <strong>We&apos;re not just editors. We&apos;re Growth Architects.</strong><br />
                         Premium short-form video production designed for high retention rates. From strategy to cinematic execution — we build content systems that convert.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
