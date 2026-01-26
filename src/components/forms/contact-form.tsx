@@ -105,6 +105,7 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     <option value="">{t.servicePlaceholder}</option>
                     {locale === 'en' ? (
                         <>
+                            <option value="Gateway Strategy">Gateway Strategy (Market Entry)</option>
                             <option value="Reels Package">Reels Package</option>
                             <option value="Creative Production">Creative Production</option>
                             <option value="Event Video">Event Video</option>
@@ -114,6 +115,7 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         </>
                     ) : (
                         <>
+                            <option value="Vstup na trh (Gateway Strategy)">Vstup na trh (Gateway Strategy)</option>
                             <option value="Reels Balíček">Reels Balíček</option>
                             <option value="Kreativní Produkce">Kreativní Produkce</option>
                             <option value="Event Video">Event Video</option>

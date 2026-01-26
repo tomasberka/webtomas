@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         // Priority 0.9 - Conversion pages
         { route: '/rezervace', priority: 0.9, changefreq: 'monthly' as const },
+        { route: '/vstup-na-trh', priority: 0.9, changefreq: 'monthly' as const },
 
         // Priority 0.8 - Main content pages
         { route: '/o-mne', priority: 0.8, changefreq: 'monthly' as const },
@@ -53,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         // Priority 0.9 - Conversion pages
         { route: '/booking', priority: 0.9, changefreq: 'monthly' as const },
+        { route: '/gateway-strategy', priority: 0.9, changefreq: 'monthly' as const },
 
         // Priority 0.8 - Main content pages
         { route: '/about', priority: 0.8, changefreq: 'monthly' as const },
