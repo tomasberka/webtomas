@@ -238,7 +238,7 @@ export default function GatewayStrategyPage() {
             <section className="border-y bg-muted/40 py-12">
                 <Container>
                     <p className="text-center text-sm font-medium text-muted-foreground mb-8 uppercase tracking-wider">
-                        Czech Republic 2026: A Unique Digital Market
+                        Czech Republic: A Unique Digital Market
                     </p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                         {marketStats.map((stat, index) => (
