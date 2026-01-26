@@ -63,13 +63,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     SocialVids
                                 </Link>
                                 <Link
-                                    href="/eve-and-talk"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Eve & Talk
-                                </Link>
-                                <Link
                                     href="/blog"
                                     onClick={() => setOpen(false)}
                                     className="text-lg font-medium hover:text-primary transition-colors"
@@ -157,13 +150,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                     className="text-lg font-medium hover:text-primary transition-colors"
                                 >
                                     SocialVids
-                                </Link>
-                                <Link
-                                    href="/eve-and-talk"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Eve & Talk
                                 </Link>
                                 <Link
                                     href="/blog"

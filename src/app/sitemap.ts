@@ -34,7 +34,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 0.6 - Tertiary pages
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },
         { route: '/partner-socialvids', priority: 0.6, changefreq: 'monthly' as const },
-        { route: '/eve-and-talk', priority: 0.8, changefreq: 'monthly' as const },
         { route: '/ugc-herec', priority: 0.6, changefreq: 'monthly' as const },
         { route: '/ochrana-udaju', priority: 0.3, changefreq: 'yearly' as const },
     ].map(({ route, priority, changefreq }) => ({
@@ -68,7 +67,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 0.6 - Tertiary pages
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },
         { route: '/partner-socialvids', priority: 0.6, changefreq: 'monthly' as const },
-        { route: '/eve-and-talk', priority: 0.8, changefreq: 'monthly' as const },
         { route: '/ugc-creator', priority: 0.6, changefreq: 'monthly' as const },
         { route: '/privacy-policy', priority: 0.3, changefreq: 'yearly' as const },
     ].map(({ route, priority, changefreq }) => ({
