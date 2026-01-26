@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
 import blogData from "@/content/blog.json";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
 export default function BlogPage() {
     return (
         <div className="py-20 md:py-32">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Blog", url: "https://jajsemtomas.cz/blog" }
+            ]} />
             <Container>
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Blog & Know-How</h1>

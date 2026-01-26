@@ -1,6 +1,7 @@
 import { Container } from "@/components/ui/container";
 import portfolioData from "@/content/portfolio.json";
 import { PortfolioGrid } from "@/components/portfolio/portfolio-grid";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,6 +19,10 @@ export const metadata: Metadata = {
 export default function PortfolioPage() {
     return (
         <div className="py-20 md:py-32">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Portfolio", url: "https://jajsemtomas.cz/portfolio" }
+            ]} />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Práce, která má dopad</h1>

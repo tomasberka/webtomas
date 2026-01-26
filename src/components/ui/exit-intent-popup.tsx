@@ -44,35 +44,35 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
 
     const content = {
         cs: {
-            emoji: "🎯",
+            emoji: "📞",
             title: "Počkat! Než odejdeš...",
-            subtitle: "Otestuj si své znalosti o Reels",
-            quizTitle: "🎮 Interaktivní Quiz: 5 Chyb v Reels",
+            subtitle: "15 minut, které změní váš obsah",
+            quizTitle: "🎬 Bezplatná konzultace",
             benefits: [
-                "✓ Zjisti, jestli děláš stejné chyby jako ostatní",
-                "✓ Naučíš se, co opravdu funguje",
-                "✓ Zabere to jen 2 minuty",
-                "✓ Žádný email, rovnou začni"
+                "✓ Probereme vaši situaci a cíle",
+                "✓ Doporučím konkrétní strategii",
+                "✓ Žádné závazky, jen upřímná rada",
+                "✓ Online nebo osobně v Praze"
             ],
-            buttonText: "Spustit Quiz",
-            footer: "Interaktivní test s okamžitou zpětnou vazbou",
-            quizLink: "/reels-quiz",
+            buttonText: "📅 Rezervovat konzultaci",
+            footer: "Odpovím do 24 hodin. Žádný spam.",
+            quizLink: "/rezervace",
             closeLabel: "Zavřít"
         },
         en: {
-            emoji: "🎯",
+            emoji: "📞",
             title: "Wait! Before you go...",
-            subtitle: "Test your Reels knowledge",
-            quizTitle: "🎮 Interactive Quiz: 5 Reels Mistakes",
+            subtitle: "15 minutes that could change your content",
+            quizTitle: "🎬 Free Consultation",
             benefits: [
-                "✓ Find out if you're making the same mistakes",
-                "✓ Learn what actually works",
-                "✓ Takes only 2 minutes",
-                "✓ No email required, start now"
+                "✓ We'll discuss your situation & goals",
+                "✓ I'll recommend a concrete strategy",
+                "✓ No obligations, just honest advice",
+                "✓ Online or in-person in London/Prague"
             ],
-            buttonText: "Start Quiz",
-            footer: "Interactive test with instant feedback",
-            quizLink: "/reels-quiz",
+            buttonText: "📅 Book a Consultation",
+            footer: "I'll respond within 24 hours. No spam.",
+            quizLink: "/booking",
             closeLabel: "Close"
         }
     };

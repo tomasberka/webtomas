@@ -101,19 +101,28 @@ export default function Home() {
               "https://www.facebook.com/tomasberkaofficial/",
               "https://www.linkedin.com/in/berkatomas"
             ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5",
+              "bestRating": "5",
+              "worstRating": "1",
+              "ratingCount": String(testimonialsData.filter(t => t.quote && t.quote.trim().length > 0).length),
+              "reviewCount": String(testimonialsData.filter(t => t.quote && t.quote.trim().length > 0).length)
+            },
             "review": testimonialsData
-              .filter(t => t.quote && t.quote.length > 0)
+              .filter(t => t.quote && t.quote.trim().length > 0)
+              .slice(0, 10)
               .map(t => ({
                 "@type": "Review",
                 "reviewRating": {
                   "@type": "Rating",
-                  "ratingValue": t.rating || 5
+                  "ratingValue": Number(t.rating || 5)
                 },
                 "author": {
                   "@type": "Person",
                   "name": t.name
                 },
-                "reviewBody": t.quote
+                "reviewBody": t.quote.trim()
               }))
           })
         }}

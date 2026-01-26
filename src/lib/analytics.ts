@@ -40,3 +40,25 @@ export const trackBookingComplete = (locale: 'cs' | 'en' = 'cs') => {
         });
     }
 };
+
+// Exit intent popup tracking
+export const trackExitIntent = (action: 'shown' | 'clicked' | 'closed', locale: 'cs' | 'en' = 'cs') => {
+    if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "exit_intent", {
+            event_category: "engagement",
+            event_action: action,
+            locale: locale,
+        });
+    }
+};
+
+// Phone call tracking
+export const trackPhoneClick = (source: string, locale: 'cs' | 'en' = 'cs') => {
+    if (typeof window !== "undefined" && window.gtag) {
+        window.gtag("event", "phone_click", {
+            event_category: "conversion",
+            event_label: source,
+            locale: locale,
+        });
+    }
+};

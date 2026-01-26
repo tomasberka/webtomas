@@ -94,18 +94,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }))
 
-    // Czech blog routes
+    // Czech blog routes - use actual post dates
     const blogRoutesCz = blogData.map((post) => ({
         url: `${baseUrlCz}/blog/${post.slug}`,
-        lastModified: new Date(),
+        lastModified: new Date(post.date),
         changeFrequency: 'weekly' as const,
         priority: 0.7,
     }))
 
-    // English blog routes
+    // English blog routes - use actual post dates
     const blogRoutesEn = blogDataEn.map((post) => ({
         url: `${baseUrlEn}/blog/${post.slug}`,
-        lastModified: new Date(),
+        lastModified: new Date(post.date),
         changeFrequency: 'weekly' as const,
         priority: 0.7,
     }))

@@ -5,6 +5,7 @@ import Link from "next/link";
 import packagesData from "@/content/packages.json";
 import faqData from "@/content/faq.json";
 import { PackageCard } from "@/components/sections/package-card";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -24,6 +25,10 @@ export default function ReelsPackagesPage() {
 
     return (
         <div className="py-12 md:py-24">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Reels Balíčky", url: "https://jajsemtomas.cz/reels-balicky" }
+            ]} />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{

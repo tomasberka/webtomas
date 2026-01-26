@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Calendar, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { trackBookingClick } from "@/lib/analytics";
 
@@ -212,9 +212,20 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </>
                         )}
 
-                        <div className="pt-2">
+                        <div className="pt-4 space-y-3">
+                            <a 
+                                href="tel:+420735846329" 
+                                onClick={() => { trackBookingClick("mobile_nav_phone", locale); setOpen(false); }}
+                                className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-lg transition-all"
+                            >
+                                <Phone className="h-5 w-5" />
+                                {locale === 'en' ? 'Call Now' : 'Zavolat ihned'}
+                            </a>
                             <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
-                                <Button className="w-full font-bold">{locale === 'en' ? "📅 Free Consultation" : "📅 Konzultace zdarma"}</Button>
+                                <Button className="w-full font-bold">
+                                    <Calendar className="h-4 w-4 mr-2" />
+                                    {locale === 'en' ? "Free Consultation" : "Konzultace zdarma"}
+                                </Button>
                             </Link>
                         </div>
                     </nav>
