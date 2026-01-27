@@ -3,10 +3,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HelpCircle } from "lucide-react";
 import faqData from "@/content/faq-en.json";
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "Frequently Asked Questions (FAQ) | I am Tomas",
-    description: "Answers to the most common questions about video production, Reels packages, UGC videos, and collaboration.",
+    description: "Answers to the most common questions about video production, Reels packages, UGC videos, and collaboration. How long does filming take? Pricing info.",
+    keywords: ["video production faq", "reels packages price", "filming questions", "video production london pricing", "ugc video cost", "livestream price"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/faq",
         languages: {
@@ -15,8 +17,8 @@ export const metadata: Metadata = {
     },
     openGraph: {
         url: "https://en.jajsemtomas.cz/faq",
-        title: "Frequently Asked Questions (FAQ) | I am Tomas",
-        description: "Everything you need to know about my services.",
+        title: "Frequently Asked Questions | Video Production by Tomas",
+        description: "Everything you need to know about my services and collaboration process.",
     }
 };
 
@@ -31,8 +33,33 @@ const categories = {
 };
 
 export default function FAQPage() {
+    // Generate FAQPage Schema from faq data
+    const allFaqItems = Object.values(faqData).flat() as { question: string; answer: string }[];
+    
     return (
         <div className="py-20 md:py-32">
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "FAQ", url: "https://en.jajsemtomas.cz/faq" }
+            ]} />
+            {/* FAQPage Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": allFaqItems.slice(0, 10).map(item => ({
+                            "@type": "Question",
+                            "name": item.question,
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": item.answer
+                            }
+                        }))
+                    })
+                }}
+            />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Frequently Asked Questions</h1>

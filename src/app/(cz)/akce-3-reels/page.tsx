@@ -7,21 +7,54 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "Akce 3 Reels + 15 fotek za 15 000 Kč | Já jsem Tomáš",
     description: "🔥 Speciální nabídka pro 3 firmy. Kompletní video produkce na klíč za zvýhodněnou cenu. Podívejte se na výsledky Easy Optic.",
+    keywords: ["reels akce", "video produkce sleva", "reels balíček", "instagram reels natáčení", "tvorba reels praha", "case study video"],
     alternates: {
         canonical: "https://jajsemtomas.cz/akce-3-reels",
         languages: {
             "en": "https://en.jajsemtomas.cz/promo-3-reels"
         }
+    },
+    openGraph: {
+        title: "🔥 Akce: 3 Reels + 15 fotek za 15 000 Kč",
+        description: "Speciální nabídka pro 3 firmy. Kompletní video produkce na klíč. Pouze 3 místa!",
+        url: "https://jajsemtomas.cz/akce-3-reels",
+        images: [{ url: "https://jajsemtomas.cz/images/easy-optic/easy-optic-cover.jpg", width: 1200, height: 630 }]
     }
 };
 
 export default function PromoPage() {
     return (
         <div className="pb-20">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Akce 3 Reels", url: "https://jajsemtomas.cz/akce-3-reels" }
+            ]} />
+            {/* Offer Schema for promo */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Offer",
+                        "name": "Case Study Program - 3 Reels + 15 fotek",
+                        "description": "Speciální nabídka pro 3 vybrané firmy. Kompletní video produkce na klíč.",
+                        "price": "15000",
+                        "priceCurrency": "CZK",
+                        "availability": "https://schema.org/LimitedAvailability",
+                        "validFrom": "2025-01-01",
+                        "seller": {
+                            "@type": "LocalBusiness",
+                            "name": "Já jsem Tomáš - Video Produkce",
+                            "url": "https://jajsemtomas.cz"
+                        }
+                    })
+                }}
+            />
             {/* Hero with dramatic gradient */}
             <section className="relative pt-8 pb-20 md:pt-14 md:pb-32 overflow-hidden">
                 {/* Animated background */}

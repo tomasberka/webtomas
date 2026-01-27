@@ -5,10 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { Globe, Users, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "Partner SocialVids | Large Productions & Events | I am Tomas",
     description: "Collaboration with SocialVids for event videography, live streaming, and international projects across 10+ countries. Conferences, bootcamps, award ceremonies.",
+    keywords: ["socialvids partner", "event videography london", "live streaming conference", "international video production", "aftermovie", "recap video uk"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/partner-socialvids",
         languages: {
@@ -105,6 +107,30 @@ const stats = [
 export default function PartnerPage() {
     return (
         <div className="flex flex-col gap-16 md:gap-24 pb-16">
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "Partner SocialVids", url: "https://en.jajsemtomas.cz/partner-socialvids" }
+            ]} />
+            {/* Organization Schema for SocialVids partnership */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "SocialVids",
+                        "description": "Event videography, live streaming and international video production.",
+                        "url": "https://socialvids.io",
+                        "areaServed": "Worldwide",
+                        "member": {
+                            "@type": "Person",
+                            "name": "Tomas Berka",
+                            "jobTitle": "Partner Filmmaker",
+                            "url": "https://en.jajsemtomas.cz"
+                        }
+                    })
+                }}
+            />
             {/* Hero Section */}
             <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/20 via-background to-background -z-10" />

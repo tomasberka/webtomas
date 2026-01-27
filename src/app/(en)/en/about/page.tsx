@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Clapperboard, Heart } from "lucide-react";
 import { VideoPlayer } from "@/components/ui/video-player"; // Reuse video player component
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "About Me | Filmmaker London | Video Partner for CEOs & Brands",
@@ -25,6 +26,41 @@ export const metadata: Metadata = {
 export default function AboutPage() {
     return (
         <div className="pb-20">
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "About", url: "https://en.jajsemtomas.cz/about" }
+            ]} />
+            {/* Person Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Tomas Berka",
+                        "jobTitle": "Video Producer & Filmmaker",
+                        "description": "Professional video producer and filmmaker with 10+ years experience. Specializing in Reels, TikTok, event video and post-production.",
+                        "url": "https://en.jajsemtomas.cz/about",
+                        "image": "https://en.jajsemtomas.cz/images/tomas-hero.jpg",
+                        "email": "msg@jajsemtomas.cz",
+                        "telephone": "+420735846329",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "London",
+                            "addressCountry": "UK"
+                        },
+                        "sameAs": [
+                            "https://www.linkedin.com/in/berkatomas",
+                            "https://www.instagram.com/jajsemtomas.cz/",
+                            "https://www.facebook.com/tomasberkaofficial/"
+                        ],
+                        "worksFor": {
+                            "@type": "Organization",
+                            "name": "I am Tomas - Video Production"
+                        }
+                    })
+                }}
+            />
             {/* Hero Section */}
             <section className="relative pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden bg-zinc-950 text-white">
                 <div className="absolute inset-0 z-0 opacity-20">

@@ -25,6 +25,37 @@ export default function AboutPage() {
                 { name: "Domů", url: "https://jajsemtomas.cz" },
                 { name: "O mně", url: "https://jajsemtomas.cz/o-mne" }
             ]} />
+            {/* Person Schema */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Person",
+                        "name": "Tomáš Berka",
+                        "jobTitle": "Video Producer & Filmmaker",
+                        "description": "Profesionální video producent a filmmaker s 10+ lety praxe. Specializace na Reels, TikTok, event video a postprodukci.",
+                        "url": "https://jajsemtomas.cz/o-mne",
+                        "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
+                        "email": "msg@jajsemtomas.cz",
+                        "telephone": "+420735846329",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Praha",
+                            "addressCountry": "CZ"
+                        },
+                        "sameAs": [
+                            "https://www.linkedin.com/in/berkatomas",
+                            "https://www.instagram.com/jajsemtomas.cz/",
+                            "https://www.facebook.com/tomasberkaofficial/"
+                        ],
+                        "worksFor": {
+                            "@type": "Organization",
+                            "name": "Já jsem Tomáš - Video Produkce"
+                        }
+                    })
+                }}
+            />
             {/* Hero Section */}
             <section className="relative pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden bg-zinc-950 text-white">
                 <div className="absolute inset-0 z-0 opacity-20">

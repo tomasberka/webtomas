@@ -8,4 +8,4 @@
 :HL["/images/clients/tatra.png","image"]
 :HL["/images/clients/slavia.png","image"]
 :HL["/images/clients/legonid.png","image"]
-0:{"buildId":"neTs8UVPiW0MhOf_gFwe8","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(cz)","paramType":null,"paramKey":"(cz)","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
+0:{"buildId":"qeMCwdFQ2BB9QTea-mwQ_","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(cz)","paramType":null,"paramKey":"(cz)","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}

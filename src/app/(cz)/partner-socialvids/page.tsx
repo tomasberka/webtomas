@@ -4,15 +4,22 @@ import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
 import { Globe, Users, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata = {
     title: "Partner SocialVids | Velké Produkce & Eventy | Já jsem Tomáš",
     description: "Spolupráce se SocialVids pro event videografii, živá vysílání a mezinárodní projekty v 10+ zemích. Konference, bootcampy, award ceremonies.",
+    keywords: ["socialvids partner", "event videografie", "live streaming konference", "mezinárodní video produkce", "aftermovie", "recap video"],
     alternates: {
         canonical: "https://jajsemtomas.cz/partner-socialvids",
         languages: {
             "en": "https://en.jajsemtomas.cz/partner-socialvids"
         }
+    },
+    openGraph: {
+        title: "Partner SocialVids | Velké Produkce & Eventy",
+        description: "Event videografie, live streaming a mezinárodní projekty v 10+ zemích.",
+        url: "https://jajsemtomas.cz/partner-socialvids"
     }
 };
 
@@ -97,6 +104,30 @@ const stats = [
 export default function PartnerPage() {
     return (
         <div className="flex flex-col gap-16 md:gap-24 pb-16">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Partner SocialVids", url: "https://jajsemtomas.cz/partner-socialvids" }
+            ]} />
+            {/* Organization Schema for SocialVids partnership */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        "name": "SocialVids",
+                        "description": "Event videografie, live streaming a mezinárodní video produkce.",
+                        "url": "https://socialvids.io",
+                        "areaServed": "Worldwide",
+                        "member": {
+                            "@type": "Person",
+                            "name": "Tomáš Berka",
+                            "jobTitle": "Partner Filmmaker",
+                            "url": "https://jajsemtomas.cz"
+                        }
+                    })
+                }}
+            />
             {/* Hero Section */}
             <section className="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/20 via-background to-background -z-10" />

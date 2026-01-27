@@ -7,21 +7,55 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "Promo: 3 Reels + 15 Photos for £1,000 | I am Tomas",
     description: "🔥 Special offer for 3 companies in London. Complete video production at a discounted price. See the results of Easy Optic.",
+    keywords: ["reels promo london", "video production discount", "reels package uk", "instagram reels filming", "tiktok content london", "case study video"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/promo-3-reels",
         languages: {
             "cs": "https://jajsemtomas.cz/akce-3-reels"
         }
+    },
+    openGraph: {
+        title: "🔥 Promo: 3 Reels + 15 Photos for £1,000",
+        description: "Special offer for 3 companies. Complete video production turnkey. Only 3 spots!",
+        url: "https://en.jajsemtomas.cz/promo-3-reels",
+        locale: "en_GB",
+        images: [{ url: "https://en.jajsemtomas.cz/images/easy-optic/easy-optic-cover.jpg", width: 1200, height: 630 }]
     }
 };
 
 export default function PromoPage() {
     return (
         <div className="pb-20">
+            <BreadcrumbSchema items={[
+                { name: "Home", url: "https://en.jajsemtomas.cz" },
+                { name: "Promo 3 Reels", url: "https://en.jajsemtomas.cz/promo-3-reels" }
+            ]} />
+            {/* Offer Schema for promo */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Offer",
+                        "name": "Case Study Program - 3 Reels + 15 Photos",
+                        "description": "Special offer for 3 selected companies. Complete video production turnkey.",
+                        "price": "1000",
+                        "priceCurrency": "GBP",
+                        "availability": "https://schema.org/LimitedAvailability",
+                        "validFrom": "2025-01-01",
+                        "seller": {
+                            "@type": "LocalBusiness",
+                            "name": "I am Tomas - Video Production",
+                            "url": "https://en.jajsemtomas.cz"
+                        }
+                    })
+                }}
+            />
             {/* Hero with dramatic gradient */}
             <section className="relative pt-8 pb-20 md:pt-14 md:pb-32 overflow-hidden">
                 {/* Animated background */}
