@@ -12,8 +12,26 @@ interface TestimonialsProps {
     locale?: "cs" | "en";
 }
 
+// Extended testimonial type that includes optional companyContext for EN
+interface Testimonial {
+    id: string;
+    name: string;
+    company: string;
+    companyContext?: string;
+    role: string;
+    quote: string;
+    rating: number;
+    project: string;
+    result?: string;
+    highlights?: string[];
+    image: string;
+    videoId?: string;
+    youtubeShorts?: string[];
+    instagramReels?: string[];
+}
+
 // Testimonial card with expandable quote
-function TestimonialCard({ testimonial, locale }: { testimonial: typeof testimonialsDataCs[0]; locale: "cs" | "en" }) {
+function TestimonialCard({ testimonial, locale }: { testimonial: Testimonial; locale: "cs" | "en" }) {
     const [isExpanded, setIsExpanded] = React.useState(false);
     const maxLength = 180; // Characters before truncation
     const hasLongQuote = testimonial.quote && testimonial.quote.length > maxLength;
@@ -100,7 +118,11 @@ function TestimonialCard({ testimonial, locale }: { testimonial: typeof testimon
                     {testimonial.company && (
                         <p className="text-sm text-primary font-medium">{testimonial.company}</p>
                     )}
-                    {testimonial.role && (
+                    {/* Company Context for EN locale - adds global credibility */}
+                    {locale === "en" && testimonial.companyContext && (
+                        <p className="text-xs text-muted-foreground italic">{testimonial.companyContext}</p>
+                    )}
+                    {testimonial.role && !(locale === "en" && testimonial.companyContext) && (
                         <p className="text-xs text-muted-foreground">{testimonial.role}</p>
                     )}
                 </div>
@@ -119,7 +141,7 @@ function TestimonialCard({ testimonial, locale }: { testimonial: typeof testimon
 
 export function Testimonials({ locale = "cs" }: TestimonialsProps) {
     const [showAll, setShowAll] = React.useState(false);
-    const testimonialsData = locale === "en" ? testimonialsDataEn : testimonialsDataCs;
+    const testimonialsData = (locale === "en" ? testimonialsDataEn : testimonialsDataCs) as Testimonial[];
     // Only show testimonials with quotes in the initial view
     const testimonialsWithQuotes = testimonialsData.filter(t => t.quote && t.quote.length > 0);
     const displayedTestimonials = showAll ? testimonialsData : testimonialsWithQuotes.slice(0, 6);

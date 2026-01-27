@@ -2,59 +2,67 @@
     {
         "id": "pilot",
         "title": "Pilot",
-        "subtitle": "Trial Production",
-        "description": "Test the collaboration. 3 videos tailored to your brand.",
+        "subtitle": "Trial Project",
+        "description": "Test the collaboration. 3 high-retention videos tailored to your brand.",
+        "price": "$750",
+        "priceNote": "one-time",
         "features": [
             "3 videos (pilot project)",
-            "Dynamic captions & clean cuts",
-            "Basic script review",
+            "Dynamic captions & hook optimization",
+            "Script review & feedback",
             "You provide raw footage",
-            "9:16 vertical format"
+            "9:16 vertical format + 1:1 adaptation"
         ],
         "cta": "Book a Call",
         "popular": false
     },
     {
-        "id": "monthly-production",
-        "title": "Monthly Production",
-        "subtitle": "Ongoing Partnership",
-        "description": "Consistent growth. 8 videos per month for steady presence.",
+        "id": "growth-engine",
+        "title": "Growth Engine",
+        "subtitle": "Monthly Retainer",
+        "description": "Consistent growth. 4 videos per month with strategy support.",
+        "price": "$2,500",
+        "priceNote": "/month",
         "features": [
-            "8 videos/month (2 per week)",
+            "4 videos/month",
+            "Monthly strategy call (async-friendly)",
             "Motion graphics, B-roll, SFX",
-            "Script & hook consultation",
-            "Music selection & sound design",
-            "9:16 + LinkedIn adaptation"
+            "48h revision turnaround",
+            "Dedicated Slack/Notion workspace"
         ],
         "cta": "Book a Call",
         "popular": true
     },
     {
-        "id": "premium",
-        "title": "Premium Partnership",
-        "subtitle": "Exclusive Collaboration",
-        "description": "Industry leader position. Cinematic look + shooting days in Prague.",
+        "id": "scale",
+        "title": "Scale Package",
+        "subtitle": "Full Content Engine",
+        "description": "Industry leader position. 8 videos/month with content calendar.",
+        "price": "$4,500",
+        "priceNote": "/month",
         "features": [
-            "15 videos (every other day)",
-            "Cinematic look, VFX, Brand alignment",
-            "Content Calendar + metrics analysis",
-            "Includes shooting days Prague",
-            "Formats: 9:16, 1:1, 4:5 + Stories"
+            "8 videos/month (2 per week)",
+            "Bi-weekly strategy sessions",
+            "A/B testing hooks & thumbnails",
+            "LinkedIn + TikTok + Shorts formats",
+            "Performance analytics review"
         ],
         "cta": "Book a Call",
         "popular": false
     },
     {
-        "id": "post-production",
-        "title": "Post-Production",
-        "subtitle": "Editing Only",
-        "description": "You shoot, we create High-Retention videos.",
+        "id": "product-demo",
+        "title": "Product Demo",
+        "subtitle": "SaaS Walkthrough",
+        "description": "Professional product demo for your SaaS or tech product.",
+        "price": "From $1,500",
+        "priceNote": "/project",
         "features": [
-            "You provide raw footage",
-            "Professional editing & SFX",
-            "Dynamic captions & effects",
-            "Color grading",
-            "Preview within 48h"
+            "60-90 second product demo",
+            "Screen recording + motion graphics",
+            "Professional voiceover included",
+            "2 revision rounds",
+            "Source files delivered"
         ],
         "cta": "Request Quote",
         "popular": false

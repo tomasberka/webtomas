@@ -76,6 +76,11 @@ export default function RootLayout({
   return (
     <html lang="cs" className="dark" suppressHydrationWarning>
       <head>
+        {/* Hreflang tags for international SEO */}
+        <link rel="alternate" hrefLang="cs" href="https://jajsemtomas.cz" />
+        <link rel="alternate" hrefLang="en" href="https://en.jajsemtomas.cz" />
+        <link rel="alternate" hrefLang="x-default" href="https://en.jajsemtomas.cz" />
+        
         {/* Preconnect for faster external resource loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

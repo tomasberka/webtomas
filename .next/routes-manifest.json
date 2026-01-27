@@ -134,6 +134,12 @@
       "namedRegex": "^/en/faq(?:/)?$"
     },
     {
+      "page": "/en/free-video-audit",
+      "regex": "^/en/free\\-video\\-audit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/free\\-video\\-audit(?:/)?$"
+    },
+    {
       "page": "/en/gateway-strategy",
       "regex": "^/en/gateway\\-strategy(?:/)?$",
       "routeKeys": {},
@@ -176,6 +182,12 @@
       "namedRegex": "^/en/reels\\-quiz(?:/)?$"
     },
     {
+      "page": "/en/remote-video",
+      "regex": "^/en/remote\\-video(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/remote\\-video(?:/)?$"
+    },
+    {
       "page": "/en/sitemap.xml",
       "regex": "^/en/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
@@ -192,6 +204,24 @@
       "regex": "^/en/ugc\\-creator(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/en/ugc\\-creator(?:/)?$"
+    },
+    {
+      "page": "/en/video-for-edtech",
+      "regex": "^/en/video\\-for\\-edtech(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/video\\-for\\-edtech(?:/)?$"
+    },
+    {
+      "page": "/en/video-for-fintech",
+      "regex": "^/en/video\\-for\\-fintech(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/video\\-for\\-fintech(?:/)?$"
+    },
+    {
+      "page": "/en/video-for-healthcare",
+      "regex": "^/en/video\\-for\\-healthcare(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/en/video\\-for\\-healthcare(?:/)?$"
     },
     {
       "page": "/faq",

@@ -100,6 +100,10 @@
       "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
+    "[project]/src/app/(en)/en/free-video-audit/page": [
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
     "[project]/src/app/(en)/en/gateway-strategy/page": [
       "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
@@ -132,6 +136,10 @@
       "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
+    "[project]/src/app/(en)/en/remote-video/page": [
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
     "[project]/src/app/(en)/en/services/[slug]/page": [
       "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
@@ -141,6 +149,18 @@
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ],
     "[project]/src/app/(en)/en/ugc-creator/page": [
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/src/app/(en)/en/video-for-edtech/page": [
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/src/app/(en)/en/video-for-fintech/page": [
+      "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/src/app/(en)/en/video-for-healthcare/page": [
       "static/media/1bffadaabf893a1e-s.p.7cd81963.woff2",
       "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
     ]

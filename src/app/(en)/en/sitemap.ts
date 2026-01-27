@@ -12,11 +12,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 1.0 - Homepage
         { route: '', priority: 1.0, changefreq: 'weekly' as const },
 
-        // Priority 0.95 - Promo pages (high urgency)
+        // Priority 0.95 - High-value landing pages for international clients
+        { route: '/remote-video', priority: 0.95, changefreq: 'weekly' as const },
+        { route: '/free-video-audit', priority: 0.95, changefreq: 'weekly' as const },
         { route: '/promo-3-reels', priority: 0.95, changefreq: 'daily' as const },
 
         // Priority 0.9 - Conversion pages
         { route: '/booking', priority: 0.9, changefreq: 'monthly' as const },
+
+        // Priority 0.85 - Vertical-specific landing pages (programmatic SEO)
+        { route: '/video-for-fintech', priority: 0.85, changefreq: 'monthly' as const },
+        { route: '/video-for-healthcare', priority: 0.85, changefreq: 'monthly' as const },
+        { route: '/video-for-edtech', priority: 0.85, changefreq: 'monthly' as const },
 
         // Priority 0.8 - Main content pages
         { route: '/about', priority: 0.8, changefreq: 'monthly' as const },
@@ -26,12 +33,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '/portfolio', priority: 0.7, changefreq: 'weekly' as const },
         { route: '/contact', priority: 0.7, changefreq: 'monthly' as const },
         { route: '/reels-quiz', priority: 0.7, changefreq: 'monthly' as const },
+        { route: '/reels-packages', priority: 0.7, changefreq: 'monthly' as const },
         { route: '/faq', priority: 0.7, changefreq: 'monthly' as const },
 
         // Priority 0.6 - Tertiary pages
         { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },
         { route: '/partner-socialvids', priority: 0.6, changefreq: 'monthly' as const },
         { route: '/ugc-creator', priority: 0.6, changefreq: 'monthly' as const },
+        { route: '/gateway-strategy', priority: 0.6, changefreq: 'monthly' as const },
         { route: '/privacy-policy', priority: 0.3, changefreq: 'yearly' as const },
     ].map(({ route, priority, changefreq }) => ({
         url: `${baseUrl}${route}`,

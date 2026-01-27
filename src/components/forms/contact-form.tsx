@@ -23,8 +23,8 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         email: locale === 'en' ? "Email" : "Email",
         phone: locale === 'en' ? "Phone (optional)" : "Telefon (volitelné)",
         phonePlaceholder: locale === 'en' ? "+44 7123 456789" : "+420 123 456 789",
-        budget: locale === 'en' ? "Estimated Budget (optional)" : "Orientační rozpočet (volitelné)",
-        budgetPlaceholder: locale === 'en' ? "e.g. £1,000" : "např. 20 000 Kč",
+        budget: locale === 'en' ? "Estimated Budget" : "Orientační rozpočet (volitelné)",
+        budgetPlaceholder: locale === 'en' ? "Select budget range..." : "např. 20 000 Kč",
         service: locale === 'en' ? "Service" : "Služba",
         servicePlaceholder: locale === 'en' ? "Select a service..." : "Vyberte službu...",
         message: locale === 'en' ? "Message" : "Zpráva",
@@ -89,7 +89,24 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                 </div>
                 <div className="space-y-2">
                     <Label htmlFor="budget">{t.budget}</Label>
-                    <Input id="budget" name="budget" placeholder={t.budgetPlaceholder} disabled={isSubmitting} />
+                    {locale === 'en' ? (
+                        <select
+                            id="budget"
+                            name="budget"
+                            className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                            disabled={isSubmitting}
+                        >
+                            <option value="">{t.budgetPlaceholder}</option>
+                            <option value="Under $1,000">Under $1,000</option>
+                            <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+                            <option value="$2,500 - $5,000">$2,500 - $5,000</option>
+                            <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+                            <option value="$10,000+">$10,000+</option>
+                            <option value="Monthly Retainer">Monthly Retainer</option>
+                        </select>
+                    ) : (
+                        <Input id="budget" name="budget" placeholder={t.budgetPlaceholder} disabled={isSubmitting} />
+                    )}
                 </div>
             </div>
 
@@ -105,12 +122,13 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     <option value="">{t.servicePlaceholder}</option>
                     {locale === 'en' ? (
                         <>
-                            <option value="Gateway Strategy">Gateway Strategy (Market Entry)</option>
-                            <option value="Reels Production">Reels Production</option>
-                            <option value="Creative Production">Creative Production</option>
-                            <option value="Event Video">Event Video</option>
+                            <option value="Monthly Retainer">Monthly Retainer (Ongoing)</option>
+                            <option value="SaaS Product Demo">SaaS Product Demo</option>
+                            <option value="UGC for B2B">UGC for B2B Tech</option>
+                            <option value="Reels/TikTok Production">Reels/TikTok Production</option>
+                            <option value="Video Editing Only">Video Editing Only (You Shoot)</option>
                             <option value="Live Stream">Live Stream</option>
-                            <option value="Post-production">Post-production</option>
+                            <option value="Free Video Audit">Free Video Audit</option>
                             <option value="Other / Collaboration">Other / Collaboration</option>
                         </>
                     ) : (
