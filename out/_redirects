@@ -1,0 +1,2 @@
+# Rewrite all requests on English subdomain to /en folder (except static files)
+https://en.jajsemtomas.cz/* /en/:splat 200

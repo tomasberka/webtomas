@@ -1,0 +1,19 @@
+{
+  "status": 307,
+  "headers": {
+    "location": "/contact",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(en)/layout,_N_T_/(en)/en/layout,_N_T_/(en)/en/booking/layout,_N_T_/(en)/en/booking/page,_N_T_/en/booking"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGVuKQ/en/booking/__PAGE__",
+    "/!KGVuKQ/en/booking",
+    "/!KGVuKQ/en",
+    "/!KGVuKQ",
+    "/_index",
+    "/_head"
+  ]
+}

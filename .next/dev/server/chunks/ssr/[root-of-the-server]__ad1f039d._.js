@@ -1,0 +1,359 @@
+module.exports = [
+"[project]/src/app/icon.png.mjs { IMAGE => \"[project]/src/app/icon.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/icon.png.mjs { IMAGE => \"[project]/src/app/icon.png (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript)"));
+}),
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+"[project]/src/app/(cz)/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/(cz)/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/src/content/blog.json (json)", ((__turbopack_context__) => {
+
+__turbopack_context__.v(JSON.parse("[{\"slug\":\"pet-chyb-v-reels-ktere-nezmenis-pres-noc\",\"title\":\"Pět Chyb v Reels, Které Nezměníš Přes Noc\",\"excerpt\":\"Algoritmus Instagramu zvýhodňuje ty, kteří hrají správně. Pokud neznáš pravidla, jsi prohraný. Zjisti, jaké chyby tě brzdí v roce 2026.\",\"date\":\"2025-01-06\",\"content\":\"<h2>Pojďme si být upřímní</h2><p>Algoritmus Instagramu se chová jako hříšný boháč – zvýhodňuje ty, kteří hrají správně. A když neznáš pravidla hry, jsi prohrán. V roce 2025 a 2026 to znamená jednu věc: bez kvality a autenticity nehneš ani lokte.</p><h2>Chyba č. 1: Dlouhé intro – Zabíjaš sám sebe</h2><p>Když se otevře tvůj Reel, máš přesně <strong>1,5 sekundy</strong>. Tak dlouho. Víš, co je to? Je to doba mezi tím, co si člověk řekne \\\"hm, no nevím\\\" a \\\"jdu dál\\\". Všechno, co přijde po těch 1,5 sekundě, je pro algoritmus irelevantní.</p><p>Přesto vidím lidi, kteří začínají svá videa takto:</p><blockquote>\\\"Ahoj lidi, já jsem Martin a dnes vám řeknu o tom, jak dělat Reels. Ale nejdřív chci poděkovat...\\\"</blockquote><p><strong>To není úvod. To je sebeovraždění.</strong></p><p>Instagram to měří jako watch time, nikoli jako procento sledovanosti. Znamená to, že čím déle se někdo kouká, tím více algoritmus vidí, že obsah stojí za to. Ale pokud člověk odejde v první sekundě, ty jsi hotov.</p><p><strong>Správně to vypadá takto:</strong> Pustíš se do toho okamžitě. Gag, napětí, otázka, nebo cokoliv, co vytáhne mozek z automatického režimu. Firmy, co to umí, to mají jednoduché – otevřou se s tím nejzajímavějším. Ne s úvody, ne s logem, ne s \\\"Vítám vás v našem kanálu.\\\"</p><h2>Chyba č. 2: Světlo a technologie – Jak Instastories z roku 2012</h2><p>Špatné osvětlení není jen technický detail. Je to první věc, kterou mozek zaregistruje, a řekne si: \\\"To vypadá levně. Neslyšel jsem o tom, proto bude levný obsah.\\\"</p><p>Zvláštní je, že nejjednodušší řešení je také nejlevnější. <strong>Okno.</strong> Přirozené světlo z okna. To je vše. Nemusíš koupit za tisíce korun reflektory nebo profesionální LED panely (i když pomájí).</p><p>Ale tady je ten kontroverzní kousek: Lidi preferují opravdu kvalitní obsah, který vypadá jako \\\"točeno na telefon mojího kamaráda\\\", víc než obsah, který je hyper-profesionální a sterilní. Zajímavé, že? Řeší to fenomén UGC (User Generated Content). Když video vypadá příliš připravené, mozek řekne: \\\"Reklama, přeskakuju.\\\" Když vypadá autenticky, i když je technicky dokonalé, mozek řekne: \\\"Počkej, to je zajímavé.\\\"</p><p>Takže ne, nemusíš koupit 50 000 Kč osvětlení. Ale musíš koupit rozumné osvětlení, které ti zajistí, aby ses neviděl jako zombie v temné místnosti. Jsou levné LED panely za tisíc korun, které udělají zázrak.</p><h2>Chyba č. 3: Bez titulků – 40 % Lost</h2><p>Tady je statistika, která by ti měla fyzicky bolet:</p><p><strong>40 % lidí sleduje video bez zvuku.</strong></p><p>Čtyřicet procent. To není marginální skupinka. To je skoro polovina tvého publika. A ty jim pošleš obsah čistě audio-centric? To je jako posílat slepé lidi do kina.</p><p>Títulky nejsou dekorace. Jsou to tvůj obchodní model. To, co řekneš, mělo by být viditelné, čitelné a zajímavé i v tichosti. Instagram to navíc oceňuje – systém označuje videa s titulky, že jsou přístupnější, a dává jim větší dosah.</p><p>Ale zde je věc, kterou chlapi v marketingu neřeknou: když máš dobré titulky, <strong>nemusíš být dobrý řečník</strong>. Titulky to kompenzují.</p><h2>Chyba č. 4: Žádný Call-to-Action – Jsi laskavý do sebe</h2><p>Zde je problém, který vidím milionkrát: Někdo natočí úžasné video. Je originální, zajímavé, má awesome osvětlení a titulky. Ale pak skončí... a nic. Jen tak stojí.</p><p>Bez toho, aby řekl lidem, co mají dělat.</p><p>Instagram (a vůbec každá sociální síť) funguje na engagement. Když člověk vidí video a neví, co s ním má dělat, tak nic nedělá. Algoritmus to vidí a řekne si: \\\"Hmm, toto video lidi nezaujalo tak moc na to, aby něco udělali.\\\" Dosah klesá.</p><p>Musíš jim říci, co mají dělat. Přesně. \\\"Napište mi v komentářích, jakou chybu děláte.\\\" Nebo \\\"Sdílej to se svým kamarádem, kterému to pomůže.\\\" Nebo \\\"Ulož si to, abys to měl napotřebí.\\\"</p><p><strong>CTA (Call-to-Action) je nejdůležitější věc, kterou můžeš vložit na konec. Firmy, co si to uvědomily, mají 3-4x vyšší engagement.</strong></p><h2>Chyba č. 5: Nuda – Někdy je jednoduše nudný obsah... nudný</h2><p>Nakonec. To nejhoršího zla. Video může mít všechno správně – světlo, titulky, CTA, krátké intro – ale pokud je to nudné, tak to prostě je nudné.</p><p><strong>Jsou tři věci, které si mozek pamatuje:</strong></p><ul><li><strong>Emoce</strong> – video tě rozesměje, dojme, naštve</li><li><strong>Učení</strong> – naučil jsi se něco nového</li><li><strong>Inspirace</strong> – viděl jsi něco, co ti změnilo perspektivu</li></ul><p>Pokud tvé video nedělá nic z toho, tak proč by si to někdo koukal?</p><p><strong>Zjisti, co je v tvém obsahu takové, že to lidi zajímá, a zbytek starej se o detaily.</strong></p><p><strong><a href='/reels-quiz'>Chceš zjistit, kde děláš chyby? Vyplň náš Reels Quiz →</a></strong></p>\",\"image\":\"/images/blog/5-chyb-reels.png\"},{\"slug\":\"ugc-vs-tradicni-reklama-souboj-dvou-svetu\",\"title\":\"UGC vs. Tradiční Reklama – Souboj Dvou Světů\",\"excerpt\":\"UGC překonává brandovaný obsah s 9× vyšší mírou zapojení. Proč mozek preferuje 'vlog' styl před hyper-profesionální produkcí?\",\"date\":\"2025-01-05\",\"content\":\"<h2>Fakta jsou jasná</h2><p>93 % marketérů potvrzuje, že UGC překonává brandovaný obsah, a UGC příspěvky generují až <strong>9× vyšší míru zapojení</strong> než obsah vytvořený značkou.</p><h2>Proč UGC vítězí?</h2><p>Je to psychologické. Mozek vede vyšetřování, jakmile uvidí obsah. Nejdříve zkontroluje: \\\"Je toto reklama?\\\" Pokud ano, vnitřní filtr se aktivuje, a člověk obsah ve 90 % případů ignoruje.</p><p>Ale když to vypadá, že je to od někoho jako ty a já (i když to je de facto cílená reklama od značky), tak ten filtr se neaktivuje. Mozek si myslí: \\\"To je příběh někoho stejného jako já. Ten se mi líbí.\\\"</p><p><strong>Tady je ta kontroverze:</strong> Nejlepší moderní reklama vypadá vůbec ne jako reklama. To je lež. To je manipulace. Ale velmi efektivní manipulace.</p><p>Značky, co to umí, zneužívají psychologických procesů. Zneužívají toho, že si lidé myslí, že vidí \\\"opravdový obsah od opravdového člověka,\\\" ale ve skutečnosti to je cílevědomě připravená kampaň.</p><h2>Proč značky to dělají?</h2><p>Jednoduše. <strong>Konverzní míra.</strong> UGC kampaně generují až 29 % vyšší konverzní míru než tradiční reklama. A také jsou levnější na výrobu.</p><p>Tradiční reklama na TV? Stojí miliony. Příprava studia, natáčení, střih, agentura na každém kroku... Pak výsledek? Lidé se koukat nebudou.</p><p>UGC? Najdeš pět \\\"běžných\\\" tvůrců, dáš jim produkt, řekneš jim, aby o něm mluvili přirozeně, a sami si vytvoří obsah. Stojí to zlomek peněz, a výsledek je 9× lepší.</p><h2>Opravdový UGC vs. Fake UGC</h2><p>Zde je ta ironie: Skutečný UGC (když si někdo koupí tvůj produkt a o něm napíše) je skvělý. Ale je nepředvídatelný.</p><p>Takže značky řekly: \\\"Pojďme to kontrolovat.\\\" A vymysleli si \\\"UGC kampaně,\\\" kde najímají tvůrce, dají jim scénář (ale potichu, aby to nevypadalo jako scénář), a ti pak točí \\\"přirozené\\\" videa.</p><p>Sám já dělám tyhle věci. Vidím to. Když se podíváme na \\\"autentické\\\" video někoho, kdo hraje v UGC kampani, můžeš vidět, kde končí autenticita a začíná režie. Ale 90 % lidí to nevidí. Mozek jim říká, že je to opravdové, a to stačí.</p><p><strong>To je to nejtemnější místo moderního marketingu. Blížíme se hranicím mezi opravdovým obsahem a manipulacemi.</strong></p><p><strong><a href='/ugc-herec'>Chceš UGC, které prodává? Mrkni na moji nabídku →</a></strong></p>\",\"image\":\"/images/blog/ugc-vs-reklama.png\"},{\"slug\":\"algoritmus-instagram-co-ti-skutecne-chce\",\"title\":\"Algoritmus Nemluvil – Co Ti Instagram Skutečně Chce\",\"excerpt\":\"Watch time je nová měna. Zapomeň na Likey, algoritmus zajímá jen to, jak dlouho diváka udržíš. Jak funguje stroj na pozornost?\",\"date\":\"2025-01-04\",\"content\":\"<h2>Instagram nebude mluvit upřímně</h2><p>Jejich výkonnostní tým řekne: \\\"Algoritmus upřednostňuje autentičnost a kvalitu.\\\"</p><p><strong>Lež.</strong> Ne úplně. Algoritmus upřednostňuje <strong>engagement</strong>. Konec.</p><p>A jak se měří engagement? Watch time. Replay rate. Saves. Shares. Komentáře. <strong>Likey? Ty jsou poslední věc na seznamu.</strong> Instagram to řekl sám – watch time je nová měna.</p><p>To znamená jednu věc: Algoritmus odměňuje obsah, který tě na platformě drží déle. Bez ohledu na to, jestli je to kvalitní nebo nepříjemné.</p><h2>Watch Time vs. Kvalita</h2><p>Videa, která dělají miliony, nejsou vždy kvalitní. Někdy jsou to právě videa, která tě frustrují, naštví, nebo tě šokují. Protože <strong>emocí = watch time</strong>.</p><p>Když se podíváš na virální video s 10 miliony views, často se jedná o:</p><ul><li>Něco šokujícího</li><li>Něco směšného</li><li>Něco, co vytváří polemiku</li></ul><p>Řídko to je didaktické vzdělávací video \\\"Jak spravit kotelnu.\\\"</p><p>Instagram to ví. Algoritmus to optimalizuje. Pokud vidí, že lidé sedí na tvém videu, protože je tam drama nebo sex nebo něco, co vzbuzuje emoce, bude to servírovat milionům lidí.</p><h2>Důsledky</h2><p>Tvůrci to vědí. A právě proto vidíš tolik obsahu, který je buď:</p><ul><li>Sexualizovaný</li><li>Sensacionální</li><li>Manipulativní</li><li>Lživý</li></ul><p>Protože algoritmus je odměňuje.</p><p><strong>A tady je to nejnebezpečnější – mladí lidé vidí, že drama prodává. Že lež prodává. Že manipulace prodává. A začínají to napodobovat.</strong></p><p><strong>Algoritmus není tvůj přítel. Je to stroj, který optimalizuje jednu věc – čas strávený na platformě. To, co tě drží, je to, co se stane virálním.</strong></p><p><strong><a href='/kontakt'>Potřebuješ pomoc s obsahem, který funguje eticky? Ozvi se →</a></strong></p>\",\"image\":\"/images/blog/algoritmus-instagram.png\"},{\"slug\":\"autenticnost-nejnovejsi-marketingova-lez\",\"title\":\"Autentičnost – Nejnovější Marketingová Lež\",\"excerpt\":\"Autentičnost v marketingu je oxymoron. Přiznejme si to: každý post má cíl. Proč je 'zranitelnost' jen další efektivní marketingová strategie?\",\"date\":\"2025-01-03\",\"content\":\"<h2>Budeme si vyměňovat názory</h2><p>Všichni dnes mluví o \\\"autentičnosti.\\\" Algoritmus ji prý miluje. Značky ji propagují. Tvůrci ji slibují.</p><p>Ale co se pod tím slovem skrývá?</p><p><strong>Autentičnost v marketingu je oxymoron.</strong> Je to oxid uhličitý. Je to bezalkaloid. Záležitost je, že autentičnost a marketing si logicky odporují. Když máš cíl (prodat, získat followers, dosáhnout engagement), pak tvůj obsah není autentický. Je to strategie.</p><p>Ale všichni si to uvědomují, tak řekli: \\\"Pojďme to nazývat autentičnost, abychom to znělo lépe.\\\"</p><h2>Druhá vrstva manipulace</h2><p>Tvůrci s větším publikem se snaží vypadat \\\"autentičtí\\\" tím, že sdílí své problémy, příběhy, nebo chyby. \\\"Tady je můj fail,\\\" říkají s tím, jak tě to má přesvědčit, že jsi s nimi v tom společně.</p><p><strong>To je sofistikovanější forma manipulace.</strong> Nejde o lež. Jde o selektivní komunikaci. Říkají ti pravdu, ale jen tu část, která jim pomáhá budovat obraz.</p><p>Když se podíváš na \\\"autentické\\\" příspěvky úspěšných tvůrců, vždy mají jednu věc společnou – jsou to pečlivě vybírané momenty z jejich života, které vytvářejí specifický příběh. Nejsou to všechny jejich momenty. Nejsou to jejich nejnudnější dny. Jsou to ty, které tě připraví na to, co chtějí říci dál.</p><p>To je obchod. Ale je to chytrý obchod, protože se tváří jako autentičnost.</p><h2>Ale pracuje to</h2><p>Zde je problém. Ať je to manipulace či ne, lidé tomu věří. A funguje to.</p><p>Značky si to uvědomily. Teď všichni točí videa \\\"za zákulisím,\\\" sdílí \\\"pravdivé příběhy,\\\" a dávají se do \\\"zranitelnosti.\\\"</p><p>A funguje to, protože <strong>emoce + autentičnost (i když jen zdánlivá) = vztah = důvěra = prodej</strong>.</p><p><strong>Paradox je v tom, že nejúčinnější forma manipulace je ta, kterou si myslíš, že vidíš.</strong></p><p><strong><a href='/o-mne'>Chceš vědět, kdo jsem opravdu já? Přečti si můj příběh →</a></strong></p>\",\"image\":\"/images/blog/autenticnost-lez.png\"},{\"slug\":\"ekonomika-tvurcu-nebo-ekonomika-vypaleni\",\"title\":\"Ekonomika Tvůrců – Nebo Ekonomika Vypalení?\",\"excerpt\":\"Být full-time tvůrcem znamená být závislý na vrtoších Marka Zuckerberga. Jak přežít v pastí algoritmů a proč je divertifikace nutností?\",\"date\":\"2025-01-02\",\"content\":\"<h2>Teď všichni vědí, že se můžeš živit tvorbou obsahu</h2><p>61 % tvůrců se dnes živí na plný úvazek.</p><p>Skvělé. Ale tady je věc – <strong>tvůrci jsou stále více ekonomicky závislí na platformách, které řídí algoritmy</strong>, které řídí Mark Zuckerberg.</p><p>Znamená to, že když Instagram změní algoritmus (a změní to letos určitě), tisíce tvůrců bude mít finanční krizi.</p><h2>Střih a burn</h2><p>Tvůrci říkají: \\\"Omlouvám se, že jsem tu chvíli nebyl. Vypálil jsem se.\\\" <strong>Vypálení je nový norm.</strong> Vidíme ho všude. Tvůrci točí videa každý den, streamují každou noc, reagují na komentáře ihned.</p><p>Proč? Protože algoritmus oceňuje konzistenci a frekvenci. Méně videí = menší dosah. Takže tvůrci jsou v pasti. <strong>Buď točíš neustále, nebo padáš z úctyhodnosti.</strong></p><h2>Diverzifikace</h2><p>Jediná cesta, jak se tomu vyhnout? Diverzifikace. Ne všechny jablka v jednom koši (Instagram). Ale to znamená více práce. YouTube, TikTok, LinkedIn, vlastní newsletter, vlastní e-obchod.</p><p>94 % tvůrců se připravuje na diverzifikaci. Je to správné. Ale to také znamená, že běžný tvůrce musí být zároveň marketérem, technologem, designérem, a konzultantem. To je mnoho.</p><h2>Budoucnost</h2><p>Budoucnost? Creator economy bude rostoucí. Ale bude také více profesionalizovaná a konkurentnější. <strong>Dny, kdy si nějaký teenager nahrál video a získal milion followers bez strategie a plánování, jsou pryč.</strong> Teď musíš být lepší, hlasitější, více kontroverzní, nebo více strategický.</p><p>Přidané k tomu je skutečnost, že zatímco tvůrci si myslí, že jsou nezávislí, jsou ve skutečnosti stále více závislí na platformách, které si mohou změnit pravidla přes noc.</p><p><strong><a href='/reels-balicky'>Chceš strategii, která funguje dlouhodobě? Mrkni na Reels Produkci →</a></strong></p>\",\"image\":\"/images/blog/ekonomika-tvurcu.png\"},{\"slug\":\"proc-vase-reels-maji-50-views-a-jak-to-zmenit\",\"title\":\"Proč vaše Reels mají 50 views (a jak to změnit)\",\"excerpt\":\"Zase jen 50 views? Odhalíme 5 konkrétních důvodů, proč vaše Reels algoritmus ignoruje, a jak to změnit během jediného dne.\",\"date\":\"2025-01-05\",\"content\":\"<h2>Proč mé Reels nemají dosah?</h2><p>Pokud jste podnikatel a investujete čas do tvorby Instagram Reels, ale výsledkem je jen 50 zhlédnutí a žádné nové zakázky, nejste sami. Mnoho firemních profilů řeší stejný problém – na Reels se nadřou, ale algoritmus jako by je ignoroval.</p><p>Nečekejte zázračnou formulku ani prázdné fráze. Místo toho dostanete konkrétní rady podložené zkušenostmi z praxe.</p><h2>1. Slabý úvod a nulové zaujetí (diváci hned odcházejí)</h2><p><strong>Symptom:</strong> Většina lidí vaše video do pár sekund vypne. Reels má sice 50 zhlédnutí, ale minimum lajků a komentářů.</p><p><strong>Diagnóza:</strong> Prvních pár sekund je kritických. Pokud nezačnete videem, které ihned upoutá pozornost (tzv. hook), algoritmus ho přestane nabízet. Slabý úvod – třeba dlouhé logo firmy, nebo nudný záběr bez akce – způsobí, že diváci rychle odscrollují dál.</p><p><strong>Léčba:</strong> Dejte si záležet na prvních 2–3 sekundách videa. Začněte něčím překvapivým, provokativním nebo vizuálně atraktivním. Místo statického loga ukažte hned hotový výsledek.</p><h2>2. Recyklovaný obsah nebo \\\"reels rutina\\\"</h2><p><strong>Symptom:</strong> Vaše poslední videa vypadají jedno jako druhé. Používáte stejnou šablonu, stejný formát, možná dokonce recyklujete TikTok videa s vodoznakem.</p><p><strong>Léčba:</strong> Inovujte formát i obsah. Střídejte styly: jednou mluvte na kameru, podruhé udělejte rychlý fotokolážový Reel. Důležité je také odstranit případný TikTok vodoznak.</p><h2>3. Špatné načasování a nulová interakce s publikem</h2><p><strong>Symptom:</strong> Video sice vypadá skvěle, ale zveřejnili jste ho ve tři ráno nebo v době, kdy je vaše cílovka offline. Navíc nereagujete na komentáře.</p><p><strong>Léčba:</strong> Zaměřte se na timing a komunitní management. Ideálně publikujte v čase, kdy je online nejvíce vašich fanoušků.</p><h2>4. Příliš prodejní obsah bez hodnoty</h2><p><strong>Symptom:</strong> Každé vaše video je vlastně reklama – \\\"kupte si tohle\\\", \\\"nabízíme tamto\\\". Diváci nedostávají nic než nabídku, takže je video nezaujme a rychle utečou.</p><p><strong>Léčba:</strong> V každém videu se snažte dát hodnotu nebo emoci. Místo \\\"produktového hlášení\\\" ukažte tip, trik, návod, příběh zákazníka nebo třeba zákulisí firmy. Přístup 80/20 funguje skvěle.</p><h2>5. Nepoznáte své publikum (obsah mimo cíl)</h2><p><strong>Symptom:</strong> Tvoříte obecná videa, která ale míří \\\"do prázdna\\\". Máte pocit, že děláte vše správně, ale obsah je možná příliš obecný nebo naopak příliš odborný.</p><p><strong>Léčba:</strong> Udělejte si jasno v tom, koho chcete oslovit, a obsah přizpůsobte jim, ne osoben. Klidně si představte jednoho ideálního sledujícího (personu) a tomu \\\"vyprávějte\\\" každý Reel.</p><h3>Rychlý self-checklist pro větší dosah Reels</h3><ul><li>Hook v prvních 3 vteřinách: Upoutá úvod pozornost? (Y/N)</li><li>Originální obsah: Nenese video vodoznak jiné platformy? (Y/N)</li><li>Časování: Publikuji v dobu, kdy jsou moji sledující online? (Y/N)</li><li>Hodnota pro diváka: Dává video divákům informaci nebo zábavu? (Y/N)</li><li>Relevance k publiku: Je téma vhodné pro můj okruh sledujících? (Y/N)</li></ul><p><strong>Chcete zjistit, jak jste na tom právě vy? <a href='/reels-quiz'>Vyplňte si náš rychlý Reels audit kvíz</a> a během 5 minut odhalte, kde je vaše největší rezerva!</strong></p>\",\"image\":\"/images/blog/reels-low-views-fix.png\"},{\"slug\":\"kolik-stoji-profesionalni-video-v-praze\",\"title\":\"Kolik OPRAVDU stojí video produkce v Praze?\",\"excerpt\":\"Od jednotek tisíc po stovky tisíc. Podívejte se na transparentní rozpis cen za Reels, firemní videa i TV spoty v roce 2026.\",\"date\":\"2025-01-04\",\"content\":\"<h2>Víte, kolik stojí natočení videa pro vaši firmu?</h2><p>Možná jste už slyšeli obligátní odpověď: \\\"To záleží…\\\". Ano, rozpočet videoprodukce se odvíjí od mnoha faktorů. My ale dnes půjdeme konkrétně k věci.</p><h2>Krátké video na sítě (Reels, promo klip)</h2><p><strong>Cena:</strong> Pokud si video tvoříte sami \\\"in-house\\\", přímé náklady mohou být nulové. U externí produkce se ceny liší, ale běžně low-budget Reels pořídíte v jednotkách tisíc korun. Pokud chcete full-servis, počítejte zhruba od 5 do 15 tisíc Kč za jeden spot.</p><p><strong>Co bývá v ceně:</strong> Práce kameramana/střihače a základní produkce. Krátké natáčení, základní střih, barevné úpravy.</p><h2>Firemní video (prezentační, promo, case study)</h2><p><strong>Cena:</strong> Tady se rozptyl pohybuje zhruba od 20 000 Kč do 100 000+ Kč. Na spodní hranici dostanete jednodušší video natočené za jeden den. Na vyšší hranici jsou propracovanější videa s více natáčecími dny a pokročilou grafikou.</p><p><strong>Co bývá v ceně:</strong> Kompletní servis: pre-produkce (scénář), produkce (kameraman, zvukař, světla) a post-produkci (střih, grading, hudba, voiceover).</p><h2>TV spot (televizní reklama)</h2><p><strong>Cena:</strong> Profesionální TV reklama běžně stojí stovky tisíc korun. U většiny firemních TV reklam počítejte 300 až 500 tisíc Kč i více.</p><p><strong>Co bývá v ceně:</strong> Všechno: kreativní koncept, režisér, velký štáb, herci, lokace, make-up, kostýmy, speciální efekty, hudba s licencí.</p><h2>Co ovlivňuje cenu videa? Hlavní faktory</h2><ul><li><strong>Délka videa:</strong> Delší video = více práce.</li><li><strong>Počet natáčecích dnů a lokací:</strong> Více dní = vyšší náklady.</li><li><strong>Velikost štábu:</strong> Více odborníků = vyšší kvalita i cena.</li><li><strong>Herci či moderátoři:</strong> Honoráře a castingy něco stojí.</li><li><strong>Náročnost postprodukce:</strong> Animace a 3D efekty jsou drahé.</li></ul><h2>Red flags: na co si dát pozor při poptávce</h2><ol><li>Podezřele nízká cena bez detailů.</li><li>Nejasné položky nebo chybějící rozpis.</li><li>Žádná zmínka o licencích a právech.</li><li>Příliš slibů za krátký čas.</li><li>Chybějící reference.</li></ol><p><strong>Nejste si jistí, jaký typ videa je pro vás vhodný? <a href='/kontakt'>Ozvěte se nám pro nezávaznou konzultaci</a>.</strong></p>\",\"image\":\"/images/blog/video-production-cost-2025.png\"},{\"slug\":\"natocil-jsem-500-reels-5-vec-ktere-nikdo-nerika\",\"title\":\"Natočil jsem 500+ Reels. Tady je 5 věcí, které nikdo neříká\",\"excerpt\":\"Pravda o virálech a drahé technice. Po 500+ videích pro firmy mám pár brutálně upřímných poznatků, které vám na LinkedInu nikdo neřekne.\",\"date\":\"2025-01-03\",\"content\":\"<h2>Pravda #1: Většina Reels neuspěje (a to je v pořádku)</h2><p>Tohle nikdo moc nahlas neříká – na sítích vidíte hlavně úspěchy. Ale realita? Drtivá většina Reels skončí průměrně. Ne každé video vám bouchne do virálu.</p><h2>Pravda #2: Jednorázový virál vás nespasí, důležitá je konzistence</h2><p>Kdysi jsem věřil, že stačí jedno virální video a mám vyhráno. Omyl. Jedna vlaštovka jaro nedělá. Virál je fajn ego boost, ale často mívá jepičí život.</p><h2>Pravda #3: Trendy vás nespasí – obsah musí sedět vám i publiku</h2><p>Trend není strategie. Pokud prodávám účetní služby, asi mi TikTok taneček moc klientů nepřivede. Autenticita je víc než rádoby trendy atrakce.</p><h2>Pravda #4: Reels samy o sobě neprodávají (musíte jim pomoct)</h2><p>Jeden Reel vám byznys nespasí. Reels jsou skvělé na získání pozornosti – ale prodat za vás většinou nebudou, pokud nemáte navazující proces. Dejte jasný CTA: \\\"Klikněte na odkaz v biu\\\".</p><h2>Pravda #5: Úspěch = hromada pokusů, omylů a učení se za pochodu</h2><p>Nikdo nemá 100% recept na úspěch. Ani po 500 videích nemůžu říct \\\"už vím všechno\\\". Tvorba Reels je neustálé experimentování.</p><p><strong>Závěrem:</strong> Jděte do toho naplno, ale s otevřenýma očima. Těchto pět věcí vám asi každý na LinkedInu říkat nebude. <strong>Pokud si i tak na cestě s Reels nejste jistí a hodila by se vám pomocná ruka, <a href='/kontakt'>ozvěte se</a>.</strong></p>\",\"image\":\"/images/blog/500-reels-lessons.png\"},{\"slug\":\"jak-tocit-reels-ktere-prodavaji\",\"title\":\"5 chyb, které zabíjejí dosah vašich Reels (a jak je opravit)\",\"excerpt\":\"Proč vaše videa nikdo nevidí? Možná děláte jednu z těchto začátečnických chyb. Přečtěte si, jak algoritmům Instagramu dát přesně to, co chtějí.\",\"date\":\"2025-10-15\",\"content\":\"<h2>1. První 3 vteřiny rozhodují</h2><p>Lidé nemají čas. Pokud je nezaujmete hned, scrollují dál. Zapomeňte na dlouhá loga a úvody. Jděte rovnou k věci.</p><h2>2. Špatné světlo</h2><p>Nemusíte mít kameru za sto tisíc, ale musíte mít světlo. Denní světlo z okna je zdarma a vypadá skvěle.</p><h2>3. Chybějící titulky</h2><p>Až 40 % lidí sleduje videa bez zvuku. Pokud nemáte titulky, ztrácíte polovinu publika.</p><h2>4. Žádná výzva k akci (CTA)</h2><p>Co mají lidé udělat po zhlédnutí? Řekněte jim to. 'Sledujte pro více tipů', 'Klikněte na odkaz v biu'.</p><h2>5. Nuda</h2><p>Bavte, vzdělávejte, inspirujte. Pokud video nic nepřináší, algoritmus ho pohřbí.</p><p><strong>Potřebujete s Reels pomoct? Mrkněte na <a href='/reels-balicky'>Reels Produkci</a>.</strong></p>\",\"image\":\"/images/service-reels.jpg\"},{\"slug\":\"proc-vasi-reklamu-nikdo-nesleduje\",\"title\":\"Proč vaše reklamy na Facebooku nefungují? (Psychologie diváka)\",\"excerpt\":\"Utrácíte za PPC, ale prodeje nikde? Problém není v nastavení reklamy, ale v kreativě. Zjistěte, jak zaujmout.\",\"date\":\"2025-11-20\",\"content\":\"<h2>Lidé nenávidí reklamu</h2><p>Nikdo nechodí na Facebook, aby se díval na reklamy. Lidé se chtějí bavit nebo vidět, co dělají přátelé.</p><h2>Pravidlo 'Native Content'</h2><p>Vaše reklama nesmí vypadat jako reklama. Musí vypadat jako TikTok, jako Vlog, jako zábava. Tomu se říká <strong>UGC (User Generated Content)</strong> styl.</p><h2>Emoce prodávají</h2><p>Nudný výčet parametrů produktu nikoho nezajímá. Ukažte, jak se člověk bude CÍTIT, až produkt použije. Ukažte problém a jeho řešení.</p><p><strong>Chcete reklamu, která vypadá přirozeně a prodává? Podívejte se na mou nabídku <a href='/ugc-herec'>UGC videí</a>.</strong></p>\",\"image\":\"/images/ugc-hero.jpg\"}]"));}),
+"[project]/src/components/ui/card.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Card",
+    ()=>Card,
+    "CardContent",
+    ()=>CardContent,
+    "CardDescription",
+    ()=>CardDescription,
+    "CardFooter",
+    ()=>CardFooter,
+    "CardHeader",
+    ()=>CardHeader,
+    "CardTitle",
+    ()=>CardTitle
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-rsc] (ecmascript)");
+;
+;
+;
+const Card = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("rounded-lg border bg-card text-card-foreground shadow-sm", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+Card.displayName = "Card";
+const CardHeader = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("flex flex-col space-y-1.5 p-6", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 24,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+CardHeader.displayName = "CardHeader";
+const CardTitle = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("text-2xl font-semibold leading-none tracking-tight", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 36,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+CardTitle.displayName = "CardTitle";
+const CardDescription = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("text-sm text-muted-foreground", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 51,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+CardDescription.displayName = "CardDescription";
+const CardContent = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 63,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+CardContent.displayName = "CardContent";
+const CardFooter = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"](({ className, ...props }, ref)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: ref,
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("flex items-center p-6 pt-0", className),
+        ...props
+    }, void 0, false, {
+        fileName: "[project]/src/components/ui/card.tsx",
+        lineNumber: 71,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0)));
+CardFooter.displayName = "CardFooter";
+;
+}),
+"[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BreadcrumbSchema",
+    ()=>BreadcrumbSchema
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const BreadcrumbSchema = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call BreadcrumbSchema() from the server but BreadcrumbSchema is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/seo/breadcrumb-schema.tsx <module evaluation>", "BreadcrumbSchema");
+}),
+"[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "BreadcrumbSchema",
+    ()=>BreadcrumbSchema
+]);
+// This file is generated by next-core EcmascriptClientReferenceModule.
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const BreadcrumbSchema = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call BreadcrumbSchema() from the server but BreadcrumbSchema is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/seo/breadcrumb-schema.tsx", "BreadcrumbSchema");
+}),
+"[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$seo$2f$breadcrumb$2d$schema$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$seo$2f$breadcrumb$2d$schema$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$seo$2f$breadcrumb$2d$schema$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/src/app/(cz)/blog/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>BlogPage,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/container.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-rsc] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.js [app-rsc] (ecmascript) <export default as Calendar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$content$2f$blog$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/src/content/blog.json (json)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/card.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$seo$2f$breadcrumb$2d$schema$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/seo/breadcrumb-schema.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+const metadata = {
+    title: "Blog o Video Marketingu Praha | Tipy pro Reels & TikTok | Já jsem Tomáš",
+    description: "📚 Tipy a triky ze světa video produkce, Reels a online marketingu. Jak točit videa, která prodávají. Praktické rady pro firmy.",
+    keywords: [
+        "video marketing blog",
+        "reels tipy čeština",
+        "jak točit tiktok",
+        "video produkce návody"
+    ],
+    alternates: {
+        canonical: "https://jajsemtomas.cz/blog",
+        languages: {
+            "en": "https://en.jajsemtomas.cz/blog"
+        }
+    }
+};
+function BlogPage() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "py-20 md:py-32",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$seo$2f$breadcrumb$2d$schema$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["BreadcrumbSchema"], {
+                items: [
+                    {
+                        name: "Domů",
+                        url: "https://jajsemtomas.cz"
+                    },
+                    {
+                        name: "Blog",
+                        url: "https://jajsemtomas.cz/blog"
+                    }
+                ]
+            }, void 0, false, {
+                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                lineNumber: 24,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center max-w-2xl mx-auto mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "text-4xl md:text-5xl font-bold tracking-tight mb-4",
+                                children: "Blog & Know-How"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                lineNumber: 30,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xl text-muted-foreground",
+                                children: "Praktické rady, jak využít video k růstu vašeho byznysu. Bez omáčky."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                lineNumber: 31,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8",
+                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$content$2f$blog$2e$json__$28$json$29$__["default"].map((post)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/blog/${post.slug}`,
+                                className: "group",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Card"], {
+                                    className: "h-full flex flex-col overflow-hidden hover:shadow-lg transition-all hover:border-primary/50",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "aspect-video relative overflow-hidden bg-muted",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: post.image,
+                                                alt: post.title,
+                                                className: "object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                lineNumber: 41,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                            lineNumber: 40,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardHeader"], {
+                                            className: "flex-grow",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex items-center text-sm text-muted-foreground mb-3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                            className: "w-4 h-4 mr-2"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                            lineNumber: 49,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        new Date(post.date).toLocaleDateString('cs-CZ')
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardTitle"], {
+                                                    className: "text-xl leading-snug group-hover:text-primary transition-colors",
+                                                    children: post.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                            lineNumber: 47,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-muted-foreground text-sm line-clamp-3",
+                                                children: post.excerpt
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                lineNumber: 57,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                            lineNumber: 56,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardFooter"], {
+                                            className: "pt-0 mt-auto",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-primary font-medium text-sm inline-flex items-center",
+                                                children: [
+                                                    "Číst článek ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                        className: "w-4 h-4 ml-2"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                        lineNumber: 63,
+                                                        columnNumber: 53
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                                lineNumber: 62,
+                                                columnNumber: 37
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                            lineNumber: 61,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 29
+                                }, this)
+                            }, post.slug, false, {
+                                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                                lineNumber: 38,
+                                columnNumber: 25
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                        lineNumber: 36,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/(cz)/blog/page.tsx",
+                lineNumber: 28,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/(cz)/blog/page.tsx",
+        lineNumber: 23,
+        columnNumber: 9
+    }, this);
+}
+}),
+"[project]/src/app/(cz)/blog/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/(cz)/blog/page.tsx [app-rsc] (ecmascript)"));
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__ad1f039d._.js.map

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(cz)/layout,_N_T_/(cz)/sluzby/layout,_N_T_/(cz)/sluzby/[slug]/layout,_N_T_/(cz)/sluzby/[slug]/page,_N_T_/sluzby/live-stream"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGN6KQ/sluzby/$d$slug/__PAGE__",
+    "/!KGN6KQ/sluzby/$d$slug",
+    "/!KGN6KQ/sluzby",
+    "/!KGN6KQ",
+    "/_index",
+    "/_head"
+  ]
+}

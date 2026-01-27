@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(cz)/layout,_N_T_/(cz)/reels-balicky/layout,_N_T_/(cz)/reels-balicky/page,_N_T_/reels-balicky"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGN6KQ/reels-balicky/__PAGE__",
+    "/!KGN6KQ/reels-balicky",
+    "/!KGN6KQ",
+    "/_index",
+    "/_head"
+  ]
+}

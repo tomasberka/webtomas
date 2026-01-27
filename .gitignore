@@ -1,17 +1,1 @@
 node_modules
-out
-.next
-.DS_Store
-.env.local
-.env
-build
-dist
-.vscode
-
-
-
-# Next Image Export Optimizer
-public/images/nextImageExportOptimizer
-public/images/thumbnails/nextImageExportOptimizer
-public/nextImageExportOptimizer
-tsconfig.tsbuildinfo

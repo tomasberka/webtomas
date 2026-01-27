@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(en)/layout,_N_T_/(en)/en/layout,_N_T_/(en)/en/blog/layout,_N_T_/(en)/en/blog/[slug]/layout,_N_T_/(en)/en/blog/[slug]/page,_N_T_/en/blog/why-your-reels-have-50-views-and-how-to-fix-it"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGVuKQ/en/blog/$d$slug/__PAGE__",
+    "/!KGVuKQ/en/blog/$d$slug",
+    "/!KGVuKQ/en/blog",
+    "/!KGVuKQ/en",
+    "/!KGVuKQ",
+    "/_index",
+    "/_head"
+  ]
+}

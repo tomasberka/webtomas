@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(cz)/layout,_N_T_/(cz)/ochrana-udaju/layout,_N_T_/(cz)/ochrana-udaju/page,_N_T_/ochrana-udaju"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGN6KQ/ochrana-udaju/__PAGE__",
+    "/!KGN6KQ/ochrana-udaju",
+    "/!KGN6KQ",
+    "/_index",
+    "/_head"
+  ]
+}

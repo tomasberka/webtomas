@@ -1,0 +1,3 @@
+module.exports=[61043,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"AKCE: 3 Reels + 15 fotek za 15 000 Kč | Hledáme 3 firmy | Já jsem Tomáš",description:"Limitovaná akce pro 3 firmy. Získejte 3 profesionální Reels videa + 15 fotek za zvýhodněnou cenu 15 000 Kč. Strategie, natáčení a střih v ceně."}])}];
+
+//# sourceMappingURL=src_app_%28cz%29_akce-3-reels_layout_tsx_1900357f._.js.map

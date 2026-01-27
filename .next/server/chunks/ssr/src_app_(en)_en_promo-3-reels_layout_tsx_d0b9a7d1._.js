@@ -1,0 +1,3 @@
+module.exports=[11267,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"PROMO: 3 Reels + 15 Photos for £1,000 | Looking for 3 Companies | I am Tomas",description:"Limited offer for 3 companies. Get 3 professional Reels videos + 15 photos for a discounted price of £1,000. Strategy, filming, and editing included."}])}];
+
+//# sourceMappingURL=src_app_%28en%29_en_promo-3-reels_layout_tsx_d0b9a7d1._.js.map

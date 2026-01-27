@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(cz)/layout,_N_T_/(cz)/vstup-na-trh/layout,_N_T_/(cz)/vstup-na-trh/page,_N_T_/vstup-na-trh"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGN6KQ/vstup-na-trh/__PAGE__",
+    "/!KGN6KQ/vstup-na-trh",
+    "/!KGN6KQ",
+    "/_index",
+    "/_head"
+  ]
+}
