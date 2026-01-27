@@ -12,12 +12,11 @@ interface TestimonialsProps {
     locale?: "cs" | "en";
 }
 
-// Extended testimonial type that includes optional companyContext for EN
+// Testimonial type
 interface Testimonial {
     id: string;
     name: string;
     company: string;
-    companyContext?: string;
     role: string;
     quote: string;
     rating: number;
@@ -118,11 +117,7 @@ function TestimonialCard({ testimonial, locale }: { testimonial: Testimonial; lo
                     {testimonial.company && (
                         <p className="text-sm text-primary font-medium">{testimonial.company}</p>
                     )}
-                    {/* Company Context for EN locale - adds global credibility */}
-                    {locale === "en" && testimonial.companyContext && (
-                        <p className="text-xs text-muted-foreground italic">{testimonial.companyContext}</p>
-                    )}
-                    {testimonial.role && !(locale === "en" && testimonial.companyContext) && (
+                    {testimonial.role && (
                         <p className="text-xs text-muted-foreground">{testimonial.role}</p>
                     )}
                 </div>

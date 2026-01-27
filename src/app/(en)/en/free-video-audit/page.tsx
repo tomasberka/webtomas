@@ -337,19 +337,20 @@ export default function FreeVideoAuditPage() {
               become clients. Most won&apos;t—and that&apos;s perfectly fine. Either way,
               you&apos;ll walk away with actionable insights to improve your content.
             </p>
-            <p className="text-gray-400">
-              I&apos;ve helped companies like DEKRA, OICT Prague, and Tatra Trucks
-              create video content that drives real business results. This free
-              audit gives you a taste of how I work.
+            <p className="text-gray-400 mb-8">
+              I work with local Czech brands on Reels and social content, and collaborate 
+              with SocialVids on international events across Europe and the UK.
             </p>
 
             <div className="mt-12 flex flex-wrap justify-center gap-4">
-              <Link
-                href="/en/remote-video"
+              <a
+                href="https://showcase.socialvids.cz/showcase"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-6 py-3 text-white hover:border-orange-500 transition-colors"
               >
-                Learn About My Services →
-              </Link>
+                View International Projects →
+              </a>
               <Link
                 href="/en/portfolio"
                 className="inline-flex items-center gap-2 rounded-lg border border-gray-700 px-6 py-3 text-white hover:border-orange-500 transition-colors"

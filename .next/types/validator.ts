@@ -342,15 +342,6 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
-// Validate ../../src/app/(en)/en/remote-video/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/en/remote-video">> = Specific
-  const handler = {} as typeof import("../../src/app/(en)/en/remote-video/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
 // Validate ../../src/app/(en)/en/services/[slug]/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/en/services/[slug]">> = Specific
@@ -373,33 +364,6 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   type __IsExpected<Specific extends AppPageConfig<"/en/ugc-creator">> = Specific
   const handler = {} as typeof import("../../src/app/(en)/en/ugc-creator/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../src/app/(en)/en/video-for-edtech/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/en/video-for-edtech">> = Specific
-  const handler = {} as typeof import("../../src/app/(en)/en/video-for-edtech/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../src/app/(en)/en/video-for-fintech/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/en/video-for-fintech">> = Specific
-  const handler = {} as typeof import("../../src/app/(en)/en/video-for-fintech/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
-// Validate ../../src/app/(en)/en/video-for-healthcare/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/en/video-for-healthcare">> = Specific
-  const handler = {} as typeof import("../../src/app/(en)/en/video-for-healthcare/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check
