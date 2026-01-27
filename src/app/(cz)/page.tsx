@@ -36,23 +36,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24 pb-16">
-      {/* VideoObject Schema for Hero Video */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "VideoObject",
-            "name": "Reels Produkce - Video, které vydělává",
-            "description": "Profesionální video produkce pro firmy. 3 až 8 Reels za jeden natáčecí den. Obsah na měsíc bez dlouhého čekání.",
-            "thumbnailUrl": "https://jajsemtomas.cz/images/tomas-hero.jpg",
-            "uploadDate": "2025-01-01",
-            "duration": "PT30S",
-            "contentUrl": "https://jajsemtomas.cz/videos/packages.mp4",
-            "embedUrl": "https://jajsemtomas.cz/videos/packages.mp4"
-          })
-        }}
-      />
       {/* ProfessionalService Schema */}
       <script
         type="application/ld+json"
@@ -351,9 +334,9 @@ export default function Home() {
               Žádné složité přípravy pro vás – přijedu, natočíme, a do týdne máte hotová videa, která můžete postovat celý měsíc.
             </p>
             <ul className="space-y-3 pt-2">
-              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> 3 až 8 Reels videí</li>
-              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Scénáře a režie v ceně</li>
-              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Okamžité použití na sítě</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Clapperboard className="w-5 h-5" /></span> Kompletní produkce na klíč</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><Smartphone className="w-5 h-5" /></span> Střih, grafika a zvuk v ceně</li>
+              <li className="flex items-center font-medium text-lg"><span className="text-primary mr-3 bg-primary/10 p-1 rounded-full"><MonitorPlay className="w-5 h-5" /></span> Výsledek připravený k použití</li>
             </ul>
             <div className="pt-4">
               <Link href="/reels-balicky">
@@ -361,23 +344,33 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <article className="relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="metadata"
-              poster="/images/tomas-hero.jpg"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            >
-              <source src="/videos/packages.mp4" type="video/mp4" />
-              Váš prohlížeč nepodporuje video.
-            </video>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
-            <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
-              <div className="font-bold text-lg mb-1">Reels Produkce</div>
-              <div className="text-sm opacity-90">Efektivní produkce pro moderní značky.</div>
+          <article className="relative order-1 md:order-2">
+            <div className="relative aspect-[4/3] max-w-full mx-auto rounded-2xl overflow-hidden border shadow-2xl group">
+              <Image
+                src="/images/tomas-hero.jpg"
+                alt="Tomáš Berka - Video produkce"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6">
+                <div className="flex items-center gap-4">
+                  <div className="flex -space-x-3">
+                    <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold border-2 border-background">🎬</div>
+                    <div className="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold border-2 border-background">🎤</div>
+                    <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold border-2 border-background">✓</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="font-bold text-lg">Kompletní video & audio</div>
+                    <div className="text-sm opacity-90">Vše pod jednou střechou</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Floating elements */}
+            <div className="absolute -top-4 -right-4 bg-primary text-white rounded-xl px-4 py-2 font-bold shadow-lg animate-bounce-slow hidden lg:block">
+              ⚡ Hotovo do týdne
             </div>
           </article>
         </Container>
