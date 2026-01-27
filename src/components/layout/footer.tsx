@@ -24,49 +24,73 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 ? "I create videos. Reels, TikTok & Full Production.\nPartner SocialVids."
                                 : "Dělám videa. Reels, TikTok i kompletní produkci.\nPartner SocialVids."}
                         </p>
-                        <Link href={locale === 'en' ? "/booking" : "/rezervace"}>
+                        <Link href={locale === 'en' ? "/contact" : "/kontakt"}>
                             <Button size="sm" className="mt-2">
                                 <Calendar className="h-4 w-4 mr-2" />
                                 {locale === 'en' ? "Free Consultation" : "Konzultace zdarma"}
                             </Button>
                         </Link>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
                         <div className="space-y-3">
                             <h4 className="text-sm font-medium">{locale === 'en' ? "Services" : "Služby"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
                                         <li><Link href="/reels-balicky" className="hover:text-primary">Reels Produkce</Link></li>
+                                        <li><Link href="/vstup-na-trh" className="hover:text-primary">🌍 Vstup na trh</Link></li>
                                         <li><Link href="/sluzby/kreativni-produkce" className="hover:text-primary">Kreativní Produkce</Link></li>
                                         <li><Link href="/sluzby/event-video" className="hover:text-primary">Event Video</Link></li>
+                                        <li><Link href="/ugc-herec" className="hover:text-primary">UGC / Herec</Link></li>
                                     </>
                                 ) : (
                                     <>
                                         <li><Link href="/reels-packages" className="hover:text-primary">Reels Production</Link></li>
+                                        <li><Link href="/gateway-strategy" className="hover:text-primary">🌍 Gateway Strategy</Link></li>
                                         <li><Link href="/services/creative-production" className="hover:text-primary">Creative Production</Link></li>
                                         <li><Link href="/services/event-video" className="hover:text-primary">Event Video</Link></li>
+                                        <li><Link href="/ugc-creator" className="hover:text-primary">UGC / Acting</Link></li>
                                     </>
                                 )}
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h4 className="text-sm font-medium">{locale === 'en' ? "More" : "Další"}</h4>
+                            <h4 className="text-sm font-medium">{locale === 'en' ? "Resources" : "Zdroje"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
+                                        <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
+                                        <li><Link href="/reels-quiz" className="hover:text-primary">Reels Quiz</Link></li>
+                                        <li><Link href="/pripadove-studie" className="hover:text-primary">Případové studie</Link></li>
+                                    </>
+                                ) : (
+                                    <>
+                                        <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
+                                        <li><Link href="/reels-quiz" className="hover:text-primary">Reels Quiz</Link></li>
+                                        <li><Link href="/case-studies" className="hover:text-primary">Case Studies</Link></li>
+                                    </>
+                                )}
+                            </ul>
+                        </div>
+                        <div className="space-y-3">
+                            <h4 className="text-sm font-medium">{locale === 'en' ? "Company" : "O nás"}</h4>
+                            <ul className="space-y-2 text-sm text-muted-foreground">
+                                {locale === 'cs' ? (
+                                    <>
+                                        <li><Link href="/o-mne" className="hover:text-primary">O mně</Link></li>
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/kontakt" className="hover:text-primary">Kontakt</Link></li>
-                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
                                         <li><Link href="/ochrana-udaju" className="hover:text-primary">Ochrana údajů</Link></li>
                                     </>
                                 ) : (
                                     <>
+                                        <li><Link href="/about" className="hover:text-primary">About Me</Link></li>
                                         <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
                                         <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
                                         <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
-                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
                                         <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
                                     </>
                                 )}

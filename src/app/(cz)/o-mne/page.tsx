@@ -4,10 +4,11 @@ import Link from "next/link";
 import { Check, Clapperboard, Award, Heart, MonitorPlay } from "lucide-react";
 import { VideoPlayer } from "@/components/ui/video-player";
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
-    title: "O mně - Tomáš | Kameraman Praha | Video Partner pro Firmy & CEO",
-    description: "👋 Víc než jen kameraman. 500+ projektů, 7+ let zkušeností. Strategický partner pro video marketing v Praze a celé ČR. Reels, eventy, kampaně.",
+    title: "O mně - Tomáš Berka | Video & Audio Produkce | Vaše Pravá Ruka",
+    description: "Jsem vaše pravá ruka pro video a audio. Poradím, co funguje, natočím to, sestříhám a dodám. Žádné agenturní kolečko. Jen vy a já. 10+ let praxe.",
     keywords: ["kameraman praha", "filmmaker česká republika", "video producent praha", "content creator čr"],
     alternates: {
         canonical: "https://jajsemtomas.cz/o-mne",
@@ -20,6 +21,10 @@ export const metadata: Metadata = {
 export default function AboutPage() {
     return (
         <div className="pb-20">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "O mně", url: "https://jajsemtomas.cz/o-mne" }
+            ]} />
             {/* Hero Section */}
             <section className="relative pt-20 pb-20 md:pt-32 md:pb-32 overflow-hidden bg-zinc-950 text-white">
                 <div className="absolute inset-0 z-0 opacity-20">
@@ -28,14 +33,14 @@ export default function AboutPage() {
                 <Container className="relative z-10 flex flex-col md:flex-row items-center gap-12">
                     <div className="flex-1 space-y-6 text-center md:text-left">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-white/20 bg-white/5 text-white mb-4">
-                            👋 Váš obchodní partner
+                            🎬 10+ let praxe • 500+ projektů
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4">
-                            Nehledáte "kameramana".<br />
-                            <span className="text-primary">Hledáte výsledky.</span>
+                            Jsem vaše pravá ruka.<br />
+                            <span className="text-primary">Vy máte vizi, já řeším zbytek.</span>
                         </h1>
                         <p className="text-xl text-zinc-400 max-w-xl leading-relaxed">
-                            Většina tvůrců řeší jen to, jak video vypadá. Já řeším, <strong>kolik vám vydělá</strong>. Jsem váš strategický partner, který chápe byznys, marketing i psychologii prodeje.
+                            Poradím, co funguje. Natočím to. Sestříhám a dodám. <strong>Žádné agenturní kolečko. Jen vy a já.</strong> Pracuji rychle, spolehlivě a s lidským přístupem.
                         </p>
 
                         {/* Stats */}
@@ -45,8 +50,8 @@ export default function AboutPage() {
                                 <p className="text-sm text-zinc-400">projektů</p>
                             </div>
                             <div className="text-center md:text-left">
-                                <p className="text-3xl md:text-4xl font-bold text-primary">7+</p>
-                                <p className="text-sm text-zinc-400">let zkušeností</p>
+                                <p className="text-3xl md:text-4xl font-bold text-primary">10+</p>
+                                <p className="text-sm text-zinc-400">let praxe</p>
                             </div>
                             <div className="text-center md:text-left">
                                 <p className="text-3xl md:text-4xl font-bold text-primary">50+</p>
@@ -69,7 +74,7 @@ export default function AboutPage() {
                         <div className="relative aspect-square rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500">
                             <img
                                 src="/images/tomas-hero.jpg"
-                                alt="Tomáš"
+                                alt="Tomáš Berka - Video producent a kameraman Praha"
                                 className="object-cover w-full h-full"
                             />
                         </div>
@@ -169,21 +174,21 @@ export default function AboutPage() {
                         <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 group">
                             <img
                                 src="/images/tomas-gallery-1.jpg"
-                                alt="Tomáš moment 1"
+                                alt="Natáčení rozhovoru - profesionální video produkce"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
                             />
                         </div>
                         <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 md:mt-12 group">
                             <img
                                 src="/images/tomas-gallery-2.jpg"
-                                alt="Tomáš moment 2"
+                                alt="Práce s kamerou Sony Alpha na eventu"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
                             />
                         </div>
                         <div className="aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900 group">
                             <img
                                 src="/images/tomas-gallery-3.jpg"
-                                alt="Tomáš moment 3"
+                                alt="Postprodukce a střih videa v ateliéru"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500 group-hover:scale-110"
                             />
                         </div>

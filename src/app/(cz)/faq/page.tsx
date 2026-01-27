@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HelpCircle } from "lucide-react";
 import faqData from "@/content/faq.json";
 import { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "Časté dotazy (FAQ) | Já jsem Tomáš",
@@ -28,6 +29,10 @@ const categories = {
 export default function FAQPage() {
     return (
         <div className="py-20 md:py-32">
+            <BreadcrumbSchema items={[
+                { name: "Domů", url: "https://jajsemtomas.cz" },
+                { name: "Časté dotazy", url: "https://jajsemtomas.cz/faq" }
+            ]} />
             <Container>
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">Časté dotazy (FAQ)</h1>

@@ -14,9 +14,17 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
-        // Check if user has already seen the popup
-        const hasSeenPopup = localStorage.getItem("exitIntentShown");
-        if (hasSeenPopup) return;
+        // Check if user has already seen the popup (with 7-day expiration)
+        const exitIntentExpiry = localStorage.getItem("exitIntentExpiry");
+        if (exitIntentExpiry) {
+            const expiryTime = parseInt(exitIntentExpiry, 10);
+            if (Date.now() < expiryTime) {
+                // Still within the 7-day window, don't show
+                return;
+            }
+            // Expired, remove old entry
+            localStorage.removeItem("exitIntentExpiry");
+        }
 
         let hasTriggered = false;
 
@@ -25,7 +33,9 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             if (e.clientY <= 0 && !hasTriggered) {
                 hasTriggered = true;
                 setIsVisible(true);
-                localStorage.setItem("exitIntentShown", "true");
+                // Set expiration for 7 days from now
+                const expiryTime = Date.now() + 7 * 24 * 60 * 60 * 1000;
+                localStorage.setItem("exitIntentExpiry", expiryTime.toString());
             }
         };
 
@@ -56,7 +66,7 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             ],
             buttonText: "📅 Rezervovat konzultaci",
             footer: "Odpovím do 24 hodin. Žádný spam.",
-            quizLink: "/rezervace",
+            quizLink: "/kontakt",
             closeLabel: "Zavřít"
         },
         en: {
@@ -72,7 +82,7 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             ],
             buttonText: "📅 Book a Consultation",
             footer: "I'll respond within 24 hours. No spam.",
-            quizLink: "/booking",
+            quizLink: "/contact",
             closeLabel: "Close"
         }
     };

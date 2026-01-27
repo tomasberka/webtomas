@@ -19,9 +19,9 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-  title: "Video Produkce Praha | Kameraman, Reels & Reklamy | Já jsem Tomáš",
-  description: "📹 Komplexní video produkce pro firmy v Praze. Reklamní spoty, Reels, firemní videa. 500+ projektů, 7 let zkušeností. Konzultace zdarma.",
-  keywords: ["video produkce praha", "kameraman praha", "filmmaker česká republika", "reklamní video brno", "reels tvorba čr"],
+  title: "Tomáš Berka | Video Produkce, Střih & Audio | Praha & Online",
+  description: "Kompletní video a audio služby. Natáčení akcí, tvorba Reels, podcasty, postprodukce a voiceover. 10+ let praxe. Spolehlivost a lidský přístup.",
+  keywords: ["video produkce praha", "kameraman praha", "filmmaker česká republika", "tvorba reels", "podcast produkce", "voiceover čr", "střih videa praha"],
   alternates: {
     canonical: "https://jajsemtomas.cz",
     languages: {
@@ -185,25 +185,25 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
           <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-            🚀 Video produkce, co má výsledky
+            🎬 10+ let praxe • 500+ projektů
           </div>
           <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-            3 až 8 Reels za <br className="hidden md:block" />
-            <span className="text-primary">jeden natáčecí den.</span>
+            Video a audio produkce.<br className="hidden md:block" />
+            <span className="text-primary">Spolehlivě. Od A do Z.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-            <strong>Obsah na měsíc. Bez dlouhého čekání.</strong><br />
-            Když nemáte čas na 50 natáčecích dní v roce, dám vám řešení: Jeden den natáčení = měsíc kvalitního obsahu, který buduje značku a prodává.
+            Jsem <strong>Tomáš</strong>. Váš člověk na natáčení, střih, podcasty i Reels.<br />
+            Dodám vám kompletní výsledek bez starostí. <strong>Vy máte vizi, já mám techniku a know-how.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-            <Link href="/rezervace">
+            <Link href="/kontakt">
               <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                📅 Rezervovat termín
+                Chci nezávaznou konzultaci
               </Button>
             </Link>
-            <Link href="/pripadove-studie">
+            <Link href="/portfolio">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                Vidět výsledky
+                Moje práce
               </Button>
             </Link>
           </div>
@@ -220,8 +220,8 @@ export default function Home() {
               <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projektů</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">7+ let</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Zkušeností</div>
+              <div className="text-3xl md:text-4xl font-bold text-foreground">10+ let</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Praxe</div>
             </div>
             <div className="space-y-1">
               <div className="text-3xl md:text-4xl font-bold text-foreground">500K+</div>
@@ -238,25 +238,25 @@ export default function Home() {
             <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz" className="h-10 md:h-12 w-auto object-contain" />
+                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz - video produkce pro e-shop s hračkami" className="h-10 md:h-12 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/dekra.png" alt="Dekra" className="h-8 md:h-10 w-auto object-contain" />
+                <img src="/images/clients/dekra.png" alt="Dekra - korporátní video produkce" className="h-8 md:h-10 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/oict.png" alt="OICT" className="h-8 md:h-10 w-auto object-contain" />
+                <img src="/images/clients/oict.png" alt="Operátor ICT Praha - firemní video produkce" className="h-8 md:h-10 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/roklen.png" alt="Roklen24" className="h-6 md:h-8 w-auto object-contain" />
+                <img src="/images/clients/roklen.png" alt="Roklen24 - video pro finanční služby" className="h-6 md:h-8 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/tatra.png" alt="Tatra" className="h-10 md:h-12 w-auto object-contain" />
+                <img src="/images/clients/tatra.png" alt="Tatra Trucks - video pro automotive" className="h-10 md:h-12 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové" className="h-10 md:h-12 w-auto object-contain" />
+                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové - sportovní video produkce" className="h-10 md:h-12 w-auto object-contain" />
               </div>
               <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play" className="h-10 md:h-12 w-auto object-contain" />
+                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play facilitace a video" className="h-10 md:h-12 w-auto object-contain" />
               </div>
             </div>
           </div>
@@ -387,8 +387,8 @@ export default function Home() {
       <section aria-labelledby="services-heading">
         <Container>
           <div className="flex flex-col gap-4 mb-12 text-center md:text-left">
-            <h2 id="services-heading" className="text-3xl md:text-4xl font-bold tracking-tight">Co pro vás natočím?</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl">Řešení pro e-shopy, korporace i osobní brandy.</p>
+            <h2 id="services-heading" className="text-3xl md:text-4xl font-bold tracking-tight">Kompletní video a audio služby</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl">Tvorba Reels a TikToku • Firemní a eventové video • Podcasty a Voiceover • Postprodukce a barvení</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {servicesData.map((service) => {

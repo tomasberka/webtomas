@@ -2,12 +2,29 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Calendar, Phone } from "lucide-react";
+import { Menu, X, Calendar, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { trackBookingClick } from "@/lib/analytics";
 
 export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const [open, setOpen] = useState(false);
+    const [servicesExpanded, setServicesExpanded] = useState(false);
+
+    const servicesItems = locale === 'cs' ? [
+        { href: "/reels-balicky", label: "Reels Produkce" },
+        { href: "/vstup-na-trh", label: "🌍 Vstup na trh", special: true },
+        { href: "/sluzby/kreativni-produkce", label: "Kreativní Produkce" },
+        { href: "/sluzby/event-video", label: "Event Video" },
+        { href: "/ugc-herec", label: "UGC / Herec" },
+        { href: "/partner-socialvids", label: "SocialVids" },
+    ] : [
+        { href: "/reels-packages", label: "Reels Production" },
+        { href: "/gateway-strategy", label: "🌍 Gateway Strategy", special: true },
+        { href: "/services/creative-production", label: "Creative Production" },
+        { href: "/services/event-video", label: "Event Video" },
+        { href: "/ugc-creator", label: "UGC / Acting" },
+        { href: "/partner-socialvids", label: "SocialVids" },
+    ];
 
     return (
         <div className="md:hidden">
@@ -17,201 +34,118 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
 
             {open && (
                 <div className="fixed top-16 left-0 w-full bg-background border-b shadow-lg p-6 flex flex-col z-[60] max-h-[calc(100vh-4rem)] overflow-y-auto animate-in slide-in-from-top-5">
-                    <nav className="flex flex-col gap-4 pb-8">
-                        {locale === 'cs' ? (
-                            <>
-                                <Link
-                                    href="/"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Domů
-                                </Link>
-                                <Link
-                                    href="/reels-balicky"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Reels Produkce
-                                </Link>
-                                <Link
-                                    href="/vstup-na-trh"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium text-emerald-600 hover:text-emerald-500 transition-colors"
-                                >
-                                    🌍 Vstup na trh
-                                </Link>
-                                <Link
-                                    href="/portfolio"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Portfolio
-                                </Link>
-                                <Link
-                                    href="/pripadove-studie"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Reference
-                                </Link>
-                                <Link
-                                    href="/ugc-herec"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    UGC / Herec
-                                </Link>
-                                <Link
-                                    href="/partner-socialvids"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    SocialVids
-                                </Link>
-                                <Link
-                                    href="/blog"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Blog
-                                </Link>
-                                <Link
-                                    href="/reels-quiz"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Quiz
-                                </Link>
-                                <Link
-                                    href="/faq"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    FAQ
-                                </Link>
-                                <Link
-                                    href="/o-mne"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    O mně
-                                </Link>
-                                <Link
-                                    href="/kontakt"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Kontakt
-                                </Link>
+                    <nav className="flex flex-col gap-3 pb-6">
+                        <Link
+                            href="/"
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            {locale === 'cs' ? 'Domů' : 'Home'}
+                        </Link>
 
-                                <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
+                        {/* Services Accordion */}
+                        <div>
+                            <button
+                                onClick={() => setServicesExpanded(!servicesExpanded)}
+                                className="flex items-center justify-between w-full text-lg font-medium hover:text-primary transition-colors py-1"
+                            >
+                                {locale === 'cs' ? 'Služby' : 'Services'}
+                                <ChevronDown className={`h-5 w-5 transition-transform ${servicesExpanded ? 'rotate-180' : ''}`} />
+                            </button>
+                            {servicesExpanded && (
+                                <div className="pl-4 mt-2 space-y-2 border-l-2 border-primary/30">
+                                    {servicesItems.map((item) => (
+                                        <Link
+                                            key={item.href}
+                                            href={item.href}
+                                            onClick={() => setOpen(false)}
+                                            className={`block text-base transition-colors ${
+                                                item.special 
+                                                    ? 'text-emerald-500 font-medium' 
+                                                    : 'text-muted-foreground hover:text-primary'
+                                            }`}
+                                        >
+                                            {item.label}
+                                        </Link>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+
+                        <Link
+                            href="/portfolio"
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            Portfolio
+                        </Link>
+
+                        <Link
+                            href={locale === 'cs' ? "/pripadove-studie" : "/case-studies"}
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            {locale === 'cs' ? 'Reference' : 'Case Studies'}
+                        </Link>
+
+                        <Link
+                            href={locale === 'cs' ? "/o-mne" : "/about"}
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            {locale === 'cs' ? 'O mně' : 'About'}
+                        </Link>
+
+                        <Link
+                            href={locale === 'cs' ? "/kontakt" : "/contact"}
+                            onClick={() => setOpen(false)}
+                            className="text-lg font-medium hover:text-primary transition-colors"
+                        >
+                            {locale === 'cs' ? 'Kontakt' : 'Contact'}
+                        </Link>
+
+                        {/* Secondary links */}
+                        <div className="border-t pt-3 mt-2 space-y-2">
+                            <Link
+                                href="/blog"
+                                onClick={() => setOpen(false)}
+                                className="block text-base text-muted-foreground hover:text-primary transition-colors"
+                            >
+                                Blog
+                            </Link>
+                            <Link
+                                href="/faq"
+                                onClick={() => setOpen(false)}
+                                className="block text-base text-muted-foreground hover:text-primary transition-colors"
+                            >
+                                FAQ
+                            </Link>
+                        </div>
+
+                        {/* Language Switcher */}
+                        <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
+                            {locale === 'cs' ? (
+                                <>
                                     <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
                                         <span className="text-2xl">🇨🇿</span>
                                     </div>
                                     <a href="https://en.jajsemtomas.cz" className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale">
                                         <span className="text-2xl">🇬🇧</span>
                                     </a>
-                                </div>
-                            </>
-                        ) : (
-                            <>
-                                <Link
-                                    href="/"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Home
-                                </Link>
-                                <Link
-                                    href="/reels-packages"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Reels Production
-                                </Link>
-                                <Link
-                                    href="/gateway-strategy"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium text-emerald-600 hover:text-emerald-500 transition-colors"
-                                >
-                                    🌍 Gateway Strategy
-                                </Link>
-                                <Link
-                                    href="/portfolio"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Portfolio
-                                </Link>
-                                <Link
-                                    href="/case-studies"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Case Studies
-                                </Link>
-                                <Link
-                                    href="/ugc-creator"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    UGC / Acting
-                                </Link>
-                                <Link
-                                    href="/partner-socialvids"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    SocialVids
-                                </Link>
-                                <Link
-                                    href="/blog"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Blog
-                                </Link>
-                                <Link
-                                    href="/reels-quiz"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Quiz
-                                </Link>
-                                <Link
-                                    href="/faq"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    FAQ
-                                </Link>
-                                <Link
-                                    href="/about"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    About Me
-                                </Link>
-                                <Link
-                                    href="/contact"
-                                    onClick={() => setOpen(false)}
-                                    className="text-lg font-medium hover:text-primary transition-colors"
-                                >
-                                    Contact
-                                </Link>
-
-                                <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
+                                </>
+                            ) : (
+                                <>
                                     <a href="https://jajsemtomas.cz" className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale">
                                         <span className="text-2xl">🇨🇿</span>
                                     </a>
                                     <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
                                         <span className="text-2xl">🇬🇧</span>
                                     </div>
-                                </div>
-                            </>
-                        )}
+                                </>
+                            )}
+                        </div>
 
+                        {/* CTA Buttons */}
                         <div className="pt-4 space-y-3">
                             <a 
                                 href="tel:+420735846329" 
@@ -219,12 +153,12 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                 className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-lg transition-all"
                             >
                                 <Phone className="h-5 w-5" />
-                                {locale === 'en' ? 'Call Now' : 'Zavolat ihned'}
+                                {locale === 'cs' ? 'Zavolat ihned' : 'Call Now'}
                             </a>
-                            <Link href={locale === 'en' ? "/booking" : "/rezervace"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
+                            <Link href={locale === 'cs' ? "/kontakt" : "/contact"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
                                 <Button className="w-full font-bold">
                                     <Calendar className="h-4 w-4 mr-2" />
-                                    {locale === 'en' ? "Free Consultation" : "Konzultace zdarma"}
+                                    {locale === 'cs' ? "Konzultace zdarma" : "Free Consultation"}
                                 </Button>
                             </Link>
                         </div>

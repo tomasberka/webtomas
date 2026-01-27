@@ -1,10 +1,44 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { MobileNav } from "./mobile-nav";
 import { BookingButton } from "@/components/tracking/booking-button";
+import { ChevronDown } from "lucide-react";
 
 export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
+    const [servicesOpen, setServicesOpen] = useState(false);
+    const dropdownRef = useRef<HTMLDivElement>(null);
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setServicesOpen(false);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
+    const servicesItems = locale === 'cs' ? [
+        { href: "/reels-balicky", label: "Reels Produkce", highlight: true, special: false },
+        { href: "/vstup-na-trh", label: "🌍 Vstup na trh", highlight: false, special: true },
+        { href: "/sluzby/kreativni-produkce", label: "Kreativní Produkce", highlight: false, special: false },
+        { href: "/sluzby/event-video", label: "Event Video", highlight: false, special: false },
+        { href: "/ugc-herec", label: "UGC / Herec", highlight: false, special: false },
+        { href: "/partner-socialvids", label: "SocialVids", highlight: false, special: false },
+    ] : [
+        { href: "/reels-packages", label: "Reels Production", highlight: true, special: false },
+        { href: "/gateway-strategy", label: "🌍 Gateway Strategy", highlight: false, special: true },
+        { href: "/services/creative-production", label: "Creative Production", highlight: false, special: false },
+        { href: "/services/event-video", label: "Event Video", highlight: false, special: false },
+        { href: "/ugc-creator", label: "UGC / Acting", highlight: false, special: false },
+        { href: "/partner-socialvids", label: "SocialVids", highlight: false, special: false },
+    ];
+
     return (
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <Container className="flex h-16 items-center justify-between">
@@ -18,94 +52,84 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         priority
                     />
                 </Link>
-                {/* Desktop Navigation */}
-                <div className="hidden md:flex gap-6 items-center">
-                    {locale === 'cs' ? (
-                        <>
-                            <Link href="/reels-balicky" className="text-sm font-medium hover:text-primary transition-colors">
-                                Reels Produkce
-                            </Link>
-                            <Link href="/vstup-na-trh" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
-                                🌍 Vstup na trh
-                            </Link>
-                            <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Portfolio
-                            </Link>
-                            <Link href="/pripadove-studie" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Reference
-                            </Link>
-                            <Link href="/ugc-herec" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                UGC / Herec
-                            </Link>
-                            <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                SocialVids
-                            </Link>
-                            <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Blog
-                            </Link>
-                            <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Quiz
-                            </Link>
-                            <Link href="/faq" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                FAQ
-                            </Link>
-                            <Link href="/o-mne" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                O mně
-                            </Link>
-                            <Link href="/kontakt" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Kontakt
-                            </Link>
 
-                            {/* Language Switcher */}
-                            <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                {/* Desktop Navigation - Clean 5 items */}
+                <div className="hidden md:flex gap-6 items-center">
+                    {/* Services Dropdown */}
+                    <div className="relative" ref={dropdownRef}>
+                        <button
+                            onClick={() => setServicesOpen(!servicesOpen)}
+                            className="flex items-center gap-1 text-sm font-medium hover:text-primary transition-colors"
+                            aria-expanded={servicesOpen}
+                            aria-haspopup="true"
+                        >
+                            {locale === 'cs' ? 'Služby' : 'Services'}
+                            <ChevronDown className={`h-4 w-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
+                        </button>
+
+                        {servicesOpen && (
+                            <div className="absolute top-full left-0 mt-2 w-56 bg-card border rounded-lg shadow-xl py-2 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                                {servicesItems.map((item) => (
+                                    <Link
+                                        key={item.href}
+                                        href={item.href}
+                                        onClick={() => setServicesOpen(false)}
+                                        className={`block px-4 py-2.5 text-sm transition-colors ${
+                                            item.special 
+                                                ? 'text-emerald-500 hover:bg-emerald-500/10 font-medium' 
+                                                : item.highlight 
+                                                    ? 'text-primary hover:bg-primary/10 font-medium'
+                                                    : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                                        }`}
+                                    >
+                                        {item.label}
+                                    </Link>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+
+                    <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+                        Portfolio
+                    </Link>
+
+                    <Link 
+                        href={locale === 'cs' ? "/pripadove-studie" : "/case-studies"} 
+                        className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                    >
+                        {locale === 'cs' ? 'Reference' : 'Case Studies'}
+                    </Link>
+
+                    <Link 
+                        href={locale === 'cs' ? "/o-mne" : "/about"} 
+                        className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                    >
+                        {locale === 'cs' ? 'O mně' : 'About'}
+                    </Link>
+
+                    <Link 
+                        href={locale === 'cs' ? "/kontakt" : "/contact"} 
+                        className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+                    >
+                        {locale === 'cs' ? 'Kontakt' : 'Contact'}
+                    </Link>
+
+                    {/* Language Switcher */}
+                    <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                        {locale === 'cs' ? (
+                            <>
                                 <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇨🇿</span>
                                 <a href="https://en.jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to English">🇬🇧</a>
-                            </div>
-                        </>
-                    ) : (
-                        <>
-                            <Link href="/reels-packages" className="text-sm font-medium hover:text-primary transition-colors">
-                                Reels Production
-                            </Link>
-                            <Link href="/gateway-strategy" className="text-sm font-medium text-emerald-600 hover:text-emerald-500 transition-colors">
-                                🌍 Gateway Strategy
-                            </Link>
-                            <Link href="/portfolio" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Portfolio
-                            </Link>
-                            <Link href="/case-studies" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Case Studies
-                            </Link>
-                            <Link href="/ugc-creator" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                UGC / Acting
-                            </Link>
-                            <Link href="/partner-socialvids" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                SocialVids
-                            </Link>
-                            <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Blog
-                            </Link>
-                            <Link href="/reels-quiz" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Quiz
-                            </Link>
-                            <Link href="/faq" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                FAQ
-                            </Link>
-                            <Link href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                About Me
-                            </Link>
-                            <Link href="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-                                Contact
-                            </Link>
-
-                            {/* Language Switcher */}
-                            <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                            </>
+                        ) : (
+                            <>
                                 <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to Czech">🇨🇿</a>
                                 <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇬🇧</span>
-                            </div>
-                        </>
-                    )}
+                            </>
+                        )}
+                    </div>
                 </div>
+
                 <div className="flex items-center gap-4">
                     <div className="hidden md:block">
                         <BookingButton locale={locale} source="header" />

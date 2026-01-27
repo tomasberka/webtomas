@@ -19,9 +19,9 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "High-Retention Video Production | Reels, TikTok & Shorts | Growth Architecture",
-    description: "🎯 Premium short-form video production. High-Retention Reels, TikTok & YouTube Shorts. From strategy to cinematic execution. 150+ projects, 7 years experience.",
-    keywords: ["high retention video", "reels production", "tiktok video editing", "short form video", "video marketing", "growth architecture", "upwork video editor"],
+    title: "Tomas Berka | Video Production, Editing & Audio | Prague & Online",
+    description: "Complete video and audio services. Event filming, Reels creation, podcasts, post-production and voiceover. 10+ years experience. Reliable & human approach.",
+    keywords: ["video production prague", "filmmaker czech republic", "reels production", "podcast production", "voiceover", "video editing", "content creator"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",
         languages: {
@@ -150,25 +150,25 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
                     <Container className="flex flex-col items-center text-center gap-8">
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-                        🎯 High-Retention Video Production | Growth Architecture
+                        � 10+ years experience • 500+ projects
                     </div>
                     <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-                        Stop the Scroll.<br className="hidden md:block" />
-                        <span className="text-primary">Drive Growth.</span>
+                        Video & Audio Production.<br className="hidden md:block" />
+                        <span className="text-primary">Reliably. From A to Z.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        <strong>We&apos;re not just editors. We&apos;re Growth Architects.</strong><br />
-                        Premium short-form video production designed for high retention rates. From strategy to cinematic execution — we build content systems that convert.
+                        I&apos;m <strong>Tomas</strong>. Your go-to person for filming, editing, podcasts and Reels.<br />
+                        I deliver complete results without the hassle. <strong>You have the vision, I have the gear and know-how.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-                        <Link href="/booking">
+                        <Link href="/contact">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                                📅 Book Free Strategy Call
+                                Book Free Consultation
                             </Button>
                         </Link>
                         <Link href="/portfolio">
                             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                View Portfolio
+                                My Work
                             </Button>
                         </Link>
                     </div>
@@ -186,7 +186,7 @@ export default function Home() {
                             <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projects</div>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-3xl md:text-4xl font-bold text-foreground">7+ Years</div>
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">10+ Years</div>
                             <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Experience</div>
                         </div>
                         <div className="space-y-1">
