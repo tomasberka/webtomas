@@ -85,7 +85,7 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             previouslyFocusedElement.current.focus();
             previouslyFocusedElement.current = null;
         }
-    }, [isVisible]);
+    }, [isVisible, handleClose]);
 
     if (!isVisible) return null;
 

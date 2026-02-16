@@ -72,7 +72,7 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             previouslyFocusedElement.current.focus()
             previouslyFocusedElement.current = null
         }
-    }, [isVisible])
+    }, [isVisible, handleReject])
 
     if (!isVisible) return null
 

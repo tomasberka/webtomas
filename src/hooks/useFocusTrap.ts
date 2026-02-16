@@ -16,6 +16,10 @@ export function useFocusTrap(
     const focusableElements = container.querySelectorAll<HTMLElement>(
       'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
     );
+    
+    // Guard: If there are no focusable elements, don't set up the trap
+    if (focusableElements.length === 0) return;
+    
     const firstFocusable = focusableElements[0];
     const lastFocusable = focusableElements[focusableElements.length - 1];
 
