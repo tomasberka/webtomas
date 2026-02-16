@@ -11,6 +11,20 @@ Profesionální webová stránka pro video produkci, **mezinárodní event servi
 
 ---
 
+## 🚀 **MASTER PROMPT - Start Here!**
+
+**📋 [MASTER_PROMPT.md](./MASTER_PROMPT.md)** ⭐⭐⭐ **← Everything in ONE document!**
+
+Complete 8-week implementation plan with all actions, templates, and strategies consolidated into a single 39KB document. Copy-paste ready for AI assistants or use as your master checklist.
+
+**Perfect for:**
+- Getting complete overview in one place
+- Feeding to AI assistants (Claude, ChatGPT)
+- Following week-by-week action plan
+- Having all templates in one document
+
+---
+
 ## 🆕 International Expansion & New Services
 
 **NEW Services Added:**
@@ -18,12 +32,13 @@ Profesionální webová stránka pro video produkci, **mezinárodní event servi
 - 🎤 **Event Moderator & Host** - Bilingual (EN/CZ) conference moderation
 - 🎭 **Corporate Actor & Spokesperson** - On-camera talent for brand videos
 
-**📋 Action Plans Available:**
-- 🚀 **[QUICK_START_INTERNATIONAL.md](./QUICK_START_INTERNATIONAL.md)** - Start here! What to do RIGHT NOW
-- 📍 **[INTERNATIONAL_EXPANSION.md](./INTERNATIONAL_EXPANSION.md)** - Complete strategy & service page templates
-- 🗺️ **[ACTION_ROADMAP.md](./ACTION_ROADMAP.md)** - 8-week prioritized implementation plan
-- 📝 **[CONTENT_BRIEFS.md](./CONTENT_BRIEFS.md)** - Ready-to-write content templates
+**📋 Additional Resources:**
+- 🎯 **[QUICK_START_INTERNATIONAL.md](./QUICK_START_INTERNATIONAL.md)** - What to do RIGHT NOW (day-by-day)
+- 📍 **[INTERNATIONAL_EXPANSION.md](./INTERNATIONAL_EXPANSION.md)** - Complete strategy & templates
+- 🗺️ **[ACTION_ROADMAP.md](./ACTION_ROADMAP.md)** - 8-week detailed implementation plan
+- 📝 **[CONTENT_BRIEFS.md](./CONTENT_BRIEFS.md)** - Ready-to-write page structures
 - 📊 **[ANALYTICS_README.md](./ANALYTICS_README.md)** - Analytics & tracking guide
+- 📄 **[SUMMARY.md](./SUMMARY.md)** - Executive summary
 
 ---
 
