@@ -129,9 +129,9 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
                     tabIndex={0}
                     aria-label="Audio progress"
                     aria-valuemin={0}
-                    aria-valuemax={duration || 100}
-                    aria-valuenow={isNaN(currentTime) ? 0 : currentTime}
-                    aria-valuetext={`${formatTime(currentTime)} of ${formatTime(duration)}`}
+                    aria-valuemax={duration > 0 ? duration : 100}
+                    aria-valuenow={duration > 0 ? currentTime : 0}
+                    {...(duration > 0 && { "aria-valuetext": `${formatTime(currentTime)} of ${formatTime(duration)}` })}
                 >
                     {/* Background interactive layer */}
                     <div className="absolute inset-0 z-10" />
