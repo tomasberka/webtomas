@@ -170,7 +170,7 @@ export default function ReelsQuizPage() {
         return (
             <div className="min-h-screen py-20">
                 <Container className="max-w-3xl">
-                    <Card className="text-center p-12">
+                    <Card className="text-center p-12" role="alert" aria-live="assertive">
                         <CardHeader>
                             <div className="text-6xl mb-6">
                                 {percentage >= 80 ? "🎉" : percentage >= 60 ? "👍" : "💪"}
@@ -258,6 +258,9 @@ export default function ReelsQuizPage() {
                             className="h-full bg-primary transition-all duration-300"
                             style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
                         />
+                    </div>
+                    <div role="status" aria-live="polite" className="sr-only">
+                        Krok {currentQuestion + 1} z {questions.length}
                     </div>
                 </div>
 
