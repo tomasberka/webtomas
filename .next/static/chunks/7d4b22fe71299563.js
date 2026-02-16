@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,50281,e=>{"use strict";var o=e.i(71645),t=e.i(75679);function c({locale:e="cs"}){return(0,o.useEffect)(()=>{(0,t.trackBookingComplete)(e)},[e]),null}e.s(["BookingCompleteTracker",()=>c])}]);
