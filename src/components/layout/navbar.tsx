@@ -129,7 +129,6 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                         hrefLang="en"
                                     >
                                         🇬🇧
-                                        <span className="sr-only">Switch to English</span>
                                     </a>
                                 </>
                             ) : (
@@ -141,7 +140,6 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                         hrefLang="cs"
                                     >
                                         🇨🇿
-                                        <span className="sr-only">Switch to Czech</span>
                                     </a>
                                     <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0" aria-current="true" aria-label="English (current language)">
                                         🇬🇧

@@ -127,8 +127,8 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
                                 {locale === 'cs' ? (
                                     <>
-                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50" aria-current="true">
-                                            <span className="text-2xl" aria-label="Čeština (aktuální jazyk)">
+                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
+                                            <span className="text-2xl" aria-current="true" aria-label="Čeština (aktuální jazyk)">
                                                 🇨🇿
                                             </span>
                                         </div>
@@ -141,7 +141,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                             <span className="text-2xl">
                                                 🇬🇧
                                             </span>
-                                            <span className="sr-only">Switch to English</span>
                                         </a>
                                     </>
                                 ) : (
@@ -155,10 +154,9 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                             <span className="text-2xl">
                                                 🇨🇿
                                             </span>
-                                            <span className="sr-only">Switch to Czech</span>
                                         </a>
-                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50" aria-current="true">
-                                            <span className="text-2xl" aria-label="English (current language)">
+                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
+                                            <span className="text-2xl" aria-current="true" aria-label="English (current language)">
                                                 🇬🇧
                                             </span>
                                         </div>

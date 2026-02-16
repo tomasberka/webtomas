@@ -136,7 +136,7 @@ CardFooter.displayName = "CardFooter";
 }),
 "[project]/src/content/services.json (json)", ((__turbopack_context__) => {
 
-__turbopack_context__.v([{"id":"reels","title":"Reels & TikTok","slug":"reels-balicky","description":"Krátká videa, která prodávají. Zvyšte dosah a získejte nové zákazníky.","content":"<p>V dnešní době je pozornost tou nejcennější měnou. Jako zkušený <strong>content creator</strong> vím, že <strong>Instagram Reels, TikTok a YouTube Shorts</strong> jsou aktuálně nejefektivnějším způsobem, jak oslovit tisíce nových zákazníků organicky.</p><p>Nejde ale jen o to 'něco natočit'. Algoritmy sociálních sítí jsou neúprosné. Vyžadují dynamiku, striktní strukturu (háček, hodnota, CTA) a technickou kvalitu. Přesně to vám doručím.</p><p>V rámci mých balíčků se postarám o vše od vymýšlení konceptů, které jsou právě trendy, přes efektivní natáčení (až 8 videí za den), až po finální střih s titulky a efekty, které udrží divákovu pozornost.</p>","icon":"Smartphone","features":["Scénář a strategie","Profesionální natáčení","Střih a titulky","Hudba a efekty"],"image":"/images/service-reels.jpg"},{"id":"creative","title":"Kreativní Produkce","slug":"sluzby/kreativni-produkce","description":"Reklamní spoty, image videa a kampaně na míru vaší značce.","content":"<p>Každá značka má svůj příběh. Mým úkolem je odvyprávět ten váš tak, aby u diváka vyvolal emoci a touhu nakoupit. <strong>Kreativní produkce</strong> je o budování prémiové image skrze oči profesionálního <strong>filmmakera</strong>.</p><p>Ať už potřebujete reklamní spot do televize, image video na web, nebo sérii produktových videí, zajistím kompletní servis. Od prvotního nápadu a storyboardu, přes casting herců a lokací, až po filmové svícení a high-end postprodukci.</p><p>Nejsem jen 'člověk s kamerou'. Přemýšlím marketingově. Video musí nejen vypadat světově, ale musí plnit vaše obchodní cíle.</p>","icon":"Clapperboard","features":["Kreativní koncept","Full-service produkce","High-end technika","Color grading"],"image":"/images/service-creative.jpg"},{"id":"event","title":"Event Video & Konference","slug":"sluzby/event-video","description":"Video z konferencí a eventů, které buduje prestiž. Reportáže, rozhovory s CEO a záznamy.","content":"<p>Pořádáte klíčovou konferenci nebo firemní event? Video není jen vzpomínka, je to <strong>obchodní nástroj</strong>. Profesionální výstup buduje důvěru u partnerů a přiláká sponzory pro další ročníky.</p><p>Specializuji se na B2B eventy, kde je nutná <strong>reprezentativnost a diskrétnost</strong>. Natočím rozhovory s řečníky, VIP hosty i CEO. Výsledkem není jen sestřih atmosféry, ale materiál, který prodává vaši značku celý rok.</p><p>Díky spolupráci se <strong>SocialVids</strong> zvládneme i velké mezinárodní akce s vícečlenným štábem.</p>","icon":"Calendar","features":["Reprezentativní výstup","Rozhovory a testimonially","Dron záběry","Expresní dodání pro PR"],"image":"/images/service-event.jpg"},{"id":"livestream","title":"Live Stream & Webináře","slug":"sluzby/live-stream","description":"Spolehlivý stream pro vaše konference a webináře. Kdekoliv v Praze i Evropě.","content":"<p>Hybridní eventy jsou novým standardem. Umožněte účast i těm, kteří nemohou dorazit osobně, a <strong>zvyšte dosah své akce</strong>. Zajišťuji technicky bezchybný stream, který reprezentuje vaši firmu.</p><p>Žádný amatérský pokus s mobilem. Profesionální zvuk, střih více kamer v reálném čase a vkládání prezentací přímo do obrazu. Ideální pro <strong>tiskové konference, valné hromady a školení</strong>.</p><p>Vysíláme na zabezpečené platformy pro interní potřeby nebo veřejně na YouTube/LinkedIn pro maximální zásah.</p>","icon":"Radio","features":["Vícekamerový přenos","Integrace prezentací","Záložní internet","Záznam ve 4K"],"image":"/images/service-livestream.jpg"},{"id":"postproduction","title":"Postprodukce","slug":"sluzby/postprodukce","description":"Máte natočeno? Proměníme vaše záběry v profesionální video.","content":"<p>Máte plný disk záběrů z dovolené, dronu nebo starších firemních akcí, ale nevíte, co s nimi? <strong>Postprodukce</strong> je místo, kde vzniká magie.</p><p>Dodejte mi svá 'raw' data a já z nich vytvořím poutavé video. Sestříhám to do rytmu hudby, vyčistím zvuk, obarvím obraz (color grading) a přidám moderní grafiku.</p><p>Specializuji se také na tvorbu titulků pro sociální sítě a 'repurposing' obsahu – z jednoho dlouhého rozhovoru vám nastříhám 10 krátkých klipů pro TikTok.</p>","icon":"MonitorPlay","features":["Střih a editace","Sound design","Animace a grafika","Titulkování"],"image":"/images/service-postproduction.jpg"},{"id":"voiceover","title":"Voiceover","slug":"sluzby/voiceover","description":"Profesionální hlas pro vaše videa. Reklamy, spoty, e-learning.","content":"<p>Obraz je jen polovina zážitku. <strong>Profesionální hlas (voiceover)</strong> dodá vašemu videu důvěryhodnost a emoci. Můj hlas znáte z reklam pro značky jako Plzeňský Prazdroj, ČSOB nebo Oreo.</p><p>Disponuji vlastním profesionálním nahrávacím studiem, což znamená dvě věci: <strong>špičkovou kvalitu zvuku</strong> a <strong>extrémní rychlost</strong>. Většinu zakázek dodávám do 24 hodin.</p><p>Ať už potřebujete 'nabušený' hlas do reklamy, klidný tón pro e-learning nebo charakterový dabing, najdeme tu správnou polohu.</p>","icon":"Mic","features":["Reklamní spoty","E-learning","Dabing","Profesionální studio"],"audioSamples":[{"title":"Plzeňský Prazdroj (Reklama)","url":"/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"},{"title":"ČSOB (TV Spot)","url":"/audio/CSOB TOMAS BERKA VOICEOVER.mp3"},{"title":"Oreo (Social)","url":"/audio/OREO TOMAS BERKA VOICEOVER.mp3"}],"image":"/images/service-voiceover.jpg"}]);}),
+__turbopack_context__.v([{"id":"reels","title":"Reels & TikTok","slug":"reels-balicky","description":"Krátká videa, která prodávají. Zvyšte dosah a získejte nové zákazníky.","content":"<p>V dnešní době je pozornost tou nejcennější měnou. Jako zkušený <strong>content creator</strong> vím, že <strong>Instagram Reels, TikTok a YouTube Shorts</strong> jsou aktuálně nejefektivnějším způsobem, jak oslovit tisíce nových zákazníků organicky.</p><p>Nejde ale jen o to 'něco natočit'. Algoritmy sociálních sítí jsou neúprosné. Vyžadují dynamiku, striktní strukturu (háček, hodnota, CTA) a technickou kvalitu. Přesně to vám doručím.</p><p>V rámci mých balíčků se postarám o vše od vymýšlení konceptů, které jsou právě trendy, přes efektivní natáčení (až 8 videí za den), až po finální střih s titulky a efekty, které udrží divákovu pozornost.</p>","icon":"Smartphone","topics":["reels","social-media","tiktok","instagram","short-form"],"keywords":["tvorba reels","instagram reels agentura","tiktok pro firmy","short-form video"],"features":["Scénář a strategie","Profesionální natáčení","Střih a titulky","Hudba a efekty"],"image":"/images/service-reels.jpg"},{"id":"creative","title":"Kreativní Produkce","slug":"sluzby/kreativni-produkce","description":"Reklamní spoty, image videa a kampaně na míru vaší značce.","content":"<p>Každá značka má svůj příběh. Mým úkolem je odvyprávět ten váš tak, aby u diváka vyvolal emoci a touhu nakoupit. <strong>Kreativní produkce</strong> je o budování prémiové image skrze oči profesionálního <strong>filmmakera</strong>.</p><p>Ať už potřebujete reklamní spot do televize, image video na web, nebo sérii produktových videí, zajistím kompletní servis. Od prvotního nápadu a storyboardu, přes casting herců a lokací, až po filmové svícení a high-end postprodukci.</p><p>Nejsem jen 'člověk s kamerou'. Přemýšlím marketingově. Video musí nejen vypadat světově, ale musí plnit vaše obchodní cíle.</p>","icon":"Clapperboard","topics":["creative","corporate","brand","commercial"],"keywords":["reklamní spot","image video","firemní video","kreativní produkce"],"features":["Kreativní koncept","Full-service produkce","High-end technika","Color grading"],"image":"/images/service-creative.jpg"},{"id":"event","title":"Event Video & Konference","slug":"sluzby/event-video","description":"Video z konferencí a eventů, které buduje prestiž. Reportáže, rozhovory s CEO a záznamy.","content":"<p>Pořádáte klíčovou konferenci nebo firemní event? Video není jen vzpomínka, je to <strong>obchodní nástroj</strong>. Profesionální výstup buduje důvěru u partnerů a přiláká sponzory pro další ročníky.</p><p>Specializuji se na B2B eventy, kde je nutná <strong>reprezentativnost a diskrétnost</strong>. Natočím rozhovory s řečníky, VIP hosty i CEO. Výsledkem není jen sestřih atmosféry, ale materiál, který prodává vaši značku celý rok.</p><p>Díky spolupráci se <strong>SocialVids</strong> zvládneme i velké mezinárodní akce s vícečlenným štábem.</p>","icon":"Calendar","topics":["event","conference","b2b","corporate","testimonial"],"keywords":["event video","konferenční video","firemní akce video","ceo rozhovory"],"features":["Reprezentativní výstup","Rozhovory a testimonially","Dron záběry","Expresní dodání pro PR"],"image":"/images/service-event.jpg"},{"id":"livestream","title":"Live Stream & Webináře","slug":"sluzby/live-stream","description":"Spolehlivý stream pro vaše konference a webináře. Kdekoliv v Praze i Evropě.","content":"<p>Hybridní eventy jsou novým standardem. Umožněte účast i těm, kteří nemohou dorazit osobně, a <strong>zvyšte dosah své akce</strong>. Zajišťuji technicky bezchybný stream, který reprezentuje vaši firmu.</p><p>Žádný amatérský pokus s mobilem. Profesionální zvuk, střih více kamer v reálném čase a vkládání prezentací přímo do obrazu. Ideální pro <strong>tiskové konference, valné hromady a školení</strong>.</p><p>Vysíláme na zabezpečené platformy pro interní potřeby nebo veřejně na YouTube/LinkedIn pro maximální zásah.</p>","icon":"Radio","topics":["livestream","webinar","event","b2b"],"keywords":["live stream","webinář","online konference","hybridní event"],"features":["Vícekamerový přenos","Integrace prezentací","Záložní internet","Záznam ve 4K"],"image":"/images/service-livestream.jpg"},{"id":"postproduction","title":"Postprodukce","slug":"sluzby/postprodukce","description":"Máte natočeno? Proměníme vaše záběry v profesionální video.","content":"<p>Máte plný disk záběrů z dovolené, dronu nebo starších firemních akcí, ale nevíte, co s nimi? <strong>Postprodukce</strong> je místo, kde vzniká magie.</p><p>Dodejte mi svá 'raw' data a já z nich vytvořím poutavé video. Sestříhám to do rytmu hudby, vyčistím zvuk, obarvím obraz (color grading) a přidám moderní grafiku.</p><p>Specializuji se také na tvorbu titulků pro sociální sítě a 'repurposing' obsahu – z jednoho dlouhého rozhovoru vám nastříhám 10 krátkých klipů pro TikTok.</p>","icon":"MonitorPlay","topics":["postproduction","editing","social-media"],"keywords":["postprodukce","střih videa","color grading","editace videa"],"features":["Střih a editace","Sound design","Animace a grafika","Titulkování"],"image":"/images/service-postproduction.jpg"},{"id":"voiceover","title":"Voiceover","slug":"sluzby/voiceover","description":"Profesionální hlas pro vaše videa. Reklamy, spoty, e-learning.","content":"<p>Obraz je jen polovina zážitku. <strong>Profesionální hlas (voiceover)</strong> dodá vašemu videu důvěryhodnost a emoci. Můj hlas znáte z reklam pro značky jako Plzeňský Prazdroj, ČSOB nebo Oreo.</p><p>Disponuji vlastním profesionálním nahrávacím studiem, což znamená dvě věci: <strong>špičkovou kvalitu zvuku</strong> a <strong>extrémní rychlost</strong>. Většinu zakázek dodávám do 24 hodin.</p><p>Ať už potřebujete 'nabušený' hlas do reklamy, klidný tón pro e-learning nebo charakterový dabing, najdeme tu správnou polohu.</p>","icon":"Mic","topics":["voiceover","audio","commercial","creative"],"keywords":["voiceover","profesionální dabing","hlas do reklamy","czech voiceover"],"features":["Reklamní spoty","E-learning","Dabing","Profesionální studio"],"audioSamples":[{"title":"Plzeňský Prazdroj (Reklama)","url":"/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"},{"title":"ČSOB (TV Spot)","url":"/audio/CSOB TOMAS BERKA VOICEOVER.mp3"},{"title":"Oreo (Social)","url":"/audio/OREO TOMAS BERKA VOICEOVER.mp3"}],"image":"/images/service-voiceover.jpg"}]);}),
 "[project]/src/content/testimonials.json (json)", ((__turbopack_context__) => {
 
 __turbopack_context__.v([{"id":"patrik-horenovský","name":"Patrik Hořeňovský","company":"FC Slavia HK & Reality","role":"Manažer & Investor","quote":"Pro spolupráci s Tomášem Berkou jsem se rozhodl na základě doporučení od mých přátel, kteří s Tomášem spolupracují již řadu let. Pomohl mi zejména ke zviditelnění a propagaci fotbalového klubu FC Slavia Hradec Králové a její sportovní akademie. V realitním byznysu zase k rychlejšímu prodeji mnou nabízených nemovitostí, nebo oslovení nových investorů do segmentu výstavby nových Alzheimer center. Oceňuji zodpovědný přístup, rychlost přípravy, smysl pro detail a flexibilitu. Je pro mě jako pro klienta na telefonu a mohu se s ním často podělit o své pocity a názory na danou zakázku. Dále musím ocenit slušné jednání a dochvilnost, což se zdá být samozřejmost, ale často u jiných produkcí bohužel není.","rating":5,"project":"Sportovní & Realitní Video Produkce","videoId":"ygYPjGmLTnI","highlights":["Zviditelnění sportovní akademie","Rychlejší prodej nemovitostí","Flexibilní a spolehlivá spolupráce"],"image":""},{"id":"easy-optic","name":"Agáta Šimánková","company":"Easy Optic","role":"Social Media Manager","quote":"Spolupráce s Tomášem byla od prvního momentu velice příjemná. Největší výzvou bylo svěřit naši vizi někomu, kdo ji nejen pochopí, ale také přetvoří do digitální podoby, zachová její autenticitu a zároveň využije kreativitu. Tomáš to od první schůzky dokonale zvládl. Veškerá komunikace probíhala okamžitě, natáčení i focení bylo skvělé a finální výsledek na sebe nenechal dlouho čekat. Videa a fotografie nyní slouží k prezentaci Easy Optic na sociálních sítích, pomáhají budovat značku a přivádět nové zákazníky. Na spolupráci si velmi vážím osobního a příjemného přístupu, zodpovědnosti, kreativity, rychlosti a hlavně kvalitních fotografií a videí, které mluví samy za sebe. Do budoucna se těšíme na další společné projekty.","rating":5,"project":"Reels Produkce + fotografie","result":"3 Reels + 15 profesionálních fotek","highlights":["Pochopení vize a autenticita","Okamžitá komunikace","Kvalitní fotky a videa pro sociální sítě"],"image":"/images/clients/easyoptic.jpg"},{"id":"space-cbd","name":"Majitel Space CBD","company":"Space CBD","role":"Majitel","quote":"Spolupráce s videomakerem Tomášem Berkou byla naprosto skvělá. Natáčeli jsme spolu hudební videoklipy a i reklamní videa pro značku Space CBD a výsledek vždy předčil očekávání. Tomáš dokáže přesně pochopit značku a převést ji do vizuálně silného a profesionálního videa. Velké plus je jeho kreativita, technická zručnost, spolehlivost a lidský přístup. Komunikace byla rychlá, věcná a bez zbytečných komplikací, natáčení probíhalo v pohodové, ale zároveň velmi profesionální atmosféře. Oceňuji i jeho vlastní nápady, které posunuly výsledná videa o úroveň výš. Pokud hledáte někoho, kdo dodá špičkový výstup, rozumí marketingu a umí vyprávět obrazem, Tomáš Berka je jasná volba. Rád s ním budu spolupracovat i do budoucna.","rating":5,"project":"Hudební videoklipy & reklamní videa","instagramReels":["DSQHEFYDIK0","DObacWvDIqh","DNSvxd9Mbjl","DMfDg5jMmRA"],"highlights":["Hudební videoklipy","Reklamní videa pro značku","Kreativní concept"],"image":""},{"id":"wikyhracky","name":"WikyHracky.cz","company":"WikyHracky.cz","role":"E-commerce","quote":"Tomášovi jsme svěřili natočení videa pro on-line kampaň i televizní spot pro vánoční kampaň. Kluci jsou rychlí, spolehliví, pohotoví a mají drive. Děkuji za spolupráci!","rating":5,"project":"Online kampaň + TV spot","highlights":["TV spot pro vánoční kampaň","Online video kampaň","Rychlé dodání"],"image":"/images/clients/wikyhracky.png"},{"id":"oict","name":"Peter Svoboda","company":"OICT","role":"Projektový manažer","quote":"Na spolupráci oceňuji především flexibilitu a schopnost samostatně a rychle jednat, zrovna tak jako dotáhnout věci do zdárného konce.","rating":5,"project":"Video produkce pro OICT","highlights":["Flexibilní přístup","Samostatné jednání","Dotažení projektů do konce"],"image":"/images/clients/oict.png"},{"id":"roklen","name":"Jaroslav Průcha","company":"Roklen24","role":"Šéfredaktor","quote":"Tomáš Berka spolupracuje s firmou Roklen od ledna 2018. Velmi oceňuji profesionální přístup k práci a především její kvalitu a také flexibilitu. Pro finanční portál Roklen24 natáčí videa a fotí.","rating":5,"project":"Video & foto pro Roklen24","highlights":["Dlouhodobá spolupráce od 2018","Profesionální přístup","Video i foto produkce"],"image":"/images/clients/roklen.png"},{"id":"dekra","name":"Ing. Dana Berková, MBA","company":"DEKRA","role":"Vedoucí divize vzdělávání a školení","quote":"Jak bych stručně popsala spolupráci? Spolehlivost – serióznost – kreativita – kvalita. Spolupráci mohu s klidným svědomím doporučit a sama se těším na další společné projekty.","rating":5,"project":"Video produkce pro DEKRA","highlights":["Spolehlivost a serióznost","Kreativní přístup","Doporučená spolupráce"],"image":"/images/clients/dekra.png"},{"id":"legonid","name":"Legonid","company":"Legonid","role":"LEGO Serious Play","quote":"","rating":5,"project":"Video produkce pro LEGO Serious Play","highlights":["Natočení certifikačního kurzu","Profesionální video dokumentace","Zachycení workshopové atmosféry"],"image":"/images/clients/legonid.png"},{"id":"icon-barber","name":"ICON Barber Shop & Tattoo","company":"ICON Barber Shop & Tattoo","role":"Barber Shop","quote":"","rating":5,"project":"Vertikální video obsah","youtubeShorts":["x2S2_0xHsjg","TyVQ27BmnpQ","3Hro_3rsPbo","s10MsaHGk7s","UdxMX-x5VP4","FPWtRbUPZ6c","ZXnP2KkSTwg"],"highlights":["7 profesionálních Shorts","Obsah pro Instagram & TikTok","Moderní barber shop estetika"],"image":""}]);}),
@@ -185,14 +185,16 @@ const icons = {
     MonitorPlay: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2d$play$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MonitorPlay$3e$__["MonitorPlay"]
 };
 const metadata = {
-    title: "Video Produkce Praha | Kameraman, Reels & Reklamy | Já jsem Tomáš",
-    description: "📹 Komplexní video produkce pro firmy v Praze. Reklamní spoty, Reels, firemní videa. 500+ projektů, 7 let zkušeností. Konzultace zdarma.",
+    title: "Tomáš Berka | Video Produkce, Střih & Audio | Praha & Online",
+    description: "Kompletní video a audio služby. Natáčení akcí, tvorba Reels, podcasty, postprodukce a voiceover. 10+ let praxe. Spolehlivost a lidský přístup.",
     keywords: [
         "video produkce praha",
         "kameraman praha",
         "filmmaker česká republika",
-        "reklamní video brno",
-        "reels tvorba čr"
+        "tvorba reels",
+        "podcast produkce",
+        "voiceover čr",
+        "střih videa praha"
     ],
     alternates: {
         canonical: "https://jajsemtomas.cz",
@@ -208,6 +210,53 @@ function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col gap-16 md:gap-24 pb-16",
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "ProfessionalService",
+                        "name": "Já jsem Tomáš - Video Produkce",
+                        "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
+                        "description": "Profesionální video produkce specializující se na Reels, TikTok a reklamní obsah. 3-8 Reels za jeden natáčecí den.",
+                        "priceRange": "$$",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Praha",
+                            "addressCountry": "CZ"
+                        },
+                        "geo": {
+                            "@type": "GeoCoordinates",
+                            "latitude": 50.0755,
+                            "longitude": 14.4378
+                        },
+                        "url": "https://jajsemtomas.cz",
+                        "telephone": "+420735846329",
+                        "email": "msg@jajsemtomas.cz",
+                        "openingHoursSpecification": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": [
+                                "Monday",
+                                "Tuesday",
+                                "Wednesday",
+                                "Thursday",
+                                "Friday"
+                            ],
+                            "opens": "09:00",
+                            "closes": "18:00"
+                        },
+                        "areaServed": [
+                            "Praha",
+                            "Česká republika",
+                            "Europe"
+                        ]
+                    })
+                }
+            }, void 0, false, {
+                fileName: "[project]/src/app/(cz)/page.tsx",
+                lineNumber: 40,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
                 type: "application/ld+json",
                 dangerouslySetInnerHTML: {
@@ -237,7 +286,7 @@ function Home() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 39,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -304,129 +353,146 @@ function Home() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 64,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 133,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-                        className: "flex flex-col items-center text-center gap-8",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8",
-                                children: "🚀 Video produkce, co má výsledky"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 135,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up",
-                                children: [
-                                    "3 až 8 Reels za ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                        className: "hidden md:block"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 139,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-primary",
-                                        children: "jeden natáčecí den."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 140,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 138,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Obsah na měsíc. Bez dlouhého čekání."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 143,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 143,
-                                        columnNumber: 66
-                                    }, this),
-                                    "Když nemáte čas na 50 natáčecích dní v roce, dám vám řešení: Jeden den natáčení = měsíc kvalitního obsahu, který buduje značku a prodává."
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 142,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/rezervace",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
-                                            size: "lg",
-                                            className: "w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1",
-                                            children: "📅 Rezervovat termín"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                    "aria-labelledby": "hero-heading",
+                    className: "relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/(cz)/page.tsx",
+                            lineNumber: 168,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
+                            className: "flex flex-col items-center text-center gap-8",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8",
+                                    children: "🎬 10+ let praxe • 500+ projektů"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(cz)/page.tsx",
+                                    lineNumber: 170,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    id: "hero-heading",
+                                    className: "text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up",
+                                    children: [
+                                        "Video a audio produkce.",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                            className: "hidden md:block"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 148,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 147,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/pripadove-studie",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
-                                            size: "lg",
-                                            variant: "outline",
-                                            className: "w-full sm:w-auto text-base h-12",
-                                            children: "Vidět výsledky"
+                                            lineNumber: 174,
+                                            columnNumber: 36
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-primary",
+                                            children: "Spolehlivě. Od A do Z."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 153,
-                                            columnNumber: 15
+                                            lineNumber: 175,
+                                            columnNumber: 13
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 152,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 146,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 134,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(cz)/page.tsx",
+                                    lineNumber: 173,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100",
+                                    children: [
+                                        "Jsem ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                            children: "Tomáš"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 178,
+                                            columnNumber: 18
+                                        }, this),
+                                        ". Váš člověk na natáčení, střih, podcasty i Reels.",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 178,
+                                            columnNumber: 90
+                                        }, this),
+                                        "Dodám vám kompletní výsledek bez starostí. ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                            children: "Vy máte vizi, já mám techniku a know-how."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 179,
+                                            columnNumber: 56
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(cz)/page.tsx",
+                                    lineNumber: 177,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/kontakt",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
+                                                size: "lg",
+                                                className: "w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1",
+                                                children: "Chci nezávaznou konzultaci"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                lineNumber: 183,
+                                                columnNumber: 15
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 182,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            href: "/portfolio",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
+                                                size: "lg",
+                                                variant: "outline",
+                                                className: "w-full sm:w-auto text-base h-12",
+                                                children: "Moje práce"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                lineNumber: 188,
+                                                columnNumber: 15
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 187,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(cz)/page.tsx",
+                                    lineNumber: 181,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/(cz)/page.tsx",
+                            lineNumber: 169,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/(cz)/page.tsx",
+                    lineNumber: 167,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 132,
+                lineNumber: 166,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -444,7 +510,7 @@ function Home() {
                                             children: "150+"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 202,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -452,13 +518,13 @@ function Home() {
                                             children: "Projektů"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 203,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 201,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -466,24 +532,24 @@ function Home() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-3xl md:text-4xl font-bold text-foreground",
-                                            children: "7+ let"
+                                            children: "10+ let"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 170,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "text-sm text-muted-foreground font-medium uppercase tracking-wider",
-                                            children: "Zkušeností"
+                                            children: "Praxe"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 171,
+                                            lineNumber: 207,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -494,7 +560,7 @@ function Home() {
                                             children: "500K+"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 210,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -502,13 +568,13 @@ function Home() {
                                             children: "Views"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 211,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 209,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -519,7 +585,7 @@ function Home() {
                                             children: "1 den"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 178,
+                                            lineNumber: 214,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -527,19 +593,19 @@ function Home() {
                                             children: "Natáčení stačí"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 215,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 213,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 164,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -550,7 +616,7 @@ function Home() {
                                     children: "Spolupracovali jsme s"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 221,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -560,135 +626,135 @@ function Home() {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/wikyhracky.png",
-                                                alt: "WikyHracky.cz",
+                                                alt: "WikyHracky.cz - video produkce pro e-shop s hračkami",
                                                 className: "h-10 md:h-12 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 188,
+                                                lineNumber: 224,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 223,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/dekra.png",
-                                                alt: "Dekra",
+                                                alt: "Dekra - korporátní video produkce",
                                                 className: "h-8 md:h-10 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 226,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/oict.png",
-                                                alt: "OICT",
+                                                alt: "Operátor ICT Praha - firemní video produkce",
                                                 className: "h-8 md:h-10 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 194,
+                                                lineNumber: 230,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 229,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/roklen.png",
-                                                alt: "Roklen24",
+                                                alt: "Roklen24 - video pro finanční služby",
                                                 className: "h-6 md:h-8 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 197,
+                                                lineNumber: 233,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 196,
+                                            lineNumber: 232,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/tatra.png",
-                                                alt: "Tatra",
+                                                alt: "Tatra Trucks - video pro automotive",
                                                 className: "h-10 md:h-12 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 200,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 199,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/slavia.png",
-                                                alt: "FC Slavia Hradec Králové",
+                                                alt: "FC Slavia Hradec Králové - sportovní video produkce",
                                                 className: "h-10 md:h-12 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 239,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 238,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                 src: "/images/clients/legonid.png",
-                                                alt: "Legonid - LEGO Serious Play",
+                                                alt: "Legonid - LEGO Serious Play facilitace a video",
                                                 className: "h-10 md:h-12 w-auto object-contain"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 206,
+                                                lineNumber: 242,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 205,
+                                            lineNumber: 241,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 222,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 184,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(cz)/page.tsx",
-                    lineNumber: 163,
+                    lineNumber: 199,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 162,
+                lineNumber: 198,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -698,14 +764,14 @@ function Home() {
                         className: "absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-red-500/10"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 216,
+                        lineNumber: 252,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 217,
+                        lineNumber: 253,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
@@ -717,7 +783,7 @@ function Home() {
                                     className: "absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 222,
+                                    lineNumber: 258,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -733,20 +799,20 @@ function Home() {
                                                             className: "w-4 h-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 227,
+                                                            lineNumber: 263,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             children: "NOVÁ AKCE – Jen pro 3 firmy"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 228,
+                                                            lineNumber: 264,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 262,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -758,13 +824,13 @@ function Home() {
                                                             children: "za 15 000 Kč"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 233,
+                                                            lineNumber: 269,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 231,
+                                                    lineNumber: 267,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -772,7 +838,7 @@ function Home() {
                                                     children: "Získejte kompletní obsah na měsíc s výraznou slevou. Potřebuji nové case studies, vy ušetříte 10 000 Kč."
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 274,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -789,18 +855,18 @@ function Home() {
                                                                         className: "ml-2 w-5 h-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                        lineNumber: 247,
+                                                                        lineNumber: 283,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                lineNumber: 245,
+                                                                lineNumber: 281,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 244,
+                                                            lineNumber: 280,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -810,26 +876,26 @@ function Home() {
                                                                     className: "w-4 h-4 text-orange-500"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                    lineNumber: 251,
+                                                                    lineNumber: 287,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 "Zbývají 3 místa"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 250,
+                                                            lineNumber: 286,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 243,
+                                                    lineNumber: 279,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 225,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -849,27 +915,27 @@ function Home() {
                                                                         className: "w-12 h-12 text-white/20"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                        lineNumber: 264,
+                                                                        lineNumber: 300,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                    lineNumber: 263,
+                                                                    lineNumber: 299,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                lineNumber: 262,
+                                                                lineNumber: 298,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 261,
+                                                            lineNumber: 297,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 260,
+                                                        lineNumber: 296,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -884,17 +950,17 @@ function Home() {
                                                                         children: "15×"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                        lineNumber: 272,
+                                                                        lineNumber: 308,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                    lineNumber: 271,
+                                                                    lineNumber: 307,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                lineNumber: 270,
+                                                                lineNumber: 306,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -905,7 +971,7 @@ function Home() {
                                                                         children: "Ušetříte"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                        lineNumber: 276,
+                                                                        lineNumber: 312,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -913,53 +979,53 @@ function Home() {
                                                                         children: "10tis."
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                        lineNumber: 277,
+                                                                        lineNumber: 313,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                lineNumber: 275,
+                                                                lineNumber: 311,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 305,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 259,
+                                                lineNumber: 295,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 258,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 224,
+                                    lineNumber: 260,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 220,
+                            lineNumber: 256,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 219,
+                        lineNumber: 255,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 214,
+                lineNumber: 250,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -975,7 +1041,7 @@ function Home() {
                                     children: "⭐ Nejoblíbenější spolupráce"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 327,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -984,14 +1050,14 @@ function Home() {
                                         "Kvalitní obsah",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 294,
+                                            lineNumber: 330,
                                             columnNumber: 89
                                         }, this),
                                         " bez stresu."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 294,
+                                    lineNumber: 330,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1000,12 +1066,12 @@ function Home() {
                                         "Váš byznys potřebuje být vidět, ale vy nemáte čas točit každý den stories. Chápu to.",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 332,
                                             columnNumber: 99
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 296,
+                                            lineNumber: 332,
                                             columnNumber: 105
                                         }, this),
                                         "Proto jsem vytvořil systém, kde ",
@@ -1013,14 +1079,14 @@ function Home() {
                                             children: "z jednoho natáčecího dne vytěžíme maximum"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 333,
                                             columnNumber: 47
                                         }, this),
                                         ". Žádné složité přípravy pro vás – přijedu, natočíme, a do týdne máte hotová videa, která můžete postovat celý měsíc."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 295,
+                                    lineNumber: 331,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1031,23 +1097,23 @@ function Home() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-primary mr-3 bg-primary/10 p-1 rounded-full",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__["Smartphone"], {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clapperboard$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Clapperboard$3e$__["Clapperboard"], {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 337,
                                                         columnNumber: 136
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 337,
                                                     columnNumber: 69
                                                 }, this),
-                                                " 3 až 8 Reels videí"
+                                                " Kompletní produkce na klíč"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 301,
+                                            lineNumber: 337,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1055,23 +1121,23 @@ function Home() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-primary mr-3 bg-primary/10 p-1 rounded-full",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clapperboard$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Clapperboard$3e$__["Clapperboard"], {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__["Smartphone"], {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 302,
+                                                        lineNumber: 338,
                                                         columnNumber: 136
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 302,
+                                                    lineNumber: 338,
                                                     columnNumber: 69
                                                 }, this),
-                                                " Scénáře a režie v ceně"
+                                                " Střih, grafika a zvuk v ceně"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 302,
+                                            lineNumber: 338,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1083,25 +1149,25 @@ function Home() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 303,
+                                                        lineNumber: 339,
                                                         columnNumber: 136
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 303,
+                                                    lineNumber: 339,
                                                     columnNumber: 69
                                                 }, this),
-                                                " Okamžité použití na sítě"
+                                                " Výsledek připravený k použití"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 303,
+                                            lineNumber: 339,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 300,
+                                    lineNumber: 336,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1110,129 +1176,186 @@ function Home() {
                                         href: "/reels-balicky",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
                                             size: "lg",
-                                            className: "px-8 h-12 text-base",
-                                            children: "Zjistit více o produkci"
+                                            className: "px-8 h-12 text-base font-bold",
+                                            children: "🎬 Chci video, co vydělává"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 343,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 342,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 305,
+                                    lineNumber: 341,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 290,
+                            lineNumber: 326,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                            className: "relative order-1 md:order-2",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                    autoPlay: true,
-                                    loop: true,
-                                    muted: true,
-                                    playsInline: true,
-                                    className: "w-full h-full object-cover hover:scale-105 transition-transform duration-700",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative aspect-[4/3] max-w-full mx-auto rounded-2xl overflow-hidden border shadow-2xl group",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                            src: "/videos/packages.mp4",
-                                            type: "video/mp4"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/images/tomas-hero.jpg",
+                                            alt: "Tomáš Berka - Video produkce",
+                                            fill: true,
+                                            className: "object-cover group-hover:scale-105 transition-transform duration-700",
+                                            priority: true
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 319,
-                                            columnNumber: 15
-                                        }, this),
-                                        "Váš prohlížeč nepodporuje video."
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 312,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 322,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "font-bold text-lg mb-1",
-                                            children: "Reels Produkce"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 324,
+                                            lineNumber: 349,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-sm opacity-90",
-                                            children: "Efektivní produkce pro moderní značky."
+                                            className: "absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                            lineNumber: 325,
+                                            lineNumber: 356,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute bottom-6 left-6 right-6",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center gap-4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "flex -space-x-3",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold border-2 border-background",
+                                                                children: "🎬"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                                lineNumber: 360,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold border-2 border-background",
+                                                                children: "🎤"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                                lineNumber: 361,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold border-2 border-background",
+                                                                children: "✓"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                                lineNumber: 362,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/app/(cz)/page.tsx",
+                                                        lineNumber: 359,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "text-white",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "font-bold text-lg",
+                                                                children: "Kompletní video & audio"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                                lineNumber: 365,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "text-sm opacity-90",
+                                                                children: "Vše pod jednou střechou"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                                lineNumber: 366,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/app/(cz)/page.tsx",
+                                                        lineNumber: 364,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/(cz)/page.tsx",
+                                                lineNumber: 358,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(cz)/page.tsx",
+                                            lineNumber: 357,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 323,
+                                    lineNumber: 348,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute -top-4 -right-4 bg-primary text-white rounded-xl px-4 py-2 font-bold shadow-lg animate-bounce-slow hidden lg:block",
+                                    children: "⚡ Hotovo do týdne"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(cz)/page.tsx",
+                                    lineNumber: 372,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 311,
+                            lineNumber: 347,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(cz)/page.tsx",
-                    lineNumber: 289,
+                    lineNumber: 325,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 288,
+                lineNumber: 324,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                "aria-labelledby": "services-heading",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col gap-4 mb-12 text-center md:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    id: "services-heading",
                                     className: "text-3xl md:text-4xl font-bold tracking-tight",
-                                    children: "Co pro vás natočím?"
+                                    children: "Kompletní video a audio služby"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 335,
+                                    lineNumber: 383,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-muted-foreground text-lg max-w-2xl",
-                                    children: "Řešení pro e-shopy, korporace i osobní brandy."
+                                    children: "Tvorba Reels a TikToku • Firemní a eventové video • Podcasty a Voiceover • Postprodukce a barvení"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 336,
+                                    lineNumber: 384,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 334,
+                            lineNumber: 382,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,12 +1376,12 @@ function Home() {
                                                             className: "h-6 w-6 text-primary"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 346,
+                                                            lineNumber: 394,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 393,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardTitle"], {
@@ -1266,7 +1389,7 @@ function Home() {
                                                         children: service.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 348,
+                                                        lineNumber: 396,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardDescription"], {
@@ -1274,13 +1397,13 @@ function Home() {
                                                         children: service.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                                        lineNumber: 349,
+                                                        lineNumber: 397,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 344,
+                                                lineNumber: 392,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CardContent"], {
@@ -1293,57 +1416,57 @@ function Home() {
                                                                     className: "mr-2 h-1 w-1 rounded-full bg-primary"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                                    lineNumber: 357,
+                                                                    lineNumber: 405,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 feature
                                                             ]
                                                         }, i, true, {
                                                             fileName: "[project]/src/app/(cz)/page.tsx",
-                                                            lineNumber: 356,
+                                                            lineNumber: 404,
                                                             columnNumber: 27
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                                    lineNumber: 354,
+                                                    lineNumber: 402,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                                lineNumber: 353,
+                                                lineNumber: 401,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 343,
+                                        lineNumber: 391,
                                         columnNumber: 19
                                     }, this)
                                 }, service.id, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 342,
+                                    lineNumber: 390,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/(cz)/page.tsx",
-                            lineNumber: 338,
+                            lineNumber: 386,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(cz)/page.tsx",
-                    lineNumber: 333,
+                    lineNumber: 381,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 332,
+                lineNumber: 380,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sections$2f$testimonials$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Testimonials"], {}, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 375,
+                lineNumber: 423,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1357,7 +1480,7 @@ function Home() {
                                 children: "🎮 Interaktivní test"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 381,
+                                lineNumber: 429,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1365,7 +1488,7 @@ function Home() {
                                 children: "Děláte tyto chyby v Reels?"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 384,
+                                lineNumber: 432,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1373,7 +1496,7 @@ function Home() {
                                 children: "Zjistěte za 2 minuty, jestli vaše Reels mají šanci na úspěch. Interaktivní quiz s okamžitou zpětnou vazbou."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 387,
+                                lineNumber: 435,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1387,33 +1510,33 @@ function Home() {
                                         children: "🎯 Spustit Quiz"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(cz)/page.tsx",
-                                        lineNumber: 393,
+                                        lineNumber: 441,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 392,
+                                    lineNumber: 440,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 391,
+                                lineNumber: 439,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 380,
+                        lineNumber: 428,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(cz)/page.tsx",
-                    lineNumber: 379,
+                    lineNumber: 427,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 378,
+                lineNumber: 426,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1427,7 +1550,7 @@ function Home() {
                                 children: "PARTNERSTVÍ"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 406,
+                                lineNumber: 454,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1435,7 +1558,7 @@ function Home() {
                                 children: "Velké produkce? Žádný problém."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 407,
+                                lineNumber: 455,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1443,7 +1566,7 @@ function Home() {
                                 children: "Pro náročné televizní reklamy, mezinárodní spoty a rozsáhlé eventy využívám zázemí a tým partnera **SocialVids**. Dostanete kvalitu velké agentury s mým osobním přístupem."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 408,
+                                lineNumber: 456,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,12 +1579,12 @@ function Home() {
                                     className: "h-12 w-auto object-contain opacity-80"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 413,
+                                    lineNumber: 461,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 412,
+                                lineNumber: 460,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -1472,28 +1595,28 @@ function Home() {
                                     children: "Zjistit více o partnerství"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(cz)/page.tsx",
-                                    lineNumber: 422,
+                                    lineNumber: 470,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(cz)/page.tsx",
-                                lineNumber: 421,
+                                lineNumber: 469,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(cz)/page.tsx",
-                        lineNumber: 405,
+                        lineNumber: 453,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(cz)/page.tsx",
-                    lineNumber: 404,
+                    lineNumber: 452,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(cz)/page.tsx",
-                lineNumber: 403,
+                lineNumber: 451,
                 columnNumber: 7
             }, this)
         ]
