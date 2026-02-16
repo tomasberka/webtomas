@@ -127,27 +127,47 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         </div>
 
                         {/* Language Switcher */}
-                        <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
-                            {locale === 'cs' ? (
-                                <>
-                                    <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
-                                        <span className="text-2xl">🇨🇿</span>
-                                    </div>
-                                    <a href="https://en.jajsemtomas.cz" className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale">
-                                        <span className="text-2xl">🇬🇧</span>
-                                    </a>
-                                </>
-                            ) : (
-                                <>
-                                    <a href="https://jajsemtomas.cz" className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale">
-                                        <span className="text-2xl">🇨🇿</span>
-                                    </a>
-                                    <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
-                                        <span className="text-2xl">🇬🇧</span>
-                                    </div>
-                                </>
-                            )}
-                        </div>
+                        <nav aria-label="Language selection">
+                            <div className="border-t pt-4 mt-2 flex items-center justify-center gap-6">
+                                {locale === 'cs' ? (
+                                    <>
+                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
+                                            <span className="text-2xl" aria-current="true" aria-label="Čeština (aktuální jazyk)">
+                                                🇨🇿
+                                            </span>
+                                        </div>
+                                        <a 
+                                            href="https://en.jajsemtomas.cz" 
+                                            className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale"
+                                            aria-label="Switch to English"
+                                            hrefLang="en"
+                                        >
+                                            <span className="text-2xl">
+                                                🇬🇧
+                                            </span>
+                                        </a>
+                                    </>
+                                ) : (
+                                    <>
+                                        <a 
+                                            href="https://jajsemtomas.cz" 
+                                            className="flex items-center gap-2 p-2 rounded-lg hover:bg-accent transition-colors opacity-50 grayscale"
+                                            aria-label="Přepnout na češtinu"
+                                            hrefLang="cs"
+                                        >
+                                            <span className="text-2xl">
+                                                🇨🇿
+                                            </span>
+                                        </a>
+                                        <div className="flex items-center gap-2 p-2 rounded-lg bg-accent/50">
+                                            <span className="text-2xl" aria-current="true" aria-label="English (current language)">
+                                                🇬🇧
+                                            </span>
+                                        </div>
+                                    </>
+                                )}
+                            </div>
+                        </nav>
 
                         {/* CTA Buttons */}
                         <div className="pt-4 space-y-3">
