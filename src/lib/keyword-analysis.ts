@@ -10,9 +10,14 @@ export interface KeywordData {
     language: 'cs' | 'en';
     searchIntent: 'informational' | 'transactional' | 'navigational' | 'commercial';
     difficulty: 'low' | 'medium' | 'high';
+    difficultyScore: number; // 1-100
     priority: number; // 1-10
+    searchVolumeEstimate: string; // e.g. "500-1K", "1K-10K"
+    competitionLevel: 'low' | 'medium' | 'high';
+    estimatedTraffic: string; // e.g. "50-100/month"
     relatedTopics: string[];
     recommendedContent: string[];
+    longTailVariations: string[]; // More specific keyword variations
 }
 
 export interface TopicRecommendation {
@@ -27,6 +32,7 @@ export interface TopicRecommendation {
 
 /**
  * Czech Keywords Database - Video Production Focus
+ * Enhanced with search volume, competition, and traffic estimates
  */
 export const czechKeywords: KeywordData[] = [
     {
@@ -34,77 +40,196 @@ export const czechKeywords: KeywordData[] = [
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 55,
         priority: 10,
+        searchVolumeEstimate: "1K-5K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "150-300/month",
         relatedTopics: ['event-video', 'corporate', 'reels'],
-        recommendedContent: ['case-studies', 'portfolio', 'pricing']
+        recommendedContent: ['case-studies', 'portfolio', 'pricing'],
+        longTailVariations: [
+            'video produkce praha cena',
+            'profesionální video produkce praha',
+            'video produkce praha recenze',
+            'nejlepší video produkce praha'
+        ]
     },
     {
         keyword: "tvorba reels",
         language: 'cs',
         searchIntent: 'commercial',
         difficulty: 'low',
+        difficultyScore: 30,
         priority: 9,
+        searchVolumeEstimate: "500-2K",
+        competitionLevel: 'low',
+        estimatedTraffic: "100-250/month",
         relatedTopics: ['reels', 'instagram', 'tiktok', 'social-media'],
-        recommendedContent: ['blog', 'packages', 'portfolio']
+        recommendedContent: ['blog', 'packages', 'portfolio'],
+        longTailVariations: [
+            'tvorba reels praha',
+            'tvorba reels cena',
+            'jak vytvořit reels',
+            'tvorba reels pro firmy'
+        ]
     },
     {
         keyword: "event video",
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 45,
         priority: 10,
+        searchVolumeEstimate: "1K-3K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "120-280/month",
         relatedTopics: ['event', 'conference', 'b2b'],
-        recommendedContent: ['services', 'case-studies', 'testimonials']
+        recommendedContent: ['services', 'case-studies', 'testimonials'],
+        longTailVariations: [
+            'event video praha',
+            'konferenční video praha',
+            'firemní event video',
+            'event video cena'
+        ]
     },
     {
         keyword: "ugc creator praha",
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'low',
+        difficultyScore: 25,
         priority: 8,
+        searchVolumeEstimate: "200-1K",
+        competitionLevel: 'low',
+        estimatedTraffic: "50-150/month",
         relatedTopics: ['ugc', 'social-media', 'content-creation'],
-        recommendedContent: ['services', 'portfolio', 'blog']
+        recommendedContent: ['services', 'portfolio', 'blog'],
+        longTailVariations: [
+            'ugc creator česko',
+            'ugc content creator praha',
+            'jak najít ugc creatora',
+            'ugc creator cena'
+        ]
     },
     {
         keyword: "kameraman praha",
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'high',
+        difficultyScore: 70,
         priority: 7,
+        searchVolumeEstimate: "2K-5K",
+        competitionLevel: 'high',
+        estimatedTraffic: "80-200/month",
         relatedTopics: ['filmmaker', 'videographer', 'professional'],
-        recommendedContent: ['about', 'portfolio', 'contact']
+        recommendedContent: ['about', 'portfolio', 'contact'],
+        longTailVariations: [
+            'kameraman praha cena',
+            'svatební kameraman praha',
+            'profesionální kameraman praha',
+            'kameraman praha kontakt'
+        ]
     },
     {
         keyword: "tiktok pro firmy",
         language: 'cs',
         searchIntent: 'commercial',
         difficulty: 'low',
+        difficultyScore: 35,
         priority: 8,
+        searchVolumeEstimate: "500-1.5K",
+        competitionLevel: 'low',
+        estimatedTraffic: "80-180/month",
         relatedTopics: ['tiktok', 'b2b', 'social-media'],
-        recommendedContent: ['blog', 'services', 'case-studies']
+        recommendedContent: ['blog', 'services', 'case-studies'],
+        longTailVariations: [
+            'tiktok marketing pro firmy',
+            'tiktok strategie pro firmy',
+            'jak používat tiktok pro byznys',
+            'tiktok agentura'
+        ]
     },
     {
         keyword: "firemní video",
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 50,
         priority: 9,
+        searchVolumeEstimate: "1K-3K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "100-240/month",
         relatedTopics: ['corporate', 'b2b', 'brand'],
-        recommendedContent: ['services', 'portfolio', 'testimonials']
+        recommendedContent: ['services', 'portfolio', 'testimonials'],
+        longTailVariations: [
+            'firemní video praha',
+            'firemní video cena',
+            'firemní video produkce',
+            'prezentační video pro firmu'
+        ]
     },
     {
         keyword: "instagram reels agentura",
         language: 'cs',
         searchIntent: 'transactional',
         difficulty: 'low',
+        difficultyScore: 28,
         priority: 9,
+        searchVolumeEstimate: "300-1K",
+        competitionLevel: 'low',
+        estimatedTraffic: "70-180/month",
         relatedTopics: ['reels', 'agency', 'social-media'],
-        recommendedContent: ['packages', 'case-studies', 'blog']
+        recommendedContent: ['packages', 'case-studies', 'blog'],
+        longTailVariations: [
+            'instagram reels agentura praha',
+            'agentura na instagram reels',
+            'tvorba instagram reels',
+            'reels marketing agentura'
+        ]
+    },
+    {
+        keyword: "konferenční video",
+        language: 'cs',
+        searchIntent: 'transactional',
+        difficulty: 'low',
+        difficultyScore: 35,
+        priority: 9,
+        searchVolumeEstimate: "500-1.5K",
+        competitionLevel: 'low',
+        estimatedTraffic: "90-200/month",
+        relatedTopics: ['event', 'conference', 'b2b', 'corporate'],
+        recommendedContent: ['services', 'case-studies', 'testimonials'],
+        longTailVariations: [
+            'konferenční video praha',
+            'natáčení konferencí',
+            'video z konference cena',
+            'profesionální konferenční video'
+        ]
+    },
+    {
+        keyword: "ceo rozhovory",
+        language: 'cs',
+        searchIntent: 'commercial',
+        difficulty: 'low',
+        difficultyScore: 20,
+        priority: 8,
+        searchVolumeEstimate: "100-500",
+        competitionLevel: 'low',
+        estimatedTraffic: "30-80/month",
+        relatedTopics: ['corporate', 'b2b', 'testimonial', 'interview'],
+        recommendedContent: ['services', 'portfolio', 'case-studies'],
+        longTailVariations: [
+            'natáčení ceo rozhovorů',
+            'firemní rozhovory video',
+            'video rozhovory pro firmy',
+            'profesionální ceo rozhovory'
+        ]
     }
 ];
 
 /**
  * English Keywords Database - Video Production Focus
+ * Enhanced with search volume, competition, and traffic estimates
  */
 export const englishKeywords: KeywordData[] = [
     {
@@ -112,63 +237,171 @@ export const englishKeywords: KeywordData[] = [
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'high',
+        difficultyScore: 75,
         priority: 9,
+        searchVolumeEstimate: "5K-10K",
+        competitionLevel: 'high',
+        estimatedTraffic: "200-500/month",
         relatedTopics: ['event-video', 'corporate', 'professional'],
-        recommendedContent: ['case-studies', 'portfolio', 'contact']
+        recommendedContent: ['case-studies', 'portfolio', 'contact'],
+        longTailVariations: [
+            'video production london prices',
+            'best video production london',
+            'corporate video production london',
+            'video production companies london'
+        ]
     },
     {
         keyword: "reels agency uk",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 50,
         priority: 8,
+        searchVolumeEstimate: "1K-3K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "120-280/month",
         relatedTopics: ['reels', 'instagram', 'agency'],
-        recommendedContent: ['packages', 'portfolio', 'blog']
+        recommendedContent: ['packages', 'portfolio', 'blog'],
+        longTailVariations: [
+            'instagram reels agency uk',
+            'reels production agency',
+            'reels marketing agency',
+            'professional reels agency'
+        ]
     },
     {
         keyword: "ugc creator london",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 45,
         priority: 9,
+        searchVolumeEstimate: "2K-5K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "180-400/month",
         relatedTopics: ['ugc', 'content-creation', 'social-media'],
-        recommendedContent: ['services', 'portfolio', 'testimonials']
+        recommendedContent: ['services', 'portfolio', 'testimonials'],
+        longTailVariations: [
+            'ugc creator london rates',
+            'hire ugc creator london',
+            'professional ugc creator',
+            'ugc content creator uk'
+        ]
     },
     {
         keyword: "event videographer",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'high',
+        difficultyScore: 70,
         priority: 10,
+        searchVolumeEstimate: "3K-8K",
+        competitionLevel: 'high',
+        estimatedTraffic: "150-400/month",
         relatedTopics: ['event', 'conference', 'corporate'],
-        recommendedContent: ['services', 'case-studies', 'contact']
+        recommendedContent: ['services', 'case-studies', 'contact'],
+        longTailVariations: [
+            'event videographer london',
+            'conference videographer',
+            'corporate event videographer',
+            'event videography services'
+        ]
     },
     {
         keyword: "corporate video production",
         language: 'en',
         searchIntent: 'commercial',
         difficulty: 'high',
+        difficultyScore: 80,
         priority: 8,
+        searchVolumeEstimate: "10K-20K",
+        competitionLevel: 'high',
+        estimatedTraffic: "300-700/month",
         relatedTopics: ['corporate', 'b2b', 'brand'],
-        recommendedContent: ['services', 'portfolio', 'testimonials']
+        recommendedContent: ['services', 'portfolio', 'testimonials'],
+        longTailVariations: [
+            'corporate video production london',
+            'corporate video production company',
+            'b2b video production',
+            'corporate promotional videos'
+        ]
     },
     {
         keyword: "tiktok content creator",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'medium',
+        difficultyScore: 55,
         priority: 7,
+        searchVolumeEstimate: "2K-5K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "100-250/month",
         relatedTopics: ['tiktok', 'content-creation', 'social-media'],
-        recommendedContent: ['services', 'blog', 'portfolio']
+        recommendedContent: ['services', 'blog', 'portfolio'],
+        longTailVariations: [
+            'tiktok content creator for hire',
+            'tiktok video creator',
+            'professional tiktok creator',
+            'tiktok content production'
+        ]
     },
     {
         keyword: "filmmaker london",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'high',
+        difficultyScore: 75,
         priority: 7,
+        searchVolumeEstimate: "3K-7K",
+        competitionLevel: 'high',
+        estimatedTraffic: "120-300/month",
         relatedTopics: ['filmmaker', 'professional', 'videographer'],
-        recommendedContent: ['about', 'portfolio', 'contact']
+        recommendedContent: ['about', 'portfolio', 'contact'],
+        longTailVariations: [
+            'freelance filmmaker london',
+            'commercial filmmaker london',
+            'professional filmmaker london',
+            'filmmaker for hire london'
+        ]
+    },
+    {
+        keyword: "conference video production",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 55,
+        priority: 9,
+        searchVolumeEstimate: "1K-3K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "100-250/month",
+        relatedTopics: ['conference', 'event', 'b2b', 'corporate'],
+        recommendedContent: ['services', 'case-studies', 'testimonials'],
+        longTailVariations: [
+            'conference video production london',
+            'conference filming services',
+            'professional conference video',
+            'conference video package'
+        ]
+    },
+    {
+        keyword: "social media video production",
+        language: 'en',
+        searchIntent: 'commercial',
+        difficulty: 'medium',
+        difficultyScore: 60,
+        priority: 8,
+        searchVolumeEstimate: "2K-5K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "150-350/month",
+        relatedTopics: ['social-media', 'reels', 'tiktok', 'content-creation'],
+        recommendedContent: ['services', 'packages', 'blog'],
+        longTailVariations: [
+            'social media video production london',
+            'social media content creator',
+            'video production for social media',
+            'social media video agency'
+        ]
     }
 ];
 
