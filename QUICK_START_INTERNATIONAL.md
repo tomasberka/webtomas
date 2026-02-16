@@ -21,10 +21,10 @@ You asked to expand to **Berlin, London** and offer **actor/moderator** services
 ┌─────────────────┬──────────┬──────────┬──────────┐
 │                 │ Prague   │ Berlin   │ London   │
 ├─────────────────┼──────────┼──────────┼──────────┤
-│ Event Video     │ 25-75K   │ €3.5K+   │ €4.2K+   │
-│ Event Moderator │ 800-1.4K │ €1K+     │ €1.2K+   │
-│ Corporate Actor │ 600-1K   │ €800+    │ €1K+     │
-│ COMBO PACKAGE   │ 35-90K   │ €5K+     │ €6K+     │
+│ Event Video     │ 25-75K CZK│ €3.5K+  │ €4.2K+   │
+│ Event Moderator │ 0.8-1.4K€│ €1K+     │ €1.2K+   │
+│ Corporate Actor │ 600-1K€  │ €800+    │ €1K+     │
+│ COMBO PACKAGE   │ 35-90K CZK│ €5K+    │ €6K+     │
 └─────────────────┴──────────┴──────────┴──────────┘
 ```
 

@@ -165,21 +165,21 @@ H2: International Event Video Pricing
 
 Base Rate + Travel:
 
-BERLIN Package: from €3,500
+Berlin Package: from €3,500
 - Full day coverage
 - 2 cameras
 - 1 edited video (5-10 min)
 - Travel included
 - Delivery in 7 days
 
-LONDON Package: from €4,200
+London Package: from €4,200
 - Full day coverage
 - 2 cameras
 - 1 edited video (5-10 min)
 - Travel included
 - Delivery in 7 days
 
-MULTI-CITY Tour: Custom quote
+Multi-City Tour: Custom quote
 - 3+ cities = 15% discount
 - Week-long tours
 - Consistent coverage across all stops

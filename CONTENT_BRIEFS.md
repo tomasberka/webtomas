@@ -17,7 +17,7 @@ This document provides detailed outlines for all recommended content pieces. Eac
 ### Meta Tags
 ```html
 <title>Event Video Praha - Profesionální Konferenční Video | Od 25K Kč</title>
-<meta name="description" content="Natáčení event videí a konferencí v Praze. B2B kvalita, CEO rozhovory, expresní dodání. Portfolio 50+ eventů. ✓ Rezervace online ✓ Zdarma konzultace">
+<meta name="description" content="Natáčení event videí v Praze. B2B kvalita, CEO rozhovory, expresní dodání. ✓ Portfolio 50+ eventů ✓ Rezervace online">
 <meta name="keywords" content="event video praha, konferenční video, firemní event video, natáčení konferencí, ceo rozhovory, video z eventu">
 ```
 
@@ -389,6 +389,7 @@ Alternative CTAs:
 #### H2: UGC vs. Tradiční Reklama: Data (400 words)
 
 **Comparison Table:**
+
 | Metric | UGC | Traditional Ads |
 |--------|-----|-----------------|
 | Engagement Rate | 4-6% | 0.5-1% |
