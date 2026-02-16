@@ -108,49 +108,5 @@
         },
         "tags": ["Hudební videoklip", "Reklamní video", "Lifestyle"],
         "date": "2025-08-05"
-    },
-    {
-        "id": "tech-conference-2025",
-        "title": "Tech Conference Praha: Kompletní Event Video",
-        "client": "Tech Konference CZ",
-        "industry": "Technologie / Eventy",
-        "youtubeIds": [],
-        "challenge": "Mezinárodní tech konference s 400+ účastníky potřebovala profesionální videozáznam klíčových přednášek, rozhovorů s CEO a atmosféry eventu pro marketing dalšího ročníku.",
-        "solution": "Kompletní dvoudenní pokrytí se 2 kamerami, rozhovory s 8 řečníky, same-day highlights pro sociální sítě a finální recap video.",
-        "results": [
-            "300% více registrací na další ročník",
-            "Recap video s 50K+ views na LinkedIn",
-            "8 CEO rozhovorů pro content marketing",
-            "Same-day highlights sdílené přímo z eventu"
-        ],
-        "testimonial": {
-            "quote": "Tomáš pokryl naši konferenci profesionálně a diskrétně. Highlights měli účastníci již během eventu a finální video překročilo očekávání. Určitě budeme spolupracovat znovu.",
-            "author": "Organizátor konference",
-            "role": "Event Manager"
-        },
-        "tags": ["Event Video", "Konference", "B2B", "CEO Rozhovory"],
-        "date": "2025-10-12"
-    },
-    {
-        "id": "product-launch-moderation",
-        "title": "Product Launch: Moderování & Video",
-        "client": "SaaS Startup",
-        "industry": "Technologie / SaaS",
-        "youtubeIds": [],
-        "challenge": "Startup potřeboval bilingválního moderátora pro launch event s mezinárodními hosty a zároveň profesionální videozáznam celé akce.",
-        "solution": "Kombinovaná služba - moderování celého eventu v angličtině i češtině plus kompletní natáčení s 2 kamerami a rozhovory s hosty.",
-        "results": [
-            "Hladký průběh eventu pro 200 hostů",
-            "Professionální moderování v EN/CZ",
-            "Video dodáno do 72 hodin",
-            "Klient ušetřil 40% oproti dvou dodavatelům"
-        ],
-        "testimonial": {
-            "quote": "Mít jednoho člověka, který zvládne moderování i natáčení, je obrovská výhoda. Tomáš byl připravený, profesionální a energický. Vřele doporučuji.",
-            "author": "CEO, SaaS Startup",
-            "role": "CEO"
-        },
-        "tags": ["Moderování", "Event Video", "Product Launch", "Bilingvální"],
-        "date": "2025-11-28"
     }
 ]

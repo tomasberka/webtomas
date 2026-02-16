@@ -8,7 +8,7 @@ import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
     title: "About Me | Filmmaker London | Video Partner for CEOs & Brands",
-    description: "👋 More than just a cameraman. 500+ projects, 7+ years experience. Strategic partner for video marketing in London & worldwide. Reels, events, campaigns.",
+    description: "👋 More than just a cameraman. 500+ projects, 10+ years experience. Strategic partner for video marketing in London & worldwide. Reels, events, campaigns.",
     keywords: ["filmmaker london", "video producer uk", "content creator london", "corporate videographer london"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/about",

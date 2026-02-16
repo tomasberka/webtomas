@@ -403,7 +403,7 @@ export default function GatewayStrategyPage() {
                             </h2>
                             <div className="space-y-4 text-muted-foreground">
                                 <p>
-                                    I&apos;m Tomáš Berka—a Prague-based video strategist with <strong>7+ years of experience</strong> creating content for Czech and international brands.
+                                    I&apos;m Tomáš Berka—a Prague-based video strategist with <strong>10+ years of experience</strong> creating content for Czech and international brands.
                                 </p>
                                 <p>
                                     I&apos;ve worked with companies like <strong>ČSOB, Plzeňský Prazdroj, and Oreo</strong> on campaigns that resonate with Czech audiences. I know the cultural nuances, platform dynamics, and what makes Czech consumers click &quot;buy.&quot;

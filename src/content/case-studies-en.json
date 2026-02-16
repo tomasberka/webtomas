@@ -108,49 +108,5 @@
         },
         "tags": ["Music Video", "Commercial", "Lifestyle"],
         "date": "2025-08-05"
-    },
-    {
-        "id": "tech-conference-2025",
-        "title": "Tech Conference Prague: Complete Event Video Coverage",
-        "client": "Tech Conference CZ",
-        "industry": "Technology / Events",
-        "youtubeIds": [],
-        "challenge": "International tech conference with 400+ attendees needed professional video coverage of keynotes, CEO interviews, and event atmosphere for marketing the next edition.",
-        "solution": "Complete two-day coverage with 2 cameras, interviews with 8 speakers, same-day social media highlights, and a polished recap video.",
-        "results": [
-            "300% more registrations for next edition",
-            "Recap video with 50K+ views on LinkedIn",
-            "8 CEO interviews for content marketing",
-            "Same-day highlights shared directly from event"
-        ],
-        "testimonial": {
-            "quote": "Tomas covered our conference professionally and discreetly. Attendees had highlights during the event and the final video exceeded expectations. We will definitely work together again.",
-            "author": "Conference Organizer",
-            "role": "Event Manager"
-        },
-        "tags": ["Event Video", "Conference", "B2B", "CEO Interviews"],
-        "date": "2025-10-12"
-    },
-    {
-        "id": "product-launch-moderation",
-        "title": "Product Launch: Bilingual Moderation & Video",
-        "client": "SaaS Startup",
-        "industry": "Technology / SaaS",
-        "youtubeIds": [],
-        "challenge": "A startup needed a bilingual moderator for their launch event with international guests AND professional video coverage of the entire event.",
-        "solution": "Combined service \u2014 full event moderation in both English and Czech plus complete filming with 2 cameras and guest interviews.",
-        "results": [
-            "Smooth event flow for 200 guests",
-            "Professional bilingual EN/CZ moderation",
-            "Video delivered within 72 hours",
-            "Client saved 40% vs. hiring two vendors"
-        ],
-        "testimonial": {
-            "quote": "Having one person who handles both moderation and filming is a huge advantage. Tomas was prepared, professional and energetic. Highly recommend.",
-            "author": "CEO, SaaS Startup",
-            "role": "CEO"
-        },
-        "tags": ["Moderation", "Event Video", "Product Launch", "Bilingual"],
-        "date": "2025-11-28"
     }
 ]
