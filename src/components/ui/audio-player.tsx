@@ -10,15 +10,15 @@ interface AudioPlayerProps {
     className?: string
 }
 
+const SEEK_STEP_PERCENT = 0.05 // 5% of duration for arrow key seeking
+const END_OFFSET_SECONDS = 0.1 // Offset to avoid triggering end event
+
 export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
     const audioRef = useRef<HTMLAudioElement>(null)
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentTime, setCurrentTime] = useState(0)
     const [duration, setDuration] = useState(0)
     const [waveformdata] = useState<number[]>(() => Array.from({ length: 40 }, () => Math.random() * 0.5 + 0.3))
-    
-    const SEEK_STEP_PERCENT = 0.05 // 5% of duration for arrow key seeking
-    const END_OFFSET_SECONDS = 0.1 // Offset to avoid triggering end event
 
     useEffect(() => {
         const audio = audioRef.current
@@ -129,8 +129,8 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
                     tabIndex={0}
                     aria-label="Audio progress"
                     aria-valuemin={0}
-                    aria-valuemax={duration}
-                    aria-valuenow={currentTime}
+                    aria-valuemax={duration || 100}
+                    aria-valuenow={isNaN(currentTime) ? 0 : currentTime}
                     aria-valuetext={`${formatTime(currentTime)} of ${formatTime(duration)}`}
                 >
                     {/* Background interactive layer */}
