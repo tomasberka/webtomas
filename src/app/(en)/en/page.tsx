@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Testimonials } from "@/components/sections/testimonials";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { AccessibleVideo } from "@/components/ui/accessible-video";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle, Sparkles, Timer, Globe, User, Mic } from "lucide-react";
@@ -332,18 +333,12 @@ export default function Home() {
                         </div>
                     </div>
                     <article className="relative aspect-video max-w-full mx-auto rounded-2xl bg-muted overflow-hidden border shadow-2xl order-1 md:order-2">
-                        <video
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            preload="metadata"
+                        <AccessibleVideo
+                            src="/videos/packages.mp4"
                             poster="/images/og-image-en-new.png"
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                        >
-                            <source src="/videos/packages.mp4" type="video/mp4" />
-                            Your browser does not support video.
-                        </video>
+                            type="video/mp4"
+                        />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
                         <div className="absolute bottom-6 left-6 right-6 text-white p-4 glass-panel rounded-xl border border-white/10 backdrop-blur-sm">
                             <div className="font-bold text-lg mb-1">Growth Package</div>
