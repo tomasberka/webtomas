@@ -1,5 +1,4 @@
-:HL["/_next/static/chunks/8986f50d0e3a7d07.css","style"]
-:HL["/_next/static/chunks/1e0282d45bbcc935.css","style"]
+:HL["/_next/static/chunks/43903f4aaacfa3b5.css","style"]
 :HL["/_next/static/media/1bffadaabf893a1e-s.p.7cd81963.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/images/blog/5-reels-mistakes-en.png","image"]
@@ -12,4 +11,4 @@
 :HL["/images/blog/500-reels-lessons.png","image"]
 :HL["/images/service-reels.jpg","image"]
 :HL["/images/ugc-hero.jpg","image"]
-0:{"buildId":"3_NawEI8zh1WTFNzKSUKt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(en)","paramType":null,"paramKey":"(en)","hasRuntimePrefetch":false,"slots":{"children":{"name":"en","paramType":null,"paramKey":"en","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
+0:{"buildId":"1VMTfYJuO5vbeRpKGBqx8","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(en)","paramType":null,"paramKey":"(en)","hasRuntimePrefetch":false,"slots":{"children":{"name":"en","paramType":null,"paramKey":"en","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
