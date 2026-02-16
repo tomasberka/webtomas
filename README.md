@@ -1,4 +1,4 @@
-# Já jsem Tomáš — Video Produkce
+# Já jsem Tomáš — Video Produkce & International Event Services
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)
@@ -7,7 +7,23 @@
 
 **🔗 Live**: [jajsemtomas.cz](https://jajsemtomas.cz) | [en.jajsemtomas.cz](https://en.jajsemtomas.cz)
 
-Profesionální webová stránka pro video produkci, Reels balíčky a filmmaking služby. Postaveno na Next.js 16 s statickým exportem pro maximální rychlost.
+Profesionální webová stránka pro video produkci, **mezinárodní event services** (Berlin, London), event moderování a filmmaking služby. Postaveno na Next.js 16 s statickým exportem pro maximální rychlost.
+
+---
+
+## 🆕 International Expansion & New Services
+
+**NEW Services Added:**
+- 🌍 **International Event Video** - Berlin, London, Europe
+- 🎤 **Event Moderator & Host** - Bilingual (EN/CZ) conference moderation
+- 🎭 **Corporate Actor & Spokesperson** - On-camera talent for brand videos
+
+**📋 Action Plans Available:**
+- 🚀 **[QUICK_START_INTERNATIONAL.md](./QUICK_START_INTERNATIONAL.md)** - Start here! What to do RIGHT NOW
+- 📍 **[INTERNATIONAL_EXPANSION.md](./INTERNATIONAL_EXPANSION.md)** - Complete strategy & service page templates
+- 🗺️ **[ACTION_ROADMAP.md](./ACTION_ROADMAP.md)** - 8-week prioritized implementation plan
+- 📝 **[CONTENT_BRIEFS.md](./CONTENT_BRIEFS.md)** - Ready-to-write content templates
+- 📊 **[ANALYTICS_README.md](./ANALYTICS_README.md)** - Analytics & tracking guide
 
 ---
 
