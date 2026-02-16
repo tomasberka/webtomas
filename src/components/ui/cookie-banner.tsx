@@ -1,10 +1,17 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import { useFocusTrap } from "@/hooks/useFocusTrap"
 
 export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const [isVisible, setIsVisible] = useState(false)
+    const bannerRef = useRef<HTMLDivElement>(null)
+    const acceptButtonRef = useRef<HTMLButtonElement>(null)
+    const previouslyFocusedElement = useRef<HTMLElement | null>(null)
+    
+    // Enable focus trap when banner is visible
+    useFocusTrap(bannerRef, isVisible)
 
     const updateConsent = useCallback((status: 'granted' | 'denied') => {
         // Update Google Consent Mode
@@ -22,6 +29,8 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         // Check if user has already made a choice
         const consent = localStorage.getItem("cookie-consent")
         if (!consent) {
+            // Save previously focused element
+            previouslyFocusedElement.current = document.activeElement as HTMLElement
             setIsVisible(true)
         } else if (consent === "granted") {
             // Restore granted state if page reloads
@@ -41,6 +50,30 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         setIsVisible(false)
     }
 
+    // Handle focus management and Escape key
+    useEffect(() => {
+        if (isVisible) {
+            // Move focus to accept button when banner opens
+            acceptButtonRef.current?.focus()
+            
+            // Handle Escape key (treat as reject)
+            const handleEscape = (e: KeyboardEvent) => {
+                if (e.key === "Escape") {
+                    handleReject()
+                }
+            }
+            document.addEventListener("keydown", handleEscape)
+            
+            return () => {
+                document.removeEventListener("keydown", handleEscape)
+            }
+        } else if (previouslyFocusedElement.current) {
+            // Return focus to previously focused element when closing
+            previouslyFocusedElement.current.focus()
+            previouslyFocusedElement.current = null
+        }
+    }, [isVisible])
+
     if (!isVisible) return null
 
     const t = {
@@ -56,10 +89,16 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     }
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 z-[100] bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500">
+        <div 
+            ref={bannerRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="cookie-banner-title"
+            className="fixed bottom-0 left-0 right-0 z-[100] bg-background/95 backdrop-blur-sm border-t shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] animate-in slide-in-from-bottom duration-500"
+        >
             <div className="container max-w-7xl mx-auto p-4 md:p-6 flex flex-col md:flex-row items-center justify-between gap-6">
                 <div className="flex-1 space-y-2 text-center md:text-left">
-                    <h3 className="font-semibold text-base">{t.title}</h3>
+                    <h3 id="cookie-banner-title" className="font-semibold text-base">{t.title}</h3>
                     <p className="text-sm text-muted-foreground max-w-2xl">
                         {t.description}
                         <a href={t.policyUrl} className="underline hover:text-foreground transition-colors">{t.policyLink}</a>
@@ -76,6 +115,7 @@ export function CookieBanner({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         {t.reject}
                     </Button>
                     <Button
+                        ref={acceptButtonRef}
                         onClick={handleAccept}
                         size="sm"
                         className="w-full sm:w-auto font-medium shadow-sm"
