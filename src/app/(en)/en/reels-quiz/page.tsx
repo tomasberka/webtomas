@@ -259,7 +259,7 @@ export default function ReelsQuizPage() {
                             style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
                         />
                     </div>
-                    <div role="status" className="sr-only">
+                    <div role="status" className="sr-only" aria-live="polite" key={currentQuestion}>
                         Step {currentQuestion + 1} of {questions.length}
                     </div>
                 </div>

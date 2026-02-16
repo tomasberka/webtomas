@@ -206,10 +206,9 @@ export function Testimonials({ locale = "cs" }: TestimonialsProps) {
                 <div 
                     role="region" 
                     aria-label={locale === 'en' ? 'Testimonials' : 'Reference'}
-                    aria-live="polite"
                     className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
                 >
-                    <span className="sr-only">
+                    <span className="sr-only" aria-live="polite">
                         {showAll 
                             ? (locale === 'en' ? `Showing all ${displayedTestimonials.length} testimonials` : `Zobrazeno všech ${displayedTestimonials.length} referencí`)
                             : (locale === 'en' ? `Showing ${displayedTestimonials.length} testimonials` : `Zobrazeno ${displayedTestimonials.length} referencí`)
