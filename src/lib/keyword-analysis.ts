@@ -461,6 +461,25 @@ export const englishKeywords: KeywordData[] = [
         ]
     },
     {
+        keyword: "event videographer berlin",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 50,
+        priority: 9,
+        searchVolumeEstimate: "500-2K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "60-180/month",
+        relatedTopics: ['event', 'berlin', 'international', 'videographer'],
+        recommendedContent: ['services', 'case-studies', 'portfolio'],
+        longTailVariations: [
+            'conference videographer berlin',
+            'event video production berlin',
+            'corporate event videographer berlin',
+            'berlin videographer for hire'
+        ]
+    },
+    {
         keyword: "event moderator london",
         language: 'en',
         searchIntent: 'transactional',
@@ -496,6 +515,25 @@ export const englishKeywords: KeywordData[] = [
             'bilingual event host london',
             'bilingual mc london',
             'international event host'
+        ]
+    },
+    {
+        keyword: "event host berlin",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 40,
+        priority: 8,
+        searchVolumeEstimate: "500-1.5K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "60-150/month",
+        relatedTopics: ['moderator', 'event', 'berlin', 'host', 'presenter'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'conference host berlin',
+            'event moderator berlin',
+            'bilingual mc berlin',
+            'international event host berlin'
         ]
     },
     {
