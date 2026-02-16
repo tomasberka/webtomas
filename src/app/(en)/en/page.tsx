@@ -4,7 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle, Sparkles, Timer } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, MessageCircle, Sparkles, Timer, Globe, User, Mic } from "lucide-react";
 import servicesData from "@/content/services-en.json";
 import testimonialsData from "@/content/testimonials-en.json";
 import { Metadata } from "next";
@@ -16,12 +16,15 @@ const icons = {
     Calendar,
     Radio,
     MonitorPlay,
+    Globe,
+    User,
+    Mic,
 };
 
 export const metadata: Metadata = {
-    title: "Tomas Berka | Video Production, Editing & Audio | Prague & Online",
-    description: "Complete video and audio services. Event filming, Reels creation, podcasts, post-production and voiceover. 10+ years experience. Reliable & human approach.",
-    keywords: ["video production prague", "filmmaker czech republic", "reels production", "podcast production", "voiceover", "video editing", "content creator"],
+    title: "International Event Videographer | Berlin, London, Prague & Europe | Tomas Berka",
+    description: "Bilingual event videographer & moderator covering B2B conferences across Europe. Berlin, London, Prague. All travel included. Book your international event coverage today.",
+    keywords: ["event videographer berlin", "event video london", "international event videographer", "conference video production europe", "bilingual event videographer", "event moderator", "corporate event filming"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",
         languages: {
@@ -29,17 +32,17 @@ export const metadata: Metadata = {
         }
     },
     openGraph: {
-        title: "High-Retention Video Production | Reels, TikTok & Shorts",
-        description: "🎯 Premium short-form video production. From strategy to cinematic execution.",
+        title: "International Event Video | Berlin, London, Prague & Europe",
+        description: "Bilingual (EN/CZ) event videographer & moderator for B2B conferences across Europe. All travel included. Same quality everywhere.",
         url: "https://en.jajsemtomas.cz",
         locale: "en_GB",
-        siteName: "I am Tomas - Growth Architecture",
+        siteName: "I am Tomas - International Event Video",
         images: [
             {
                 url: "https://en.jajsemtomas.cz/images/og-image-en-new.png",
                 width: 1200,
                 height: 630,
-                alt: "High-Retention Video Production - Growth Architecture",
+                alt: "International Event Video Production - Berlin, London, Prague",
             },
         ],
     },
@@ -150,25 +153,25 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
                     <Container className="flex flex-col items-center text-center gap-8">
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-                        � 10+ years experience • 500+ projects
+                        Berlin | London | Prague | Across Europe
                     </div>
                     <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-                        Video & Audio Production.<br className="hidden md:block" />
-                        <span className="text-primary">Reliably. From A to Z.</span>
+                        International Event Video.<br className="hidden md:block" />
+                        <span className="text-primary">Moderation. Production.</span>
                     </h1>
                     <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-                        I&apos;m <strong>Tomas</strong>. Your go-to person for filming, editing, podcasts and Reels.<br />
-                        I deliver complete results without the hassle. <strong>You have the vision, I have the gear and know-how.</strong>
+                        I&apos;m <strong>Tomas</strong> &mdash; bilingual (EN/CZ) event videographer &amp; moderator covering B2B events across Europe.<br />
+                        One videographer for all your conferences. <strong>Same quality everywhere. All travel included.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-                        <Link href="/contact">
+                        <Link href="/services/international-event-video">
                             <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                                Book Free Consultation
+                                Book International Event
                             </Button>
                         </Link>
-                        <Link href="/portfolio">
+                        <Link href="/services/event-moderator">
                             <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                My Work
+                                Event Moderator Services
                             </Button>
                         </Link>
                     </div>
@@ -181,21 +184,20 @@ export default function Home() {
                 <Container>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
                         <div className="space-y-1">
-                            {/* Note: Values matched to CZ version for consistency */}
                             <div className="text-3xl md:text-4xl font-bold text-foreground">150+</div>
-                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projects</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Events Filmed</div>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-3xl md:text-4xl font-bold text-foreground">10+ Years</div>
-                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Experience</div>
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">5+</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Countries Covered</div>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-3xl md:text-4xl font-bold text-foreground">500K+</div>
-                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Views</div>
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">Bilingual</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ / DE basics</div>
                         </div>
                         <div className="space-y-1">
-                            <div className="text-3xl md:text-4xl font-bold text-foreground">1 Day</div>
-                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Shooting Enough</div>
+                            <div className="text-3xl md:text-4xl font-bold text-foreground">48h</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Express Delivery</div>
                         </div>
                     </div>
 

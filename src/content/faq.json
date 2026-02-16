@@ -124,5 +124,71 @@
             "question": "Zahrnuje cena i práva k reklamě?",
             "answer": "Ano, v ceně jsou obvykle zahrnuta práva pro použití v reklamách (Usage Rights) na 12 měsíců."
         }
+    ],
+    "event-video-praha": [
+        {
+            "question": "Kolik stojí natáčení event videa v Praze?",
+            "answer": "Základní balíčky začínají na 25 000 Kč. Cena závisí na délce eventu, počtu kameramanů a požadovaných výstupech. Nabídku na míru vytvoříme do 24 hodin."
+        },
+        {
+            "question": "Jak dlouho trvá dodání videa po eventu?",
+            "answer": "Standardně 5-7 pracovních dní. Na žádost nabízíme expresní dodání do 48 hodin za příplatek."
+        },
+        {
+            "question": "Nabízíte i livestreaming?",
+            "answer": "Ano, livestream na Facebook, YouTube, LinkedIn nebo vlastní platformu je možný v Premium balíčku nebo jako addon."
+        },
+        {
+            "question": "Co když se účastníci nechtějí natáčet?",
+            "answer": "Vždy jsme diskrétní a respektujeme přání účastníků. Můžeme se zaměřit na pódium, zákulisí a dobrovolné rozhovory."
+        },
+        {
+            "question": "Dostaneme i raw footage?",
+            "answer": "Ano, v Premium balíčku nebo za příplatek můžeme dodat veškerý natočený materiál."
+        },
+        {
+            "question": "Kolik kameramanů potřebuji?",
+            "answer": "Pro menší eventy (do 100 lidí) stačí 1 kameraman. Pro střední a velké eventy doporučuji 2-3 pro pokrytí pódia i zákulisí současně."
+        }
+    ],
+    "event-moderator": [
+        {
+            "question": "V jakých jazycích moderujete?",
+            "answer": "Plynule česky a anglicky, se základy němčiny. Dokážu plynule přepínat mezi jazyky během jedné akce."
+        },
+        {
+            "question": "Jak se na event připravujete?",
+            "answer": "1-2 týdny předem si nastuduju všechny řečníky, témata a publikum. Připravím vlastní otázky, projdu program a skoordnuji se s AV týmem."
+        },
+        {
+            "question": "Zvládnete i hybridní eventy?",
+            "answer": "Ano, mám zkušenosti se Zoom, Teams a StreamYard. Dokážu řídit publikum na místě i online současně."
+        },
+        {
+            "question": "Jaké typy eventů moderujete?",
+            "answer": "Tech konference, firemní summity, panelové diskuze, product launche, slavnostní večery a webináře. Primárně B2B akce."
+        },
+        {
+            "question": "Zajistíte i natáčení eventu?",
+            "answer": "Ano! Mohu moderovat váš event A zároveň zajistit video pokrytí. Tato kombinace zaručí, že moderátor rozumí kamerám a výsledné video vypadá ještě lépe."
+        }
+    ],
+    "firemni-herec": [
+        {
+            "question": "V jakých typech firemních videí můžete hrát?",
+            "answer": "Školící/e-learning videa, produktové demonstrace, role brand spokesperson, testimonial videa a firemní explainer obsah."
+        },
+        {
+            "question": "Umíte pracovat s teleprompterem?",
+            "answer": "Ano, jsem zkušený s teleprompterem a dokážu podávat přirozený výkon i při čtení scénáře. To výrazně zrychluje produkci."
+        },
+        {
+            "question": "Zajistíte oblečení?",
+            "answer": "Mám profesionální šatník vhodný pro korporátní prostředí. Pro specifické brandové požadavky se můžeme domluvit předem."
+        },
+        {
+            "question": "Jaká práva k užití jsou zahrnuta?",
+            "answer": "Standardně 12měsíční práva k užití pro digitální a tiskový marketing. Rozšířená licence pro broadcast nebo delší období je k dispozici."
+        }
     ]
 }

@@ -11,17 +11,21 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const [servicesExpanded, setServicesExpanded] = useState(false);
 
     const servicesItems = locale === 'cs' ? [
+        { href: "/sluzby/event-video-praha", label: "🎬 Event Video Praha", special: false },
+        { href: "/sluzby/event-moderator", label: "🎤 Moderátor Eventů", special: false },
         { href: "/reels-balicky", label: "Reels Produkce" },
         { href: "/vstup-na-trh", label: "🌍 Vstup na trh", special: true },
         { href: "/sluzby/kreativni-produkce", label: "Kreativní Produkce" },
-        { href: "/sluzby/event-video", label: "Event Video" },
+        { href: "/sluzby/firemni-herec", label: "Firemní Herec" },
         { href: "/ugc-herec", label: "UGC / Herec" },
         { href: "/partner-socialvids", label: "SocialVids" },
     ] : [
+        { href: "/services/international-event-video", label: "🌍 International Events", special: true },
+        { href: "/services/event-moderator", label: "🎤 Event Moderator", special: false },
         { href: "/reels-packages", label: "Reels Production" },
-        { href: "/gateway-strategy", label: "🌍 Gateway Strategy", special: true },
+        { href: "/gateway-strategy", label: "Gateway Strategy" },
         { href: "/services/creative-production", label: "Creative Production" },
-        { href: "/services/event-video", label: "Event Video" },
+        { href: "/services/corporate-actor", label: "Corporate Actor" },
         { href: "/ugc-creator", label: "UGC / Acting" },
         { href: "/partner-socialvids", label: "SocialVids" },
     ];

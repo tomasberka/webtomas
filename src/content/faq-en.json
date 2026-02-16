@@ -124,5 +124,75 @@
             "question": "Does the price include advertising rights?",
             "answer": "Yes, the price usually includes rights for use in ads (Usage Rights) for 12 months."
         }
+    ],
+    "international-event-video": [
+        {
+            "question": "Do you charge extra for travel?",
+            "answer": "No hidden fees. All travel costs (flights, hotel, meals) are included in the quoted price upfront."
+        },
+        {
+            "question": "How far in advance should I book?",
+            "answer": "For international events, we recommend 4-6 weeks. Rush bookings possible subject to availability."
+        },
+        {
+            "question": "Do you have insurance for international work?",
+            "answer": "Yes, I carry liability insurance valid across the EU. I can provide a certificate on request."
+        },
+        {
+            "question": "What if our event is in multiple cities?",
+            "answer": "I offer bundle discounts for multi-city tours. 3+ cities = 15% discount. Get in touch for a custom quote."
+        },
+        {
+            "question": "Can you handle livestreaming internationally?",
+            "answer": "Yes, I can livestream from any location with stable internet. A test stream is always done in advance."
+        },
+        {
+            "question": "What equipment do you travel with?",
+            "answer": "Professional cinema cameras, wireless audio, LED lights, and gimbals. All packed in carry-on luggage for reliability — no checked baggage risks."
+        },
+        {
+            "question": "What if something goes wrong (delayed flight, etc.)?",
+            "answer": "I always arrive 1 day before the event for scouting. I carry backup equipment and am insured against cancellations."
+        }
+    ],
+    "event-moderator": [
+        {
+            "question": "What languages can you moderate in?",
+            "answer": "I'm fluent in English and Czech, with basic German. I can switch seamlessly between languages during the same event."
+        },
+        {
+            "question": "How do you prepare for an event?",
+            "answer": "I research all speakers, topics, and the audience 1-2 weeks in advance. I prepare custom questions, review the schedule, and coordinate with the AV team."
+        },
+        {
+            "question": "Can you moderate virtual/hybrid events?",
+            "answer": "Yes, I have experience with Zoom, Teams, and StreamYard. I can manage both in-person and virtual audiences simultaneously."
+        },
+        {
+            "question": "What types of events do you moderate?",
+            "answer": "Tech conferences, corporate summits, panel discussions, product launches, awards ceremonies, and webinars. Primarily B2B events."
+        },
+        {
+            "question": "Do you also provide event video coverage?",
+            "answer": "Yes! I can moderate your event AND arrange video coverage. This combo ensures your moderator is camera-aware, making the final video look even better."
+        }
+    ],
+    "corporate-actor": [
+        {
+            "question": "What types of corporate videos can you act in?",
+            "answer": "Training/e-learning videos, product demonstrations, brand spokesperson roles, testimonial videos, and corporate explainer content."
+        },
+        {
+            "question": "Can you work with a teleprompter?",
+            "answer": "Yes, I'm proficient with teleprompters and can deliver naturally while reading scripts. This speeds up production significantly."
+        },
+        {
+            "question": "Do you provide wardrobe?",
+            "answer": "I have a professional wardrobe suitable for corporate settings. For specific brand requirements, we can discuss in advance."
+        },
+        {
+            "question": "What usage rights are included?",
+            "answer": "Standard 12-month usage rights for digital and print marketing are included. Extended licensing for broadcast or longer terms is available."
+        }
     ]
 }

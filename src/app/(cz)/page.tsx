@@ -4,7 +4,7 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Sparkles, Timer } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Sparkles, Timer, Globe, User, Mic } from "lucide-react";
 import servicesData from "@/content/services.json";
 import testimonialsData from "@/content/testimonials.json";
 import { Metadata } from "next";
@@ -16,12 +16,15 @@ const icons = {
   Calendar,
   Radio,
   MonitorPlay,
+  Globe,
+  User,
+  Mic,
 };
 
 export const metadata: Metadata = {
-  title: "Tomáš Berka | Video Produkce, Střih & Audio | Praha & Online",
-  description: "Kompletní video a audio služby. Natáčení akcí, tvorba Reels, podcasty, postprodukce a voiceover. 10+ let praxe. Spolehlivost a lidský přístup.",
-  keywords: ["video produkce praha", "kameraman praha", "filmmaker česká republika", "tvorba reels", "podcast produkce", "voiceover čr", "střih videa praha"],
+  title: "Tomáš Berka | Event Video, Moderátor & Video Produkce | Praha & Evropa",
+  description: "Profesionální natáčení eventů, konferencí a firemních akcí. Moderátor eventů EN/CZ. Reels, podcasty, postprodukce. 10+ let praxe. Praha, Berlín, Londýn.",
+  keywords: ["event video praha", "kameraman praha", "natáčení konferencí", "moderátor eventu", "video produkce praha", "firemní herec", "tvorba reels", "event videographer berlin"],
   alternates: {
     canonical: "https://jajsemtomas.cz",
     languages: {
@@ -168,25 +171,25 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
           <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-            🎬 10+ let praxe • 500+ projektů
+            🎬 Praha | Berlín | Londýn | Celá Evropa
           </div>
           <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-            Video a audio produkce.<br className="hidden md:block" />
-            <span className="text-primary">Spolehlivě. Od A do Z.</span>
+            Event Video. Moderátor.<br className="hidden md:block" />
+            <span className="text-primary">Video produkce.</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-            Jsem <strong>Tomáš</strong>. Váš člověk na natáčení, střih, podcasty i Reels.<br />
-            Dodám vám kompletní výsledek bez starostí. <strong>Vy máte vizi, já mám techniku a know-how.</strong>
+            Jsem <strong>Tomáš</strong> &mdash; bilingvální (EN/CZ) videograf &amp; moderátor eventů po celé Evropě.<br />
+            Natáčení konferencí, Reels, firemní videa. <strong>Vy máte vizi, já dodám výsledek.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-            <Link href="/kontakt">
+            <Link href="/sluzby/event-video-praha">
               <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                Chci nezávaznou konzultaci
+                Natáčení eventu
               </Button>
             </Link>
-            <Link href="/portfolio">
+            <Link href="/sluzby/event-moderator">
               <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                Moje práce
+                Moderátor eventů
               </Button>
             </Link>
           </div>
@@ -200,19 +203,19 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
             <div className="space-y-1">
               <div className="text-3xl md:text-4xl font-bold text-foreground">150+</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Projektů</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Natočených eventů</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">10+ let</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Praxe</div>
+              <div className="text-3xl md:text-4xl font-bold text-foreground">5+</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Zemí Evropy</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">500K+</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Views</div>
+              <div className="text-3xl md:text-4xl font-bold text-foreground">Bilingvální</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ / DE základ</div>
             </div>
             <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">1 den</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Natáčení stačí</div>
+              <div className="text-3xl md:text-4xl font-bold text-foreground">48h</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Expresní dodání</div>
             </div>
           </div>
 
@@ -380,8 +383,8 @@ export default function Home() {
       <section aria-labelledby="services-heading">
         <Container>
           <div className="flex flex-col gap-4 mb-12 text-center md:text-left">
-            <h2 id="services-heading" className="text-3xl md:text-4xl font-bold tracking-tight">Kompletní video a audio služby</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl">Tvorba Reels a TikToku • Firemní a eventové video • Podcasty a Voiceover • Postprodukce a barvení</p>
+            <h2 id="services-heading" className="text-3xl md:text-4xl font-bold tracking-tight">Kompletní video a event služby</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl">Event video &amp; moderování • Tvorba Reels a TikToku • Firemní herec • Podcasty a Voiceover • Praha &amp; mezinárodně</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {servicesData.map((service) => {

@@ -1,11 +1,14 @@
 import { MetadataRoute } from 'next'
 import servicesData from "@/content/services.json";
 import blogData from "@/content/blog.json";
+import servicesEnData from "@/content/services-en.json";
+import blogEnData from "@/content/blog-en.json";
 
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://jajsemtomas.cz'
+    const enBaseUrl = 'https://en.jajsemtomas.cz'
 
     // Czech static routes with differentiated priorities and changefreq
     const staticRoutes = [
@@ -56,9 +59,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }))
 
+    // English static routes
+    const enStaticRoutes = [
+        { route: '', priority: 1.0, changefreq: 'weekly' as const },
+        { route: '/portfolio', priority: 0.7, changefreq: 'weekly' as const },
+        { route: '/case-studies', priority: 0.8, changefreq: 'weekly' as const },
+        { route: '/about', priority: 0.8, changefreq: 'monthly' as const },
+        { route: '/contact', priority: 0.9, changefreq: 'monthly' as const },
+        { route: '/blog', priority: 0.6, changefreq: 'weekly' as const },
+        { route: '/faq', priority: 0.7, changefreq: 'monthly' as const },
+        { route: '/gateway-strategy', priority: 0.9, changefreq: 'monthly' as const },
+        { route: '/reels-packages', priority: 0.8, changefreq: 'monthly' as const },
+        { route: '/privacy-policy', priority: 0.3, changefreq: 'yearly' as const },
+    ].map(({ route, priority, changefreq }) => ({
+        url: `${enBaseUrl}${route}`,
+        lastModified: new Date(),
+        changeFrequency: changefreq,
+        priority: priority,
+    }))
+
+    // English service routes
+    const enServiceRoutes = servicesEnData.map((service) => ({
+        url: `${enBaseUrl}/${service.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+    }))
+
+    // English blog routes
+    const enBlogRoutes = blogEnData.map((post) => ({
+        url: `${enBaseUrl}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+    }))
+
     return [
         ...staticRoutes,
         ...serviceRoutes,
         ...blogRoutes,
+        ...enStaticRoutes,
+        ...enServiceRoutes,
+        ...enBlogRoutes,
     ]
 }
