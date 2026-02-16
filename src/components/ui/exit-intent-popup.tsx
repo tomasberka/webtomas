@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import Link from "next/link";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 
 interface ExitIntentPopupProps {
     locale?: "cs" | "en";
@@ -12,6 +13,12 @@ interface ExitIntentPopupProps {
 
 export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
     const [isVisible, setIsVisible] = useState(false);
+    const dialogRef = useRef<HTMLDivElement>(null);
+    const closeButtonRef = useRef<HTMLButtonElement>(null);
+    const previouslyFocusedElement = useRef<HTMLElement | null>(null);
+    
+    // Enable focus trap when popup is visible
+    useFocusTrap(dialogRef, isVisible);
 
     useEffect(() => {
         // Check if user has already seen the popup (with 7-day expiration)
@@ -32,6 +39,8 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             // Only trigger if mouse is leaving from top of viewport
             if (e.clientY <= 0 && !hasTriggered) {
                 hasTriggered = true;
+                // Save previously focused element
+                previouslyFocusedElement.current = document.activeElement as HTMLElement;
                 setIsVisible(true);
                 // Set expiration for 7 days from now
                 const expiryTime = Date.now() + 7 * 24 * 60 * 60 * 1000;
@@ -49,6 +58,34 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
             document.removeEventListener("mouseleave", handleMouseLeave);
         };
     }, []);
+
+    const handleClose = () => {
+        setIsVisible(false);
+    };
+
+    // Handle focus management and Escape key
+    useEffect(() => {
+        if (isVisible) {
+            // Move focus to close button when popup opens
+            closeButtonRef.current?.focus();
+            
+            // Handle Escape key
+            const handleEscape = (e: KeyboardEvent) => {
+                if (e.key === "Escape") {
+                    handleClose();
+                }
+            };
+            document.addEventListener("keydown", handleEscape);
+            
+            return () => {
+                document.removeEventListener("keydown", handleEscape);
+            };
+        } else if (previouslyFocusedElement.current) {
+            // Return focus to previously focused element when closing
+            previouslyFocusedElement.current.focus();
+            previouslyFocusedElement.current = null;
+        }
+    }, [isVisible, handleClose]);
 
     if (!isVisible) return null;
 
@@ -90,10 +127,17 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
     const t = content[locale];
 
     return (
-        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-in fade-in duration-300">
+        <div 
+            ref={dialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="exit-popup-title"
+            className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 animate-in fade-in duration-300"
+        >
             <Card className="max-w-md w-full relative shadow-2xl">
                 <button
-                    onClick={() => setIsVisible(false)}
+                    ref={closeButtonRef}
+                    onClick={handleClose}
                     className="absolute top-4 right-4 text-muted-foreground hover:text-foreground transition-colors"
                     aria-label={t.closeLabel}
                 >
@@ -102,7 +146,7 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
 
                 <CardHeader className="text-center pb-4">
                     <div className="mx-auto mb-4 text-6xl">{t.emoji}</div>
-                    <CardTitle className="text-2xl md:text-3xl font-bold">
+                    <CardTitle id="exit-popup-title" className="text-2xl md:text-3xl font-bold">
                         {t.title}
                     </CardTitle>
                     <CardDescription className="text-base mt-2">
@@ -122,7 +166,7 @@ export function ExitIntentPopup({ locale = "cs" }: ExitIntentPopupProps) {
                         </ul>
                     </div>
 
-                    <Link href={t.quizLink} onClick={() => setIsVisible(false)}>
+                    <Link href={t.quizLink} onClick={handleClose}>
                         <Button
                             size="lg"
                             className="w-full h-12 text-base font-bold"
