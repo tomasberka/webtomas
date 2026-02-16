@@ -14,7 +14,7 @@
     ],
     "path": "/_next/image/",
     "loader": "custom",
-    "loaderFile": "C:\\Users\\office\\Documents\\repo\\webtomas\\src\\image-loader.ts",
+    "loaderFile": "/home/runner/work/webtomas/webtomas/src/image-loader.ts",
     "domains": [],
     "disableStaticImages": false,
     "minimumCacheTTL": 14400,
