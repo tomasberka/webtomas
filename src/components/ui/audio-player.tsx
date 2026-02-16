@@ -16,6 +16,9 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
     const [currentTime, setCurrentTime] = useState(0)
     const [duration, setDuration] = useState(0)
     const [waveformdata] = useState<number[]>(() => Array.from({ length: 40 }, () => Math.random() * 0.5 + 0.3))
+    
+    const SEEK_STEP_PERCENT = 0.05 // 5% of duration for arrow key seeking
+    const END_OFFSET_SECONDS = 0.1 // Offset to avoid triggering end event
 
     useEffect(() => {
         const audio = audioRef.current
@@ -61,7 +64,7 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
         if (!audioRef.current || !duration) return
 
         let newTime = currentTime
-        const seekStep = duration * 0.05 // 5% of duration for arrow key seeking
+        const seekStep = duration * SEEK_STEP_PERCENT
 
         if (e.key === "Enter" || e.key === " ") {
             e.preventDefault()
@@ -82,7 +85,7 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
             setCurrentTime(0)
         } else if (e.key === "End") {
             e.preventDefault()
-            newTime = duration - 0.1 // Slightly before end to avoid triggering end event
+            newTime = duration - END_OFFSET_SECONDS
             audioRef.current.currentTime = newTime
             setCurrentTime(newTime)
         }
