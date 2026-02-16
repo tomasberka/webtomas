@@ -211,7 +211,7 @@ export default function ReelsQuizPage() {
                                 </a>
                                 <a
                                     href={`https://twitter.com/intent/tweet?url=${encodeURIComponent('https://jajsemtomas.cz/reels-quiz')}&text=${encodeURIComponent(`Moje skóre v Reels Quiz: ${score}/${questions.length}! Otestuj se taky:`)}`}
-                                    aria-label="Tweet"
+                                    aria-label="Sdílet na Twitteru"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 px-4 py-2 bg-black hover:bg-gray-800 text-white rounded-lg transition-colors text-sm font-medium"
