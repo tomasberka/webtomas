@@ -1,8 +1,0 @@
-:HL["/_next/static/chunks/abbfb888ac433736.css","style"]
-:HL["/_next/static/media/1bffadaabf893a1e-s.p.7cd81963.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/images/tomas-hero.jpg","image"]
-:HL["/images/tomas-gallery-1.jpg","image"]
-:HL["/images/tomas-gallery-2.jpg","image"]
-:HL["/images/tomas-gallery-3.jpg","image"]
-0:{"buildId":"EJlpwWppC1v4UTKHMARJs","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(cz)","paramType":null,"paramKey":"(cz)","hasRuntimePrefetch":false,"slots":{"children":{"name":"o-mne","paramType":null,"paramKey":"o-mne","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
