@@ -22,9 +22,9 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "International Event Videographer | Berlin, London, Prague & Europe | Tomas Berka",
-    description: "Bilingual event videographer & moderator covering B2B conferences across Europe. Berlin, London, Prague. All travel included. Book your international event coverage today.",
-    keywords: ["event videographer berlin", "event video london", "international event videographer", "conference video production europe", "bilingual event videographer", "event moderator", "corporate event filming"],
+    title: "International Event Videographer | London, Prague & Europe | Tomas Berka",
+    description: "Bilingual event videographer & moderator covering B2B conferences across Europe. London, Prague & more. All travel included. Book your international event coverage today.",
+    keywords: ["event video london", "international event videographer", "conference video production europe", "bilingual event videographer", "event moderator", "corporate event filming"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",
         languages: {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         }
     },
     openGraph: {
-        title: "International Event Video | Berlin, London, Prague & Europe",
+        title: "International Event Video | London, Prague & Europe",
         description: "Bilingual (EN/CZ) event videographer & moderator for B2B conferences across Europe. All travel included. Same quality everywhere.",
         url: "https://en.jajsemtomas.cz",
         locale: "en_GB",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
                 url: "https://en.jajsemtomas.cz/images/og-image-en-new.png",
                 width: 1200,
                 height: 630,
-                alt: "International Event Video Production - Berlin, London, Prague",
+                alt: "International Event Video Production - London, Prague & Europe",
             },
         ],
     },
@@ -153,7 +153,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
                     <Container className="flex flex-col items-center text-center gap-8">
                     <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-                        Berlin | London | Prague | Across Europe
+                        London | Prague | Across Europe
                     </div>
                     <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
                         International Event Video.<br className="hidden md:block" />
@@ -193,7 +193,7 @@ export default function Home() {
                         </div>
                         <div className="space-y-1">
                             <div className="text-3xl md:text-4xl font-bold text-foreground">Bilingual</div>
-                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ / DE basics</div>
+                            <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ</div>
                         </div>
                         <div className="space-y-1">
                             <div className="text-3xl md:text-4xl font-bold text-foreground">48h</div>

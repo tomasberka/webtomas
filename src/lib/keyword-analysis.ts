@@ -442,22 +442,22 @@ export const englishKeywords: KeywordData[] = [
         ]
     },
     {
-        keyword: "event videographer berlin",
+        keyword: "event videographer london",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'medium',
-        difficultyScore: 50,
+        difficultyScore: 55,
         priority: 9,
-        searchVolumeEstimate: "500-2K",
+        searchVolumeEstimate: "1K-3K",
         competitionLevel: 'medium',
-        estimatedTraffic: "60-180/month",
-        relatedTopics: ['event', 'berlin', 'international', 'videographer'],
+        estimatedTraffic: "100-280/month",
+        relatedTopics: ['event', 'london', 'international', 'videographer'],
         recommendedContent: ['services', 'case-studies', 'portfolio'],
         longTailVariations: [
-            'conference videographer berlin',
-            'event video production berlin',
-            'corporate event videographer berlin',
-            'berlin videographer for hire'
+            'conference videographer london',
+            'event video production london',
+            'corporate event videographer london',
+            'london videographer for hire'
         ]
     },
     {
@@ -480,7 +480,7 @@ export const englishKeywords: KeywordData[] = [
         ]
     },
     {
-        keyword: "event host berlin",
+        keyword: "event host london",
         language: 'en',
         searchIntent: 'transactional',
         difficulty: 'medium',
@@ -489,12 +489,12 @@ export const englishKeywords: KeywordData[] = [
         searchVolumeEstimate: "800-2K",
         competitionLevel: 'medium',
         estimatedTraffic: "80-200/month",
-        relatedTopics: ['moderator', 'event', 'berlin', 'host', 'presenter'],
+        relatedTopics: ['moderator', 'event', 'london', 'host', 'presenter'],
         recommendedContent: ['services', 'portfolio', 'about'],
         longTailVariations: [
-            'conference host berlin',
-            'event moderator berlin',
-            'bilingual mc berlin',
+            'conference host london',
+            'bilingual event host london',
+            'bilingual mc london',
             'international event host'
         ]
     },

@@ -56,7 +56,7 @@ const services = [
 const caseStudies = [
     {
         title: "App Promotion Summit",
-        location: "London & Berlin",
+        location: "London",
         attendees: "600–800",
         attendeesLabel: "attendees",
         description: "Tech conference focused on mobile apps and growth marketing.",

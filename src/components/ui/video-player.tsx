@@ -18,7 +18,7 @@ export function VideoPlayer({ videoId, className, thumbnail }: { videoId: string
 
     if (isPlaying) {
         return (
-            <div className={cn("relative w-full aspect-video rounded-t-lg overflow-hidden bg-black", className)}>
+            <div className={cn("relative w-full rounded-t-lg overflow-hidden bg-black", className || "aspect-video")}>
                 <iframe
                     src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&showinfo=0&autoplay=1`}
                     title="YouTube video player"
@@ -32,7 +32,7 @@ export function VideoPlayer({ videoId, className, thumbnail }: { videoId: string
 
     return (
         <div
-            className={cn("relative w-full aspect-video rounded-t-lg overflow-hidden bg-black group cursor-pointer", className)}
+            className={cn("relative w-full rounded-t-lg overflow-hidden bg-black group cursor-pointer", className || "aspect-video")}
             onClick={() => setIsPlaying(true)}
         >
             <Image

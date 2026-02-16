@@ -23,8 +23,8 @@ const icons = {
 
 export const metadata: Metadata = {
   title: "Tomáš Berka | Event Video, Moderátor & Video Produkce | Praha & Evropa",
-  description: "Profesionální natáčení eventů, konferencí a firemních akcí. Moderátor eventů EN/CZ. Reels, podcasty, postprodukce. 10+ let praxe. Praha, Berlín, Londýn.",
-  keywords: ["event video praha", "kameraman praha", "natáčení konferencí", "moderátor eventu", "video produkce praha", "firemní herec", "tvorba reels", "event videographer berlin"],
+  description: "Profesionální natáčení eventů, konferencí a firemních akcí. Moderátor eventů EN/CZ. Reels, podcasty, postprodukce. 10+ let praxe. Praha & Londýn.",
+  keywords: ["event video praha", "kameraman praha", "natáčení konferencí", "moderátor eventu", "video produkce praha", "firemní herec", "tvorba reels", "international event videographer"],
   alternates: {
     canonical: "https://jajsemtomas.cz",
     languages: {
@@ -171,7 +171,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
           <Container className="flex flex-col items-center text-center gap-8">
           <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-            🎬 Praha | Berlín | Londýn | Celá Evropa
+            🎬 Praha | Londýn | Celá Evropa
           </div>
           <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
             Event Video. Moderátor.<br className="hidden md:block" />
@@ -211,7 +211,7 @@ export default function Home() {
             </div>
             <div className="space-y-1">
               <div className="text-3xl md:text-4xl font-bold text-foreground">Bilingvální</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ / DE základ</div>
+              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ</div>
             </div>
             <div className="space-y-1">
               <div className="text-3xl md:text-4xl font-bold text-foreground">48h</div>
