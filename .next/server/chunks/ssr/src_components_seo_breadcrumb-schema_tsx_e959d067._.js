@@ -1,3 +1,0 @@
-module.exports=[70721,a=>{"use strict";var b=a.i(87924);function c({items:a}){let c={"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:a.map((a,b)=>({"@type":"ListItem",position:b+1,name:a.name,item:a.url}))};return(0,b.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(c)}})}a.s(["BreadcrumbSchema",()=>c])}];
-
-//# sourceMappingURL=src_components_seo_breadcrumb-schema_tsx_e959d067._.js.map
