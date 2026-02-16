@@ -259,7 +259,7 @@ export default function ReelsQuizPage() {
                             style={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
                         />
                     </div>
-                    <div role="status" aria-live="polite" className="sr-only">
+                    <div role="status" className="sr-only">
                         Krok {currentQuestion + 1} z {questions.length}
                     </div>
                 </div>
