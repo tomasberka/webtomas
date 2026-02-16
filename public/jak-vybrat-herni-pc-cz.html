@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kompletní průvodce výběrem herního PC. Zjistěte, jak vybrat správnou sestavu podle rozpočtu, herních nároků a komponent. HelloComp - spolehlivý partner s českým servisem.">
+    <title>Jak vybrat herní PC - Kompletní průvodce | HelloComp.cz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .jakvybratpc-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .jakvybratpc-header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .jakvybratpc-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .jakvybratpc-header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .jakvybratpc-section {
+            margin-bottom: 50px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .jakvybratpc-section-title {
+            font-size: 2em;
+            color: #667eea;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .jakvybratpc-content-expandable {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .jakvybratpc-content-expandable p {
+            margin-bottom: 15px;
+        }
+
+        .jakvybratpc-content-expandable ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        .jakvybratpc-content-expandable li {
+            margin-bottom: 10px;
+        }
+
+        .jakvybratpc-content-expandable strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .jakvybratpc-highlight-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .jakvybratpc-highlight {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .jakvybratpc-highlight:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .jakvybratpc-highlight h3 {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .jakvybratpc-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .jakvybratpc-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .contact-faq {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 50px 30px;
+            border-radius: 10px;
+            color: white;
+            margin-top: 50px;
+        }
+
+        .contact-faq h2 {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .faq {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        .faq-item h3 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .faq-answer {
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        .faq-answer a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .individual-gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .budget-table {
+            width: 100%;
+            margin: 30px 0;
+            border-collapse: collapse;
+        }
+
+        .budget-table th,
+        .budget-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .budget-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+
+        .budget-table tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        @media (max-width: 768px) {
+            .jakvybratpc-header h1 {
+                font-size: 1.8em;
+            }
+
+            .jakvybratpc-section {
+                padding: 20px;
+            }
+
+            .jakvybratpc-section-title {
+                font-size: 1.5em;
+            }
+
+            .jakvybratpc-highlight-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="jakvybratpc-container">
+        <div class="jakvybratpc-header">
+            <h1>Jak vybrat herní PC?</h1>
+            <p>Kompletní průvodce výběrem správné herní sestavy s českým servisem HelloComp</p>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Úvod: Co potřebujete vědět před výběrem</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Výběr <strong>herního PC</strong> není jednoduchý úkol, zejména pokud nejste zkušení v oblasti počítačového hardwaru. Na trhu existují stovky možností, různé konfigurace a cenové kategorie. Tento průvodce vám pomůže zorientovat se v nabídce a vybrat <strong>herní počítač</strong>, který bude perfektně odpovídat vašim potřebám a rozpočtu.</p>
+                
+                <p>V HelloComp.cz se specializujeme na <a href="https://www.hellocomp.cz/herni-pocitace--gaming/" class="individual-gradient-text">herní počítače</a> sestavené na míru. Nabízíme <strong>odborné poradenství</strong>, profesionální sestavení, důkladné testování a <strong>český servis</strong>, na který se můžete spolehnout. Každý náš herní PC prochází testováním před expedicí, abyste měli jistotu, že dostanete plně funkční a optimalizovaný systém.</p>
+
+                <p>Při výběru herního PC se zaměřte na následující klíčové faktory:</p>
+                <ul>
+                    <li><strong>Rozpočet</strong> – Kolik jste ochotni investovat?</li>
+                    <li><strong>Herní nároky</strong> – Jaké hry chcete hrát a v jakém rozlišení?</li>
+                    <li><strong>Komponenty</strong> – Jaké díly jsou pro vás prioritou?</li>
+                    <li><strong>Budoucnost</strong> – Chcete systém s možností upgrade?</li>
+                    <li><strong>Servis a podpora</strong> – Potřebujete záruční servis v češtině?</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Jak vybrat PC sestavu podle rozpočtu</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Rozpočet je základním faktorem při výběru herního PC. Níže najdete orientační přehled, co můžete očekávat v jednotlivých cenových kategoriích:</p>
+
+                <table class="budget-table">
+                    <thead>
+                        <tr>
+                            <th>Rozpočet</th>
+                            <th>Výkon a použití</th>
+                            <th>Typické komponenty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Do 15 000 Kč</strong></td>
+                            <td>Full HD (1080p), e-sport tituly, starší hry na střední až vysoké detaily</td>
+                            <td>Intel Core i3 / AMD Ryzen 3, GTX 1650 / RX 6500 XT, 8-16 GB RAM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Do 20 000 Kč</strong></td>
+                            <td>Full HD (1080p), moderní hry na střední až vysoké detaily, 60+ FPS</td>
+                            <td>Intel Core i5 / AMD Ryzen 5, GTX 1660 / RX 6600, 16 GB RAM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Do 30 000 Kč</strong></td>
+                            <td>Full HD / 1440p, moderní AAA hry na vysoké detaily, 80+ FPS ve Full HD</td>
+                            <td>Intel Core i5 / AMD Ryzen 5, RTX 4060 / RX 7600, 16 GB RAM, SSD 500 GB+</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Do 40 000 Kč</strong></td>
+                            <td>1440p gaming, AAA hry na ultra detaily, streamování, content creation</td>
+                            <td>Intel Core i7 / AMD Ryzen 7, RTX 4060 Ti / RX 7700 XT, 32 GB RAM, SSD 1 TB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Do 60 000 Kč</strong></td>
+                            <td>4K gaming, vše na maximum, profesionální využití, VR</td>
+                            <td>Intel Core i7/i9 / AMD Ryzen 7/9, RTX 4070 Ti / RX 7900 XT, 32 GB RAM, SSD 2 TB</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>Všechny naše <a href="https://www.hellocomp.cz/herni-pocitace--gaming/">herní počítače</a> jsou pečlivě sestaveny a otestovány. Nabízíme také možnost <a href="https://www.hellocomp.cz/herni-pc-na-splatky/">splátkového financování</a>, abyste mohli získat výkonnější sestavu bez nutnosti jednorázové investice.</p>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Klíčové komponenty herního PC</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Každý herní počítač se skládá z několika klíčových komponent. Pochopení jejich role vám pomůže vybrat správnou konfiguraci:</p>
+
+                <div class="jakvybratpc-highlight-list">
+                    <div class="jakvybratpc-highlight">
+                        <h3>🎮 Grafická karta (GPU)</h3>
+                        <p>Nejdůležitější komponenta pro gaming. Určuje FPS a grafickou kvalitu. Oblíbené jsou <a href="https://www.hellocomp.cz/graficke-karty-nvidia/">NVIDIA</a> řady RTX 40xx a <a href="https://www.hellocomp.cz/graficke-karty-amd/">AMD</a> řady RX 7000. Podívejte se na naši nabídku <a href="https://www.hellocomp.cz/graficke-karty-do-pc/">grafických kart</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🧠 Procesor (CPU)</h3>
+                        <p>Mozek počítače. Pro gaming doporučujeme minimálně <a href="https://www.hellocomp.cz/procesory-intel-core-i5/">Intel Core i5</a> nebo <a href="https://www.hellocomp.cz/procesory-amd-ryzen-5/">AMD Ryzen 5</a>. Pro náročnější využití volte <a href="https://www.hellocomp.cz/procesory-intel-core-i7/">i7</a>/<a href="https://www.hellocomp.cz/procesory-amd-ryzen-7/">Ryzen 7</a> nebo <a href="https://www.hellocomp.cz/procesory-intel-core-i9/">i9</a>/<a href="https://www.hellocomp.cz/procesory-amd-ryzen-9/">Ryzen 9</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>💾 Operační paměť (RAM)</h3>
+                        <p>Pro moderní hry je minimum 16 GB. Pro streamování a multitasking doporučujeme 32 GB. Důležitá je také rychlost - optimálně DDR4 3200 MHz nebo DDR5. Prohlédněte si naše <a href="https://www.hellocomp.cz/operacni-pameti/">operační paměti</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>💿 Úložiště (SSD/HDD)</h3>
+                        <p>SSD je dnes standard. Minimum je 500 GB SSD pro systém a hry. Pro velkou herní knihovnu přidejte 1-2 TB HDD nebo další SSD. Rychlé NVMe disky zkracují loading časy. Nabízíme široký výběr <a href="https://www.hellocomp.cz/interni-disky/">interních disků</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>⚡ Zdroj (PSU)</h3>
+                        <p>Kvalitní zdroj je základ stability. Výkon 600-850W pokryje většinu sestav. Důležitý je certifikát 80+ Bronze/Gold. Vybírejte pouze od renomovaných výrobců. Podívejte se na naše <a href="https://www.hellocomp.cz/pc-zdroje/">PC zdroje</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔧 Základní deska</h3>
+                        <p>Propojuje všechny komponenty. Musí podporovat váš procesor a RAM. Důležité jsou také konektory (USB, M.2, PCIe). Kvalitní <a href="https://www.hellocomp.cz/zakladni-desky/">základní deska</a> umožní snadný upgrade.</p>
+                    </div>
+                </div>
+
+                <p>Potřebujete poradit s výběrem konkrétních komponent? Prohlédněte si naši nabídku <a href="https://www.hellocomp.cz/pc-komponenty/">PC komponentů</a> nebo nás <a href="https://www.hellocomp.cz/kontakt/">kontaktujte</a>.</p>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Intel nebo AMD? Jak vybrat značku procesoru</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Jedna z nejčastějších otázek při výběru herního PC: <strong>Intel nebo AMD?</strong> Obě značky nabízejí vynikající procesory pro gaming.</p>
+
+                <div class="jakvybratpc-highlight-list">
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔵 Intel procesory</h3>
+                        <p><strong>Výhody:</strong> Vysoký single-core výkon, vynikající pro gaming, lepší optimalizace v některých hrách</p>
+                        <p><strong>Doporučené řady:</strong> Core i5 pro mainstream, Core i7 pro high-end, Core i9 pro extrém</p>
+                        <p>Prohlédněte si naše <a href="https://www.hellocomp.cz/intel-herni-pocitace/">Intel herní počítače</a> a <a href="https://www.hellocomp.cz/procesory-intel/">Intel procesory</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔴 AMD procesory</h3>
+                        <p><strong>Výhody:</strong> Lepší multi-core výkon, výborný poměr cena/výkon, nižší spotřeba</p>
+                        <p><strong>Doporučené řady:</strong> Ryzen 5 pro mainstream, Ryzen 7 pro high-end, Ryzen 9 pro extrém</p>
+                        <p>Prohlédněte si naše <a href="https://www.hellocomp.cz/amd-herni-pocitace/">AMD herní počítače</a> a <a href="https://www.hellocomp.cz/procesory-amd/">AMD procesory</a>.</p>
+                    </div>
+                </div>
+
+                <p><strong>Závěr:</strong> Pro čistý gaming je Intel mírně napřed, ale AMD nabízí lepší hodnotu peněz a univerzálnost. V herním výkonu jsou rozdíly minimální. Důležitější je vybrat správnou třídu procesoru (i5/Ryzen 5 pro střední, i7/Ryzen 7 pro high-end).</p>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Pro koho je který herní počítač ideální?</h2>
+            <div class="jakvybratpc-content-expandable">
+                <div class="jakvybratpc-highlight-list">
+                    <div class="jakvybratpc-highlight">
+                        <h3>🎯 Začátečníci a e-sport hráči</h3>
+                        <p><strong>Rozpočet:</strong> Do 15 000 - 20 000 Kč</p>
+                        <p><strong>Ideální pro:</strong> CS:GO, Valorant, League of Legends, Fortnite, starší AAA tituly</p>
+                        <p><strong>Výkon:</strong> 1080p na vysokých detailech s 60-100+ FPS</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🎮 Střední hráči</h3>
+                        <p><strong>Rozpočet:</strong> Do 30 000 Kč</p>
+                        <p><strong>Ideální pro:</strong> Moderní AAA hry, streamování v 1080p, lehký content creation</p>
+                        <p><strong>Výkon:</strong> 1080p ultra / 1440p vysoké detaily s 80+ FPS</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🏆 Pokročilí hráči</h3>
+                        <p><strong>Rozpočet:</strong> Do 40 000 Kč</p>
+                        <p><strong>Ideální pro:</strong> Nejnovější AAA tituly, 1440p gaming, streamování, profesionální práce</p>
+                        <p><strong>Výkon:</strong> 1440p ultra detaily s 100+ FPS, VR připraven</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>👑 Enthusiasté a profesionálové</h3>
+                        <p><strong>Rozpočet:</strong> 60 000 Kč a více</p>
+                        <p><strong>Ideální pro:</strong> 4K gaming, ray-tracing, content creation, video editing, 3D rendering</p>
+                        <p><strong>Výkon:</strong> 4K ultra detaily, žádné kompromisy</p>
+                    </div>
+                </div>
+
+                <p>Máte speciální požadavky? Nabízíme také <a href="https://www.hellocomp.cz/pracovni-stanice--workstation-pc/">pracovní stanice</a> pro profesionální využití a <a href="https://www.hellocomp.cz/kancelarske-pocitace/">kancelářské počítače</a> pro běžnou práci.</p>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Příslušenství k hernímu PC</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Herní PC je jen začátek. Pro kompletní herní zážitek budete potřebovat kvalitní příslušenství:</p>
+
+                <div class="jakvybratpc-highlight-list">
+                    <div class="jakvybratpc-highlight">
+                        <h3>🖥️ Monitor</h3>
+                        <p>Vybírejte podle výkonu PC. Pro 1080p: 144Hz, pro 1440p: 144-165Hz, pro 4K: 60-144Hz. Důležitý je také panel (IPS pro barvy, TN pro rychlost, VA pro kontrast). Prohlédněte si naše <a href="https://www.hellocomp.cz/monitory/">monitory</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🖱️ Herní myš</h3>
+                        <p>Důležitý je senzor (optický), DPI (800-3200 pro FPS), hmotnost a ergonomie. Vyberte si z naší nabídky <a href="https://www.hellocomp.cz/mysi/">herních myší</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>⌨️ Herní klávesnice</h3>
+                        <p>Mechanické přepínače (Cherry MX, Kailh) pro lepší odezvu. Anti-ghosting pro více simultánních stisknutí. Podívejte se na naše <a href="https://www.hellocomp.cz/klavesnice/">klávesnice</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🎧 Headset</h3>
+                        <p>Kvalitní zvuk pro imersivní zážitek. Mikrofon pro týmovou komunikaci. Volte mezi drátovými (nižší latence) a bezdrátovými (pohodlí). Máme široký výběr <a href="https://www.hellocomp.cz/sluchatka-a-mikrofony/">sluchátek a mikrofonů</a>.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔊 Reproduktory</h3>
+                        <p>Alternativa k headsetům. Pro imersivní zážitek volte 2.1 nebo 5.1 systémy. Podívejte se na naše <a href="https://www.hellocomp.cz/reproduktory/">reproduktory</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">FPS kalkulačka - Zjistěte výkon před koupí</h2>
+            <div class="jakvybratpc-content-expandable">
+                <p>Přemýšlíte, jak bude vámi vybraná sestava hrát konkrétní hry? Využijte naši <strong>FPS kalkulačku</strong>! Tento nástroj vám pomůže odhadnout herní výkon podle konkrétní konfigurace komponent.</p>
+
+                <p>FPS kalkulačka vám ukáže:</p>
+                <ul>
+                    <li>Očekávané FPS v různých hrách a rozlišeních</li>
+                    <li>Optimální nastavení grafických detailů</li>
+                    <li>Porovnání různých konfigurací</li>
+                    <li>Doporučení pro upgrade</li>
+                </ul>
+
+                <p>Kalkulačka je dostupná na našich produktových stránkách nebo můžete kontaktovat našeho specialistu, který vám s výpočtem rád pomůže.</p>
+            </div>
+        </div>
+
+        <div class="jakvybratpc-section">
+            <h2 class="jakvybratpc-section-title">Proč vybrat HelloComp?</h2>
+            <div class="jakvybratpc-content-expandable">
+                <div class="jakvybratpc-highlight-list">
+                    <div class="jakvybratpc-highlight">
+                        <h3>✅ Odborné sestavení</h3>
+                        <p>Každý počítač je sestaven profesionálními techniky s dlouholetými zkušenostmi. Používáme kvalitní komponenty od renomovaných výrobců.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔍 Důkladné testování</h3>
+                        <p>Před expedicí prochází každý PC komplexním testováním - stabilita, teploty, výkon, kompatibilita. Dostanete plně funkční systém.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🇨🇿 Český servis</h3>
+                        <p>Podporu máte v češtině, servisní centrum v České republice. Rychlá komunikace a řešení případných problémů.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>📞 Odborné poradenství</h3>
+                        <p>Nevíte si rady? Rádi vám poradíme s výběrem konfigurace přesně podle vašich potřeb a rozpočtu. Kontaktujte nás telefonicky nebo e-mailem.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>🔧 Možnost upgrade</h3>
+                        <p>Naše sestavy jsou navrženy s ohledem na budoucí rozšíření. Snadno můžete přidat RAM, výkonnější GPU nebo větší SSD.</p>
+                    </div>
+
+                    <div class="jakvybratpc-highlight">
+                        <h3>💳 Splátky</h3>
+                        <p>Nabízíme možnost splátkového financování. Získejte vysněný herní PC bez nutnosti jednorázové investice.</p>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="https://www.hellocomp.cz/herni-pocitace--gaming/" class="jakvybratpc-button">Prohlédnout herní počítače</a>
+                    <a href="https://www.hellocomp.cz/kontakt/" class="jakvybratpc-button">Kontaktovat specialistu</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-faq">
+            <h2>Často kladené otázky (FAQ)</h2>
+            <div class="faq">
+                <div class="faq-item">
+                    <h3>Jaký herní počítač je nejlepší pro začátečníky?</h3>
+                    <div class="faq-answer">
+                        <p>Pro začátečníky doporučujeme sestavy v rozmezí 15 000 - 20 000 Kč s procesorem Intel Core i5 nebo AMD Ryzen 5 a grafickou kartou typu GTX 1660 nebo RX 6600. Tato konfigurace zvládne moderní hry ve Full HD rozlišení na vysokých detailech. Podívejte se na naši sekci <a href="https://www.hellocomp.cz/herni-pocitace--gaming/">herních počítačů</a> pro konkrétní nabídky.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Je lepší Intel nebo AMD pro gaming?</h3>
+                    <div class="faq-answer">
+                        <p>Obě platformy nabízejí vynikající herní výkon. Intel má mírně lepší single-core výkon, což se může projevit o několik FPS více v některých hrách. AMD naopak nabízí lepší poměr cena/výkon a vyšší multi-core výkon, což ocení streameři a content creators. Pro čistý gaming jsou rozdíly minimální a volbu bychom měli dělat spíše podle rozpočtu a konkrétní konfigurace.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Kolik RAM potřebuji pro moderní hry?</h3>
+                    <div class="faq-answer">
+                        <p>V roce 2024-2025 je standard 16 GB RAM pro gaming. Toto množství zvládne všechny moderní hry s rezervou. Pokud plánujete kromě hraní streamovat, editovat videa nebo používat náročné aplikace, doporučujeme 32 GB. Pro běžný gaming je však 16 GB naprosto dostačujících. Prohlédněte si naši nabídku <a href="https://www.hellocomp.cz/operacni-pameti/">operačních pamětí</a>.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Potřebuji SSD nebo HDD?</h3>
+                    <div class="faq-answer">
+                        <p>SSD disk je dnes absolutní standard. Minimálně 500 GB SSD by mělo být pro operační systém a hlavní hry. SSD zásadně zkracuje loading časy a zrychluje celkový systém. HDD můžete použít jako doplňkové úložiště pro velkou herní knihovnu, fotky a videa. Doporučená kombinace je 500 GB - 1 TB SSD + případně 1-2 TB HDD podle potřeby.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Jak poznat, že grafická karta stačí na mé oblíbené hry?</h3>
+                    <div class="faq-answer">
+                        <p>Zkontrolujte systémové požadavky hry (doporučené, ne minimální). Využijte naši FPS kalkulačku nebo kontaktujte našeho specialistu. Obecně: GTX 1650/RX 6500 XT pro e-sport a starší hry, GTX 1660/RX 6600 pro Full HD moderní hry, RTX 4060/RX 7600 pro 1440p, RTX 4070/RX 7800 XT pro 4K. Více informací najdete v naší nabídce <a href="https://www.hellocomp.cz/graficke-karty-do-pc/">grafických kart</a>.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Nabízíte záruku a servis?</h3>
+                    <div class="faq-answer">
+                        <p>Ano! Všechny naše herní počítače mají standardní záruku na komponenty a nabízíme kompletní český servis. V případě jakéhokoliv problému vás provedeme celým procesem reklamace. Máte také možnost prodloužené záruky. Jsme tu pro vás na telefonu <strong>+420 777 488 433</strong> nebo e-mailu <strong>info@hellocomp.cz</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Můžu si nechat sestavit PC na míru?</h3>
+                    <div class="faq-answer">
+                        <p>Samozřejmě! Nabízíme plnou customizaci. Můžete si vybrat každou komponentu podle svých představ nebo nám sdělit rozpočet a požadavky a my vám sestavíme optimální konfiguraci. Všechny komponenty profesionálně sestavíme, otestujeme a připravíme k použití. <a href="https://www.hellocomp.cz/kontakt/">Kontaktujte nás</a> a společně vytvoříme váš vysněný herní PC.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Nabízíte herní PC na splátky?</h3>
+                    <div class="faq-answer">
+                        <p>Ano, spolupracujeme s finančními společnostmi a nabízíme možnost splátkového financování. Můžete si tak pořídit výkonnější sestavu bez nutnosti velké jednorázové investice. Více informací najdete na stránce <a href="https://www.hellocomp.cz/herni-pc-na-splatky/">herní PC na splátky</a> nebo nás kontaktujte pro individuální nabídku.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Jak dlouho trvá dodání herního PC?</h3>
+                    <div class="faq-answer">
+                        <p>Standardní dodací doba je 3-7 pracovních dní, záleží na dostupnosti komponent a složitosti konfigurace. Každý počítač je sestaven na objednávku, otestován a připraven k okamžitému použití. V případě speciálních konfigurací nebo nedostupnosti některých dílů vás budeme včas informovat o prodloužení dodací doby.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Kontaktujte nás pro individuální poradenství</h3>
+                    <div class="faq-answer">
+                        <p>Stále si nejste jisti, který herní PC je ten pravý pro vás? Rádi vám poradíme!</p>
+                        <p><strong>Telefon:</strong> <a href="tel:+420777488433">+420 777 488 433</a></p>
+                        <p><strong>E-mail:</strong> <a href="mailto:info@hellocomp.cz">info@hellocomp.cz</a></p>
+                        <p><strong>Kontaktní formulář:</strong> <a href="https://www.hellocomp.cz/kontakt/">www.hellocomp.cz/kontakt</a></p>
+                        <p>Jsme tu pro vás s českým servisem a odborným poradenstvím!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; padding: 30px; background-color: #f9f9f9; border-radius: 10px; margin-top: 40px;">
+            <p style="font-size: 1.1em; color: #666; margin-bottom: 20px;">
+                Váš spolehlivý partner pro <span class="individual-gradient-text">herní počítače s českým servisem</span>
+            </p>
+            <a href="https://www.hellocomp.cz/" class="jakvybratpc-button">Navštívit HelloComp.cz</a>
+        </div>
+    </div>
+</body>
+</html>
