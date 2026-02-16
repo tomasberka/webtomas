@@ -170,7 +170,7 @@ export default function ReelsQuizPage() {
         return (
             <div className="min-h-screen py-20">
                 <Container className="max-w-3xl">
-                    <Card className="text-center p-12" role="alert" aria-live="assertive">
+                    <Card className="text-center p-12" role="alert">
                         <CardHeader>
                             <div className="text-6xl mb-6">
                                 {percentage >= 80 ? "🎉" : percentage >= 60 ? "👍" : "💪"}
