@@ -136,6 +136,14 @@ npm run build
 |----------|-------|---------|
 | `RESEND_API_KEY` | API klíč z [Resend.com](https://resend.com) pro email | ✅ Ano |
 
+### GitHub Secrets (pro automatický deploy)
+
+| Secret | Popis |
+|--------|-------|
+| `CLOUDFLARE_API_TOKEN` | API token z Cloudflare s Pages oprávněními |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Account ID |
+| `RESEND_API_KEY` | API klíč pro build |
+
 ---
 
 ## 📦 NPM Scripts
@@ -150,6 +158,18 @@ npm run build
 ---
 
 ## 🌍 Nasazení (Cloudflare Pages)
+
+### Automatický deploy (GitHub Actions)
+
+Push na `main` branch automaticky spustí deploy přes GitHub Actions:
+
+1. Nastavte GitHub Secrets:
+   - `CLOUDFLARE_API_TOKEN` - API token z Cloudflare
+   - `CLOUDFLARE_ACCOUNT_ID` - ID vašeho Cloudflare účtu
+   - `RESEND_API_KEY` - API klíč pro email
+2. Push na `main` branch → automatický deploy
+
+### Manuální deploy
 
 1. Push kódu na GitHub
 2. Import projektu v [Cloudflare Dashboard](https://dash.cloudflare.com) → Pages
