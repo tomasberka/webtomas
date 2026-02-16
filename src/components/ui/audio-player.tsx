@@ -57,6 +57,37 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
         setCurrentTime(newTime)
     }
 
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+        if (!audioRef.current || !duration) return
+
+        let newTime = currentTime
+        const seekStep = duration * 0.05 // 5% of duration for arrow key seeking
+
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault()
+            togglePlay()
+        } else if (e.key === "ArrowLeft") {
+            e.preventDefault()
+            newTime = Math.max(0, currentTime - seekStep)
+            audioRef.current.currentTime = newTime
+            setCurrentTime(newTime)
+        } else if (e.key === "ArrowRight") {
+            e.preventDefault()
+            newTime = Math.min(duration, currentTime + seekStep)
+            audioRef.current.currentTime = newTime
+            setCurrentTime(newTime)
+        } else if (e.key === "Home") {
+            e.preventDefault()
+            audioRef.current.currentTime = 0
+            setCurrentTime(0)
+        } else if (e.key === "End") {
+            e.preventDefault()
+            newTime = duration - 0.1 // Slightly before end to avoid triggering end event
+            audioRef.current.currentTime = newTime
+            setCurrentTime(newTime)
+        }
+    }
+
     const formatTime = (time: number) => {
         if (isNaN(time)) return "0:00"
         const minutes = Math.floor(time / 60)
@@ -88,8 +119,16 @@ export function AudioPlayer({ src, title, className }: AudioPlayerProps) {
 
                 {/* Waveform Visualization / Seek Bar */}
                 <div
-                    className="h-8 flex items-center gap-[2px] cursor-pointer group relative"
+                    className="h-8 flex items-center gap-[2px] cursor-pointer group relative focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
                     onClick={handleSeek}
+                    onKeyDown={handleKeyDown}
+                    role="slider"
+                    tabIndex={0}
+                    aria-label="Audio progress"
+                    aria-valuemin={0}
+                    aria-valuemax={duration}
+                    aria-valuenow={currentTime}
+                    aria-valuetext={`${formatTime(currentTime)} of ${formatTime(duration)}`}
                 >
                     {/* Background interactive layer */}
                     <div className="absolute inset-0 z-10" />
