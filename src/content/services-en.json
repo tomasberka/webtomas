@@ -1,106 +1,179 @@
 [
-    {
-        "id": "reels",
-        "title": "Reels & TikTok",
-        "slug": "reels-packages",
-        "description": "Short videos that sell. Increase reach and gain new customers.",
-        "content": "<p>In today's world, attention is the most valuable currency. As an experienced <strong>content creator</strong>, I know that <strong>Instagram Reels, TikTok, and YouTube Shorts</strong> are currently the most effective way to reach thousands of new customers organically.</p><p>It's not just about 'filming something'. Social media algorithms are unforgiving. They require dynamics, strict structure (hook, value, CTA), and technical quality. That's exactly what I deliver.</p><p>My packages cover everything from brainstorming trending concepts, through efficient shooting (up to 8 videos per day), to final editing with captions and effects that keep the viewer's attention.</p>",
-        "icon": "Smartphone",
-        "features": [
-            "Script & Strategy",
-            "Professional Shooting",
-            "Editing & Captions",
-            "Music & Effects"
-        ],
-        "image": "/images/service-reels.jpg"
-    },
-    {
-        "id": "creative",
-        "title": "Creative Production",
-        "slug": "services/creative-production",
-        "description": "Commercial spots, image videos, and campaigns tailored to your brand.",
-        "content": "<p>Every brand has a story. My job is to tell yours in a way that evokes emotion and the desire to buy. <strong>Creative production</strong> is about building a premium image through the eyes of a professional <strong>filmmaker</strong>.</p><p>Whether you need a TV commercial, a website image video, or a series of product videos, I provide complete service. From initial idea and storyboard, through casting actors and locations, to cinematic lighting and high-end post-production.</p><p>I am not just a 'guy with a camera'. I think like a marketer. Video must not only look world-class but must also fulfill your business goals.</p>",
-        "icon": "Clapperboard",
-        "features": [
-            "Creative Concept",
-            "Full-service Production",
-            "High-end Equipment",
-            "Color Grading"
-        ],
-        "image": "/images/service-creative.jpg"
-    },
-    {
-        "id": "event",
-        "title": "Event Video & Conferences",
-        "slug": "services/event-video",
-        "description": "Premium coverage for conferences and B2B events. CEO interviews, reports, and full recordings.",
-        "content": "<p>Organizing a key conference or corporate summit? Video isn't just a memory; it's a <strong>business asset</strong>. Professional coverage builds trust with stakeholders and attracts sponsors for future editions.</p><p>I specialize in B2B events where <strong>professionalism and discretion</strong> are paramount. I capture interviews with speakers, VIP guests, and CEOs. The result is not just a highlight reel, but content that sells your brand year-round.</p><p>In partnership with <strong>SocialVids</strong>, we handle large international events with multi-person crews.</p>",
-        "icon": "Calendar",
-        "features": [
-            "Executive Interviews",
-            "Highlight Reels",
-            "Drone Footage",
-            "Express PR Delivery"
-        ],
-        "image": "/images/service-event.jpg"
-    },
-    {
-        "id": "livestream",
-        "title": "Live Stream & Webinars",
-        "slug": "services/live-stream",
-        "description": "Reliable streaming for conferences and webinars. Anywhere in London, Prague or Europe.",
-        "content": "<p>Hybrid events are the new standard. Allow participation for those who can't attend in person and <strong>maximize your event's reach</strong>. I deliver a technically flawless stream that represents your company professionally.</p><p>No amateur mobile attempts. Professional audio, real-time multi-camera editing, and direct presentation integration. Perfect for <strong>press conferences, AGM meetings, and corporate training</strong>.</p><p>We stream to secure platforms for internal use or publicly to YouTube/LinkedIn for maximum reach.</p>",
-        "icon": "Radio",
-        "features": [
-            "Multi-cam Broadcast",
-            "Slide Integration",
-            "Backup Internet",
-            "4K Recording"
-        ],
-        "image": "/images/service-livestream.jpg"
-    },
-    {
-        "id": "postproduction",
-        "title": "Post-production",
-        "slug": "services/post-production",
-        "description": "Already have footage? We'll turn it into a professional video.",
-        "content": "<p>Have a full drive of footage from a vacation, drone, or past corporate events but don't know what to do with it? <strong>Post-production</strong> is where the magic happens.</p><p>Deliver your 'raw' data, and I will create an engaging video. I'll edit it to the beat, clean the audio, color grade the image, and add modern graphics.</p><p>I also specialize in creating captions for social media and repurposing content – I can cut one long interview into 10 short clips for TikTok.</p>",
-        "icon": "MonitorPlay",
-        "features": [
-            "Editing & Cuts",
-            "Sound Design",
-            "Animation & Graphics",
-            "Subtitling"
-        ],
-        "image": "/images/service-postproduction.jpg"
-    },
-    {
-        "id": "voiceover",
-        "title": "Voiceover",
-        "slug": "services/voiceover",
-        "description": "Professional voice for your videos. Ads, spots, e-learning.",
-        "content": "<p>Visuals are only half the experience. A <strong>professional voiceover</strong> adds credibility and emotion to your video. You may recognize my voice from ads for brands like Plzeňský Prazdroj, ČSOB, or Oreo.</p><p>I have my own professional recording studio, which means two things: <strong>top-notch sound quality</strong> and <strong>extreme speed</strong>. I deliver most orders within 24 hours.</p><p>Whether you need a 'punchy' voice for an ad, a calm tone for e-learning, or character dubbing, we will find the right style.</p>",
-        "icon": "Mic",
-        "features": [
-            "Commercial Spots",
-            "E-learning",
-            "Dubbing",
-            "Professional Studio"
-        ],
-        "audioSamples": [
-            {
-                "title": "Plzeňský Prazdroj (Ad)",
-                "url": "/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"
-            },
-            {
-                "title": "ČSOB (TV Spot)",
-                "url": "/audio/CSOB TOMAS BERKA VOICEOVER.mp3"
-            },
-            {
-                "title": "Oreo (Social)",
-                "url": "/audio/OREO TOMAS BERKA VOICEOVER.mp3"
-            }
-        ],
-        "image": "/images/service-voiceover.jpg"
-    }
+  {
+    "id": "reels",
+    "title": "Reels & TikTok",
+    "slug": "reels-packages",
+    "description": "Short videos that sell. Increase reach and gain new customers.",
+    "content": "<p>In today's world, attention is the most valuable currency. As an experienced <strong>content creator</strong>, I know that <strong>Instagram Reels, TikTok, and YouTube Shorts</strong> are currently the most effective way to reach thousands of new customers organically.</p><p>It's not just about 'filming something'. Social media algorithms are unforgiving. They require dynamics, strict structure (hook, value, CTA), and technical quality. That's exactly what I deliver.</p><p>My packages cover everything from brainstorming trending concepts, through efficient shooting (up to 8 videos per day), to final editing with captions and effects that keep the viewer's attention.</p>",
+    "icon": "Smartphone",
+    "features": [
+      "Script & Strategy",
+      "Professional Shooting",
+      "Editing & Captions",
+      "Music & Effects"
+    ],
+    "image": "/images/service-reels.jpg",
+    "topics": [
+      "reels",
+      "social-media",
+      "tiktok",
+      "instagram",
+      "short-form"
+    ],
+    "keywords": [
+      "reels agency uk",
+      "tiktok content creator",
+      "instagram reels production",
+      "short-form video"
+    ]
+  },
+  {
+    "id": "creative",
+    "title": "Creative Production",
+    "slug": "services/creative-production",
+    "description": "Commercial spots, image videos, and campaigns tailored to your brand.",
+    "content": "<p>Every brand has a story. My job is to tell yours in a way that evokes emotion and the desire to buy. <strong>Creative production</strong> is about building a premium image through the eyes of a professional <strong>filmmaker</strong>.</p><p>Whether you need a TV commercial, a website image video, or a series of product videos, I provide complete service. From initial idea and storyboard, through casting actors and locations, to cinematic lighting and high-end post-production.</p><p>I am not just a 'guy with a camera'. I think like a marketer. Video must not only look world-class but must also fulfill your business goals.</p>",
+    "icon": "Clapperboard",
+    "features": [
+      "Creative Concept",
+      "Full-service Production",
+      "High-end Equipment",
+      "Color Grading"
+    ],
+    "image": "/images/service-creative.jpg",
+    "topics": [
+      "creative",
+      "corporate",
+      "brand",
+      "commercial"
+    ],
+    "keywords": [
+      "corporate video production",
+      "brand video",
+      "commercial production",
+      "image video"
+    ]
+  },
+  {
+    "id": "event",
+    "title": "Event Video & Conferences",
+    "slug": "services/event-video",
+    "description": "Premium coverage for conferences and B2B events. CEO interviews, reports, and full recordings.",
+    "content": "<p>Organizing a key conference or corporate summit? Video isn't just a memory; it's a <strong>business asset</strong>. Professional coverage builds trust with stakeholders and attracts sponsors for future editions.</p><p>I specialize in B2B events where <strong>professionalism and discretion</strong> are paramount. I capture interviews with speakers, VIP guests, and CEOs. The result is not just a highlight reel, but content that sells your brand year-round.</p><p>In partnership with <strong>SocialVids</strong>, we handle large international events with multi-person crews.</p>",
+    "icon": "Calendar",
+    "features": [
+      "Executive Interviews",
+      "Highlight Reels",
+      "Drone Footage",
+      "Express PR Delivery"
+    ],
+    "image": "/images/service-event.jpg",
+    "topics": [
+      "event",
+      "conference",
+      "b2b",
+      "corporate",
+      "testimonial"
+    ],
+    "keywords": [
+      "event videographer",
+      "conference video production",
+      "corporate event filming",
+      "ceo interviews"
+    ]
+  },
+  {
+    "id": "livestream",
+    "title": "Live Stream & Webinars",
+    "slug": "services/live-stream",
+    "description": "Reliable streaming for conferences and webinars. Anywhere in London, Prague or Europe.",
+    "content": "<p>Hybrid events are the new standard. Allow participation for those who can't attend in person and <strong>maximize your event's reach</strong>. I deliver a technically flawless stream that represents your company professionally.</p><p>No amateur mobile attempts. Professional audio, real-time multi-camera editing, and direct presentation integration. Perfect for <strong>press conferences, AGM meetings, and corporate training</strong>.</p><p>We stream to secure platforms for internal use or publicly to YouTube/LinkedIn for maximum reach.</p>",
+    "icon": "Radio",
+    "features": [
+      "Multi-cam Broadcast",
+      "Slide Integration",
+      "Backup Internet",
+      "4K Recording"
+    ],
+    "image": "/images/service-livestream.jpg",
+    "topics": [
+      "livestream",
+      "webinar",
+      "event",
+      "b2b"
+    ],
+    "keywords": [
+      "live stream",
+      "webinar production",
+      "online conference",
+      "hybrid event streaming"
+    ]
+  },
+  {
+    "id": "postproduction",
+    "title": "Post-production",
+    "slug": "services/post-production",
+    "description": "Already have footage? We'll turn it into a professional video.",
+    "content": "<p>Have a full drive of footage from a vacation, drone, or past corporate events but don't know what to do with it? <strong>Post-production</strong> is where the magic happens.</p><p>Deliver your 'raw' data, and I will create an engaging video. I'll edit it to the beat, clean the audio, color grade the image, and add modern graphics.</p><p>I also specialize in creating captions for social media and repurposing content – I can cut one long interview into 10 short clips for TikTok.</p>",
+    "icon": "MonitorPlay",
+    "features": [
+      "Editing & Cuts",
+      "Sound Design",
+      "Animation & Graphics",
+      "Subtitling"
+    ],
+    "image": "/images/service-postproduction.jpg",
+    "topics": [
+      "postproduction",
+      "editing",
+      "social-media"
+    ],
+    "keywords": [
+      "video editing",
+      "post-production services",
+      "color grading",
+      "video editing london"
+    ]
+  },
+  {
+    "id": "voiceover",
+    "title": "Voiceover",
+    "slug": "services/voiceover",
+    "description": "Professional voice for your videos. Ads, spots, e-learning.",
+    "content": "<p>Visuals are only half the experience. A <strong>professional voiceover</strong> adds credibility and emotion to your video. You may recognize my voice from ads for brands like Plzeňský Prazdroj, ČSOB, or Oreo.</p><p>I have my own professional recording studio, which means two things: <strong>top-notch sound quality</strong> and <strong>extreme speed</strong>. I deliver most orders within 24 hours.</p><p>Whether you need a 'punchy' voice for an ad, a calm tone for e-learning, or character dubbing, we will find the right style.</p>",
+    "icon": "Mic",
+    "features": [
+      "Commercial Spots",
+      "E-learning",
+      "Dubbing",
+      "Professional Studio"
+    ],
+    "audioSamples": [
+      {
+        "title": "Plzeňský Prazdroj (Ad)",
+        "url": "/audio/PRAZDROJ TOMAS BERKA VOICEOVER.mp3"
+      },
+      {
+        "title": "ČSOB (TV Spot)",
+        "url": "/audio/CSOB TOMAS BERKA VOICEOVER.mp3"
+      },
+      {
+        "title": "Oreo (Social)",
+        "url": "/audio/OREO TOMAS BERKA VOICEOVER.mp3"
+      }
+    ],
+    "image": "/images/service-voiceover.jpg",
+    "topics": [
+      "voiceover",
+      "audio",
+      "commercial",
+      "creative"
+    ],
+    "keywords": [
+      "professional voiceover",
+      "voice actor london",
+      "commercial voiceover",
+      "british voiceover"
+    ]
+  }
 ]

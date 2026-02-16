@@ -6,6 +6,8 @@
     "description": "Krátká videa, která prodávají. Zvyšte dosah a získejte nové zákazníky.",
     "content": "<p>V dnešní době je pozornost tou nejcennější měnou. Jako zkušený <strong>content creator</strong> vím, že <strong>Instagram Reels, TikTok a YouTube Shorts</strong> jsou aktuálně nejefektivnějším způsobem, jak oslovit tisíce nových zákazníků organicky.</p><p>Nejde ale jen o to 'něco natočit'. Algoritmy sociálních sítí jsou neúprosné. Vyžadují dynamiku, striktní strukturu (háček, hodnota, CTA) a technickou kvalitu. Přesně to vám doručím.</p><p>V rámci mých balíčků se postarám o vše od vymýšlení konceptů, které jsou právě trendy, přes efektivní natáčení (až 8 videí za den), až po finální střih s titulky a efekty, které udrží divákovu pozornost.</p>",
     "icon": "Smartphone",
+    "topics": ["reels", "social-media", "tiktok", "instagram", "short-form"],
+    "keywords": ["tvorba reels", "instagram reels agentura", "tiktok pro firmy", "short-form video"],
     "features": [
       "Scénář a strategie",
       "Profesionální natáčení",
@@ -21,6 +23,8 @@
     "description": "Reklamní spoty, image videa a kampaně na míru vaší značce.",
     "content": "<p>Každá značka má svůj příběh. Mým úkolem je odvyprávět ten váš tak, aby u diváka vyvolal emoci a touhu nakoupit. <strong>Kreativní produkce</strong> je o budování prémiové image skrze oči profesionálního <strong>filmmakera</strong>.</p><p>Ať už potřebujete reklamní spot do televize, image video na web, nebo sérii produktových videí, zajistím kompletní servis. Od prvotního nápadu a storyboardu, přes casting herců a lokací, až po filmové svícení a high-end postprodukci.</p><p>Nejsem jen 'člověk s kamerou'. Přemýšlím marketingově. Video musí nejen vypadat světově, ale musí plnit vaše obchodní cíle.</p>",
     "icon": "Clapperboard",
+    "topics": ["creative", "corporate", "brand", "commercial"],
+    "keywords": ["reklamní spot", "image video", "firemní video", "kreativní produkce"],
     "features": [
       "Kreativní koncept",
       "Full-service produkce",
@@ -36,6 +40,8 @@
     "description": "Video z konferencí a eventů, které buduje prestiž. Reportáže, rozhovory s CEO a záznamy.",
     "content": "<p>Pořádáte klíčovou konferenci nebo firemní event? Video není jen vzpomínka, je to <strong>obchodní nástroj</strong>. Profesionální výstup buduje důvěru u partnerů a přiláká sponzory pro další ročníky.</p><p>Specializuji se na B2B eventy, kde je nutná <strong>reprezentativnost a diskrétnost</strong>. Natočím rozhovory s řečníky, VIP hosty i CEO. Výsledkem není jen sestřih atmosféry, ale materiál, který prodává vaši značku celý rok.</p><p>Díky spolupráci se <strong>SocialVids</strong> zvládneme i velké mezinárodní akce s vícečlenným štábem.</p>",
     "icon": "Calendar",
+    "topics": ["event", "conference", "b2b", "corporate", "testimonial"],
+    "keywords": ["event video", "konferenční video", "firemní akce video", "ceo rozhovory"],
     "features": [
       "Reprezentativní výstup",
       "Rozhovory a testimonially",
@@ -51,6 +57,8 @@
     "description": "Spolehlivý stream pro vaše konference a webináře. Kdekoliv v Praze i Evropě.",
     "content": "<p>Hybridní eventy jsou novým standardem. Umožněte účast i těm, kteří nemohou dorazit osobně, a <strong>zvyšte dosah své akce</strong>. Zajišťuji technicky bezchybný stream, který reprezentuje vaši firmu.</p><p>Žádný amatérský pokus s mobilem. Profesionální zvuk, střih více kamer v reálném čase a vkládání prezentací přímo do obrazu. Ideální pro <strong>tiskové konference, valné hromady a školení</strong>.</p><p>Vysíláme na zabezpečené platformy pro interní potřeby nebo veřejně na YouTube/LinkedIn pro maximální zásah.</p>",
     "icon": "Radio",
+    "topics": ["livestream", "webinar", "event", "b2b"],
+    "keywords": ["live stream", "webinář", "online konference", "hybridní event"],
     "features": [
       "Vícekamerový přenos",
       "Integrace prezentací",
@@ -66,6 +74,8 @@
     "description": "Máte natočeno? Proměníme vaše záběry v profesionální video.",
     "content": "<p>Máte plný disk záběrů z dovolené, dronu nebo starších firemních akcí, ale nevíte, co s nimi? <strong>Postprodukce</strong> je místo, kde vzniká magie.</p><p>Dodejte mi svá 'raw' data a já z nich vytvořím poutavé video. Sestříhám to do rytmu hudby, vyčistím zvuk, obarvím obraz (color grading) a přidám moderní grafiku.</p><p>Specializuji se také na tvorbu titulků pro sociální sítě a 'repurposing' obsahu – z jednoho dlouhého rozhovoru vám nastříhám 10 krátkých klipů pro TikTok.</p>",
     "icon": "MonitorPlay",
+    "topics": ["postproduction", "editing", "social-media"],
+    "keywords": ["postprodukce", "střih videa", "color grading", "editace videa"],
     "features": [
       "Střih a editace",
       "Sound design",
@@ -81,6 +91,8 @@
     "description": "Profesionální hlas pro vaše videa. Reklamy, spoty, e-learning.",
     "content": "<p>Obraz je jen polovina zážitku. <strong>Profesionální hlas (voiceover)</strong> dodá vašemu videu důvěryhodnost a emoci. Můj hlas znáte z reklam pro značky jako Plzeňský Prazdroj, ČSOB nebo Oreo.</p><p>Disponuji vlastním profesionálním nahrávacím studiem, což znamená dvě věci: <strong>špičkovou kvalitu zvuku</strong> a <strong>extrémní rychlost</strong>. Většinu zakázek dodávám do 24 hodin.</p><p>Ať už potřebujete 'nabušený' hlas do reklamy, klidný tón pro e-learning nebo charakterový dabing, najdeme tu správnou polohu.</p>",
     "icon": "Mic",
+    "topics": ["voiceover", "audio", "commercial", "creative"],
+    "keywords": ["voiceover", "profesionální dabing", "hlas do reklamy", "czech voiceover"],
     "features": [
       "Reklamní spoty",
       "E-learning",
