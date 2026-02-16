@@ -4,7 +4,14 @@ import { useState } from "react";
 import { Play } from "lucide-react";
 import Image from "next/image";
 
-export function VideoPlayer({ videoId, className, thumbnail }: { videoId: string, className?: string, thumbnail?: string }) {
+interface VideoPlayerProps {
+    videoId: string;
+    className?: string;
+    thumbnail?: string;
+    title?: string;
+}
+
+export function VideoPlayer({ videoId, className, thumbnail, title = "Video" }: VideoPlayerProps) {
     const [isPlaying, setIsPlaying] = useState(false);
     const [thumbnailUrl, setThumbnailUrl] = useState(thumbnail || `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`);
 
@@ -21,7 +28,7 @@ export function VideoPlayer({ videoId, className, thumbnail }: { videoId: string
             <div className={cn("relative w-full aspect-video rounded-t-lg overflow-hidden bg-black", className)}>
                 <iframe
                     src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&showinfo=0&autoplay=1`}
-                    title="YouTube video player"
+                    title={title}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     className="absolute top-0 left-0 w-full h-full border-0"
