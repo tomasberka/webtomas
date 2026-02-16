@@ -305,6 +305,7 @@ export default function PromoPage() {
                                         <VideoPlayer
                                             videoId={video.id}
                                             className="aspect-[9/16] rounded-none"
+                                            title={video.title}
                                         />
                                     </div>
                                 </div>
