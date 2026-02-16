@@ -79,8 +79,6 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         placeholder={t.namePlaceholder} 
                         required 
                         disabled={isSubmitting}
-                        aria-invalid={!!error}
-                        aria-describedby={error ? "form-error" : undefined}
                     />
                 </div>
 
@@ -93,8 +91,6 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         placeholder="john@example.com" 
                         required 
                         disabled={isSubmitting}
-                        aria-invalid={!!error}
-                        aria-describedby={error ? "form-error" : undefined}
                     />
                 </div>
             </div>
@@ -171,8 +167,6 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     className="min-h-[120px]"
                     required
                     disabled={isSubmitting}
-                    aria-invalid={!!error}
-                    aria-describedby={error ? "form-error" : undefined}
                 />
             </div>
 
