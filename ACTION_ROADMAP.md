@@ -2,13 +2,91 @@
 
 ## 📋 Quick Overview
 
-This roadmap provides **specific, actionable steps** to increase traffic and conversions for jajsemtomas.cz. Follow this prioritized plan to get the best results fastest.
+This roadmap provides **specific, actionable steps** to increase traffic and conversions for jajsemtomas.cz with **international expansion** (Berlin, London) and **new talent services** (moderator, actor).
+
+## 🆕 NEW: International Expansion Strategy
+
+Based on your goals to work internationally and offer talent services, we've added:
+- **Event Video in Berlin, London, and European cities**
+- **Event Moderator & Host services** (bilingual EN/CZ)
+- **Corporate Actor & Spokesperson services**
+
+These are **high-opportunity, low-competition niches** that leverage your unique bilingual skills!
 
 ---
 
 ## 🚀 **Phase 1: Quick Wins (Week 1-2)** — Focus Here First!
 
-### **Priority 1: Create Event Video Landing Page** ⭐⭐⭐
+### **Priority 1A: Create International Event Video Page** ⭐⭐⭐ 🆕
+**Why:** UNIQUE opportunity - bilingual event video in Berlin/London, low competition, high margins
+
+**Action Steps:**
+1. **Create new page:** `/en/services/international-event-video`
+2. **Include these sections:**
+   - Hero: "International Event Video Production - Berlin | London | Prague"
+   - Why hire international videographer (consistency, bilingual, cost-effective)
+   - Cities covered (Berlin, London, Vienna, Munich + more)
+   - Pricing: Berlin from €3,500, London from €4,200
+   - Case studies from international events
+   - FAQ about travel, insurance, logistics
+
+3. **Target keywords:**
+   - Primary: "event videographer berlin", "event video london"
+   - Secondary: "international event videographer", "conference video berlin"
+   - Long-tail: "bilingual event videographer", "event video production europe"
+
+4. **SEO optimization:**
+   - Meta title: "International Event Videographer | Berlin, London, Europe"
+   - Meta description: "Professional event video in Berlin, London & European cities. Bilingual service (EN/CZ), all travel included. Book your international event coverage today."
+   - Target both EN and DE search engines
+   - Add hreflang tags for international SEO
+
+**Success Metrics:**
+- Rank in top 20 for "event videographer berlin" within 90 days
+- 2-3 international bookings in first 6 months
+- Average project value: €3,500-5,000
+
+**Time Required:** 6-8 hours
+
+**See:** `INTERNATIONAL_EXPANSION.md` for complete page structure
+
+---
+
+### **Priority 1B: Create Event Moderator Service Page** ⭐⭐⭐ 🆕
+**Why:** Unique bilingual skill, less competition, recurring revenue potential
+
+**Action Steps:**
+1. **Create new page:** `/en/services/event-moderator` and `/sluzby/event-moderator`
+2. **Include these sections:**
+   - Hero: "Bilingual Event Moderator & Host - English | Czech"
+   - What makes great moderator (professional, bilingual, prepared)
+   - Services offered (conference, panel, product launch, awards, webinar)
+   - Why hire you (filmmaker+moderator combo, bilingual, tech-savvy)
+   - Pricing: Half-day €800, Full-day €1,400
+   - Portfolio/showreel
+   - Booking process
+
+3. **Target keywords:**
+   - Primary: "event moderator london", "bilingual event host"
+   - Secondary: "conference moderator", "event host berlin"
+   - Long-tail: "english czech moderator", "international event mc"
+
+4. **Create showreel video:**
+   - 2-3 minutes
+   - Show you hosting/moderating
+   - Bilingual clips (EN and CZ)
+   - Professional, energetic
+
+**Success Metrics:**
+- 5-10 moderator inquiries in first 3 months
+- 2-3 bookings
+- Average project value: €800-1,400
+
+**Time Required:** 4-6 hours (+ showreel video)
+
+---
+
+### **Priority 1C: Create Event Video Landing Page (Prague)** ⭐⭐⭐
 **Why:** Highest conversion potential (Priority 10), low competition, high B2B value
 
 **Action Steps:**
@@ -42,12 +120,13 @@ This roadmap provides **specific, actionable steps** to increase traffic and con
 ---
 
 ### **Priority 2: Homepage Optimization** ⭐⭐⭐
-**Why:** First impression for all visitors, needs to highlight highest-value services
+**Why:** First impression for all visitors, needs to highlight highest-value services INCLUDING international
 
 **Action Steps:**
 1. **Update hero section:**
-   - Add "Event Video & UGC" as primary service mention
-   - Include social proof: "50+ firemních eventů natočeno"
+   - Add "International Event Video - Berlin | London | Prague"
+   - Mention "Bilingual Moderator & Host" services
+   - Include social proof: "Events covered in 5+ countries"
    - Add prominent CTA: "Konzultace zdarma"
 
 2. **Feature services section:**

@@ -224,6 +224,44 @@ export const czechKeywords: KeywordData[] = [
             'video rozhovory pro firmy',
             'profesionální ceo rozhovory'
         ]
+    },
+    {
+        keyword: "event moderator",
+        language: 'cs',
+        searchIntent: 'transactional',
+        difficulty: 'low',
+        difficultyScore: 25,
+        priority: 8,
+        searchVolumeEstimate: "200-800",
+        competitionLevel: 'low',
+        estimatedTraffic: "40-120/month",
+        relatedTopics: ['event', 'moderator', 'hosting', 'mc', 'presenter'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'moderátor pro firemní akce',
+            'event moderátor praha',
+            'anglický moderátor',
+            'bilingvní moderátor'
+        ]
+    },
+    {
+        keyword: "firemní herec",
+        language: 'cs',
+        searchIntent: 'transactional',
+        difficulty: 'low',
+        difficultyScore: 20,
+        priority: 7,
+        searchVolumeEstimate: "100-500",
+        competitionLevel: 'low',
+        estimatedTraffic: "20-80/month",
+        relatedTopics: ['actor', 'corporate', 'spokesperson', 'talent'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'herec pro firemní video',
+            'spokesperson na pronájem',
+            'brand ambassador',
+            'firemní mluvčí'
+        ]
     }
 ];
 
@@ -402,6 +440,101 @@ export const englishKeywords: KeywordData[] = [
             'video production for social media',
             'social media video agency'
         ]
+    },
+    {
+        keyword: "event videographer berlin",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 50,
+        priority: 9,
+        searchVolumeEstimate: "500-2K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "60-180/month",
+        relatedTopics: ['event', 'berlin', 'international', 'videographer'],
+        recommendedContent: ['services', 'case-studies', 'portfolio'],
+        longTailVariations: [
+            'conference videographer berlin',
+            'event video production berlin',
+            'corporate event videographer berlin',
+            'berlin videographer for hire'
+        ]
+    },
+    {
+        keyword: "event moderator london",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 45,
+        priority: 8,
+        searchVolumeEstimate: "1K-3K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "100-280/month",
+        relatedTopics: ['moderator', 'event', 'mc', 'host', 'presenter'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'conference moderator london',
+            'event host london',
+            'bilingual event moderator',
+            'corporate event mc london'
+        ]
+    },
+    {
+        keyword: "event host berlin",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'medium',
+        difficultyScore: 40,
+        priority: 8,
+        searchVolumeEstimate: "800-2K",
+        competitionLevel: 'medium',
+        estimatedTraffic: "80-200/month",
+        relatedTopics: ['moderator', 'event', 'berlin', 'host', 'presenter'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'conference host berlin',
+            'event moderator berlin',
+            'bilingual mc berlin',
+            'international event host'
+        ]
+    },
+    {
+        keyword: "corporate actor",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'low',
+        difficultyScore: 30,
+        priority: 7,
+        searchVolumeEstimate: "500-1.5K",
+        competitionLevel: 'low',
+        estimatedTraffic: "60-150/month",
+        relatedTopics: ['actor', 'corporate', 'spokesperson', 'talent'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'corporate video actor',
+            'spokesperson for hire',
+            'brand ambassador actor',
+            'corporate presenter'
+        ]
+    },
+    {
+        keyword: "bilingual event moderator",
+        language: 'en',
+        searchIntent: 'transactional',
+        difficulty: 'low',
+        difficultyScore: 25,
+        priority: 9,
+        searchVolumeEstimate: "300-1K",
+        competitionLevel: 'low',
+        estimatedTraffic: "50-150/month",
+        relatedTopics: ['moderator', 'multilingual', 'international', 'event'],
+        recommendedContent: ['services', 'portfolio', 'about'],
+        longTailVariations: [
+            'english czech moderator',
+            'multilingual event host',
+            'international conference moderator',
+            'bilingual mc for events'
+        ]
     }
 ];
 
@@ -449,6 +582,18 @@ export const topicTaxonomy = {
         name: 'Creative Production',
         keywords: ['creative', 'commercial', 'advertising', 'campaign'],
         priority: 8,
+        conversionRate: 'medium'
+    },
+    'moderator': {
+        name: 'Event Moderator & Host',
+        keywords: ['moderator', 'host', 'mc', 'presenter', 'emcee', 'bilingual'],
+        priority: 9,
+        conversionRate: 'high'
+    },
+    'actor': {
+        name: 'Corporate Actor & Spokesperson',
+        keywords: ['actor', 'spokesperson', 'talent', 'presenter', 'brand-ambassador'],
+        priority: 7,
         conversionRate: 'medium'
     }
 } as const;
