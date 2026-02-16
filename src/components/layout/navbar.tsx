@@ -115,19 +115,41 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     </Link>
 
                     {/* Language Switcher */}
-                    <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
-                        {locale === 'cs' ? (
-                            <>
-                                <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇨🇿</span>
-                                <a href="https://en.jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to English">🇬🇧</a>
-                            </>
-                        ) : (
-                            <>
-                                <a href="https://jajsemtomas.cz" className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" title="Switch to Czech">🇨🇿</a>
-                                <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0">🇬🇧</span>
-                            </>
-                        )}
-                    </div>
+                    <nav aria-label="Language selection">
+                        <div className="flex items-center gap-2 ml-4 pl-4 border-l border-border/50">
+                            {locale === 'cs' ? (
+                                <>
+                                    <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0" aria-current="true" aria-label="Čeština (aktuální jazyk)">
+                                        🇨🇿
+                                    </span>
+                                    <a 
+                                        href="https://en.jajsemtomas.cz" 
+                                        className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" 
+                                        aria-label="Switch to English"
+                                        hrefLang="en"
+                                    >
+                                        🇬🇧
+                                        <span className="sr-only">Switch to English</span>
+                                    </a>
+                                </>
+                            ) : (
+                                <>
+                                    <a 
+                                        href="https://jajsemtomas.cz" 
+                                        className="text-lg opacity-50 hover:opacity-100 transition-all hover:scale-110 grayscale hover:grayscale-0" 
+                                        aria-label="Přepnout na češtinu"
+                                        hrefLang="cs"
+                                    >
+                                        🇨🇿
+                                        <span className="sr-only">Switch to Czech</span>
+                                    </a>
+                                    <span className="text-lg cursor-default opacity-100 filter drop-shadow-sm grayscale-0" aria-current="true" aria-label="English (current language)">
+                                        🇬🇧
+                                    </span>
+                                </>
+                            )}
+                        </div>
+                    </nav>
                 </div>
 
                 <div className="flex items-center gap-4">
