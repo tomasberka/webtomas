@@ -42,11 +42,12 @@ export function CaseStudyCard({ study, locale = 'cs' }: CaseStudyCardProps) {
                     <div className="lg:col-span-7 relative bg-neutral-900/50 min-h-[500px] flex items-center overflow-hidden">
                         {study.youtubeIds ? (
                             <div className="w-full h-full flex items-center overflow-x-auto p-4 md:p-8 gap-4 snap-x snap-mandatory scrollbar-hide">
-                                {study.youtubeIds.map((id: string) => (
+                                {study.youtubeIds.map((id: string, index: number) => (
                                     <div key={id} className="flex-none w-[220px] md:w-[260px] aspect-[9/16] rounded-xl overflow-hidden bg-black shadow-2xl snap-center ring-1 ring-white/10">
                                         <VideoPlayer
                                             videoId={id}
                                             className="aspect-[9/16] rounded-none"
+                                            title={`${study.title} - Video ${index + 1}`}
                                         />
                                     </div>
                                 ))}
@@ -55,6 +56,7 @@ export function CaseStudyCard({ study, locale = 'cs' }: CaseStudyCardProps) {
                             <VideoPlayer
                                 videoId={study.youtubeId}
                                 className="absolute inset-0 w-full h-full"
+                                title={study.title}
                             />
                         ) : (
                             <div className="absolute inset-0 flex items-center justify-center text-muted-foreground bg-muted/20">

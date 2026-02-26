@@ -37,6 +37,7 @@ export function VideoCard({ video, locale = "cs" }: VideoCardProps) {
                         videoId={video.youtubeId}
                         className={isVertical ? "aspect-[9/16]" : undefined}
                         thumbnail={video.thumbnail}
+                        title={video.title}
                     />
                 ) : (
                     <div className={cn("bg-muted flex items-center justify-center text-muted-foreground w-full", isVertical ? "aspect-[9/16]" : "aspect-video")}>

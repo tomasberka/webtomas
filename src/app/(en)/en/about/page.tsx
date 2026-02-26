@@ -127,7 +127,7 @@ export default function AboutPage() {
                     <div className="bg-card border rounded-2xl p-6 md:p-12 shadow-xl max-w-4xl mx-auto text-center">
                         <h2 className="text-2xl font-bold mb-8">Who am I in 60 seconds?</h2>
                         <div className="aspect-[9/16] max-w-sm mx-auto rounded-xl overflow-hidden bg-black border relative shadow-2xl">
-                            <VideoPlayer videoId="o0Vw3UNIKaQ" className="h-full w-full" />
+                            <VideoPlayer videoId="o0Vw3UNIKaQ" className="h-full w-full" title="Who am I in 60 seconds?" />
                         </div>
                     </div>
                 </Container>
