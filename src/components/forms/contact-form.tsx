@@ -73,12 +73,25 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                     <Label htmlFor="name">{t.name}</Label>
-                    <Input id="name" name="name" placeholder={t.namePlaceholder} required disabled={isSubmitting} />
+                    <Input 
+                        id="name" 
+                        name="name" 
+                        placeholder={t.namePlaceholder} 
+                        required 
+                        disabled={isSubmitting}
+                    />
                 </div>
 
                 <div className="space-y-2">
                     <Label htmlFor="email">{t.email}</Label>
-                    <Input id="email" type="email" name="email" placeholder="john@example.com" required disabled={isSubmitting} />
+                    <Input 
+                        id="email" 
+                        type="email" 
+                        name="email" 
+                        placeholder="john@example.com" 
+                        required 
+                        disabled={isSubmitting}
+                    />
                 </div>
             </div>
 
@@ -162,7 +175,13 @@ export function ContactForm({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             <input type="text" name="_gotcha" style={{ display: "none" }} />
 
             {error && (
-                <div className="p-3 text-sm text-red-500 bg-red-500/10 rounded-lg">
+                <div 
+                    id="form-error"
+                    role="alert"
+                    aria-live="polite"
+                    aria-atomic="true"
+                    className="p-3 text-sm text-red-500 bg-red-500/10 rounded-lg"
+                >
                     {error}
                 </div>
             )}
