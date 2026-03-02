@@ -89,6 +89,14 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.youtube.com" />
       </head>
       <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")} suppressHydrationWarning>
+        {/* Skip to main content link for accessibility */}
+        <a 
+          href="#main-content" 
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-lg"
+        >
+          Přejít na hlavní obsah
+        </a>
+
         {/* Cookie Banner */}
         <CookieBanner />
 
@@ -129,7 +137,7 @@ export default function RootLayout({
           `}
         </Script>
         <Navbar />
-        <main className="flex-1">
+        <main id="main-content" className="flex-1">
           {children}
         </main>
         <Footer />
