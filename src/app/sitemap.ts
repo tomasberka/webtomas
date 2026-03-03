@@ -15,11 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 1.0 - Homepage
         { route: '', priority: 1.0, changefreq: 'weekly' as const },
 
-        // Priority 0.95 - Promo pages (high urgency)
-        { route: '/akce-3-reels', priority: 0.95, changefreq: 'daily' as const },
-
         // Priority 0.9 - Conversion pages
         { route: '/kontakt', priority: 0.9, changefreq: 'monthly' as const },
+        { route: '/video-rozbor', priority: 0.95, changefreq: 'weekly' as const },
         { route: '/vstup-na-trh', priority: 0.9, changefreq: 'monthly' as const },
 
         // Priority 0.8 - Main content pages

@@ -3,5 +3,6 @@ https://en.jajsemtomas.cz/* /en/:splat 200
 
 # 301 Redirects — Fix broken links, consolidate pages
 /rezervace /kontakt 301
-/en/free-video-audit /en/services 301
+/akce-3-reels /kontakt 301
 /en/booking /en/contact 301
+/en/promo-3-reels /en/contact 301

@@ -1,5 +1,4 @@
 {
-  "/(cz)/akce-3-reels/page": "app/(cz)/akce-3-reels/page.js",
   "/(cz)/blog/[slug]/page": "app/(cz)/blog/[slug]/page.js",
   "/(cz)/blog/page": "app/(cz)/blog/page.js",
   "/(cz)/dekuji/page": "app/(cz)/dekuji/page.js",
@@ -16,6 +15,7 @@
   "/(cz)/rezervace/page": "app/(cz)/rezervace/page.js",
   "/(cz)/sluzby/[slug]/page": "app/(cz)/sluzby/[slug]/page.js",
   "/(cz)/ugc-herec/page": "app/(cz)/ugc-herec/page.js",
+  "/(cz)/video-rozbor/page": "app/(cz)/video-rozbor/page.js",
   "/(cz)/vstup-na-trh/page": "app/(cz)/vstup-na-trh/page.js",
   "/(en)/en/about/page": "app/(en)/en/about/page.js",
   "/(en)/en/blog/[slug]/page": "app/(en)/en/blog/[slug]/page.js",
@@ -30,7 +30,6 @@
   "/(en)/en/partner-socialvids/page": "app/(en)/en/partner-socialvids/page.js",
   "/(en)/en/portfolio/page": "app/(en)/en/portfolio/page.js",
   "/(en)/en/privacy-policy/page": "app/(en)/en/privacy-policy/page.js",
-  "/(en)/en/promo-3-reels/page": "app/(en)/en/promo-3-reels/page.js",
   "/(en)/en/reels-packages/page": "app/(en)/en/reels-packages/page.js",
   "/(en)/en/reels-quiz/page": "app/(en)/en/reels-quiz/page.js",
   "/(en)/en/services/[slug]/page": "app/(en)/en/services/[slug]/page.js",

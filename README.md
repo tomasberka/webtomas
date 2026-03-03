@@ -1,184 +1,214 @@
-# Já jsem Tomáš — Video Produkce & International Event Services
+# Tomáš Berka — Kameraman & Produkce Praha
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat&logo=next.js)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)
+![React](https://img.shields.io/badge/React-19.2-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue?style=flat&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=flat&logo=tailwindcss)
+![GSAP](https://img.shields.io/badge/GSAP-3.14-88CE02?style=flat&logo=greensock)
 ![Cloudflare](https://img.shields.io/badge/Deploy-Cloudflare-F38020?style=flat&logo=cloudflare)
 
-**🔗 Live**: [jajsemtomas.cz](https://jajsemtomas.cz) | [en.jajsemtomas.cz](https://en.jajsemtomas.cz)
+**Live**: [jajsemtomas.cz](https://jajsemtomas.cz) | [en.jajsemtomas.cz](https://en.jajsemtomas.cz)
 
-Profesionální webová stránka pro video produkci, **mezinárodní event services** (Berlin, London), event moderování a filmmaking služby. Postaveno na Next.js 16 s statickým exportem pro maximální rychlost.
-
----
-
-## 🚀 **MASTER PROMPT - Start Here!**
-
-**📋 [MASTER_PROMPT.md](./MASTER_PROMPT.md)** ⭐⭐⭐ **← Everything in ONE document!**
-
-Complete 8-week implementation plan with all actions, templates, and strategies consolidated into a single 39KB document. Copy-paste ready for AI assistants or use as your master checklist.
-
-**Perfect for:**
-- Getting complete overview in one place
-- Feeding to AI assistants (Claude, ChatGPT)
-- Following week-by-week action plan
-- Having all templates in one document
+Professional video production website for **Tomáš Berka — Kameraman Praha**. Cinematic dark theme with film grain overlay, GSAP animations, Lenis smooth scroll, glassmorphism UI, and custom cursor. Built on Next.js 16 with static export for maximum performance.
 
 ---
 
-## 🆕 International Expansion & New Services
+## Tech Stack
 
-**NEW Services Added:**
-- 🌍 **International Event Video** - Berlin, London, Europe
-- 🎤 **Event Moderator & Host** - Bilingual (EN/CZ) conference moderation
-- 🎭 **Corporate Actor & Spokesperson** - On-camera talent for brand videos
-
-**📋 Additional Resources:**
-- 🎯 **[QUICK_START_INTERNATIONAL.md](./QUICK_START_INTERNATIONAL.md)** - What to do RIGHT NOW (day-by-day)
-- 📍 **[INTERNATIONAL_EXPANSION.md](./INTERNATIONAL_EXPANSION.md)** - Complete strategy & templates
-- 🗺️ **[ACTION_ROADMAP.md](./ACTION_ROADMAP.md)** - 8-week detailed implementation plan
-- 📝 **[CONTENT_BRIEFS.md](./CONTENT_BRIEFS.md)** - Ready-to-write page structures
-- 📊 **[ANALYTICS_README.md](./ANALYTICS_README.md)** - Analytics & tracking guide
-- 📄 **[SUMMARY.md](./SUMMARY.md)** - Executive summary
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 16.1 (App Router, static export) |
+| Language | TypeScript 5.9, React 19.2 |
+| Styling | Tailwind CSS v4, custom CSS design system |
+| Animations | GSAP 3.14 (timeline, word-reveal, elastic-snap) |
+| Scroll | Lenis smooth scroll (expo easing, duration 1.2) |
+| Images | next-image-export-optimizer (auto WEBP) |
+| Forms | React Hook Form + Zod validation |
+| Analytics | GA4 with Consent Mode v2 |
+| Deploy | Cloudflare Pages |
 
 ---
 
-## ✨ Funkce
+## Design System
 
-### Obsah & Služby
-- **Reels Balíčky** — 4 cenové balíčky (Start, Růst, Dominance, Jen Střih)
-- **Dynamické Služby** — 6 služeb (Reels, Kreativní produkce, Event, Livestream, Postprodukce, Voiceover)
-- **Portfolio** — Prezentace práce s lightbox galerií
-- **Blog** — Dynamicky generované články
-- **Případové studie** — Reference a výsledky klientů
-- **FAQ** — Centralizovaný systém otázek a odpovědí
+**Theme**: Deep Black `#0A0A0A` + Neon Amber `#FFBF00` | Font: Montserrat 400–900
 
-### Bilingvální podpora
-- 🇨🇿 Čeština (primární)
-- 🇬🇧 Angličtina
-- Hreflang tagy pro SEO
+| Effect | Description |
+|--------|-------------|
+| Film grain | SVG noise filter overlay, 8s stepped animation, `mix-blend-mode: overlay` |
+| Custom cursor | Amber dot + ring, Play icon on video hover, touch-device aware |
+| Glassmorphism | `.glass`, `.glass-strong`, `.glass-card` — frosted backdrop-blur panels |
+| Magnetic button | Radial gradient follows cursor via `--mouse-x`/`--mouse-y` CSS vars |
+| Cinematic hero | GSAP word-by-word reveal, showreel video background, glass stat cards |
+| Floating CTA | Scroll-aware glowing booking button (appears after 400px) |
+| Section dividers | Amber gradient 1px lines between content blocks |
+| Bento grid | 4-column responsive grid with scale hover (CSS ready) |
+
+---
+
+## Features
+
+### Content & Services
+- **Reels balíčky** — 4 pricing tiers (Start, Růst, Dominance, Jen Střih)
+- **Dynamic services** — 6 services loaded from JSON (Reels, Creative, Event, Livestream, Post, Voiceover)
+- **Portfolio** — Video showcase with lightbox gallery
+- **Blog** — Dynamically generated articles from JSON
+- **Case studies** — Client results and references
+- **FAQ** — Centralized Q&A system
+
+### Bilingual
+- 🇨🇿 Czech (primary — `jajsemtomas.cz`)
+- 🇬🇧 English (`en.jajsemtomas.cz`)
+- Hreflang tags for SEO
 
 ### SEO & Marketing
-- Dynamický `sitemap.xml` s prioritami
-- `robots.txt` s crawl rules
-- Open Graph & Twitter Cards metadata
-- Strukturovaná data
+- Dynamic `sitemap.xml` with priorities
+- `robots.txt` with crawl rules
+- Open Graph & Twitter Cards
+- JSON-LD structured data (LocalBusiness, BreadcrumbList)
+- "Kameraman Praha" keyword optimization
 
-### Konverzní nástroje
-- 📧 Kontaktní formulář (Zod validace + Resend)
-- 🚪 Exit-intent popup
-- 📱 Sticky mobile CTA
-- 🍪 Cookie consent banner (GDPR)
-- 📊 GA4 s Consent Mode v2
-- 🔥 Promo banner (akce-3-reels)
-
-### Technické
-- ⚡ Statický export pro rychlé načítání
-- 🖼️ Automatická WEBP optimalizace obrázků
-- 🎬 Framer Motion animace
-- 📐 Plně responzivní design
+### Conversion Tools
+- Contact form (Zod + Resend email)
+- Exit-intent popup
+- Sticky mobile CTA
+- Floating CTA (scroll-aware, amber glow)
+- Cookie consent banner (GDPR)
+- GA4 with Consent Mode v2
+- Promo banner (akce-3-reels)
 
 ---
 
-## 📁 Struktura projektu
+## Project Structure
 
 ```
 src/
 ├── app/
-│   ├── (cz)/           # České stránky
-│   ├── (en)/           # Anglické stránky
-│   ├── sitemap.ts      # Dynamický sitemap
-│   └── robots.ts       # Robots.txt
+│   ├── globals.css              # Theme + design system (grain, cursor, glass, etc.)
+│   ├── (cz)/
+│   │   ├── layout.tsx           # CZ layout (Lenis, Cursor, FloatingCTA, film-grain)
+│   │   └── page.tsx             # CZ homepage (CinematicHero, glass-card services)
+│   └── (en)/
+│       ├── layout.tsx           # EN layout (same providers)
+│       └── en/page.tsx          # EN homepage
 ├── components/
-│   ├── layout/         # Navbar, Footer
-│   ├── sections/       # Page sections
-│   └── ui/             # Reusable components
-├── content/            # JSON datové soubory
-│   ├── services.json   # Služby (CZ)
-│   ├── packages.json   # Balíčky (CZ)
-│   ├── portfolio.json  # Portfolio
-│   ├── blog.json       # Blog články
-│   ├── faq.json        # FAQ
-│   └── testimonials.json
-└── lib/                # Utility funkce
+│   ├── providers/
+│   │   ├── smooth-scroll.tsx    # Lenis wrapper
+│   │   └── custom-cursor.tsx    # Dot + ring + play icon
+│   ├── sections/
+│   │   ├── cinematic-hero.tsx   # GSAP word-reveal hero
+│   │   ├── package-card.tsx     # Pricing cards
+│   │   └── testimonials.tsx     # Client testimonials
+│   ├── layout/
+│   │   ├── navbar.tsx           # Navigation
+│   │   ├── mobile-nav.tsx       # Mobile menu
+│   │   └── footer.tsx           # 5-column SEO footer
+│   ├── ui/
+│   │   ├── magnetic-button.tsx  # GSAP elastic-snap button
+│   │   ├── floating-cta.tsx     # Scroll-aware booking CTA
+│   │   ├── cookie-banner.tsx    # GDPR cookie consent
+│   │   ├── exit-intent-popup.tsx
+│   │   └── ...                  # badge, button, card, input, etc.
+│   ├── forms/
+│   │   └── contact-form.tsx     # React Hook Form + Zod
+│   ├── seo/
+│   │   └── breadcrumb-schema.tsx
+│   └── tracking/
+│       ├── booking-button.tsx
+│       └── booking-complete-tracker.tsx
+├── content/                     # JSON data (CZ + EN pairs)
+│   ├── services.json / services-en.json
+│   ├── packages.json / packages-en.json
+│   ├── portfolio.json / portfolio-en.json
+│   ├── blog.json / blog-en.json
+│   ├── faq.json / faq-en.json
+│   ├── case-studies.json / case-studies-en.json
+│   └── testimonials.json / testimonials-en.json
+└── lib/
+    ├── analytics.ts             # GA4 tracking functions
+    └── utils.ts                 # cn() utility
 ```
 
 ---
 
-## 🚀 Lokální vývoj
-
-### Instalace
+## Local Development
 
 ```bash
+# Install dependencies
 npm install
-```
 
-### Spuštění dev serveru
-
-```bash
+# Start dev server (Turbopack)
 npm run dev
 ```
 
-Otevřete [http://localhost:3000](http://localhost:3000)
-
-### Build pro produkci
+Open [http://localhost:3000](http://localhost:3000)
 
 ```bash
+# Production build + image optimization
 npm run build
 ```
 
-> Build automaticky spustí `next-image-export-optimizer` pro WEBP konverzi.
+---
+
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Dev server (Turbopack) |
+| `npm run build` | Build + next-image-export-optimizer |
+| `npm run start` | Production server |
+| `npm run lint` | ESLint check |
 
 ---
 
-## 🔐 Environment Variables
+## Deploy (Cloudflare Pages)
 
-| Proměnná | Popis | Povinná |
-|----------|-------|---------|
-| `RESEND_API_KEY` | API klíč z [Resend.com](https://resend.com) pro email | ✅ Ano |
-
----
-
-## 📦 NPM Scripts
-
-| Script | Popis |
-|--------|-------|
-| `npm run dev` | Spustí vývojový server |
-| `npm run build` | Build + optimalizace obrázků |
-| `npm run start` | Spustí production server |
-| `npm run lint` | ESLint kontrola |
-
----
-
-## 🌍 Nasazení (Cloudflare Pages)
-
-1. Push kódu na GitHub
-2. Import projektu v [Cloudflare Dashboard](https://dash.cloudflare.com) → Pages
-3. Build nastavení:
+1. Push to GitHub
+2. Import in [Cloudflare Dashboard](https://dash.cloudflare.com) → Pages
+3. Build settings:
    - Build command: `npm run build`
    - Output directory: `out`
-4. Nastavte Environment Variables:
-   - `RESEND_API_KEY`
-5. Deploy
+4. Set environment variables (`RESEND_API_KEY`)
+
+### Redirects (`public/_redirects`)
+```
+https://en.jajsemtomas.cz/* /en/:splat 200
+/rezervace /kontakt 301
+/en/free-video-audit /en/services 301
+/en/booking /en/contact 301
+```
 
 ---
 
-## 📝 Úprava obsahu
+## Content Editing
 
-Veškerý obsah je v `src/content/`:
+All content lives in `src/content/` as JSON pairs:
 
-| Soubor | Obsah |
-|--------|-------|
-| `services.json` | Služby a jejich popisy |
-| `packages.json` | Reels balíčky a ceny |
-| `portfolio.json` | Portfolio položky |
-| `blog.json` | Blog články |
-| `faq.json` | FAQ otázky |
-| `testimonials.json` | Reference klientů |
+| File | Content |
+|------|---------|
+| `services.json` | Services & descriptions |
+| `packages.json` | Reels pricing tiers |
+| `portfolio.json` | Portfolio items |
+| `blog.json` | Blog articles |
+| `faq.json` | FAQ questions |
+| `case-studies.json` | Client case studies |
+| `testimonials.json` | Client testimonials |
 
-Pro anglickou verzi použijte `-en.json` suffix (např. `services-en.json`).
+English versions use `-en.json` suffix (e.g., `services-en.json`).
 
 ---
 
-## 📄 License
+## Archive
 
-Private project © 2025 Tomáš Berka
+Previous planning docs from Session 1 are archived in `.archive/docs/`:
+- `MASTER_PROMPT.md` — Complete 8-week implementation plan
+- `ACTION_ROADMAP.md` — Phase-by-phase roadmap
+- `INTERNATIONAL_EXPANSION.md` — Berlin/London strategy
+- `CONTENT_BRIEFS.md` — Landing page templates
+- `ANALYTICS_README.md` — Analytics tracking guide
+
+---
+
+## License
+
+Private project © 2026 Tomáš Berka

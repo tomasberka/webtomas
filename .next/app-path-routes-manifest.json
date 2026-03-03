@@ -1,5 +1,4 @@
 {
-  "/(cz)/akce-3-reels/page": "/akce-3-reels",
   "/(cz)/blog/[slug]/page": "/blog/[slug]",
   "/(cz)/blog/page": "/blog",
   "/(cz)/dekuji/page": "/dekuji",
@@ -16,6 +15,7 @@
   "/(cz)/rezervace/page": "/rezervace",
   "/(cz)/sluzby/[slug]/page": "/sluzby/[slug]",
   "/(cz)/ugc-herec/page": "/ugc-herec",
+  "/(cz)/video-rozbor/page": "/video-rozbor",
   "/(cz)/vstup-na-trh/page": "/vstup-na-trh",
   "/(en)/en/about/page": "/en/about",
   "/(en)/en/blog/[slug]/page": "/en/blog/[slug]",
@@ -30,7 +30,6 @@
   "/(en)/en/partner-socialvids/page": "/en/partner-socialvids",
   "/(en)/en/portfolio/page": "/en/portfolio",
   "/(en)/en/privacy-policy/page": "/en/privacy-policy",
-  "/(en)/en/promo-3-reels/page": "/en/promo-3-reels",
   "/(en)/en/reels-packages/page": "/en/reels-packages",
   "/(en)/en/reels-quiz/page": "/en/reels-quiz",
   "/(en)/en/services/[slug]/page": "/en/services/[slug]",

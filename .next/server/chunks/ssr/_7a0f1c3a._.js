@@ -15,6 +15,6 @@ Read more: https://nextjs.org/docs/messages/next-image-missing-loader`),"__NEXT_
             gtag('js', new Date());
 
             gtag('config', 'G-W75LP5M5EB');
-          `}),(0,b.jsx)(f.Navbar,{}),(0,b.jsx)("main",{className:"flex-1",children:a}),(0,b.jsx)(g.Footer,{}),(0,b.jsx)("div",{className:"fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white py-3 md:py-4 shadow-[0_-4px_20px_rgba(0,0,0,0.3)]",children:(0,b.jsxs)("a",{href:"/akce-3-reels",className:"flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center group px-4",children:[(0,b.jsx)("span",{className:"text-base md:text-lg font-bold animate-pulse",children:"🔥 AKCE:"}),(0,b.jsxs)("span",{className:"text-sm md:text-base font-medium",children:[(0,b.jsx)("strong",{className:"underline decoration-2",children:"3 firmy"})," → 3 Reels + 15 fotek za 15 000 Kč"]}),(0,b.jsx)("span",{className:"inline-flex items-center gap-1 bg-white/20 px-4 py-1.5 rounded-full text-xs md:text-sm font-bold group-hover:bg-white/30 transition-colors",children:"Zjistit více →"})]})}),(0,b.jsx)("div",{className:"h-16 md:h-14"})]})})]})}a.s(["default",()=>o,"metadata",0,n])}];
+          `}),(0,b.jsx)(f.Navbar,{}),(0,b.jsx)("main",{className:"flex-1",children:a}),(0,b.jsx)(g.Footer,{})]})})]})}a.s(["default",()=>o,"metadata",0,n])}];
 
 //# sourceMappingURL=_7a0f1c3a._.js.map

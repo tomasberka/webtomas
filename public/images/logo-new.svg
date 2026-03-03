@@ -19,9 +19,12 @@
     <circle cx="256" cy="304" r="30" fill="#555"/>
   </g>
   <!-- Text: TOMAS BERKA -->
-  <text x="105" y="58" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" letter-spacing="4">TOMAS BERKA</text>
+  <text font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" fill="#FFFFFF" letter-spacing="4">
+    <tspan x="105" y="58" font-size="36">JÁ JSEM</tspan>
+    <tspan dx="10" font-size="48">TOMÁŠ</tspan>
+  </text>
   <!-- Yellow divider line -->
   <line x1="105" y1="72" x2="540" y2="72" stroke="#FFBF00" stroke-width="3"/>
   <!-- Subtitle -->
-  <text x="105" y="100" font-family="'Montserrat', Arial, sans-serif" font-weight="600" font-size="20" fill="#CCCCCC" letter-spacing="6">KAMERAMAN &amp; PRODUKCE PRAHA</text>
+  <text x="105" y="100" font-family="'Montserrat', Arial, sans-serif" font-weight="600" font-size="20" fill="#CCCCCC" letter-spacing="6">KAMERAMAN &amp; PRODUKCE</text>
 </svg>

@@ -1,85 +1,99 @@
-[00:00:00.807] Server  LOG     ✓ Ready in 619ms
-[00:00:15.315] Server  WARN    Image with src "/images/logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:01.033] Server  LOG     ✓ Ready in 833ms
+[00:00:17.221] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:15.594] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:17.451] Server  WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:15.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.978] Browser WARN    Image with src "/images/logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:17.501] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:15.978] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:17.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.146] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:18.436] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:48.667] Server  WARN    Image with src "/images/easy-optic/easy-optic-8636.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:18.146] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.669] Server  WARN    Image with src "/images/easy-optic/easy-optic-8639.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:18.146] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.669] Server  WARN    Image with src "/images/easy-optic/easy-optic-8648.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:18.146] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:39.571] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:39.753] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.670] Server  WARN    Image with src "/images/easy-optic/easy-optic-8650.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:39.753] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.671] Server  WARN    Image with src "/images/easy-optic/easy-optic-8659.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:39.753] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.672] Server  WARN    Image with src "/images/easy-optic/easy-optic-8667.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:00:39.753] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:55.183] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.673] Server  WARN    Image with src "/images/easy-optic/easy-optic-8673.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.204] Server  WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.674] Server  WARN    Image with src "/images/easy-optic/easy-optic-8678.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.224] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.674] Server  WARN    Image with src "/images/easy-optic/easy-optic-8683.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:55.523] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.705] Server  WARN    Image with src "/images/easy-optic/easy-optic-8695.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.725] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.708] Server  WARN    Image with src "/images/easy-optic/easy-optic-8711.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.725] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.709] Server  WARN    Image with src "/images/easy-optic/easy-optic-8727.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:07:55.725] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:35.218] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.710] Server  WARN    Image with src "/images/easy-optic/easy-optic-8736.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:35.386] Server  WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.711] Server  WARN    Image with src "/images/easy-optic/easy-optic-8739.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:35.485] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.712] Server  WARN    Image with src "/images/easy-optic/easy-optic-8776.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:35.700] Server  LOG     ✓ Compiled in 0ms
+[00:13:35.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:36.043] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:48.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:49.039] Browser WARN    Image with src "/images/logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:36.043] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8636.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:36.043] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8639.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:13:36.043] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:43.547] Server  LOG     ✓ Compiled in 0ms
+[00:14:08.403] Server  LOG     ✓ Compiled in 53ms
+[00:16:18.086] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8648.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.102] Server  WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8650.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.157] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8659.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:18.550] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8667.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.550] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8673.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.550] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8678.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:18.550] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:16:47.296] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:47.456] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8683.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:47.456] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8695.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:47.456] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8711.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:16:47.456] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:09.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:09.972] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8727.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:17:09.972] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8736.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:17:09.972] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8739.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:17:09.973] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:17:36.737] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. horizontal-27
+[00:27:33.286] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:01:49.039] Browser WARN    Image with src "/images/easy-optic/easy-optic-8776.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:27:33.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:33.775] Browser WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:02:29.674] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:02:32.038] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:27:33.775] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. horizontal-27
+[00:27:37.463] Browser WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:02:50.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:50.951] Browser WARN    Image with src "/images/logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
+[00:27:37.463] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:02:50.951] Browser WARN    Image with src "https://img.youtube.com/vi/1w6r2W82pvY/maxresdefault.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:02:56.406] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:04.954] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
-Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
+[00:27:37.463] Browser WARN    Image with src "http://localhost:3000/images/tomas-hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:27:47.207] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. horizontal-27
+[00:28:51.605] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. horizontal-27
+[00:28:51.743] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. horizontal-27

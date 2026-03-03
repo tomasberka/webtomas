@@ -26,6 +26,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     const servicesItems = locale === 'cs' ? [
         { href: "/sluzby/event-video-praha", label: "🎬 Event Video Praha", highlight: true, special: false },
         { href: "/sluzby/event-moderator", label: "🎤 Moderátor Eventů", highlight: true, special: false },
+        { href: "/video-rozbor", label: "🔍 Video Rozbor Zdarma", highlight: true, special: false },
         { href: "/reels-balicky", label: "Reels Produkce", highlight: false, special: false },
         { href: "/vstup-na-trh", label: "🌍 Vstup na trh", highlight: false, special: true },
         { href: "/sluzby/kreativni-produkce", label: "Kreativní Produkce", highlight: false, special: false },
@@ -35,6 +36,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
     ] : [
         { href: "/services/international-event-video", label: "🌍 International Events", highlight: true, special: true },
         { href: "/services/event-moderator", label: "🎤 Event Moderator", highlight: true, special: false },
+        { href: "/free-video-audit", label: "🔍 Free Video Audit", highlight: true, special: false },
         { href: "/reels-packages", label: "Reels Production", highlight: false, special: false },
         { href: "/gateway-strategy", label: "Gateway Strategy", highlight: false, special: false },
         { href: "/services/creative-production", label: "Creative Production", highlight: false, special: false },

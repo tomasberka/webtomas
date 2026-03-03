@@ -1,5 +1,5 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(cz)/reels-balicky/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__f052683d._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__793cf532._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_9266b807._.js")
 R.c("server/chunks/ssr/_615b03fe._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__72578f0d._.js")

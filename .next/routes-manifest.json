@@ -74,12 +74,6 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/akce-3-reels",
-      "regex": "^/akce\\-3\\-reels(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/akce\\-3\\-reels(?:/)?$"
-    },
-    {
       "page": "/blog",
       "regex": "^/blog(?:/)?$",
       "routeKeys": {},
@@ -162,12 +156,6 @@
       "regex": "^/en/privacy\\-policy(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/en/privacy\\-policy(?:/)?$"
-    },
-    {
-      "page": "/en/promo-3-reels",
-      "regex": "^/en/promo\\-3\\-reels(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/en/promo\\-3\\-reels(?:/)?$"
     },
     {
       "page": "/en/reels-packages",
@@ -288,6 +276,12 @@
       "regex": "^/ugc\\-herec(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/ugc\\-herec(?:/)?$"
+    },
+    {
+      "page": "/video-rozbor",
+      "regex": "^/video\\-rozbor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/video\\-rozbor(?:/)?$"
     },
     {
       "page": "/vstup-na-trh",

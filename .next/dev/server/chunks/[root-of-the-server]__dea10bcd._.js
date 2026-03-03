@@ -53,13 +53,13 @@ __turbopack_context__.s([
 const dynamic = 'force-static';
 function manifest() {
     return {
-        name: 'Já jsem Tomáš | Video Produkce',
-        short_name: 'Já jsem Tomáš',
-        description: 'Profesionální tvorba Reels, TikTok a video obsahu.',
+        name: 'Tomáš Berka | Kameraman & Video Produkce Praha',
+        short_name: 'Tomáš Berka',
+        description: 'Profesionální kameraman a video produkce Praha. Event video, moderátor, DaVinci Resolve postprodukce.',
         start_url: '/',
         display: 'standalone',
-        background_color: '#0F0F0F',
-        theme_color: '#FFD700',
+        background_color: '#0A0A0A',
+        theme_color: '#FFBF00',
         icons: [
             {
                 src: '/icon.png',

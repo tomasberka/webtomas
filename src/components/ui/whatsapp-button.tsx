@@ -18,11 +18,11 @@ export function WhatsAppButton({
     text,
     locale = "cs"
 }: WhatsAppButtonProps) {
-    const phoneNumber = "420735846329";
+    const phoneNumber = "420732483004";
     const message = encodeURIComponent(
         locale === "en"
-            ? "Hi Tomas, I'm interested in the Case Study Program (3 Reels + 15 photos)."
-            : "Ahoj Tomáši, mám zájem o Case Study Program (3 Reels + 15 fotek)."
+            ? "Hi Tomas, I'm interested in your video production services."
+            : "Ahoj Tomáši, mám zájem o vaše video služby."
     );
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 

@@ -48,7 +48,7 @@ export default function ContactPage() {
                         <div className="h-16 w-16 bg-primary/10 rounded-full flex items-center justify-center mb-6">
                             <Calendar className="h-8 w-8 text-primary" />
                         </div>
-                        <h2 className="text-2xl font-bold mb-3">�️ Pojďme se pobavit</h2>
+                        <h2 className="text-2xl font-bold mb-3">🗓️ Pojďme se pobavit</h2>
                         <p className="text-muted-foreground mb-6">
                             15 minut, které změní váš obsah. Probereme strategii, možnosti a termíny. Žádné závazky.
                         </p>

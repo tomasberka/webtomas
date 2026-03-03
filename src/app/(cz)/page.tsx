@@ -5,7 +5,7 @@ import { CinematicHero } from "@/components/sections/cinematic-hero";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Sparkles, Timer, Globe, User, Mic } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Globe, User, Mic } from "lucide-react";
 import servicesData from "@/content/services.json";
 import testimonialsData from "@/content/testimonials.json";
 import { Metadata } from "next";
@@ -201,81 +201,7 @@ export default function Home() {
 
       <div className="section-divider" />
 
-      {/* Limited Offer Promo */}
-      <section className="py-12 md:py-16 relative overflow-hidden">
-        {/* Gradients */}
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-red-500/10" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
-
-        <Container className="relative">
-          <div className="bg-card border-2 border-amber-500/20 rounded-3xl p-8 md:p-12 overflow-hidden relative shadow-2xl shadow-orange-500/10">
-            {/* Background elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center relative z-10">
-              <div className="space-y-6 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1 text-sm font-bold text-amber-600 dark:text-amber-400 animate-pulse">
-                  <Sparkles className="w-4 h-4" />
-                  <span>NOVÁ AKCE – Jen pro 3 firmy</span>
-                </div>
-
-                <h2 className="text-3xl md:text-5xl font-black tracking-tight">
-                  3 Reels + 15 fotek
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600 mt-2">
-                    za 15 000 Kč
-                  </span>
-                </h2>
-
-                <p className="text-xl text-muted-foreground">
-                  Získejte kompletní obsah na měsíc s výraznou slevou.
-                  Potřebuji nové case studies, vy ušetříte 10 000 Kč.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                  <Link href="/akce-3-reels">
-                    <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg font-bold bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white shadow-lg shadow-orange-500/20 hover:scale-105 transition-all">
-                      Chci jedno z míst
-                      <ArrowRight className="ml-2 w-5 h-5" />
-                    </Button>
-                  </Link>
-                  <div className="flex items-center justify-center gap-2 text-sm font-bold text-muted-foreground bg-muted/50 px-4 py-2 rounded-lg">
-                    <Timer className="w-4 h-4 text-orange-500" />
-                    Zbývají 3 místa
-                  </div>
-                </div>
-              </div>
-
-              {/* Visual side */}
-              <div className="relative hidden md:block">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-4 translate-y-8">
-                    <div className="aspect-[9/16] bg-primary/5 rounded-2xl border border-primary/10 p-2 transform -rotate-6 transition-transform hover:rotate-0">
-                      <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl relative overflow-hidden">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <Clapperboard className="w-12 h-12 text-white/20" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="space-y-4">
-                    <div className="aspect-square bg-amber-500/10 rounded-2xl border border-amber-500/20 p-2 transform rotate-6 transition-transform hover:rotate-0">
-                      <div className="w-full h-full bg-gradient-to-br from-amber-100 to-orange-50 rounded-xl relative overflow-hidden flex items-center justify-center">
-                        <span className="text-4xl font-black text-amber-500">15×</span>
-                      </div>
-                    </div>
-                    <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
-                      <div className="text-sm font-medium text-green-600 mb-1">Ušetříte</div>
-                      <div className="text-3xl font-black text-green-600">10tis.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Value Proposition / Main Offer (Moved UP) */}
+      {/* Value Proposition / Main Offer */}
       <section className="py-16 md:py-24">
         <Container className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 order-2 md:order-1">
@@ -367,8 +293,35 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Value Proposition / CTA */}
-
+      {/* Video Rozbor CTA */}
+      <section className="py-16 md:py-24 bg-gradient-to-b from-primary/5 to-transparent">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center space-y-6">
+            <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-green-500/30 bg-green-500/10 text-green-500">
+              ✓ Zdarma a bez závazku
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+              Nevíte, jestli vaše videa fungují?
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Pošlete mi svůj Instagram — do 48 hodin dostanete <strong>personalizovaný video rozbor zdarma</strong>. 
+              A pokud budete chtít, připravím scénář a za jeden den natočíme 3 Reels.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-2">
+              <Link href="/video-rozbor">
+                <Button size="lg" className="h-12 px-8 text-base font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
+                  🔍 Chci rozbor zdarma
+                </Button>
+              </Link>
+              <Link href="/video-rozbor#jak-to-funguje">
+                <Button size="lg" variant="outline" className="h-12 px-8 text-base font-bold">
+                  Jak to funguje?
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Testimonials Section */}
       <Testimonials />
