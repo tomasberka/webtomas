@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { Testimonials } from "@/components/sections/testimonials";
+import { CinematicHero } from "@/components/sections/cinematic-hero";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
@@ -22,9 +23,9 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-  title: "Tomáš Berka | Event Video, Moderátor & Video Produkce | Praha & Evropa",
-  description: "Profesionální natáčení eventů, konferencí a firemních akcí. Moderátor eventů EN/CZ. Reels, podcasty, postprodukce. 10+ let praxe. Praha & Londýn.",
-  keywords: ["event video praha", "kameraman praha", "natáčení konferencí", "moderátor eventu", "video produkce praha", "firemní herec", "tvorba reels", "international event videographer"],
+  title: "Kameraman Praha | Tomáš Berka – Event Video & Video Produkce",
+  description: "Profesionální kameraman Praha – Tomáš Berka. Natáčení eventů, konferencí, firemních akcí. DaVinci Resolve postprodukce. Moderátor eventů EN/CZ. 10+ let praxe.",
+  keywords: ["kameraman praha", "kameraman", "video produkce praha", "event video praha", "natáčení konferencí", "moderátor eventu", "firemní video", "profesionální kameraman", "DaVinci Resolve", "tvorba reels", "kameraman na event"],
   alternates: {
     canonical: "https://jajsemtomas.cz",
     languages: {
@@ -46,9 +47,9 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
-            "name": "Já jsem Tomáš - Video Produkce",
+            "name": "Tomáš Berka – Kameraman & Video Produkce Praha",
             "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
-            "description": "Profesionální video produkce specializující se na Reels, TikTok a reklamní obsah. 3-8 Reels za jeden natáčecí den.",
+            "description": "Profesionální kameraman Praha. Event video, firemní natáčení, konference, DaVinci Resolve postprodukce.",
             "priceRange": "$$",
             "address": {
               "@type": "PostalAddress",
@@ -79,10 +80,10 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Já jsem Tomáš",
+            "name": "Tomáš Berka – Kameraman Praha",
             "url": "https://jajsemtomas.cz",
-            "logo": "https://jajsemtomas.cz/images/logo.png",
-            "description": "Profesionální video produkce a tvorba obsahu pro sociální sítě.",
+            "logo": "https://jajsemtomas.cz/images/logo-new.png",
+            "description": "Profesionální kameraman a video produkce Praha. Event video, firemní natáčení, postprodukce DaVinci Resolve.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Praha",
@@ -104,9 +105,9 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Já jsem Tomáš - Video Produkce",
+            "name": "Tomáš Berka – Kameraman & Video Produkce Praha",
             "image": "https://jajsemtomas.cz/images/tomas-hero.jpg",
-            "description": "Profesionální video produkce v Praze specializující se na Reels, TikTok a reklamní obsah pro sociální sítě.",
+            "description": "Profesionální kameraman Praha. Event video, firemní natáčení, konference, DaVinci Resolve postprodukce.",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Praha",
@@ -165,89 +166,40 @@ export default function Home() {
         }}
       />
 
-      {/* Hero Section */}
-      <header>
-        <section aria-labelledby="hero-heading" className="relative pt-4 pb-12 md:pt-12 md:pb-24 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-background to-background -z-10" />
-          <Container className="flex flex-col items-center text-center gap-8">
-          <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-primary/20 bg-primary/10 text-primary hover:bg-primary/20 mb-4 md:mb-8">
-            🎬 Praha | Londýn | Celá Evropa
-          </div>
-          <h1 id="hero-heading" className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter max-w-5xl mb-6 animate-fade-in-up">
-            Event Video. Moderátor.<br className="hidden md:block" />
-            <span className="text-primary">Video produkce.</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed mb-8 animate-fade-in-up animation-delay-100">
-            Jsem <strong>Tomáš</strong> &mdash; bilingvální (EN/CZ) videograf &amp; moderátor eventů po celé Evropě.<br />
-            Natáčení konferencí, Reels, firemní videa. <strong>Vy máte vizi, já dodám výsledek.</strong>
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4 animate-fade-in-up animation-delay-200">
-            <Link href="/sluzby/event-video-praha">
-              <Button size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-primary text-primary-foreground hover:bg-primary/90 font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
-                Natáčení eventu
-              </Button>
-            </Link>
-            <Link href="/sluzby/event-moderator">
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                Moderátor eventů
-              </Button>
-            </Link>
-          </div>
-        </Container>
-        </section>
-      </header>
+      {/* Hero Section — Cinematic GSAP Reveal */}
+      <CinematicHero locale="cs" />
 
-      {/* Trust Stats Bar */}
-      <section className="border-y bg-muted/40 py-8 md:py-12">
+      {/* Client Logos */}
+      <section className="py-8 md:py-12">
         <Container>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center items-center">
-            <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">150+</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Natočených eventů</div>
+          <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz - video produkce pro e-shop s hračkami" className="h-10 md:h-12 w-auto object-contain" />
             </div>
-            <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">5+</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Zemí Evropy</div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/dekra.png" alt="Dekra - korporátní video produkce" className="h-8 md:h-10 w-auto object-contain" />
             </div>
-            <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">Bilingvální</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">EN / CZ</div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/oict.png" alt="Operátor ICT Praha - firemní video produkce" className="h-8 md:h-10 w-auto object-contain" />
             </div>
-            <div className="space-y-1">
-              <div className="text-3xl md:text-4xl font-bold text-foreground">48h</div>
-              <div className="text-sm text-muted-foreground font-medium uppercase tracking-wider">Expresní dodání</div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/roklen.png" alt="Roklen24 - video pro finanční služby" className="h-6 md:h-8 w-auto object-contain" />
             </div>
-          </div>
-
-          {/* Client Logos */}
-          <div className="mt-12 pt-8 border-t border-border/50">
-            <p className="text-center text-sm text-muted-foreground mb-6">Spolupracovali jsme s</p>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/wikyhracky.png" alt="WikyHracky.cz - video produkce pro e-shop s hračkami" className="h-10 md:h-12 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/dekra.png" alt="Dekra - korporátní video produkce" className="h-8 md:h-10 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/oict.png" alt="Operátor ICT Praha - firemní video produkce" className="h-8 md:h-10 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/roklen.png" alt="Roklen24 - video pro finanční služby" className="h-6 md:h-8 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/tatra.png" alt="Tatra Trucks - video pro automotive" className="h-10 md:h-12 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové - sportovní video produkce" className="h-10 md:h-12 w-auto object-contain" />
-              </div>
-              <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
-                <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play facilitace a video" className="h-10 md:h-12 w-auto object-contain" />
-              </div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/tatra.png" alt="Tatra Trucks - video pro automotive" className="h-10 md:h-12 w-auto object-contain" />
+            </div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/slavia.png" alt="FC Slavia Hradec Králové - sportovní video produkce" className="h-10 md:h-12 w-auto object-contain" />
+            </div>
+            <div className="grayscale hover:grayscale-0 transition-all opacity-60 hover:opacity-100">
+              <img src="/images/clients/legonid.png" alt="Legonid - LEGO Serious Play facilitace a video" className="h-10 md:h-12 w-auto object-contain" />
             </div>
           </div>
         </Container>
       </section>
+
+      <div className="section-divider" />
 
       {/* Limited Offer Promo */}
       <section className="py-12 md:py-16 relative overflow-hidden">
@@ -379,7 +331,7 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Services Grid */}
+      {/* Services Grid — Glass Cards */}
       <section aria-labelledby="services-heading">
         <Container>
           <div className="flex flex-col gap-4 mb-12 text-center md:text-left">
@@ -390,28 +342,24 @@ export default function Home() {
             {servicesData.map((service) => {
               const Icon = icons[service.icon as keyof typeof icons] || Clapperboard;
               return (
-                <Link href={`/${service.slug}`} key={service.id} className="group animate-fade-in-up">
-                  <Card className="h-full transition-all hover:border-primary/50 hover:shadow-lg hover:-translate-y-1">
-                    <CardHeader>
-                      <div className="mb-4 inline-block rounded-lg bg-primary/10 p-3 w-fit">
-                        <Icon className="h-6 w-6 text-primary" />
-                      </div>
-                      <CardTitle className="group-hover:text-primary transition-colors">{service.title}</CardTitle>
-                      <CardDescription className="text-base pt-2">
-                        {service.description}
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <ul className="text-sm text-muted-foreground space-y-1 mt-2">
-                        {service.features.map((feature, i) => (
-                          <li key={i} className="flex items-center">
-                            <span className="mr-2 h-1 w-1 rounded-full bg-primary" />
-                            {feature}
-                          </li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                  </Card>
+                <Link href={`/${service.slug}`} key={service.id} className="group">
+                  <div className="glass-card h-full rounded-xl p-6">
+                    <div className="mb-4 inline-block rounded-lg bg-primary/10 p-3 w-fit">
+                      <Icon className="h-6 w-6 text-primary" />
+                    </div>
+                    <h3 className="text-lg font-bold group-hover:text-primary transition-colors mb-2">{service.title}</h3>
+                    <p className="text-sm text-muted-foreground mb-4">
+                      {service.description}
+                    </p>
+                    <ul className="text-sm text-muted-foreground space-y-1">
+                      {service.features.map((feature, i) => (
+                        <li key={i} className="flex items-center">
+                          <span className="mr-2 h-1 w-1 rounded-full bg-primary" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </Link>
               );
             })}

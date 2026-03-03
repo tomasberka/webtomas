@@ -122,6 +122,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/blog/bilingvni-moderator-konference": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[slug]",
+      "dataRoute": "/blog/bilingvni-moderator-konference.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/checklist-nataceni-eventu": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[slug]",
+      "dataRoute": "/blog/checklist-nataceni-eventu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/blog/ekonomika-tvurcu-nebo-ekonomika-vypaleni": {
       "experimentalBypassFor": [
         {
@@ -137,6 +185,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/blog/[slug]",
       "dataRoute": "/blog/ekonomika-tvurcu-nebo-ekonomika-vypaleni.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/event-video-2025-trendy-ceny": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[slug]",
+      "dataRoute": "/blog/event-video-2025-trendy-ceny.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -626,6 +698,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/sluzby/event-moderator": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sluzby/[slug]",
+      "dataRoute": "/sluzby/event-moderator.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/sluzby/event-video": {
       "experimentalBypassFor": [
         {
@@ -641,6 +737,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/sluzby/[slug]",
       "dataRoute": "/sluzby/event-video.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sluzby/event-video-praha": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sluzby/[slug]",
+      "dataRoute": "/sluzby/event-video-praha.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sluzby/firemni-herec": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sluzby/[slug]",
+      "dataRoute": "/sluzby/firemni-herec.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -866,6 +1010,54 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/en/blog/event-video-checklist-10-things": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/blog/[slug]",
+      "dataRoute": "/en/blog/event-video-checklist-10-things.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/blog/event-video-trends-pricing-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/blog/[slug]",
+      "dataRoute": "/en/blog/event-video-trends-pricing-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/en/blog/five-reels-mistakes-you-wont-fix-overnight": {
       "experimentalBypassFor": [
         {
@@ -1025,6 +1217,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/en/blog/[slug]",
       "dataRoute": "/en/blog/why-nobody-watches-your-ads.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/blog/why-your-international-conference-needs-bilingual-moderator": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/blog/[slug]",
+      "dataRoute": "/en/blog/why-your-international-conference-needs-bilingual-moderator.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1394,6 +1610,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/en/services/corporate-actor": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/services/[slug]",
+      "dataRoute": "/en/services/corporate-actor.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/en/services/creative-production": {
       "experimentalBypassFor": [
         {
@@ -1418,6 +1658,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/en/services/event-moderator": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/services/[slug]",
+      "dataRoute": "/en/services/event-moderator.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/en/services/event-video": {
       "experimentalBypassFor": [
         {
@@ -1433,6 +1697,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/en/services/[slug]",
       "dataRoute": "/en/services/event-video.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/services/international-event-video": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/en/services/[slug]",
+      "dataRoute": "/en/services/international-event-video.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1820,8 +2108,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "bdccd3289547fe6afd4a617489d8f808",
-    "previewModeSigningKey": "704d28228b5e10a690d3dce3f2019b260f5ab9360f2eabfdef5da1973790cdb6",
-    "previewModeEncryptionKey": "d2568b704ac5e579b8bc58679fa7f0a45176ef89f10d3e1e6eb9f56761b2c23b"
+    "previewModeId": "ad365bc0828cdf64e4015eacff43c9fc",
+    "previewModeSigningKey": "226b85b062bf652e94cd6742cd9d55b7bce93c1060f0eb882fcf897e28bea815",
+    "previewModeEncryptionKey": "572632e1f21b696ce7f0b67b6ac4950c23445b9a446562e1f8336e9e4cfaf001"
   }
 }

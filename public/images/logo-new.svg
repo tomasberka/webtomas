@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="cam-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#c0c0c0"/>
+    </linearGradient>
+  </defs>
+  <!-- Camera icon -->
+  <g transform="translate(8, 16) scale(0.17)">
+    <!-- Camera body -->
+    <rect x="48" y="128" width="416" height="320" rx="48" ry="48" fill="url(#cam-body)" stroke="#999" stroke-width="3"/>
+    <!-- Flash bump -->
+    <rect x="176" y="80" width="160" height="80" rx="24" ry="24" fill="url(#cam-body)" stroke="#999" stroke-width="3"/>
+    <!-- Lens outer -->
+    <circle cx="256" cy="304" r="110" fill="none" stroke="#fff" stroke-width="8"/>
+    <!-- Lens inner -->
+    <circle cx="256" cy="304" r="80" fill="#333"/>
+    <!-- Lens dot -->
+    <circle cx="256" cy="304" r="30" fill="#555"/>
+  </g>
+  <!-- Text: TOMAS BERKA -->
+  <text x="105" y="58" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="48" fill="#FFFFFF" letter-spacing="4">TOMAS BERKA</text>
+  <!-- Yellow divider line -->
+  <line x1="105" y1="72" x2="540" y2="72" stroke="#FFBF00" stroke-width="3"/>
+  <!-- Subtitle -->
+  <text x="105" y="100" font-family="'Montserrat', Arial, sans-serif" font-weight="600" font-size="20" fill="#CCCCCC" letter-spacing="6">KAMERAMAN &amp; PRODUKCE PRAHA</text>
+</svg>

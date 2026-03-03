@@ -21,7 +21,7 @@ self.__SERVER_FILES_MANIFEST={
       ],
       "path": "/_next/image/",
       "loader": "custom",
-      "loaderFile": "/home/runner/work/webtomas/webtomas/src/image-loader.ts",
+      "loaderFile": "/Users/llo/Documents/GitHub/webtomas/src/image-loader.ts",
       "domains": [],
       "disableStaticImages": false,
       "minimumCacheTTL": 14400,
@@ -133,7 +133,7 @@ self.__SERVER_FILES_MANIFEST={
       "isExperimentalCompile": false
     }
   },
-  "appDir": "/home/runner/work/webtomas/webtomas",
+  "appDir": "/Users/llo/Documents/GitHub/webtomas",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",

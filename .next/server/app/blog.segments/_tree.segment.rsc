@@ -1,7 +1,7 @@
-:HL["/_next/static/chunks/8986f50d0e3a7d07.css","style"]
-:HL["/_next/static/chunks/1e0282d45bbcc935.css","style"]
-:HL["/_next/static/media/1bffadaabf893a1e-s.p.7cd81963.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/058d8c937a7b5de6.css","style"]
+:HL["/_next/static/chunks/341154710db58a3b.css","style"]
+:HL["/_next/static/media/a88409fdd7dc121c-s.p.62b55a98.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e8f2fbee2754df70-s.p.9b7a96b4.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/images/blog/5-chyb-reels.png","image"]
 :HL["/images/blog/ugc-vs-reklama.png","image"]
 :HL["/images/blog/algoritmus-instagram.png","image"]
@@ -12,4 +12,5 @@
 :HL["/images/blog/500-reels-lessons.png","image"]
 :HL["/images/service-reels.jpg","image"]
 :HL["/images/ugc-hero.jpg","image"]
-0:{"buildId":"3_NawEI8zh1WTFNzKSUKt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(cz)","paramType":null,"paramKey":"(cz)","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
+:HL["/images/service-event.jpg","image"]
+0:{"buildId":"HZCuJTCeiuTkVdGsO2BkX","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(cz)","paramType":null,"paramKey":"(cz)","hasRuntimePrefetch":false,"slots":{"children":{"name":"blog","paramType":null,"paramKey":"blog","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true}},"isRootLayout":false},"staleTime":300}
