@@ -162,20 +162,20 @@ export default function UgcActorPage() {
                 </Container>
             </section>
 
-            {/* Acting Portfolio Section */}
+            {/* UGC Portfolio Section */}
             <section id="showreel" className="py-20 bg-black text-white">
                 <Container>
                     <div className="text-center max-w-3xl mx-auto mb-12">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6">Acting Samples</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6">UGC & Acting Samples</h2>
                         <p className="text-zinc-400 text-lg">
                             Authenticity, emotion, and the ability to sell an idea.
                             <br />
-                            Samples from commercials, films, and social media.
+                            Samples from UGC campaigns, commercials, and social media.
                         </p>
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-                        {portfolioData.filter(p => p.category === "Acting").map((video) => (
+                        {portfolioData.filter(p => p.category === "UGC").map((video) => (
                             <VideoCard key={video.id} video={video} locale="en" />
                         ))}
                     </div>
@@ -198,6 +198,89 @@ export default function UgcActorPage() {
                         <div className="p-6 border rounded-xl bg-muted/5">
                             <h3 className="text-xl font-bold mb-2">💡 Problem/Solution</h3>
                             <p className="text-muted-foreground">Showing a problem and solving it with your product. Best for conversions.</p>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Pricing Section */}
+            <section className="py-20">
+                <Container>
+                    <div className="text-center mb-12">
+                        <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">Pricing</p>
+                        <h2 className="text-3xl md:text-4xl font-bold">Transparent pricing, no surprises</h2>
+                        <p className="text-muted-foreground mt-3 max-w-xl mx-auto">Prices depend on the number of videos, length, and complexity. Below are starting prices.</p>
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Starter</p>
+                            <div>
+                                <span className="text-4xl font-black">€100</span>
+                                <span className="text-muted-foreground ml-2">/ video</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">1 UGC video up to 60 seconds. Perfect for a first test.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["1 version + 1 revision", "Delivery within 5 days", "Your branding elements", "Captions included"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/en/contact">
+                                <Button className="w-full mt-2" variant="outline">Order</Button>
+                            </Link>
+                        </div>
+                        <div className="p-8 border-2 border-primary rounded-2xl bg-card space-y-4 hover:shadow-xl transition-all relative overflow-hidden">
+                            <div className="absolute top-0 right-0 bg-primary text-black text-xs font-black px-3 py-1 rounded-bl-xl">MOST POPULAR</div>
+                            <p className="text-xs font-bold uppercase tracking-widest text-primary">Brand Pack</p>
+                            <div>
+                                <span className="text-4xl font-black">€270</span>
+                                <span className="text-muted-foreground ml-2">/ 3 videos</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">3 UGC videos with different hooks or formats — A/B test ready.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["3 videos = 3× content at a fraction of the price", "Each video a different hook/format", "2 revisions per video", "Delivery within 7 days", "Captions + subtitles"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/en/contact">
+                                <Button className="w-full mt-2 font-bold">Get Brand Pack</Button>
+                            </Link>
+                        </div>
+                        <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Monthly Partnership</p>
+                            <div>
+                                <span className="text-4xl font-black">Custom</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">Regular production of 8–15 clips per month. For serious ad spend.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["8–15 videos / month", "Dedicated brief system", "Priority delivery", "Strategy & consulting", "Retainer = lower per-video price"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/en/contact">
+                                <Button className="w-full mt-2" variant="outline">Discuss Pricing</Button>
+                            </Link>
+                        </div>
+                    </div>
+                    <p className="text-center text-sm text-muted-foreground mt-6">Need larger-scale production? Leverage my partner <Link href="/en/partner-socialvids" className="text-primary hover:underline">SocialVids</Link> for TV spots and international campaigns.</p>
+                </Container>
+            </section>
+
+            {/* Cross-sell: Also need a cameraman? */}
+            <section className="py-12">
+                <Container className="max-w-4xl">
+                    <div className="rounded-2xl border bg-muted/30 p-8 flex flex-col md:flex-row items-center gap-6 justify-between">
+                        <div>
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">More than UGC</p>
+                            <h3 className="text-2xl font-bold mb-2">Need a cameraman for your event too?</h3>
+                            <p className="text-muted-foreground">I go on-site, film your event, conference or product launch. Everything in one person — no two-supplier briefs.</p>
+                        </div>
+                        <div className="flex flex-col gap-3 flex-shrink-0">
+                            <Link href="/en/services/event-video">
+                                <Button className="w-full">🎬 Event Video →</Button>
+                            </Link>
+                            <Link href="/en/reels-packages">
+                                <Button variant="outline" className="w-full">📱 Reels Packages →</Button>
+                            </Link>
                         </div>
                     </div>
                 </Container>
@@ -245,15 +328,24 @@ export default function UgcActorPage() {
             {/* Final CTA */}
             <section className="py-20 text-center">
                 <Container className="max-w-2xl">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to dominate social media?</h2>
+                    <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">Start today</p>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Your brand deserves content that actually sells.</h2>
                     <p className="text-xl text-muted-foreground mb-10">
-                        Don't leave your brand to chance. Work with a professional who delivers results.
+                        Send me a brief or just a link to your profile — within 24 hours you'll get a concrete proposal for what we can create together.
                     </p>
-                    <Link href="/contact">
-                        <Button size="lg" className="text-xl px-12 py-8 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
-                            Interested in UGC
-                        </Button>
-                    </Link>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <Link href="/en/contact">
+                            <Button size="lg" className="px-10 h-14 text-base font-bold shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+                                📩 Enquire about UGC
+                            </Button>
+                        </Link>
+                        <Link href="/en/free-video-audit">
+                            <Button size="lg" variant="outline" className="px-10 h-14 text-base">
+                                🔍 Free Video Audit
+                            </Button>
+                        </Link>
+                    </div>
+                    <p className="mt-6 text-sm text-muted-foreground">Or reach out directly via <a href="https://wa.me/420732483004?text=Hi%20Tom%C3%A1%C5%A1%2C%20I'm%20interested%20in%20UGC%20collaboration." target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">WhatsApp</a></p>
                 </Container>
             </section>
         </div>

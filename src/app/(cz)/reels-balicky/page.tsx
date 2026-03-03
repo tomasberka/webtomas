@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/container";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HelpCircle } from "lucide-react";
 import Link from "next/link";
@@ -61,10 +62,26 @@ export default function ReelsPackagesPage() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-24">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-12">
                     {packagesData.map((pkg) => (
                         <PackageCard key={pkg.id} pkg={pkg} />
                     ))}
+                </div>
+
+                {/* Video Rozbor CTA */}
+                <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 md:p-8 mb-16 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex items-start gap-4">
+                        <span className="text-4xl flex-shrink-0">🔍</span>
+                        <div>
+                            <h3 className="font-bold text-xl mb-1">Nevíte, který balíček je pro vás?</h3>
+                            <p className="text-muted-foreground">
+                                Pošlete mi odkaz na svůj profil — zdarma zanalyzuji vaše dosavadní videa a doporučím, co konkrétně vystřelí váš dosah. <strong>Bez závazku.</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <Link href="/video-rozbor" className="flex-shrink-0">
+                        <Button className="h-12 px-8 font-bold whitespace-nowrap">Video Rozbor Zdarma →</Button>
+                    </Link>
                 </div>
 
                 <div className="max-w-3xl mx-auto">

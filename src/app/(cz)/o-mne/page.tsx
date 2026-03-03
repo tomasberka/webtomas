@@ -227,22 +227,39 @@ export default function AboutPage() {
                 </Container>
             </section>
 
-            {/* CTA */}
+            {/* CTA — dual path */}
             <section className="py-20 text-center">
-                <Container className="max-w-2xl">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Pojďme si tykat</h2>
+                <Container className="max-w-3xl">
+                    <p className="text-xs font-bold uppercase tracking-widest text-primary mb-3">Začněme</p>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-4">Jak můžeme spolupracovat?</h2>
                     <p className="text-xl text-muted-foreground mb-10">
-                        Rád poznám váš příběh. Zastavte se na kávu nebo si zavolejme.
+                        Hledáte kameramana na event, nebo tvouři pro UGC reklamy? Obě možnosti.
                     </p>
+                    <div className="grid sm:grid-cols-2 gap-4 mb-8">
+                        <Link href="/sluzby/event-video">
+                            <div className="rounded-2xl border bg-card p-6 text-left hover:shadow-lg hover:-translate-y-1 transition-all group h-full">
+                                <div className="text-2xl mb-3">🎬</div>
+                                <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition-colors">Kameraman & Event Video</h3>
+                                <p className="text-muted-foreground text-sm">Konference, firemní akce, Reels kampaně, postprodukce.</p>
+                            </div>
+                        </Link>
+                        <Link href="/ugc-herec">
+                            <div className="rounded-2xl border bg-card p-6 text-left hover:shadow-lg hover:-translate-y-1 transition-all group h-full">
+                                <div className="text-2xl mb-3">🎭</div>
+                                <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition-colors">UGC Herec & Brand Actor</h3>
+                                <p className="text-muted-foreground text-sm">TikTok a Instagram Ads, testimonially, product videa.</p>
+                            </div>
+                        </Link>
+                    </div>
                     <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <Link href="/kontakt">
-                            <Button size="lg" className="px-8">
-                                Napsat zprávu
+                            <Button size="lg" className="px-8 font-bold">
+                                Napši mi
                             </Button>
                         </Link>
-                        <Link href="/portfolio">
+                        <Link href="/video-rozbor">
                             <Button variant="outline" size="lg">
-                                Kouknout na práci
+                                🔍 Video Rozbor Zdarma
                             </Button>
                         </Link>
                     </div>

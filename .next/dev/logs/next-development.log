@@ -84,3 +84,9 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [00:03:04.954] Browser WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
 Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
 [00:48:20.260] Server  LOG     ✓ Compiled in 983ms
+[00:54:32.609] Server  LOG     ✓ Compiled in 244ms
+[00:56:01.732] Server  LOG     ✓ Compiled in 266ms
+[00:56:40.256] Server  LOG     ✓ Compiled in 69ms
+[00:57:30.219] Server  LOG     ✓ Compiled in 68ms
+[01:18:58.487] Server  LOG     ✓ Compiled in 225ms
+[01:21:20.155] Server  LOG     ✓ Compiled in 195ms
