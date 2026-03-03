@@ -1,11 +1,14 @@
 import { Container } from "@/components/ui/container";
 import { ContactForm } from "@/components/forms/contact-form";
 import { Suspense } from "react";
-import { Mail, Phone, MapPin, Linkedin, Calendar, Check, MessageSquare } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Calendar, Check, MessageSquare, MessageCircle, Clock, Star } from "lucide-react";
 import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
+
+const CALENDAR_URL = "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_";
+const WHATSAPP_URL = "https://wa.me/420732483004?text=Ahoj%20Tom%C3%A1%C5%A1i%2C%20m%C3%A1m%20z%C3%A1jem%20o%20konzultaci.";
 
 export const metadata: Metadata = {
     title: "Kontakt & Rezervace | Video Produkce Praha | Já jsem Tomáš",
@@ -29,13 +32,40 @@ export default function ContactPage() {
             
             <Container>
                 {/* Hero */}
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                <div className="text-center max-w-3xl mx-auto mb-10">
+                    <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
                         Jsem na příjmu.
                     </h1>
-                    <p className="text-xl text-muted-foreground">
-                        Vyberte si podle své nátury. Rychlá zpráva nebo hovor? Obojí funguje.
+                    <p className="text-xl text-muted-foreground mb-6">
+                        Vyberte si podle své nátury — call, WhatsApp nebo zpráva. Odpovídám do 24 h.
                     </p>
+                    {/* Social proof bar */}
+                    <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
+                        <span className="flex items-center gap-1.5"><Star className="h-4 w-4 text-primary fill-primary" /> 50+ spokojených klientů</span>
+                        <span className="hidden sm:block text-border">|</span>
+                        <span className="flex items-center gap-1.5"><Clock className="h-4 w-4 text-primary" /> Odpověď do 24 h</span>
+                        <span className="hidden sm:block text-border">|</span>
+                        <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4 text-primary" /> Volné termíny tento týden</span>
+                    </div>
+                </div>
+
+                {/* WhatsApp fast-track strip */}
+                <div className="mb-10 rounded-2xl bg-[#25D366]/10 border border-[#25D366]/30 p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div className="flex items-center gap-3">
+                        <div className="h-10 w-10 rounded-full bg-[#25D366] flex items-center justify-center flex-shrink-0">
+                            <MessageCircle className="h-5 w-5 text-white" />
+                        </div>
+                        <div>
+                            <p className="font-bold text-sm">Chcete odpověď rychle? 🚀</p>
+                            <p className="text-xs text-muted-foreground">Napište mi na WhatsApp — odpovídám obvykle do hodiny.</p>
+                        </div>
+                    </div>
+                    <Link href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                        <Button variant="outline" className="border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white font-bold whitespace-nowrap">
+                            <MessageCircle className="h-4 w-4 mr-2" />
+                            Napsat na WhatsApp
+                        </Button>
+                    </Link>
                 </div>
 
                 {/* Two Options */}
@@ -57,8 +87,8 @@ export default function ContactPage() {
                             <li className="flex items-center"><Check className="h-4 w-4 text-primary mr-2" /> Okamžité nacenění</li>
                             <li className="flex items-center"><Check className="h-4 w-4 text-primary mr-2" /> Strategie na míru zdarma</li>
                         </ul>
-                        <Link href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_" target="_blank">
-                            <Button size="lg" className="w-full text-lg h-14 font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <Link href={CALENDAR_URL} target="_blank" rel="noopener noreferrer">
+                            <Button size="lg" className="w-full text-lg h-14 font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all cta-pulse">
                                 📅 Vybrat termín v kalendáři
                             </Button>
                         </Link>

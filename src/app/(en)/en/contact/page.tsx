@@ -105,7 +105,7 @@ export default function ContactPage() {
                             <MessageCircle className="h-5 w-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                             <div>
                                 <h3 className="font-semibold mb-1 text-sm">WhatsApp</h3>
-                                <a href="https://api.whatsapp.com/message/WWFB72BIE4NED1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-green-500 transition-colors text-xs">Chat directly</a>
+                                <a href="https://wa.me/420732483004?text=Hi%20Tom%C3%A1%C5%A1%2C%20I'd%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-green-500 transition-colors text-xs">Chat directly</a>
                             </div>
                         </div>
                         <div className="flex items-start">
