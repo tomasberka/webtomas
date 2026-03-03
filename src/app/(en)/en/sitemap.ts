@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         // Priority 0.95 - High-value landing pages
         { route: '/partner-socialvids', priority: 0.95, changefreq: 'monthly' as const },
         { route: '/free-video-audit', priority: 0.9, changefreq: 'weekly' as const },
-        { route: '/promo-3-reels', priority: 0.9, changefreq: 'daily' as const },
+        { route: '/reels-packages', priority: 0.9, changefreq: 'weekly' as const },
 
         // Priority 0.9 - Conversion pages
         { route: '/booking', priority: 0.9, changefreq: 'monthly' as const },

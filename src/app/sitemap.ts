@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { route: '', priority: 1.0, changefreq: 'weekly' as const },
 
         // Priority 0.95 - Promo pages (high urgency)
-        { route: '/akce-3-reels', priority: 0.95, changefreq: 'daily' as const },
+        { route: '/reels-balicky', priority: 0.95, changefreq: 'weekly' as const },
 
         // Priority 0.9 - Conversion pages
         { route: '/kontakt', priority: 0.9, changefreq: 'monthly' as const },

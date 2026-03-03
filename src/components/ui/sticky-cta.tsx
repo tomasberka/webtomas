@@ -26,43 +26,49 @@ export function StickyCTA({ locale = "cs" }: StickyCTAProps) {
 
     if (!isVisible) return null;
 
-    const calText = locale === "en" ? "Book a Call" : "Zarezervovat call";
     const waUrl = locale === "en" ? WHATSAPP_EN : WHATSAPP_CZ;
 
+    const isCS = locale === "cs";
+
     return (
-        <div className="fixed bottom-0 left-1/2 -translate-x-1/2 z-50 md:hidden animate-fade-in-up pb-[env(safe-area-inset-bottom)] w-full px-4" style={{paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))'}}>
-            <div className="flex items-center gap-2 bg-background/95 backdrop-blur-sm p-1.5 rounded-full shadow-2xl border border-primary/20 mb-2 mx-auto w-fit">
-                {/* Phone */}
-                <a 
-                    href="tel:+420735846329"
-                    onClick={() => trackBookingClick("sticky_cta_phone", locale)}
-                    className="flex items-center justify-center w-11 h-11 bg-primary/10 hover:bg-primary/20 text-foreground rounded-full transition-all"
-                    aria-label="Zavolat"
-                >
-                    <Phone className="h-4 w-4" />
-                </a>
-                {/* WhatsApp */}
-                <a
-                    href={waUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => trackBookingClick("sticky_cta_whatsapp", locale)}
-                    className="flex items-center justify-center w-11 h-11 bg-green-600 hover:bg-green-500 text-white rounded-full transition-all"
-                    aria-label="WhatsApp"
-                >
-                    <MessageCircle className="h-4 w-4" />
-                </a>
-                {/* Book a Call */}
-                <button
-                    onClick={() => {
-                        trackBookingClick("sticky_cta", locale);
-                        window.open(CALENDAR_URL, '_blank', 'noopener,noreferrer');
-                    }}
-                    className="flex items-center gap-2 px-5 py-3 bg-primary text-primary-foreground font-bold rounded-full hover:bg-primary/90 transition-all cta-pulse"
-                >
-                    <Calendar className="h-5 w-5" />
-                    {calText}
-                </button>
+        <div className="fixed bottom-0 inset-x-0 z-50 md:hidden animate-fade-in-up">
+            <div className="bg-background/95 backdrop-blur-md border-t border-border/60 shadow-2xl px-4 pt-3"
+                 style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}>
+                <div className="flex items-stretch gap-2 max-w-sm mx-auto">
+                    {/* Phone */}
+                    <a
+                        href="tel:+420735846329"
+                        onClick={() => trackBookingClick("sticky_cta_phone", locale)}
+                        className="flex flex-col items-center justify-center gap-0.5 flex-1 py-2 bg-muted rounded-xl transition-all active:scale-95 min-h-[52px]"
+                        aria-label="Zavolat"
+                    >
+                        <Phone className="h-5 w-5" />
+                        <span className="text-[10px] font-semibold leading-none">{isCS ? "Zavolat" : "Call"}</span>
+                    </a>
+                    {/* WhatsApp */}
+                    <a
+                        href={waUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => trackBookingClick("sticky_cta_whatsapp", locale)}
+                        className="flex flex-col items-center justify-center gap-0.5 flex-1 py-2 bg-green-600 text-white rounded-xl transition-all active:scale-95 min-h-[52px]"
+                        aria-label="WhatsApp"
+                    >
+                        <MessageCircle className="h-5 w-5" />
+                        <span className="text-[10px] font-semibold leading-none">WhatsApp</span>
+                    </a>
+                    {/* Book a Call — primary, takes 2× space */}
+                    <button
+                        onClick={() => {
+                            trackBookingClick("sticky_cta", locale);
+                            window.open(CALENDAR_URL, "_blank", "noopener,noreferrer");
+                        }}
+                        className="flex flex-col items-center justify-center gap-0.5 flex-[2] py-2 bg-primary text-primary-foreground font-bold rounded-xl transition-all active:scale-95 min-h-[52px] cta-pulse"
+                    >
+                        <Calendar className="h-5 w-5" />
+                        <span className="text-[10px] font-semibold leading-none">{isCS ? "Rezervovat" : "Book Call"}</span>
+                    </button>
+                </div>
             </div>
         </div>
     );
