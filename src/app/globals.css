@@ -94,7 +94,29 @@
 
   body {
     @apply bg-background text-foreground antialiased;
+    /* Prevent horizontal overflow on mobile */
+    overflow-x: hidden;
   }
+
+  /* iOS safe areas */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Remove tap highlight on mobile (keep focus rings for a11y) */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a, button {
+    touch-action: manipulation;
+  }
+}
+
+/* Minimum touch target sizing (44px per Apple HIG / WCAG) */
+a[href^="tel"], a[href^="https://wa.me"], .sticky-touch-btn {
+  min-height: 44px;
+  min-width: 44px;
 }
 
 /* Micro-animations */

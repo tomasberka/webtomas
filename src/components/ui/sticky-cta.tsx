@@ -30,8 +30,8 @@ export function StickyCTA({ locale = "cs" }: StickyCTAProps) {
     const waUrl = locale === "en" ? WHATSAPP_EN : WHATSAPP_CZ;
 
     return (
-        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 md:hidden animate-fade-in-up">
-            <div className="flex items-center gap-2 bg-background/95 backdrop-blur-sm p-1.5 rounded-full shadow-2xl border border-primary/20">
+        <div className="fixed bottom-0 left-1/2 -translate-x-1/2 z-50 md:hidden animate-fade-in-up pb-[env(safe-area-inset-bottom)] w-full px-4" style={{paddingBottom: 'max(1.5rem, env(safe-area-inset-bottom))'}}>
+            <div className="flex items-center gap-2 bg-background/95 backdrop-blur-sm p-1.5 rounded-full shadow-2xl border border-primary/20 mb-2 mx-auto w-fit">
                 {/* Phone */}
                 <a 
                     href="tel:+420735846329"

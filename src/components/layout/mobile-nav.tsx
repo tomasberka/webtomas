@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Calendar, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Calendar, Phone, ChevronDown, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { trackBookingClick } from "@/lib/analytics";
 
@@ -154,17 +154,34 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <a 
                                 href="tel:+420735846329" 
                                 onClick={() => { trackBookingClick("mobile_nav_phone", locale); setOpen(false); }}
-                                className="flex items-center justify-center gap-2 w-full py-3 bg-green-600 hover:bg-green-500 text-white font-bold rounded-lg transition-all"
+                                className="flex items-center justify-center gap-2 w-full py-3.5 bg-muted hover:bg-muted/80 text-foreground font-bold rounded-lg transition-all"
                             >
                                 <Phone className="h-5 w-5" />
-                                {locale === 'cs' ? 'Zavolat ihned' : 'Call Now'}
+                                +420 735 846 329
                             </a>
-                            <Link href={locale === 'cs' ? "/kontakt" : "/contact"} onClick={() => { trackBookingClick("mobile_nav", locale); setOpen(false); }}>
-                                <Button className="w-full font-bold">
-                                    <Calendar className="h-4 w-4 mr-2" />
-                                    {locale === 'cs' ? "Konzultace zdarma" : "Free Consultation"}
-                                </Button>
-                            </Link>
+                            <a
+                                href={locale === 'cs'
+                                    ? 'https://wa.me/420732483004?text=Ahoj%20Tom%C3%A1%C5%A1i%2C%20m%C3%A1m%20z%C3%A1jem%20o%20konzultaci.'
+                                    : 'https://wa.me/420732483004?text=Hi%20Tom%C3%A1%C5%A1%2C%20I%27d%20like%20to%20book%20a%20consultation.'}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={() => { trackBookingClick("mobile_nav_whatsapp", locale); setOpen(false); }}
+                                className="flex items-center justify-center gap-2 w-full py-3.5 bg-green-600 hover:bg-green-500 text-white font-bold rounded-lg transition-all"
+                            >
+                                <MessageCircle className="h-5 w-5" />
+                                WhatsApp
+                            </a>
+                            <button
+                                onClick={() => {
+                                    trackBookingClick("mobile_nav", locale);
+                                    setOpen(false);
+                                    window.open('https://calendar.google.com/calendar/appointments/schedules/AcZssZ0Wf1BjdwQdJU84AymHizbMjQdNFMgFHGmSvvD112G3Yv_TuuI5mNYVoeChrHBIw4uZY-w7nt7_', '_blank', 'noopener,noreferrer');
+                                }}
+                                className="flex items-center justify-center gap-2 w-full py-3.5 bg-primary text-primary-foreground font-bold rounded-lg transition-all hover:bg-primary/90 cta-pulse"
+                            >
+                                <Calendar className="h-5 w-5" />
+                                {locale === 'cs' ? 'Zarezervovat call' : 'Book a Call'}
+                            </button>
                         </div>
                     </nav>
                 </div>
