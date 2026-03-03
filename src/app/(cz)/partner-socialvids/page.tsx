@@ -2,14 +2,13 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import Image from "next/image";
-import { Globe, Users, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
+import { Globe, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles, Clapperboard } from "lucide-react";
 import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata = {
-    title: "Partner SocialVids | Velké Produkce & Eventy | Já jsem Tomáš",
-    description: "Spolupráce se SocialVids pro event videografii, živá vysílání a mezinárodní projekty v 10+ zemích. Konference, bootcampy, award ceremonies.",
-    keywords: ["socialvids partner", "event videografie", "live streaming konference", "mezinárodní video produkce", "aftermovie", "recap video"],
+    title: "Velké Produkce & Eventy | Profesionální Tým | Já jsem Tomáš",
+    description: "Profesionální video produkce pro konference, festivaly a mezinárodní akce. Canon C70, dron s licencí, 10+ zemí. Recap videa, live streaming, event foto.",
+    keywords: ["velké produkce", "event videografie", "live streaming konference", "mezinárodní video produkce", "aftermovie", "recap video", "Canon C70"],
     alternates: {
         canonical: "https://jajsemtomas.cz/partner-socialvids",
         languages: {
@@ -17,8 +16,8 @@ export const metadata = {
         }
     },
     openGraph: {
-        title: "Partner SocialVids | Velké Produkce & Eventy",
-        description: "Event videografie, live streaming a mezinárodní projekty v 10+ zemích.",
+        title: "Velké Produkce & Eventy | Profesionální Tým | Já jsem Tomáš",
+        description: "Profesionální video produkce pro konference, festivaly a mezinárodní akce v 10+ zemích.",
         url: "https://jajsemtomas.cz/partner-socialvids"
     }
 };
@@ -106,25 +105,24 @@ export default function PartnerPage() {
         <div className="flex flex-col gap-16 md:gap-24 pb-16">
             <BreadcrumbSchema items={[
                 { name: "Domů", url: "https://jajsemtomas.cz" },
-                { name: "Partner SocialVids", url: "https://jajsemtomas.cz/partner-socialvids" }
+                { name: "Velké Produkce", url: "https://jajsemtomas.cz/partner-socialvids" }
             ]} />
-            {/* Organization Schema for SocialVids partnership */}
+            {/* Organization Schema */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "SocialVids",
-                        "description": "Event videografie, live streaming a mezinárodní video produkce.",
-                        "url": "https://socialvids.io",
-                        "areaServed": "Worldwide",
-                        "member": {
+                        "@type": "Service",
+                        "name": "Velké Produkce & Eventy",
+                        "description": "Profesionální video produkce pro konference, festivaly a mezinárodní akce.",
+                        "provider": {
                             "@type": "Person",
                             "name": "Tomáš Berka",
-                            "jobTitle": "Partner Filmmaker",
+                            "jobTitle": "Filmmaker & Content Creator",
                             "url": "https://jajsemtomas.cz"
-                        }
+                        },
+                        "areaServed": "Europe"
                     })
                 }}
             />
@@ -135,16 +133,16 @@ export default function PartnerPage() {
                     <div className="flex-1 text-center lg:text-left">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6 animate-fade-in-up">
                             <Sparkles className="h-4 w-4 mr-2" />
-                            STRATEGICKÉ PARTNERSTVÍ
+                            PROFESIONÁLNÍ TÝM
                         </div>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 animate-fade-in-up animation-delay-100">
-                            SocialVids <span className="text-primary">×</span> Tomáš
+                            Velké <span className="text-primary">Produkce</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in-up animation-delay-200 leading-relaxed">
-                            Pro projekty, které vyžadují <strong>velký tým</strong>, mezinárodní dosah nebo specifickou techniku.
+                            Pro projekty, které vyžadují <strong>profesionální tým</strong>, mezinárodní dosah nebo specifickou techniku.
                         </p>
                         <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up animation-delay-200">
-                            Společně transformujeme konference, festivaly a prestižní akce v kvalitní digitální obsah využitelný celý rok.
+                            Transformujeme konference, festivaly a prestižní akce v kvalitní digitální obsah využitelný celý rok.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up animation-delay-300">
                             <Link href="/rezervace">
@@ -152,23 +150,25 @@ export default function PartnerPage() {
                                     📅 Poptat velkou produkci
                                 </Button>
                             </Link>
-                            <a href="https://socialvids.cz" target="_blank" rel="noopener noreferrer">
+                            <Link href="/kontakt">
                                 <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                    Web SocialVids
+                                    Kontaktovat
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex-1 w-full max-w-lg animate-fade-in-up animation-delay-200">
-                        <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 md:p-12 border shadow-2xl flex items-center justify-center overflow-hidden">
+                        <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 md:p-12 border shadow-2xl overflow-hidden">
                             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />
-                            <Image
-                                src="/images/socialvids-logo.png"
-                                alt="SocialVids Logo"
-                                width={400}
-                                height={150}
-                                className="w-full h-auto object-contain max-h-[120px] relative z-10"
-                            />
+                            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
+                                <Clapperboard className="h-16 w-16 text-primary mb-4" />
+                                <div className="text-lg font-bold mb-2">Profesionální vybavení</div>
+                                <div className="text-sm text-muted-foreground space-y-1">
+                                    <div>🎬 Canon C70</div>
+                                    <div>🚁 Dron s licencí</div>
+                                    <div>👥 2-členný tým</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </Container>
@@ -197,7 +197,7 @@ export default function PartnerPage() {
                 <Container>
                     <div className="flex flex-col gap-4 mb-12 text-center">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto">
-                            🎬 Co děláme spolu
+                            🎬 Co nabízím
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
                             Kompletní produkce pro velké akce
@@ -245,7 +245,7 @@ export default function PartnerPage() {
                             Projekty po celé Evropě
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                            Ukázky projektů, které jsme společně realizovali s měřitelnými výsledky.
+                            Ukázky projektů, které jsem realizoval s měřitelnými výsledky.
                         </p>
                     </div>
 
@@ -307,7 +307,7 @@ export default function PartnerPage() {
                             Pojďme to realizovat společně
                         </h2>
                         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                            Ať už jde o konferenci pro stovky lidí, mezinárodní kampaň nebo prestižní event – jsme připraveni dodat výsledky, které předčí vaše očekávání.
+                            Ať už jde o konferenci pro stovky lidí, mezinárodní kampaň nebo prestižní event – jsem připraven dodat výsledky, které předčí vaše očekávání.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link href="/rezervace">
@@ -316,11 +316,11 @@ export default function PartnerPage() {
                                     <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
-                            <a href="mailto:hello@socialvids.cz">
+                            <Link href="/kontakt">
                                 <Button variant="outline" size="lg" className="text-base h-12 px-8 border-primary/20 hover:bg-primary/5">
-                                    hello@socialvids.cz
+                                    Kontaktujte mě
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </Container>

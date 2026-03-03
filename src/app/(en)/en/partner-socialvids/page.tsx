@@ -2,15 +2,14 @@ import { Container } from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import Image from "next/image";
-import { Globe, Users, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
+import { Globe, Video, Camera, Scissors, Radio, MapPin, Image as ImageIcon, Film, CheckCircle2, ArrowRight, Sparkles, Clapperboard } from "lucide-react";
 import { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
 
 export const metadata: Metadata = {
-    title: "Partner SocialVids | Large Productions & Events | I am Tomas",
-    description: "Collaboration with SocialVids for event videography, live streaming, and international projects across 10+ countries. Conferences, bootcamps, award ceremonies.",
-    keywords: ["socialvids partner", "event videography london", "live streaming conference", "international video production", "aftermovie", "recap video uk"],
+    title: "Large Productions & Events | Professional Team | I am Tomas",
+    description: "Professional video production for conferences, festivals, and international events. Canon C70, licensed drone, 10+ countries. Recap videos, live streaming, event photography.",
+    keywords: ["large productions", "event videography london", "live streaming conference", "international video production", "aftermovie", "recap video uk", "Canon C70"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz/partner-socialvids",
         languages: {
@@ -18,8 +17,8 @@ export const metadata: Metadata = {
         }
     },
     openGraph: {
-        title: "Partner SocialVids | Large Productions & Events | I am Tomas",
-        description: "Event videography, live streaming, and international projects across 10+ countries.",
+        title: "Large Productions & Events | Professional Team | I am Tomas",
+        description: "Professional video production for conferences, festivals, and international events across 10+ countries.",
         url: "https://en.jajsemtomas.cz/partner-socialvids",
         locale: "en_GB",
         siteName: "I am Tomas",
@@ -30,7 +29,7 @@ const services = [
     {
         icon: Video,
         title: "Event Videography",
-        description: "Conferences, bootcamps, award ceremonies – we capture the atmosphere and key moments.",
+        description: "Conferences, bootcamps, award ceremonies – I capture the atmosphere and key moments.",
         features: ["Recap videos", "Aftermovies", "Sponsor content"]
     },
     {
@@ -109,25 +108,24 @@ export default function PartnerPage() {
         <div className="flex flex-col gap-16 md:gap-24 pb-16">
             <BreadcrumbSchema items={[
                 { name: "Home", url: "https://en.jajsemtomas.cz" },
-                { name: "Partner SocialVids", url: "https://en.jajsemtomas.cz/partner-socialvids" }
+                { name: "Large Productions", url: "https://en.jajsemtomas.cz/partner-socialvids" }
             ]} />
-            {/* Organization Schema for SocialVids partnership */}
+            {/* Organization Schema */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "SocialVids",
-                        "description": "Event videography, live streaming and international video production.",
-                        "url": "https://socialvids.io",
-                        "areaServed": "Worldwide",
-                        "member": {
+                        "@type": "Service",
+                        "name": "Large Productions & Events",
+                        "description": "Professional video production for conferences, festivals, and international events.",
+                        "provider": {
                             "@type": "Person",
                             "name": "Tomas Berka",
-                            "jobTitle": "Partner Filmmaker",
+                            "jobTitle": "Filmmaker & Content Creator",
                             "url": "https://en.jajsemtomas.cz"
-                        }
+                        },
+                        "areaServed": "Europe"
                     })
                 }}
             />
@@ -138,16 +136,16 @@ export default function PartnerPage() {
                     <div className="flex-1 text-center lg:text-left">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium transition-colors border-primary/20 bg-primary/10 text-primary mb-6 animate-fade-in-up">
                             <Sparkles className="h-4 w-4 mr-2" />
-                            STRATEGIC PARTNERSHIP
+                            PROFESSIONAL TEAM
                         </div>
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 animate-fade-in-up animation-delay-100">
-                            SocialVids <span className="text-primary">×</span> Tomas
+                            Large <span className="text-primary">Productions</span>
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in-up animation-delay-200 leading-relaxed">
-                            For projects that require a <strong>large team</strong>, international reach, or specialized equipment.
+                            For projects that require a <strong>professional team</strong>, international reach, or specialized equipment.
                         </p>
                         <p className="text-lg text-muted-foreground mb-8 animate-fade-in-up animation-delay-200">
-                            Together we transform conferences, festivals, and prestigious events into quality digital content usable all year round.
+                            I transform conferences, festivals, and prestigious events into quality digital content usable all year round.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up animation-delay-300">
                             <Link href="/booking">
@@ -155,23 +153,25 @@ export default function PartnerPage() {
                                     📅 Inquire about large production
                                 </Button>
                             </Link>
-                            <a href="https://socialvids.cz" target="_blank" rel="noopener noreferrer">
+                            <Link href="/contact">
                                 <Button size="lg" variant="outline" className="w-full sm:w-auto text-base h-12">
-                                    SocialVids Web
+                                    Contact
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex-1 w-full max-w-lg animate-fade-in-up animation-delay-200">
-                        <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 md:p-12 border shadow-2xl flex items-center justify-center overflow-hidden">
+                        <div className="relative aspect-video rounded-2xl bg-gradient-to-br from-indigo-900/30 to-purple-900/30 p-8 md:p-12 border shadow-2xl overflow-hidden">
                             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />
-                            <Image
-                                src="/images/socialvids-logo.png"
-                                alt="SocialVids Logo"
-                                width={400}
-                                height={150}
-                                className="w-full h-auto object-contain max-h-[120px] relative z-10"
-                            />
+                            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
+                                <Clapperboard className="h-16 w-16 text-primary mb-4" />
+                                <div className="text-lg font-bold mb-2">Professional Equipment</div>
+                                <div className="text-sm text-muted-foreground space-y-1">
+                                    <div>🎬 Canon C70</div>
+                                    <div>🚁 Licensed Drone</div>
+                                    <div>👥 2-Person Team</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </Container>
@@ -200,7 +200,7 @@ export default function PartnerPage() {
                 <Container>
                     <div className="flex flex-col gap-4 mb-12 text-center">
                         <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium border-primary/20 bg-primary/10 text-primary mx-auto">
-                            🎬 What we do together
+                            🎬 What I offer
                         </div>
                         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
                             Complete production for large events
@@ -248,7 +248,7 @@ export default function PartnerPage() {
                             Projects across Europe
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                            Examples of projects we have delivered together with measurable results.
+                            Examples of projects I have delivered with measurable results.
                         </p>
                     </div>
 
@@ -272,7 +272,7 @@ export default function PartnerPage() {
                                         <p className="text-muted-foreground mb-6">{study.description}</p>
 
                                         <div className="mb-6">
-                                            <h4 className="text-sm uppercase tracking-widest font-bold text-muted-foreground mb-3">What we delivered</h4>
+                                            <h4 className="text-sm uppercase tracking-widest font-bold text-muted-foreground mb-3">What I delivered</h4>
                                             <ul className="grid gap-2">
                                                 {study.deliverables.map((item) => (
                                                     <li key={item} className="flex items-start gap-3 text-sm">
@@ -310,7 +310,7 @@ export default function PartnerPage() {
                             Let&apos;s make it happen together
                         </h2>
                         <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                            Whether it&apos;s a conference for hundreds of people, an international campaign, or a prestigious event – we&apos;re ready to deliver results that exceed your expectations.
+                            Whether it&apos;s a conference for hundreds of people, an international campaign, or a prestigious event – I&apos;m ready to deliver results that exceed your expectations.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link href="/booking">
@@ -319,11 +319,11 @@ export default function PartnerPage() {
                                     <ArrowRight className="ml-2 h-4 w-4" />
                                 </Button>
                             </Link>
-                            <a href="mailto:hello@socialvids.cz">
+                            <Link href="/contact">
                                 <Button variant="outline" size="lg" className="text-base h-12 px-8 border-primary/20 hover:bg-primary/5">
-                                    hello@socialvids.cz
+                                    Contact me
                                 </Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </Container>
