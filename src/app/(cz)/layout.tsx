@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     },
   },
   title: {
-    default: "Já jsem Tomáš | Kameraman Praha – Event Video & Video Produkce",
-    template: "%s | Já jsem Tomáš – Kameraman Praha",
+    default: "Já jsem Tomáš | Kameraman, Content Creator & UGC Herec Praha",
+    template: "%s | Já jsem Tomáš – Kameraman & Content Creator Praha",
   },
-  description: "Kameraman Praha pro eventy, konference a firemní natáčení. DaVinci Resolve postprodukce, 10+ let praxe. Tomáš Berka – jajsemtomas.cz",
-  keywords: ["kameraman praha", "video produkce praha", "kameraman", "event video praha", "natáčení konferencí", "firemní video", "DaVinci Resolve", "video produkce", "filmmaker praha", "tvorba reels", "kameraman na event", "profesionální kameraman"],
+  description: "Kameraman, content creator a UGC herec z Prahy. Event video, firemní natáčení, UGC obsah pro značky. Tomáš Berka – 10+ let praxe – jajsemtomas.cz",
+  keywords: ["kameraman praha", "ugc herec", "content creator praha", "ugc obsah", "video produkce praha", "event video praha", "natáčení konferencí", "firemní video", "ugc tvorba", "herec pro reklamu", "ugc actor", "filmmaker praha", "tvorba reels", "kameraman na event"],
   authors: [{ name: "Tomáš" }],
   creator: "Tomáš",
   icons: {
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "cs_CZ",
     url: "https://jajsemtomas.cz",
-    title: "Já jsem Tomáš | Kameraman Praha – Event Video & Video Produkce",
-    description: "Kameraman Praha pro eventy, konference a firemní natáčení. DaVinci Resolve postprodukce, 10+ let praxe. Tomáš Berka – jajsemtomas.cz",
-    siteName: "Já jsem Tomáš – Kameraman Praha",
+    title: "Já jsem Tomáš | Kameraman, Content Creator & UGC Herec Praha",
+    description: "Kameraman, content creator a UGC herec z Prahy. Event video, firemní natáčení, UGC obsah pro značky. Tomáš Berka – 10+ let praxe.",
+    siteName: "Já jsem Tomáš – Kameraman & Content Creator Praha",
     images: [
       {
         url: "https://jajsemtomas.cz/images/tomas-portrait.jpg",
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Já jsem Tomáš | Kameraman Praha – Event Video & Video Produkce",
-    description: "Kameraman Praha pro eventy, konference a firemní natáčení. DaVinci Resolve postprodukce, 10+ let praxe.",
+    title: "Já jsem Tomáš | Kameraman, Content Creator & UGC Herec Praha",
+    description: "Kameraman, content creator a UGC herec z Prahy. Event video, firemní natáčení, UGC obsah pro značky.",
     images: ["https://jajsemtomas.cz/images/tomas-portrait.jpg"],
   },
   robots: {
