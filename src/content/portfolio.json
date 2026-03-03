@@ -302,55 +302,55 @@
     "title": "Acting Scéna 1",
     "youtubeId": "ByIt6OqrO_M",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_2",
     "title": "Acting Scéna 2",
     "youtubeId": "rAmmVBcAPPw",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_3",
     "title": "Acting Scéna 3",
     "youtubeId": "tkwezR4OQcM",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_4",
     "title": "Acting Scéna 4",
     "youtubeId": "ULGOOQhhCeY",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_5",
     "title": "Acting Scéna 5",
     "youtubeId": "jzq06eUqLKE",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_6",
     "title": "Acting Scéna 6",
     "youtubeId": "tdj0OJECb2E",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_7",
     "title": "Acting Scéna 7",
     "youtubeId": "7mjZlAx-RLQ",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   },
   {
     "id": "acting_8",
     "title": "Acting Scéna 8",
     "youtubeId": "r3Jy6plTDzU",
     "category": "UGC",
-    "orientation": "vertical"
+    "orientation": "ugc"
   }
 ]

@@ -279,7 +279,7 @@ export default function Home() {
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </Link>
-                  <Link href="/portfolio">
+                  <Link href="/ugc-herec">
                     <Button variant="outline" className="w-full sm:w-auto">
                       Ukázky herecké práce
                     </Button>
@@ -298,7 +298,7 @@ export default function Home() {
                 <p className="text-muted-foreground text-sm">Nechte si zdarma zanalyzovat vaše videa — zjistím, co vám jde, co ne, a navrhnu konkrétní řešení.</p>
               </div>
             </div>
-            <Link href="/video-rozbor" className="flex-shrink-0">
+            <Link href="/kontakt" className="flex-shrink-0">
               <Button variant="outline" className="border-primary font-bold hover:bg-primary hover:text-white transition-colors">
                 Video Rozbor Zdarma →
               </Button>
@@ -416,7 +416,7 @@ export default function Home() {
                 <p className="text-zinc-400 text-sm">Dosud jsem provedl rozbory pro 40+ firem a osobních značek.</p>
               </div>
               <div className="flex flex-col gap-4">
-                <Link href="/video-rozbor">
+                <Link href="/kontakt">
                   <Button size="lg" className="w-full h-14 text-lg font-bold bg-primary text-black hover:bg-primary/90 shadow-lg shadow-primary/20 hover:-translate-y-1 transition-all">
                     🔍 Chci Video Rozbor Zdarma
                   </Button>

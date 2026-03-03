@@ -19,7 +19,7 @@ interface VideoCardProps {
 }
 
 export function VideoCard({ video, locale = "cs" }: VideoCardProps) {
-    const isVertical = video.orientation === "vertical";
+    const isVertical = video.orientation === "vertical" || video.orientation === "ugc";
     const translations = {
         cs: {
             notAvailable: "Video není dostupné na YouTube"
