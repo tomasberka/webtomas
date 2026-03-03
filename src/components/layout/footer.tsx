@@ -12,17 +12,17 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     <div className="space-y-4">
                         <Link href="/" className="block">
                             <Image
-                                src="/images/logo.png"
-                                alt={locale === 'en' ? "Video Production - Tomas" : "Video Produkce Praha - Já jsem Tomáš"}
-                                width={150}
+                                src="/images/logo-new.svg"
+                                alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce Praha"}
+                                width={180}
                                 height={50}
                                 className="h-8 w-auto object-contain"
                             />
                         </Link>
                         <p className="text-sm text-muted-foreground max-w-xs">
                             {locale === 'en'
-                                ? "I create videos. Reels, TikTok & Full Production.\nPartner SocialVids."
-                                : "Dělám videa. Reels, TikTok i kompletní produkci.\nPartner SocialVids."}
+                                ? "Professional cameraman & video production. Events, conferences, corporate films. DaVinci Resolve post-production."
+                                : "Profesionální kameraman Praha. Event video, firemní natáčení, konference. DaVinci Resolve postprodukce."}
                         </p>
                         <Link href={locale === 'en' ? "/contact" : "/kontakt"}>
                             <Button size="sm" className="mt-2">
@@ -31,25 +31,48 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             </Button>
                         </Link>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-5">
                         <div className="space-y-3">
                             <h4 className="text-sm font-medium">{locale === 'en' ? "Services" : "Služby"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
-                                        <li><Link href="/reels-balicky" className="hover:text-primary">Reels Produkce</Link></li>
-                                        <li><Link href="/vstup-na-trh" className="hover:text-primary">🌍 Vstup na trh</Link></li>
-                                        <li><Link href="/sluzby/kreativni-produkce" className="hover:text-primary">Kreativní Produkce</Link></li>
-                                        <li><Link href="/sluzby/event-video" className="hover:text-primary">Event Video</Link></li>
-                                        <li><Link href="/ugc-herec" className="hover:text-primary">UGC / Herec</Link></li>
+                                        <li><Link href="/reels-balicky" className="hover:text-primary transition-colors">Reels Produkce</Link></li>
+                                        <li><Link href="/vstup-na-trh" className="hover:text-primary transition-colors">🌍 Vstup na trh</Link></li>
+                                        <li><Link href="/sluzby/kreativni-produkce" className="hover:text-primary transition-colors">Kreativní Produkce</Link></li>
+                                        <li><Link href="/sluzby/event-video-praha" className="hover:text-primary transition-colors">Event Video Praha</Link></li>
+                                        <li><Link href="/ugc-herec" className="hover:text-primary transition-colors">UGC / Herec</Link></li>
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/reels-packages" className="hover:text-primary">Reels Production</Link></li>
-                                        <li><Link href="/gateway-strategy" className="hover:text-primary">🌍 Gateway Strategy</Link></li>
-                                        <li><Link href="/services/creative-production" className="hover:text-primary">Creative Production</Link></li>
-                                        <li><Link href="/services/event-video" className="hover:text-primary">Event Video</Link></li>
-                                        <li><Link href="/ugc-creator" className="hover:text-primary">UGC / Acting</Link></li>
+                                        <li><Link href="/reels-packages" className="hover:text-primary transition-colors">Reels Production</Link></li>
+                                        <li><Link href="/gateway-strategy" className="hover:text-primary transition-colors">🌍 Gateway Strategy</Link></li>
+                                        <li><Link href="/services/creative-production" className="hover:text-primary transition-colors">Creative Production</Link></li>
+                                        <li><Link href="/services/event-video" className="hover:text-primary transition-colors">Event Video</Link></li>
+                                        <li><Link href="/ugc-creator" className="hover:text-primary transition-colors">UGC / Acting</Link></li>
+                                    </>
+                                )}
+                            </ul>
+                        </div>
+                        {/* Stealth SEO — Additional Services Column */}
+                        <div className="space-y-3">
+                            <h4 className="text-sm font-medium">{locale === 'en' ? "More Services" : "Další služby"}</h4>
+                            <ul className="space-y-2 text-sm text-muted-foreground">
+                                {locale === 'cs' ? (
+                                    <>
+                                        <li><Link href="/sluzby/event-moderator" className="hover:text-primary transition-colors">Moderátor eventů</Link></li>
+                                        <li><Link href="/sluzby/firemni-herec" className="hover:text-primary transition-colors">Firemní herec</Link></li>
+                                        <li><Link href="/sluzby/podcast-voiceover" className="hover:text-primary transition-colors">Voiceover &amp; Podcast</Link></li>
+                                        <li><Link href="/sluzby/kreativni-produkce" className="hover:text-primary transition-colors">Postprodukce</Link></li>
+                                        <li><Link href="/sluzby/event-video-praha" className="hover:text-primary transition-colors">Kameraman na event</Link></li>
+                                    </>
+                                ) : (
+                                    <>
+                                        <li><Link href="/services/event-moderator" className="hover:text-primary transition-colors">Event Moderator</Link></li>
+                                        <li><Link href="/services/corporate-actor" className="hover:text-primary transition-colors">Corporate Actor</Link></li>
+                                        <li><Link href="/services/podcast-voiceover" className="hover:text-primary transition-colors">Voiceover &amp; Podcast</Link></li>
+                                        <li><Link href="/services/creative-production" className="hover:text-primary transition-colors">Post-Production</Link></li>
+                                        <li><Link href="/services/international-event-video" className="hover:text-primary transition-colors">Event Cameraman</Link></li>
                                     </>
                                 )}
                             </ul>
@@ -59,17 +82,17 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
-                                        <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
-                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
-                                        <li><Link href="/reels-quiz" className="hover:text-primary">Reels Quiz</Link></li>
-                                        <li><Link href="/pripadove-studie" className="hover:text-primary">Případové studie</Link></li>
+                                        <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
+                                        <li><Link href="/reels-quiz" className="hover:text-primary transition-colors">Reels Quiz</Link></li>
+                                        <li><Link href="/pripadove-studie" className="hover:text-primary transition-colors">Případové studie</Link></li>
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/blog" className="hover:text-primary">Blog</Link></li>
-                                        <li><Link href="/faq" className="hover:text-primary">FAQ</Link></li>
-                                        <li><Link href="/reels-quiz" className="hover:text-primary">Reels Quiz</Link></li>
-                                        <li><Link href="/case-studies" className="hover:text-primary">Case Studies</Link></li>
+                                        <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
+                                        <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
+                                        <li><Link href="/reels-quiz" className="hover:text-primary transition-colors">Reels Quiz</Link></li>
+                                        <li><Link href="/case-studies" className="hover:text-primary transition-colors">Case Studies</Link></li>
                                     </>
                                 )}
                             </ul>
@@ -79,19 +102,19 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 {locale === 'cs' ? (
                                     <>
-                                        <li><Link href="/o-mne" className="hover:text-primary">O mně</Link></li>
-                                        <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
-                                        <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
-                                        <li><Link href="/kontakt" className="hover:text-primary">Kontakt</Link></li>
-                                        <li><Link href="/ochrana-udaju" className="hover:text-primary">Ochrana údajů</Link></li>
+                                        <li><Link href="/o-mne" className="hover:text-primary transition-colors">O mně</Link></li>
+                                        <li><Link href="/portfolio" className="hover:text-primary transition-colors">Portfolio</Link></li>
+                                        <li><Link href="/partner-socialvids" className="hover:text-primary transition-colors">SocialVids Partner</Link></li>
+                                        <li><Link href="/kontakt" className="hover:text-primary transition-colors">Kontakt</Link></li>
+                                        <li><Link href="/ochrana-udaju" className="hover:text-primary transition-colors">Ochrana údajů</Link></li>
                                     </>
                                 ) : (
                                     <>
-                                        <li><Link href="/about" className="hover:text-primary">About Me</Link></li>
-                                        <li><Link href="/portfolio" className="hover:text-primary">Portfolio</Link></li>
-                                        <li><Link href="/partner-socialvids" className="hover:text-primary">SocialVids Partner</Link></li>
-                                        <li><Link href="/contact" className="hover:text-primary">Contact</Link></li>
-                                        <li><Link href="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
+                                        <li><Link href="/about" className="hover:text-primary transition-colors">About Me</Link></li>
+                                        <li><Link href="/portfolio" className="hover:text-primary transition-colors">Portfolio</Link></li>
+                                        <li><Link href="/partner-socialvids" className="hover:text-primary transition-colors">SocialVids Partner</Link></li>
+                                        <li><Link href="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
+                                        <li><Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
                                     </>
                                 )}
                             </ul>
@@ -100,16 +123,16 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <h4 className="text-sm font-medium">{locale === 'en' ? "Contact" : "Kontakt"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li>📍 {locale === 'en' ? "Prague / London" : "Praha, Česko"}</li>
-                                <li><a href="tel:+420735846329" className="hover:text-primary">📱 +420 735 846 329</a></li>
-                                <li><a href="mailto:msg@jajsemtomas.cz" className="hover:text-primary">✉️ msg@jajsemtomas.cz</a></li>
+                                <li><a href="tel:+420735846329" className="hover:text-primary transition-colors">📱 +420 735 846 329</a></li>
+                                <li><a href="mailto:msg@jajsemtomas.cz" className="hover:text-primary transition-colors">✉️ msg@jajsemtomas.cz</a></li>
                                 <li>
-                                    <a href="https://www.instagram.com/jajsemtomas.cz/" target="_blank" rel="noopener noreferrer" className="hover:text-primary inline-flex items-center gap-1">
+                                    <a href="https://www.instagram.com/jajsemtomas.cz/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-flex items-center gap-1">
                                         <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                                         Instagram
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/berkatomas" target="_blank" rel="noopener noreferrer" className="hover:text-primary inline-flex items-center gap-1">
+                                    <a href="https://www.linkedin.com/in/berkatomas" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-flex items-center gap-1">
                                         <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
                                         LinkedIn
                                     </a>
@@ -118,8 +141,10 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         </div>
                     </div>
                 </div>
-                <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-                    &copy; {new Date().getFullYear()} {locale === 'en' ? "I am Tomas. All rights reserved." : "Já jsem Tomáš. Všechna práva vyhrazena."}
+                {/* Section divider */}
+                <div className="section-divider mt-12" />
+                <div className="mt-8 text-center text-sm text-muted-foreground">
+                    &copy; {new Date().getFullYear()} {locale === 'en' ? "Tomáš Berka. All rights reserved." : "Tomáš Berka. Všechna práva vyhrazena."}
                 </div>
             </Container>
         </footer>

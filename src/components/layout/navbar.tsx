@@ -48,9 +48,9 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
             <Container className="flex h-16 items-center justify-between">
                 <Link href="/" className="flex items-center">
                     <Image
-                        src="/images/logo.png"
-                        alt={locale === 'en' ? "Video Production Prague - Reels & TikTok - Tomas" : "Video Produkce Praha - Reels a TikTok - Já jsem Tomáš"}
-                        width={180}
+                        src="/images/logo-new.svg"
+                        alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production Prague" : "Tomáš Berka - Kameraman & Video Produkce Praha"}
+                        width={220}
                         height={60}
                         className="h-10 w-auto object-contain"
                         priority

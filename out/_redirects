@@ -1,2 +1,7 @@
 # Rewrite all requests on English subdomain to /en folder (except static files)
 https://en.jajsemtomas.cz/* /en/:splat 200
+
+# 301 Redirects — Fix broken links, consolidate pages
+/rezervace /kontakt 301
+/en/free-video-audit /en/services 301
+/en/booking /en/contact 301

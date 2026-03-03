@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
@@ -8,8 +8,11 @@ import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
 import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
+import { SmoothScrollProvider } from "@/components/providers/smooth-scroll";
+import { CustomCursor } from "@/components/providers/custom-cursor";
+import { FloatingCTA } from "@/components/ui/floating-cta";
 
-const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
+const montserrat = Montserrat({ subsets: ["latin", "latin-ext"], display: "swap", weight: ["400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jajsemtomas.cz"),
@@ -21,11 +24,11 @@ export const metadata: Metadata = {
     },
   },
   title: {
-    default: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
-    template: "%s | Já jsem Tomáš",
+    default: "Kameraman Praha | Tomáš Berka – Video Produkce & Event Filming",
+    template: "%s | Tomáš Berka – Kameraman Praha",
   },
-  description: "Profesionální filmmaker a content creator. Event video, Livestream a tvorba Reels. Kameraman a video produkce pro firmy a CEO.",
-  keywords: ["video produkce", "tvorba reels", "tiktok pro firmy", "kameraman praha", "event video", "livestreaming", "konferenční video", "video pro ceo", "filmmaker", "reklamní videa", "obsah na sociální sítě", "videomarketing"],
+  description: "Profesionální kameraman Praha. Event video, firemní natáčení, konference, DaVinci Resolve postprodukce. 10+ let zkušeností. Tomáš Berka.",
+  keywords: ["kameraman praha", "video produkce praha", "kameraman", "event video praha", "natáčení konferencí", "firemní video", "DaVinci Resolve", "video produkce", "filmmaker praha", "tvorba reels", "kameraman na event", "profesionální kameraman"],
   authors: [{ name: "Tomáš" }],
   creator: "Tomáš",
   icons: {
@@ -37,22 +40,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "cs_CZ",
     url: "https://jajsemtomas.cz",
-    title: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
-    description: "Profesionální filmmaker a content creator. Tvorba Reels, TikTok a video obsahu. Zvyšte své prodeje videem.",
-    siteName: "Já jsem Tomáš",
+    title: "Kameraman Praha | Tomáš Berka – Video Produkce & Event Filming",
+    description: "Profesionální kameraman Praha – Tomáš Berka. Event video, natáčení konferencí, DaVinci Resolve postprodukce. 10+ let zkušeností.",
+    siteName: "Tomáš Berka – Kameraman Praha",
     images: [
       {
         url: "https://jajsemtomas.cz/images/tomas-portrait.jpg",
         width: 1200,
         height: 630,
-        alt: "Já jsem Tomáš - Filmmaker & Content Creator",
+        alt: "Tomáš Berka – Profesionální Kameraman Praha",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Já jsem Tomáš | Kameraman, Filmmaker & Video Produkce",
-    description: "Profesionální filmmaker a content creator. Domluvte si natáčení za 10 minut.",
+    title: "Kameraman Praha | Tomáš Berka – Video Produkce",
+    description: "Profesionální kameraman Praha. Event video, konference, firemní natáčení. Domluvte si konzultaci.",
     images: ["https://jajsemtomas.cz/images/tomas-portrait.jpg"],
   },
   robots: {
@@ -88,7 +91,11 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://img.youtube.com" />
         <link rel="dns-prefetch" href="https://www.youtube.com" />
       </head>
-      <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")} suppressHydrationWarning>
+      <body className={cn(montserrat.className, "bg-background text-foreground min-h-screen flex flex-col film-grain")} suppressHydrationWarning>
+        <SmoothScrollProvider>
+        {/* Custom Cursor */}
+        <CustomCursor />
+
         {/* Cookie Banner */}
         <CookieBanner />
 
@@ -97,6 +104,9 @@ export default function RootLayout({
 
         {/* Sticky Mobile CTA */}
         <StickyCTA locale="cs" />
+
+        {/* Floating CTA */}
+        <FloatingCTA locale="cs" />
 
         {/* Consent Mode - Default Denied */}
         <Script id="consent-mode" strategy="beforeInteractive">
@@ -147,6 +157,7 @@ export default function RootLayout({
         </div>
         {/* Spacer for fixed bottom banner */}
         <div className="h-16 md:h-14" />
+        </SmoothScrollProvider>
       </body>
     </html>
   );

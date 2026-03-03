@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/navbar";
@@ -8,8 +8,11 @@ import { Footer } from "@/components/layout/footer";
 import { CookieBanner } from "@/components/ui/cookie-banner";
 import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
+import { SmoothScrollProvider } from "@/components/providers/smooth-scroll";
+import { CustomCursor } from "@/components/providers/custom-cursor";
+import { FloatingCTA } from "@/components/ui/floating-cta";
 
-const inter = Inter({ subsets: ["latin", "latin-ext"], display: "swap" });
+const montserrat = Montserrat({ subsets: ["latin", "latin-ext"], display: "swap", weight: ["400", "500", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://en.jajsemtomas.cz"),
@@ -88,7 +91,11 @@ export default function RootLayout({
                 <link rel="dns-prefetch" href="https://img.youtube.com" />
                 <link rel="dns-prefetch" href="https://www.youtube.com" />
             </head>
-            <body className={cn(inter.className, "bg-background text-foreground min-h-screen flex flex-col")}>
+            <body className={cn(montserrat.className, "bg-background text-foreground min-h-screen flex flex-col film-grain")}>
+                <SmoothScrollProvider>
+                {/* Custom Cursor */}
+                <CustomCursor />
+
                 {/* Cookie Banner - reusing CZ one for now or should be localized? 
             CookieBanner component might need localization too. 
             For now, let's keep it as is, it might be auto-translated or English by default? 
@@ -100,6 +107,9 @@ export default function RootLayout({
 
                 {/* Sticky Mobile CTA */}
                 <StickyCTA locale="en" />
+
+                {/* Floating CTA */}
+                <FloatingCTA locale="en" />
 
                 {/* Consent Mode and Tags - replicated from CZ */}
                 <Script id="consent-mode" strategy="beforeInteractive">
@@ -149,6 +159,7 @@ export default function RootLayout({
                 </div>
                 {/* Spacer for fixed bottom banner */}
                 <div className="h-16 md:h-14" />
+                </SmoothScrollProvider>
             </body>
         </html>
     );
