@@ -339,7 +339,7 @@ export default function UgcActorPage() {
                                 📩 Poptat UGC spolupráci
                             </Button>
                         </Link>
-                        <Link href="/video-rozbor">
+                        <Link href="/kontakt">
                             <Button size="lg" variant="outline" className="px-10 h-14 text-base">
                                 🔍 Video Rozbor Zdarma
                             </Button>

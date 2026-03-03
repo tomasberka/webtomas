@@ -12,7 +12,7 @@ interface PortfolioGridProps {
 
 export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
     const [filter, setFilter] = useState("All");
-    const [orientation, setOrientation] = useState<"horizontal" | "vertical">("horizontal");
+    const [orientation, setOrientation] = useState<"horizontal" | "vertical" | "ugc">("horizontal");
 
     // Filter items by orientation first
     const orientationItems = items.filter((item) => {
@@ -29,6 +29,7 @@ export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
     const labels = {
         horizontal: locale === 'en' ? 'Horizontal (TV & Web)' : 'Horizontální (TV & Web)',
         vertical: locale === 'en' ? 'Vertical (Reels & TikTok)' : 'Vertikální (Reels & TikTok)',
+        ugc: locale === 'en' ? 'UGC & Acting' : 'UGC & Herectví',
         all: locale === 'en' ? 'All' : 'Vše',
         empty: locale === 'en' ? 'No videos in this category yet.' : 'V této kategorii zatím nejsou žádná videa.',
     };
@@ -60,6 +61,17 @@ export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
                     >
                         {labels.vertical}
                     </button>
+                    <button
+                        onClick={() => { setOrientation("ugc"); setFilter("All"); }}
+                        className={cn(
+                            "px-6 py-2 rounded-full text-sm font-medium transition-all",
+                            orientation === "ugc"
+                                ? "bg-background shadow-sm text-foreground"
+                                : "text-muted-foreground hover:text-foreground"
+                        )}
+                    >
+                        {labels.ugc}
+                    </button>
                 </div>
             </div>
 
@@ -79,7 +91,7 @@ export function PortfolioGrid({ items, locale = 'cs' }: PortfolioGridProps) {
             </div>
 
             {/* Grid */}
-            <div key={orientation} className={cn("grid gap-6", orientation === "vertical" ? "md:grid-cols-3 lg:grid-cols-4" : "md:grid-cols-2 lg:grid-cols-3")}>
+            <div key={orientation} className={cn("grid gap-6", orientation === "vertical" || orientation === "ugc" ? "md:grid-cols-3 lg:grid-cols-4" : "md:grid-cols-2 lg:grid-cols-3")}>
                 {filteredItems.map((item) => (
                     <VideoCard key={`${orientation}-${item.id}`} video={item} locale={locale} />
                 ))}

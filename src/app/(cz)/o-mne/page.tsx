@@ -257,7 +257,7 @@ export default function AboutPage() {
                                 Napši mi
                             </Button>
                         </Link>
-                        <Link href="/video-rozbor">
+                        <Link href="/kontakt">
                             <Button variant="outline" size="lg">
                                 🔍 Video Rozbor Zdarma
                             </Button>

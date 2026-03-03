@@ -79,7 +79,7 @@ export default function ReelsPackagesPage() {
                             </p>
                         </div>
                     </div>
-                    <Link href="/video-rozbor" className="flex-shrink-0">
+                    <Link href="/kontakt" className="flex-shrink-0">
                         <Button className="h-12 px-8 font-bold whitespace-nowrap">Video Rozbor Zdarma →</Button>
                     </Link>
                 </div>
