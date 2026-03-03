@@ -116,12 +116,6 @@
       "namedRegex": "^/en/booking(?:/)?$"
     },
     {
-      "page": "/en/case-studies",
-      "regex": "^/en/case\\-studies(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/en/case\\-studies(?:/)?$"
-    },
-    {
       "page": "/en/contact",
       "regex": "^/en/contact(?:/)?$",
       "routeKeys": {},
@@ -246,12 +240,6 @@
       "regex": "^/portfolio(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/portfolio(?:/)?$"
-    },
-    {
-      "page": "/pripadove-studie",
-      "regex": "^/pripadove\\-studie(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/pripadove\\-studie(?:/)?$"
     },
     {
       "page": "/reels-balicky",

@@ -98,13 +98,6 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     </Link>
 
                     <Link 
-                        href={locale === 'cs' ? "/pripadove-studie" : "/case-studies"} 
-                        className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
-                    >
-                        {locale === 'cs' ? 'Reference' : 'Case Studies'}
-                    </Link>
-
-                    <Link 
                         href={locale === 'cs' ? "/o-mne" : "/about"} 
                         className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
                     >

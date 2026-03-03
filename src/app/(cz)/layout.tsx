@@ -10,7 +10,6 @@ import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 import { SmoothScrollProvider } from "@/components/providers/smooth-scroll";
 import { CustomCursor } from "@/components/providers/custom-cursor";
-import { FloatingCTA } from "@/components/ui/floating-cta";
 
 const montserrat = Montserrat({ subsets: ["latin", "latin-ext"], display: "swap", weight: ["400", "500", "600", "700", "800", "900"] });
 
@@ -104,9 +103,6 @@ export default function RootLayout({
 
         {/* Sticky Mobile CTA */}
         <StickyCTA locale="cs" />
-
-        {/* Floating CTA */}
-        <FloatingCTA locale="cs" />
 
         {/* Consent Mode - Default Denied */}
         <Script id="consent-mode" strategy="beforeInteractive">

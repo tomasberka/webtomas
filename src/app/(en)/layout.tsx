@@ -10,7 +10,6 @@ import { ExitIntentPopup } from "@/components/ui/exit-intent-popup";
 import { StickyCTA } from "@/components/ui/sticky-cta";
 import { SmoothScrollProvider } from "@/components/providers/smooth-scroll";
 import { CustomCursor } from "@/components/providers/custom-cursor";
-import { FloatingCTA } from "@/components/ui/floating-cta";
 
 const montserrat = Montserrat({ subsets: ["latin", "latin-ext"], display: "swap", weight: ["400", "500", "600", "700", "800", "900"] });
 
@@ -24,11 +23,11 @@ export const metadata: Metadata = {
         },
     },
     title: {
-        default: "I am Tomas | Filmmaker & Video Production",
-        template: "%s | I am Tomas",
+        default: "I am Tomas | Filmmaker, Content Creator & UGC Actor",
+        template: "%s | I am Tomas – Filmmaker & Content Creator",
     },
-    description: "Professional video production in London & Prague. Reels, TikTok, corporate videos and event filming. Partner of SocialVids. Book a call today.",
-    keywords: ["video production london", "reels agency uk", "corporate video london", "tiktok for business uk", "event video production", "filmmaker london", "content creator prague", "video marketing agency", "ugc creator uk", "socialvids partner"],
+    description: "Filmmaker, content creator and UGC actor based in Prague. Event video, corporate films, UGC content for brands. Tomas Berka – 10+ years experience.",
+    keywords: ["filmmaker prague", "content creator prague", "ugc actor", "event video europe", "corporate video production", "ugc creator", "video marketing", "reels production", "tiktok for business", "bilingual videographer"],
     authors: [{ name: "Tomas" }],
     creator: "Tomas",
     icons: {
@@ -40,9 +39,9 @@ export const metadata: Metadata = {
         type: "website",
         locale: "en_GB",
         url: "https://en.jajsemtomas.cz",
-        title: "I am Tomas | Filmmaker & Video Production",
-        description: "Professional filmmaker and content creator. Boost your sales with video.",
-        siteName: "I am Tomas",
+        title: "I am Tomas | Filmmaker, Content Creator & UGC Actor",
+        description: "Filmmaker, content creator and UGC actor. Event video, corporate films, UGC content for brands.",
+        siteName: "I am Tomas – Filmmaker & Content Creator",
         images: [
             {
                 url: "https://en.jajsemtomas.cz/images/og-image-en-new.png",
@@ -54,8 +53,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "I am Tomas | Filmmaker & Video Production",
-        description: "Professional filmmaker and content creator. Book a shoot in 10 minutes.",
+        title: "I am Tomas | Filmmaker, Content Creator & UGC Actor",
+        description: "Filmmaker, content creator and UGC actor based in Prague. Event video, corporate films, UGC content.",
         images: ["https://en.jajsemtomas.cz/images/og-image-en-new.png"],
     },
     robots: {
@@ -107,9 +106,6 @@ export default function RootLayout({
 
                 {/* Sticky Mobile CTA */}
                 <StickyCTA locale="en" />
-
-                {/* Floating CTA */}
-                <FloatingCTA locale="en" />
 
                 {/* Consent Mode and Tags - replicated from CZ */}
                 <Script id="consent-mode" strategy="beforeInteractive">

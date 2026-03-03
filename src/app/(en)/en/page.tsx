@@ -22,8 +22,8 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-    title: "International Event Videographer | London, Prague & Europe | Tomas Berka",
-    description: "Bilingual event videographer & moderator covering B2B conferences across Europe. London, Prague & more. All travel included. Book your international event coverage today.",
+    title: "I am Tomas | Filmmaker, Content Creator & UGC Actor",
+    description: "Filmmaker, content creator and UGC actor based in Prague. Bilingual event videographer & moderator covering B2B conferences across Europe. Tomas Berka – 10+ years experience.",
     keywords: ["event video london", "international event videographer", "conference video production europe", "bilingual event videographer", "event moderator", "corporate event filming"],
     alternates: {
         canonical: "https://en.jajsemtomas.cz",

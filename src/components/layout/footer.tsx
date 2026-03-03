@@ -85,14 +85,12 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                                         <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
                                         <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
                                         <li><Link href="/reels-quiz" className="hover:text-primary transition-colors">Reels Quiz</Link></li>
-                                        <li><Link href="/pripadove-studie" className="hover:text-primary transition-colors">Případové studie</Link></li>
                                     </>
                                 ) : (
                                     <>
                                         <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
                                         <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
                                         <li><Link href="/reels-quiz" className="hover:text-primary transition-colors">Reels Quiz</Link></li>
-                                        <li><Link href="/case-studies" className="hover:text-primary transition-colors">Case Studies</Link></li>
                                     </>
                                 )}
                             </ul>

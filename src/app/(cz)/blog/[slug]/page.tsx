@@ -96,7 +96,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                             "url": "https://jajsemtomas.cz",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://jajsemtomas.cz/images/logo.png"
+                                "url": "https://jajsemtomas.cz/images/logo-new.png"
                             }
                         },
                         "description": post.excerpt,

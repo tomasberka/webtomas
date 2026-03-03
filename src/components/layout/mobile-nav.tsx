@@ -85,14 +85,6 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         </Link>
 
                         <Link
-                            href={locale === 'cs' ? "/pripadove-studie" : "/case-studies"}
-                            onClick={() => setOpen(false)}
-                            className="text-lg font-medium hover:text-primary transition-colors"
-                        >
-                            {locale === 'cs' ? 'Reference' : 'Case Studies'}
-                        </Link>
-
-                        <Link
                             href={locale === 'cs' ? "/o-mne" : "/about"}
                             onClick={() => setOpen(false)}
                             className="text-lg font-medium hover:text-primary transition-colors"

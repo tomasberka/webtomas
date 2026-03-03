@@ -24,7 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
         // Priority 0.8 - Main content pages
         { route: '/o-mne', priority: 0.8, changefreq: 'monthly' as const },
-        { route: '/pripadove-studie', priority: 0.8, changefreq: 'weekly' as const },
 
         // Priority 0.7 - Secondary pages
         { route: '/portfolio', priority: 0.7, changefreq: 'weekly' as const },
