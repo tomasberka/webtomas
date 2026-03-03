@@ -23,8 +23,8 @@ const icons = {
 };
 
 export const metadata: Metadata = {
-  title: "Kameraman Praha | Tomáš Berka – Event Video & Video Produkce",
-  description: "Profesionální kameraman Praha – Tomáš Berka. Natáčení eventů, konferencí, firemních akcí. DaVinci Resolve postprodukce. Moderátor eventů EN/CZ. 10+ let praxe.",
+  title: "Já jsem Tomáš | Kameraman Praha – Event Video & Video Produkce",
+  description: "Kameraman Praha pro eventy, konference a firemní natáčení. Moderátor EN/CZ. DaVinci Resolve postprodukce. Tomáš Berka – 10+ let praxe.",
   keywords: ["kameraman praha", "kameraman", "video produkce praha", "event video praha", "natáčení konferencí", "moderátor eventu", "firemní video", "profesionální kameraman", "DaVinci Resolve", "tvorba reels", "kameraman na event"],
   alternates: {
     canonical: "https://jajsemtomas.cz",
