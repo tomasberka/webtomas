@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Já jsem Tomáš – production &amp; UGC</title>
   <g transform="translate(2, 5)">
     <rect x="1" y="12" width="46" height="33" rx="6" fill="none" stroke="#FFBF00" stroke-width="2.5"/>
     <rect x="14" y="7" width="16" height="8" rx="3" fill="none" stroke="#FFBF00" stroke-width="2.5"/>
@@ -11,4 +12,5 @@
     <tspan fill="#FFBF00">já jsem </tspan><tspan fill="#FFFFFF">Tomáš</tspan>
   </text>
   <line x1="62" y1="45" x2="316" y2="45" stroke="#FFBF00" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="64" y="62" font-family="Montserrat,Arial,sans-serif" font-weight="400" font-size="11" letter-spacing="2" fill="#FFBF00">production &amp; UGC</text>
 </svg>
