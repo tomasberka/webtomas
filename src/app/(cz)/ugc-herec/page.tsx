@@ -162,20 +162,20 @@ export default function UgcActorPage() {
                 </Container>
             </section>
 
-            {/* Acting Portfolio Section */}
+            {/* UGC Portfolio Section */}
             <section id="showreel" className="py-20 bg-black text-white">
                 <Container>
                     <div className="text-center max-w-3xl mx-auto mb-12">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-6">Herecké ukázky</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-6">UGC & Herecké ukázky</h2>
                         <p className="text-zinc-400 text-lg">
                             Autenticita, emoce a schopnost prodat myšlenku.
                             <br />
-                            Ukázky z reklam, filmů a sociálních sítí.
+                            Ukázky z reklam, UGC kampaní a sociálních sítí.
                         </p>
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-                        {portfolioData.filter(p => p.category === "Acting").map((video) => (
+                        {portfolioData.filter(p => p.category === "UGC").map((video) => (
                             <VideoCard key={video.id} video={video} locale="cs" />
                         ))}
                     </div>
@@ -198,6 +198,89 @@ export default function UgcActorPage() {
                         <div className="p-6 border rounded-xl bg-muted/5">
                             <h3 className="text-xl font-bold mb-2">💡 Problem/Solution</h3>
                             <p className="text-muted-foreground">Ukázka problému a řešení vaším produktem. Nejlepší pro konverze.</p>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            {/* Pricing Section */}
+            <section className="py-20">
+                <Container>
+                    <div className="text-center mb-12">
+                        <p className="text-xs font-bold uppercase tracking-widest text-primary mb-2">Ceník</p>
+                        <h2 className="text-3xl md:text-4xl font-bold">Transparentní ceny, žádná překvapení</h2>
+                        <p className="text-muted-foreground mt-3 max-w-xl mx-auto">Cena závisí na počtu videí, délce a komplexnosti. Níže jsou orientační startovní ceny.</p>
+                    </div>
+                    <div className="grid md:grid-cols-3 gap-6">
+                        <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Starter</p>
+                            <div>
+                                <span className="text-4xl font-black">2 500 Kč</span>
+                                <span className="text-muted-foreground ml-2">/ video</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">1 UGC video do 60 sekund. Ideální na první test.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["1 verze + 1 revize", "Dodání do 5 dní", "Vaše branding prvky", "Titulky v ceně"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/kontakt">
+                                <Button className="w-full mt-2" variant="outline">Objednat</Button>
+                            </Link>
+                        </div>
+                        <div className="p-8 border-2 border-primary rounded-2xl bg-card space-y-4 hover:shadow-xl transition-all relative overflow-hidden">
+                            <div className="absolute top-0 right-0 bg-primary text-black text-xs font-black px-3 py-1 rounded-bl-xl">NEJPOPULÁRNĚJŠÍ</div>
+                            <p className="text-xs font-bold uppercase tracking-widest text-primary">Brand Pack</p>
+                            <div>
+                                <span className="text-4xl font-black">6 500 Kč</span>
+                                <span className="text-muted-foreground ml-2">/ 3 videa</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">3 UGC videa s různými hooky nebo formáty — A/B test připravený.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["3 videa = 3× obsah za zlomek ceny", "Každé video jiný hook/formát", "2 revize na video", "Dodání do 7 dní", "Titulky + captions"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/kontakt">
+                                <Button className="w-full mt-2 font-bold">Chci Brand Pack</Button>
+                            </Link>
+                        </div>
+                        <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Měsíční spolupráce</p>
+                            <div>
+                                <span className="text-4xl font-black">Dohodou</span>
+                            </div>
+                            <p className="text-muted-foreground text-sm">Pravidelná produkce 8–15 klipů měsíčně. Pro seriózní ad-spend.</p>
+                            <ul className="space-y-2 text-sm">
+                                {["8-15 videí / měsíc", "Dedikovaný brief systém", "Priority dodání", "Strategie a konzultace", "Retainer = nižší cena/video"].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
+                                ))}
+                            </ul>
+                            <Link href="/kontakt">
+                                <Button className="w-full mt-2" variant="outline">Pobavit se o ceně</Button>
+                            </Link>
+                        </div>
+                    </div>
+                    <p className="text-center text-sm text-muted-foreground mt-6">Potřebujete větší produkci? Využijte zázemí mého partnera <Link href="/partner-socialvids" className="text-primary hover:underline">SocialVids</Link> pro TV spoty a mezinárodní kampaně.</p>
+                </Container>
+            </section>
+
+            {/* Cross-sell: Also need a cameraman? */}
+            <section className="py-12">
+                <Container className="max-w-4xl">
+                    <div className="rounded-2xl border bg-muted/30 p-8 flex flex-col md:flex-row items-center gap-6 justify-between">
+                        <div>
+                            <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-1">Víc než UGC herec</p>
+                            <h3 className="text-2xl font-bold mb-2">Potřebujete i kameramana na event?</h3>
+                            <p className="text-muted-foreground">Jedu do terénu, natočím váš event, konferenci nebo product launch. Vše v jedné osobě — žádný brief pro dva dodavatele.</p>
+                        </div>
+                        <div className="flex flex-col gap-3 flex-shrink-0">
+                            <Link href="/sluzby/event-video">
+                                <Button className="w-full">🎬 Event video →</Button>
+                            </Link>
+                            <Link href="/reels-balicky">
+                                <Button variant="outline" className="w-full">📱 Reels balíčky →</Button>
+                            </Link>
                         </div>
                     </div>
                 </Container>
@@ -245,15 +328,24 @@ export default function UgcActorPage() {
             {/* Final CTA */}
             <section className="py-20 text-center">
                 <Container className="max-w-2xl">
-                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Připraveni ovládnout sítě?</h2>
+                    <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">Začněte ještě dnes</p>
+                    <h2 className="text-3xl md:text-5xl font-bold mb-6">Váš brand si zaslouží obsah, který prodává.</h2>
                     <p className="text-xl text-muted-foreground mb-10">
-                        Nenechávejte svůj brand náhodě. Spolupracujte s profesionálem, který doručí výsledky.
+                        Pošlete mi brief nebo jen odkaz na svůj profil — do 24 hodin dostanete konkrétní návrh, co spolu vytvoříme.
                     </p>
-                    <Link href="/kontakt">
-                        <Button size="lg" className="text-xl px-12 py-8 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
-                            Nezávazně poptat UGC
-                        </Button>
-                    </Link>
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                        <Link href="/kontakt">
+                            <Button size="lg" className="px-10 h-14 text-base font-bold shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1">
+                                📩 Poptat UGC spolupráci
+                            </Button>
+                        </Link>
+                        <Link href="/video-rozbor">
+                            <Button size="lg" variant="outline" className="px-10 h-14 text-base">
+                                🔍 Video Rozbor Zdarma
+                            </Button>
+                        </Link>
+                    </div>
+                    <p className="mt-6 text-sm text-muted-foreground">Nebo rovnou přes WhatsApp → <a href="https://wa.me/420732483004?text=Ahoj%20Tom%C3%A1%C5%A1i%2C%20m%C3%A1m%20z%C3%A1jem%20o%20UGC%20spolupr%C3%A1ci." target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">napsat zprávu</a></p>
                 </Container>
             </section>
         </div>

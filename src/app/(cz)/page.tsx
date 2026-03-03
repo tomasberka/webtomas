@@ -5,7 +5,7 @@ import { CinematicHero } from "@/components/sections/cinematic-hero";
 import { Card, CardDescription, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Sparkles, Timer, Globe, User, Mic } from "lucide-react";
+import { ArrowRight, Clapperboard, Smartphone, Calendar, Radio, MonitorPlay, Globe, User, Mic } from "lucide-react";
 import servicesData from "@/content/services.json";
 import testimonialsData from "@/content/testimonials.json";
 import { Metadata } from "next";
@@ -201,76 +201,108 @@ export default function Home() {
 
       <div className="section-divider" />
 
-      {/* Limited Offer Promo */}
-      <section className="py-12 md:py-16 relative overflow-hidden">
-        {/* Gradients */}
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 via-orange-500/5 to-red-500/10" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
-
-        <Container className="relative">
-          <div className="bg-card border-2 border-amber-500/20 rounded-3xl p-8 md:p-12 overflow-hidden relative shadow-2xl shadow-orange-500/10">
-            {/* Background elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-
-            <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center relative z-10">
-              <div className="space-y-6 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/30 bg-amber-500/10 px-4 py-1 text-sm font-bold text-amber-600 dark:text-amber-400 animate-pulse">
-                  <Sparkles className="w-4 h-4" />
-                  <span>NOVÁ AKCE – Jen pro 3 firmy</span>
+      {/* Dual Path Section — Kameraman vs. UGC Herec */}
+      <section className="py-12 md:py-20">
+        <Container>
+          <div className="text-center mb-10 space-y-3">
+            <p className="text-sm font-bold uppercase tracking-widest text-primary">Co pro vás dělám</p>
+            <h2 className="text-3xl md:text-5xl font-black tracking-tight">Dvě oblasti, jeden člověk.</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Ať jste firma hledající kameramana na event, nebo brand hledající tvář pro reklamu — jste na správném místě.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
+            {/* Path A — Kameraman */}
+            <div className="group relative rounded-3xl border bg-card overflow-hidden p-8 md:p-10 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-1 transition-all duration-300">
+              <div className="absolute top-0 right-0 w-48 h-48 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+              <div className="relative z-10 space-y-5">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary/10 text-2xl">
+                  🎬
                 </div>
-
-                <h2 className="text-3xl md:text-5xl font-black tracking-tight">
-                  3 Reels + 15 fotek
-                  <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-orange-600 mt-2">
-                    za 15 000 Kč
-                  </span>
-                </h2>
-
-                <p className="text-xl text-muted-foreground">
-                  Získejte kompletní obsah na měsíc s výraznou slevou.
-                  Potřebuji nové case studies, vy ušetříte 10 000 Kč.
-                </p>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                  <Link href="/akce-3-reels">
-                    <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg font-bold bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white shadow-lg shadow-orange-500/20 hover:scale-105 transition-all">
-                      Chci jedno z míst
-                      <ArrowRight className="ml-2 w-5 h-5" />
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-primary mb-1">Pro firmy & organizace</p>
+                  <h3 className="text-2xl md:text-3xl font-black tracking-tight mb-3">Kameraman & Video Produkce</h3>
+                  <p className="text-muted-foreground text-base leading-relaxed">
+                    Konference, firemní eventy, reklamní spoty, Reels kampaně. Přijedu, natočím, sestříhám a dodám výsledek, který buduje váš brand celý rok.
+                  </p>
+                </div>
+                <ul className="space-y-2 text-sm">
+                  {["Event video & konference od 18 000 Kč", "Reels kampaň za 1 den natáčení", "Postprodukce DaVinci Resolve", "LiveStream & hybridní eventy"].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                  <Link href="/sluzby/event-video">
+                    <Button className="w-full sm:w-auto font-bold">
+                      Chci video z eventu
+                      <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </Link>
-                  <div className="flex items-center justify-center gap-2 text-sm font-bold text-muted-foreground bg-muted/50 px-4 py-2 rounded-lg">
-                    <Timer className="w-4 h-4 text-orange-500" />
-                    Zbývají 3 místa
-                  </div>
-                </div>
-              </div>
-
-              {/* Visual side */}
-              <div className="relative hidden md:block">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-4 translate-y-8">
-                    <div className="aspect-[9/16] bg-primary/5 rounded-2xl border border-primary/10 p-2 transform -rotate-6 transition-transform hover:rotate-0">
-                      <div className="w-full h-full bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl relative overflow-hidden">
-                        <div className="absolute inset-0 flex items-center justify-center">
-                          <Clapperboard className="w-12 h-12 text-white/20" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="space-y-4">
-                    <div className="aspect-square bg-amber-500/10 rounded-2xl border border-amber-500/20 p-2 transform rotate-6 transition-transform hover:rotate-0">
-                      <div className="w-full h-full bg-gradient-to-br from-amber-100 to-orange-50 rounded-xl relative overflow-hidden flex items-center justify-center">
-                        <span className="text-4xl font-black text-amber-500">15×</span>
-                      </div>
-                    </div>
-                    <div className="aspect-square bg-green-500/10 rounded-2xl border border-green-500/20 p-6 flex flex-col items-center justify-center text-center transform rotate-3 transition-transform hover:rotate-0">
-                      <div className="text-sm font-medium text-green-600 mb-1">Ušetříte</div>
-                      <div className="text-3xl font-black text-green-600">10tis.</div>
-                    </div>
-                  </div>
+                  <Link href="/reels-balicky">
+                    <Button variant="outline" className="w-full sm:w-auto">
+                      Reels balíčky
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
+
+            {/* Path B — UGC Herec */}
+            <div className="group relative rounded-3xl border bg-card overflow-hidden p-8 md:p-10 hover:shadow-2xl hover:shadow-purple-500/10 hover:-translate-y-1 transition-all duration-300">
+              <div className="absolute top-0 left-0 w-48 h-48 bg-purple-500/5 rounded-full blur-3xl -translate-y-1/2 -translate-x-1/2 pointer-events-none" />
+              <div className="relative z-10 space-y-5">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-purple-500/10 text-2xl">
+                  🎭
+                </div>
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-purple-500 mb-1">Pro e-shopy & markeťáky</p>
+                  <h3 className="text-2xl md:text-3xl font-black tracking-tight mb-3">UGC Herec & Brand Actor</h3>
+                  <p className="text-muted-foreground text-base leading-relaxed">
+                    Potřebujete tvář pro TikTok reklamu, testimonial nebo product demo? Jako profesionální herec doručím autentické UGC videa, která konvertují — podle vašeho briefu, v domluvený termín.
+                  </p>
+                </div>
+                <ul className="space-y-2 text-sm">
+                  {["TikTok & Instagram Ads od 2 500 Kč/video", "Testimonially, unboxing, problem/solution", "Hook do 3 vteřin, retention do konce", "Dodání do 5 pracovních dní"].map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-muted-foreground">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500 flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                  <Link href="/ugc-herec">
+                    <Button className="w-full sm:w-auto font-bold bg-purple-600 hover:bg-purple-700 text-white">
+                      Chci UGC video
+                      <ArrowRight className="ml-2 w-4 h-4" />
+                    </Button>
+                  </Link>
+                  <Link href="/portfolio">
+                    <Button variant="outline" className="w-full sm:w-auto">
+                      Ukázky herecké práce
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Middle nudge — Video Rozbor */}
+          <div className="mt-8 rounded-2xl border border-primary/20 bg-primary/5 p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <span className="text-3xl">🔍</span>
+              <div>
+                <p className="font-bold text-base">Nevíte, kde začít?</p>
+                <p className="text-muted-foreground text-sm">Nechte si zdarma zanalyzovat vaše videa — zjistím, co vám jde, co ne, a navrhnu konkrétní řešení.</p>
+              </div>
+            </div>
+            <Link href="/video-rozbor" className="flex-shrink-0">
+              <Button variant="outline" className="border-primary font-bold hover:bg-primary hover:text-white transition-colors">
+                Video Rozbor Zdarma →
+              </Button>
+            </Link>
           </div>
         </Container>
       </section>
@@ -367,8 +399,39 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Value Proposition / CTA */}
-
+      {/* Mid-page conversion strip */}
+      <section className="py-12 md:py-16">
+        <Container>
+          <div className="rounded-3xl bg-gradient-to-br from-zinc-900 to-zinc-800 border border-zinc-700 p-8 md:p-12 text-white relative overflow-hidden">
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent pointer-events-none" />
+            <div className="relative z-10 grid md:grid-cols-2 gap-8 items-center">
+              <div className="space-y-4">
+                <p className="text-xs font-bold uppercase tracking-widest text-primary">Bezplatná konzultace</p>
+                <h2 className="text-3xl md:text-4xl font-black tracking-tight">
+                  Váhate, jestli to pro vás dává smysl?
+                </h2>
+                <p className="text-zinc-300 text-lg leading-relaxed">
+                  Pošlete mi odkaz na vaše stávající videa (nebo profil na sítích) a já vám <strong className="text-white">do 24 hodin zdarma</strong> řeknu, co konkrétně lze zlepšit — bez závazku, bez placení, bez bullshitu.
+                </p>
+                <p className="text-zinc-400 text-sm">Dosud jsem provedl rozbory pro 40+ firem a osobních značek.</p>
+              </div>
+              <div className="flex flex-col gap-4">
+                <Link href="/video-rozbor">
+                  <Button size="lg" className="w-full h-14 text-lg font-bold bg-primary text-black hover:bg-primary/90 shadow-lg shadow-primary/20 hover:-translate-y-1 transition-all">
+                    🔍 Chci Video Rozbor Zdarma
+                  </Button>
+                </Link>
+                <Link href="/kontakt">
+                  <Button size="lg" variant="outline" className="w-full h-12 border-zinc-600 text-white hover:border-zinc-400 hover:bg-white/5">
+                    📅 Rovnou si zarezervovat termín
+                  </Button>
+                </Link>
+                <p className="text-center text-xs text-zinc-500">Odpovídám do 24 hodin • Bez závazku</p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Testimonials Section */}
       <Testimonials />

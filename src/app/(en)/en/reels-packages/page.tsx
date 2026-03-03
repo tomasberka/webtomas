@@ -1,4 +1,5 @@
 import { Container } from "@/components/ui/container";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { HelpCircle } from "lucide-react";
 import Link from "next/link";
@@ -61,10 +62,26 @@ export default function ReelsPackagesPage() {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24 items-start">
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 items-start">
                     {packagesData.map((pkg) => (
                         <PackageCard key={pkg.id} pkg={pkg as any} bookingUrl="/booking" popularLabel="Most Popular" locale="en" />
                     ))}
+                </div>
+
+                {/* Free Video Audit CTA */}
+                <div className="rounded-2xl border border-primary/20 bg-primary/5 p-6 md:p-8 mb-16 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex items-start gap-4">
+                        <span className="text-4xl flex-shrink-0">🔍</span>
+                        <div>
+                            <h3 className="font-bold text-xl mb-1">Not sure which package is right for you?</h3>
+                            <p className="text-muted-foreground">
+                                Send me your profile link — I'll analyse your existing videos for free and recommend exactly what will boost your reach. <strong>No commitment.</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <Link href="/en/free-video-audit" className="flex-shrink-0">
+                        <Button className="h-12 px-8 font-bold whitespace-nowrap">Free Video Audit →</Button>
+                    </Link>
                 </div>
 
                 <div className="max-w-3xl mx-auto">
