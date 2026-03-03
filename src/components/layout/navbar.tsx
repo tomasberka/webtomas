@@ -49,7 +49,7 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                 <Link href="/" className="flex items-center">
                     <Image
                         src="/images/logo-new.svg"
-                        alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production Prague" : "Tomáš Berka - Kameraman & Video Produkce Praha"}
+                        alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce"}
                         width={220}
                         height={60}
                         className="h-10 w-auto object-contain"

@@ -13,7 +13,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         <Link href="/" className="block">
                             <Image
                                 src="/images/logo-new.svg"
-                                alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce Praha"}
+                                alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce"}
                                 width={180}
                                 height={50}
                                 className="h-8 w-auto object-contain"
@@ -22,7 +22,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         <p className="text-sm text-muted-foreground max-w-xs">
                             {locale === 'en'
                                 ? "Professional cameraman & video production. Events, conferences, corporate films. DaVinci Resolve post-production."
-                                : "Profesionální kameraman Praha. Event video, firemní natáčení, konference. DaVinci Resolve postprodukce."}
+                                : "Profesionální kameraman. Event video, firemní natáčení, konference. DaVinci Resolve postprodukce."}
                         </p>
                         <Link href={locale === 'en' ? "/contact" : "/kontakt"}>
                             <Button size="sm" className="mt-2">
