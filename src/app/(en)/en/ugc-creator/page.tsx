@@ -215,10 +215,10 @@ export default function UgcActorPage() {
                         <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
                             <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Starter</p>
                             <div>
-                                <span className="text-4xl font-black">€100</span>
+                                <span className="text-4xl font-black">€320</span>
                                 <span className="text-muted-foreground ml-2">/ video</span>
                             </div>
-                            <p className="text-muted-foreground text-sm">1 UGC video up to 60 seconds. Perfect for a first test.</p>
+                            <p className="text-muted-foreground text-sm">1 UGC video up to 60 seconds. Full production including script.</p>
                             <ul className="space-y-2 text-sm">
                                 {["1 version + 1 revision", "Delivery within 5 days", "Your branding elements", "Captions included"].map(f => (
                                     <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
@@ -232,10 +232,10 @@ export default function UgcActorPage() {
                             <div className="absolute top-0 right-0 bg-primary text-black text-xs font-black px-3 py-1 rounded-bl-xl">MOST POPULAR</div>
                             <p className="text-xs font-bold uppercase tracking-widest text-primary">Brand Pack</p>
                             <div>
-                                <span className="text-4xl font-black">€270</span>
+                                <span className="text-4xl font-black">€880</span>
                                 <span className="text-muted-foreground ml-2">/ 3 videos</span>
                             </div>
-                            <p className="text-muted-foreground text-sm">3 UGC videos with different hooks or formats — A/B test ready.</p>
+                            <p className="text-muted-foreground text-sm">3 UGC videos with different hooks or formats — A/B test ready. Save €80.</p>
                             <ul className="space-y-2 text-sm">
                                 {["3 videos = 3× content at a fraction of the price", "Each video a different hook/format", "2 revisions per video", "Delivery within 7 days", "Captions + subtitles"].map(f => (
                                     <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
@@ -261,7 +261,7 @@ export default function UgcActorPage() {
                             </Link>
                         </div>
                     </div>
-                    <p className="text-center text-sm text-muted-foreground mt-6">Need larger-scale production? Leverage my partner <Link href="/en/partner-socialvids" className="text-primary hover:underline">SocialVids</Link> for TV spots and international campaigns.</p>
+                    <p className="text-center text-sm text-muted-foreground mt-6">Need larger-scale production or have specific requirements? <Link href="/en/booking" className="text-primary hover:underline">Book a free consultation</Link> and let&apos;s discuss.</p>
                 </Container>
             </section>
 

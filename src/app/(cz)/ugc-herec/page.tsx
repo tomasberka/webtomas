@@ -215,10 +215,10 @@ export default function UgcActorPage() {
                         <div className="p-8 border rounded-2xl bg-card space-y-4 hover:shadow-lg transition-all">
                             <p className="text-xs font-bold uppercase tracking-widest text-muted-foreground">Starter</p>
                             <div>
-                                <span className="text-4xl font-black">2 500 Kč</span>
+                                <span className="text-4xl font-black">8 000 Kč</span>
                                 <span className="text-muted-foreground ml-2">/ video</span>
                             </div>
-                            <p className="text-muted-foreground text-sm">1 UGC video do 60 sekund. Ideální na první test.</p>
+                            <p className="text-muted-foreground text-sm">1 UGC video do 60 sekund. Kompletní produkce včetně scénáře.</p>
                             <ul className="space-y-2 text-sm">
                                 {["1 verze + 1 revize", "Dodání do 5 dní", "Vaše branding prvky", "Titulky v ceně"].map(f => (
                                     <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
@@ -232,10 +232,10 @@ export default function UgcActorPage() {
                             <div className="absolute top-0 right-0 bg-primary text-black text-xs font-black px-3 py-1 rounded-bl-xl">NEJPOPULÁRNĚJŠÍ</div>
                             <p className="text-xs font-bold uppercase tracking-widest text-primary">Brand Pack</p>
                             <div>
-                                <span className="text-4xl font-black">6 500 Kč</span>
+                                <span className="text-4xl font-black">22 000 Kč</span>
                                 <span className="text-muted-foreground ml-2">/ 3 videa</span>
                             </div>
-                            <p className="text-muted-foreground text-sm">3 UGC videa s různými hooky nebo formáty — A/B test připravený.</p>
+                            <p className="text-muted-foreground text-sm">3 UGC videa s různými hooky nebo formáty — A/B test připravený. Ušetříte 2 000 Kč.</p>
                             <ul className="space-y-2 text-sm">
                                 {["3 videa = 3× obsah za zlomek ceny", "Každé video jiný hook/formát", "2 revize na video", "Dodání do 7 dní", "Titulky + captions"].map(f => (
                                     <li key={f} className="flex items-center gap-2 text-muted-foreground"><span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />{f}</li>
@@ -261,7 +261,7 @@ export default function UgcActorPage() {
                             </Link>
                         </div>
                     </div>
-                    <p className="text-center text-sm text-muted-foreground mt-6">Potřebujete větší produkci? Využijte zázemí mého partnera <Link href="/partner-socialvids" className="text-primary hover:underline">SocialVids</Link> pro TV spoty a mezinárodní kampaně.</p>
+                    <p className="text-center text-sm text-muted-foreground mt-6">Potřebujete větší produkci nebo máte specifické požadavky? <Link href="/rezervace" className="text-primary hover:underline">Zarezervujte si konzultaci zdarma</Link> a probereme to.</p>
                 </Container>
             </section>
 
