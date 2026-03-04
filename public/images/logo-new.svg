@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 52" role="img" aria-labelledby="logo-title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 56" role="img" aria-labelledby="logo-title">
   <title id="logo-title">Já jsem Tomáš – production &amp; UGC</title>
-  <!-- Camera icon -->
-  <g transform="translate(0, 6)">
-    <rect x="2" y="10" width="34" height="24" rx="5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
-    <rect x="11" y="6" width="11" height="7" rx="2.5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
-    <circle cx="19" cy="22" r="7.5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
-    <circle cx="19" cy="22" r="3.5" fill="#FFBF00"/>
-    <circle cx="6.5" cy="17" r="1.3" fill="#FFBF00"/>
-    <circle cx="31.5" cy="17" r="1.3" fill="#FFBF00"/>
+  <!-- Camera icon, vertically centered -->
+  <g transform="translate(0, 10)">
+    <rect x="2" y="8" width="34" height="24" rx="5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
+    <rect x="11" y="4" width="12" height="7" rx="2.5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
+    <circle cx="19" cy="20" r="7.5" fill="none" stroke="#FFBF00" stroke-width="1.8"/>
+    <circle cx="19" cy="20" r="3.5" fill="#FFBF00"/>
+    <circle cx="6.5" cy="15" r="1.3" fill="#FFBF00"/>
+    <circle cx="31.5" cy="15" r="1.3" fill="#FFBF00"/>
   </g>
-  <!-- Main text: "já jsem" semi-bold + "TOMÁŠ" black -->
-  <text x="47" y="28" font-family="Montserrat,Arial,sans-serif" font-size="20">
-    <tspan fill="#FFBF00" font-weight="600" letter-spacing="0.3">já jsem </tspan><tspan fill="#FFFFFF" font-weight="900" letter-spacing="1.5">TOMÁŠ</tspan>
-  </text>
-  <!-- Thin accent line -->
-  <line x1="47" y1="35" x2="244" y2="35" stroke="#FFBF00" stroke-width="1" stroke-linecap="round" opacity="0.55"/>
-  <!-- Subtitle: uppercase, wide tracking -->
-  <text x="49" y="47" font-family="Montserrat,Arial,sans-serif" font-size="7.5" font-weight="500" letter-spacing="4.2" fill="#FFBF00" opacity="0.75">PRODUCTION &amp; UGC</text>
+  <!-- "JÁ JSEM" — small caps, wide tracking, amber -->
+  <text x="47" y="22" font-family="Montserrat,Arial,sans-serif" font-size="10" font-weight="400" letter-spacing="3.5" fill="#FFBF00" opacity="0.85">JÁ JSEM</text>
+  <!-- "TOMÁŠ" — large, black weight, white -->
+  <text x="47" y="40" font-family="Montserrat,Arial,sans-serif" font-size="22" font-weight="900" letter-spacing="2" fill="#FFFFFF">TOMÁŠ</text>
+  <!-- Accent line aligned to TOMÁŠ text end -->
+  <line x1="47" y1="45" x2="136" y2="45" stroke="#FFBF00" stroke-width="0.9" stroke-linecap="round" opacity="0.45"/>
+  <!-- Subtitle -->
+  <text x="47" y="54" font-family="Montserrat,Arial,sans-serif" font-size="6.5" font-weight="500" letter-spacing="3" fill="#FFBF00" opacity="0.65">PRODUCTION &amp; UGC</text>
 </svg>
