@@ -121,7 +121,7 @@ export function Footer({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             <h4 className="text-sm font-medium">{locale === 'en' ? "Contact" : "Kontakt"}</h4>
                             <ul className="space-y-2 text-sm text-muted-foreground">
                                 <li>📍 {locale === 'en' ? "Prague / London" : "Praha, Česko"}</li>
-                                <li><a href="tel:+420735846329" className="hover:text-primary transition-colors">📱 +420 735 846 329</a></li>
+                                <li><a href="tel:+420723725871" className="hover:text-primary transition-colors">📱 +420 723 725 871</a></li>
                                 <li><a href="mailto:msg@jajsemtomas.cz" className="hover:text-primary transition-colors">✉️ msg@jajsemtomas.cz</a></li>
                                 <li>
                                     <a href="https://www.instagram.com/jajsemtomas.cz/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-flex items-center gap-1">

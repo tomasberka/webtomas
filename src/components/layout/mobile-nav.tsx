@@ -144,12 +144,12 @@ export function MobileNav({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                         {/* CTA Buttons */}
                         <div className="pt-4 space-y-3">
                             <a 
-                                href="tel:+420735846329" 
+                                href="tel:+420723725871" 
                                 onClick={() => { trackBookingClick("mobile_nav_phone", locale); setOpen(false); }}
                                 className="flex items-center justify-center gap-2 w-full py-3.5 bg-muted hover:bg-muted/80 text-foreground font-bold rounded-lg transition-all"
                             >
                                 <Phone className="h-5 w-5" />
-                                +420 735 846 329
+                                +420 723 725 871
                             </a>
                             <a
                                 href={locale === 'cs'

@@ -43,7 +43,7 @@ export default function AboutPage() {
                         "url": "https://en.jajsemtomas.cz/about",
                         "image": "https://en.jajsemtomas.cz/images/tomas-hero.jpg",
                         "email": "msg@jajsemtomas.cz",
-                        "telephone": "+420735846329",
+                        "telephone": "+420723725871",
                         "address": {
                             "@type": "PostalAddress",
                             "addressLocality": "London",
