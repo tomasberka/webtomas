@@ -80,7 +80,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
         "description": service.description,
         "image": (service as any).image ? `https://en.jajsemtomas.cz${(service as any).image}` : "https://en.jajsemtomas.cz/images/og-image-en-new.png",
         "url": `https://en.jajsemtomas.cz/${service.slug}`,
-        "telephone": "+420735846329",
+        "telephone": "+420723725871",
         "email": "msg@jajsemtomas.cz",
         "priceRange": "££",
         "address": {

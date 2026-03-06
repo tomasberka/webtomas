@@ -83,7 +83,7 @@ export default function Home() {
                             "addressCountry": "UK"
                         },
                         "url": "https://en.jajsemtomas.cz",
-                        "telephone": "+420735846329",
+                        "telephone": "+420723725871",
                         "email": "msg@jajsemtomas.cz",
                         "openingHoursSpecification": {
                             "@type": "OpeningHoursSpecification",
@@ -111,7 +111,7 @@ export default function Home() {
                         },
                         "url": "https://en.jajsemtomas.cz",
                         "priceRange": "££",
-                        "telephone": "+420735846329",
+                        "telephone": "+420723725871",
                         "areaServed": [
                             {
                                 "@type": "City",

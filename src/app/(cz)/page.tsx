@@ -62,7 +62,7 @@ export default function Home() {
               "longitude": 14.4378
             },
             "url": "https://jajsemtomas.cz",
-            "telephone": "+420735846329",
+            "telephone": "+420723725871",
             "email": "msg@jajsemtomas.cz",
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -92,7 +92,7 @@ export default function Home() {
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "customer service",
-              "telephone": "+420735846329",
+              "telephone": "+420723725871",
               "email": "msg@jajsemtomas.cz",
               "availableLanguage": ["Czech", "English"]
             }
@@ -119,7 +119,7 @@ export default function Home() {
               "longitude": 14.4378
             },
             "url": "https://jajsemtomas.cz",
-            "telephone": "+420735846329",
+            "telephone": "+420723725871",
             "areaServed": [
               {
                 "@type": "City",

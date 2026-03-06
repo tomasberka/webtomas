@@ -37,7 +37,7 @@ export function StickyCTA({ locale = "cs" }: StickyCTAProps) {
                 <div className="flex items-stretch gap-2 max-w-sm mx-auto">
                     {/* Phone */}
                     <a
-                        href="tel:+420735846329"
+                        href="tel:+420723725871"
                         onClick={() => trackBookingClick("sticky_cta_phone", locale)}
                         className="flex flex-col items-center justify-center gap-0.5 flex-1 py-2 bg-muted rounded-xl transition-all active:scale-95 min-h-[52px]"
                         aria-label="Zavolat"

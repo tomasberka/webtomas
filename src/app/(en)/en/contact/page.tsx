@@ -98,7 +98,7 @@ export default function ContactPage() {
                             <Phone className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
                             <div>
                                 <h3 className="font-semibold mb-1 text-sm">Phone</h3>
-                                <a href="tel:+420735846329" className="text-muted-foreground hover:text-primary transition-colors text-xs">+420 735 846 329</a>
+                                <a href="tel:+420723725871" className="text-muted-foreground hover:text-primary transition-colors text-xs">+420 723 725 871</a>
                             </div>
                         </div>
                         <div className="flex items-start">
