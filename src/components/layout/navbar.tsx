@@ -47,12 +47,30 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <Container className="flex h-16 items-center justify-between">
                 <Link href="/" className="flex items-center">
+                    {/* Mobile: compact camera icon mark */}
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 52 52"
+                        className="h-9 w-9 md:hidden"
+                        aria-label={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce"}
+                        role="img"
+                    >
+                        <g transform="translate(2, 5)">
+                            <rect x="1" y="12" width="46" height="33" rx="6" fill="none" stroke="#FFBF00" strokeWidth="2.5"/>
+                            <rect x="14" y="7" width="16" height="8" rx="3" fill="none" stroke="#FFBF00" strokeWidth="2.5"/>
+                            <circle cx="24" cy="29" r="10" fill="none" stroke="#FFBF00" strokeWidth="2.5"/>
+                            <circle cx="24" cy="29" r="5" fill="#FFBF00"/>
+                            <circle cx="9" cy="23" r="1.8" fill="#FFBF00"/>
+                            <circle cx="39" cy="23" r="1.8" fill="#FFBF00"/>
+                        </g>
+                    </svg>
+                    {/* Desktop: full logo with text */}
                     <Image
                         src="/images/logo-new.svg"
                         alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce"}
                         width={220}
                         height={60}
-                        className="h-10 w-auto object-contain"
+                        className="h-10 w-auto object-contain hidden md:block"
                         priority
                     />
                 </Link>
