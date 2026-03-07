@@ -50,19 +50,19 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {/* Mobile: personal text logo mark */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 140 46"
-                        className="h-11 w-auto md:hidden"
+                        viewBox="0 0 140 56"
+                        className="h-12 w-auto md:hidden"
                         aria-label={locale === 'en' ? "Tomas - Video Production & UGC Actor" : "Tomáš - Video Production & UGC Actor"}
                         role="img"
                     >
-                        <text textAnchor="middle" x="70" y="12" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="10" letterSpacing="2" fill="#FFBF00">
+                        <text textAnchor="middle" x="70" y="13" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="10" letterSpacing="2" fill="#FFBF00">
                             {locale === 'en' ? 'I AM' : 'JÁ JSEM'}
                         </text>
-                        <text textAnchor="middle" x="70" y="29" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="19" letterSpacing="3.5" fill="#FFFFFF">
+                        <text textAnchor="middle" x="70" y="33" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="19" letterSpacing="3.5" fill="#FFFFFF">
                             TOMÁŠ
                         </text>
-                        <line x1="18" y1="32.5" x2="122" y2="32.5" stroke="#FFBF00" strokeWidth="0.8" strokeLinecap="round"/>
-                        <text textAnchor="middle" x="70" y="40.5" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="5" letterSpacing="2.2" fill="#FFBF00" opacity="0.85">
+                        <line x1="18" y1="38" x2="122" y2="38" stroke="#FFBF00" strokeWidth="0.8" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="70" y="49" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="5" letterSpacing="2.2" fill="#FFBF00" opacity="0.85">
                             VIDEO PRODUCTION &amp; UGC ACTOR
                         </text>
                     </svg>
