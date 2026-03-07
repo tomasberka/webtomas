@@ -50,25 +50,25 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {/* Mobile: personal text logo mark */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 140 68"
-                        className="h-14 w-auto md:hidden"
+                        viewBox="0 0 140 80"
+                        className="h-16 w-auto md:hidden"
                         aria-label={locale === 'en' ? "Tomas - Video Production & UGC Actor" : "Tomáš - Video Production & UGC Actor"}
                         role="img"
                     >
                         {/* Video camera icon */}
                         <g opacity="0.9" aria-hidden="true">
-                            <rect x="58" y="1" width="16" height="11" rx="2" stroke="#FFBF00" strokeWidth="0.9" fill="none"/>
-                            <path d="M75.5 3.5 L81 6.5 L75.5 9.5Z" fill="#FFBF00"/>
-                            <circle cx="66" cy="6.5" r="3" stroke="#FFBF00" strokeWidth="0.7" fill="none"/>
+                            <rect x="56" y="2" width="18" height="12" rx="2.5" stroke="#FFBF00" strokeWidth="1" fill="none"/>
+                            <path d="M75.5 5 L82 8 L75.5 11Z" fill="#FFBF00"/>
+                            <circle cx="65" cy="8" r="3.5" stroke="#FFBF00" strokeWidth="0.8" fill="none"/>
                         </g>
-                        <text textAnchor="middle" x="70" y="25" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="10" letterSpacing="2" fill="#FFBF00">
+                        <text textAnchor="middle" x="70" y="30" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="10" letterSpacing="2" fill="#FFBF00">
                             {locale === 'en' ? 'I AM' : 'JÁ JSEM'}
                         </text>
-                        <text textAnchor="middle" x="70" y="45" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="19" letterSpacing="3.5" fill="#FFFFFF">
+                        <text textAnchor="middle" x="70" y="52" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="19" letterSpacing="3.5" fill="#FFFFFF">
                             TOMÁŠ
                         </text>
-                        <line x1="18" y1="50" x2="122" y2="50" stroke="#FFBF00" strokeWidth="0.8" strokeLinecap="round"/>
-                        <text textAnchor="middle" x="70" y="62" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="5" letterSpacing="2.2" fill="#FFBF00" opacity="0.85">
+                        <line x1="18" y1="58" x2="122" y2="58" stroke="#FFBF00" strokeWidth="0.8" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="70" y="73" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="6" letterSpacing="2" fill="#FFBF00" opacity="0.9">
                             VIDEO PRODUCTION &amp; UGC ACTOR
                         </text>
                     </svg>
