@@ -47,12 +47,47 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
         <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
             <Container className="flex h-16 items-center justify-between">
                 <Link href="/" className="flex items-center">
+                    {/* Mobile: personal text logo mark */}
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 160 90"
+                        className="h-20 w-auto md:hidden"
+                        aria-label={locale === 'en' ? "Tomas - Video Production & UGC Actor" : "Tomáš - Video Production & UGC Actor"}
+                        role="img"
+                    >
+                        <defs>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                                <feMerge>
+                                    <feMergeNode in="blur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        {/* Video camera icon */}
+                        <g aria-hidden="true">
+                            <rect x="62" y="3" width="22" height="14" rx="3" stroke="#FFBF00" strokeWidth="1.2" fill="none"/>
+                            <path d="M86 6 L93 10 L86 14Z" fill="#FFBF00" opacity="0.85"/>
+                            <circle cx="73" cy="10" r="4" stroke="#FFBF00" strokeWidth="0.9" fill="none"/>
+                        </g>
+                        <text textAnchor="middle" x="80" y="35" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="11" letterSpacing="3" fill="#FFBF00">
+                            {locale === 'en' ? 'I AM' : 'JÁ JSEM'}
+                        </text>
+                        <text textAnchor="middle" x="80" y="60" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="22" letterSpacing="4" fill="#FFFFFF" filter="url(#glow)">
+                            TOMÁŠ
+                        </text>
+                        <line x1="20" y1="67" x2="140" y2="67" stroke="#FFBF00" strokeWidth="0.9" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="80" y="82" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="6.5" letterSpacing="2.5" fill="#FFBF00" opacity="0.9">
+                            VIDEO PRODUCTION &amp; UGC ACTOR
+                        </text>
+                    </svg>
+                    {/* Desktop: full logo with text */}
                     <Image
                         src="/images/logo-new.svg"
                         alt={locale === 'en' ? "Tomas Berka - Cameraman & Video Production" : "Tomáš Berka - Kameraman & Video Produkce"}
                         width={220}
                         height={60}
-                        className="h-10 w-auto object-contain"
+                        className="h-10 w-auto object-contain hidden md:block"
                         priority
                     />
                 </Link>
