@@ -1,8 +1,0 @@
-[00:00:00.862] Server  LOG     ✓ Ready in 646ms
-[00:00:17.647] Server  LOG     ○ Compiling / ...
-[00:00:19.708] Server  WARN    Image with src "/images/logo-new.svg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
-Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:19.956] Server  WARN    Image with src "/images/tomas-hero.jpg" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
-Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
-[00:00:20.064] Server  WARN    Image with src "/images/socialvids-logo.png" has a "loader" property that does not implement width. Please implement it or use the "unoptimized" property instead.
-Read more: https://nextjs.org/docs/messages/next-image-missing-loader-width
