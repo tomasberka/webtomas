@@ -50,25 +50,34 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {/* Mobile: personal text logo mark */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 140 80"
-                        className="h-16 w-auto md:hidden"
+                        viewBox="0 0 160 90"
+                        className="h-20 w-auto md:hidden"
                         aria-label={locale === 'en' ? "Tomas - Video Production & UGC Actor" : "Tomáš - Video Production & UGC Actor"}
                         role="img"
                     >
+                        <defs>
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                                <feMerge>
+                                    <feMergeNode in="blur"/>
+                                    <feMergeNode in="SourceGraphic"/>
+                                </feMerge>
+                            </filter>
+                        </defs>
                         {/* Video camera icon */}
-                        <g opacity="0.9" aria-hidden="true">
-                            <rect x="56" y="2" width="18" height="12" rx="2.5" stroke="#FFBF00" strokeWidth="1" fill="none"/>
-                            <path d="M75.5 5 L82 8 L75.5 11Z" fill="#FFBF00"/>
-                            <circle cx="65" cy="8" r="3.5" stroke="#FFBF00" strokeWidth="0.8" fill="none"/>
+                        <g aria-hidden="true">
+                            <rect x="62" y="3" width="22" height="14" rx="3" stroke="#FFBF00" strokeWidth="1.2" fill="none"/>
+                            <path d="M86 6 L93 10 L86 14Z" fill="#FFBF00" opacity="0.85"/>
+                            <circle cx="73" cy="10" r="4" stroke="#FFBF00" strokeWidth="0.9" fill="none"/>
                         </g>
-                        <text textAnchor="middle" x="70" y="30" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="10" letterSpacing="2" fill="#FFBF00">
+                        <text textAnchor="middle" x="80" y="35" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="11" letterSpacing="3" fill="#FFBF00">
                             {locale === 'en' ? 'I AM' : 'JÁ JSEM'}
                         </text>
-                        <text textAnchor="middle" x="70" y="52" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="19" letterSpacing="3.5" fill="#FFFFFF">
+                        <text textAnchor="middle" x="80" y="60" fontFamily="Montserrat,Arial,sans-serif" fontWeight="900" fontSize="22" letterSpacing="4" fill="#FFFFFF" filter="url(#glow)">
                             TOMÁŠ
                         </text>
-                        <line x1="18" y1="58" x2="122" y2="58" stroke="#FFBF00" strokeWidth="0.8" strokeLinecap="round"/>
-                        <text textAnchor="middle" x="70" y="73" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="6" letterSpacing="2" fill="#FFBF00" opacity="0.9">
+                        <line x1="20" y1="67" x2="140" y2="67" stroke="#FFBF00" strokeWidth="0.9" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="80" y="82" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="6.5" letterSpacing="2.5" fill="#FFBF00" opacity="0.9">
                             VIDEO PRODUCTION &amp; UGC ACTOR
                         </text>
                     </svg>
