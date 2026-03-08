@@ -50,8 +50,8 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                     {/* Mobile: personal text logo mark */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 160 90"
-                        className="h-20 w-auto md:hidden"
+                        viewBox="0 0 160 100"
+                        className="h-24 w-auto md:hidden"
                         aria-label={locale === 'en' ? "Tomas - Video Production & UGC Actor" : "Tomáš - Video Production & UGC Actor"}
                         role="img"
                     >
@@ -77,8 +77,13 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             TOMÁŠ
                         </text>
                         <line x1="20" y1="67" x2="140" y2="67" stroke="#FFBF00" strokeWidth="0.9" strokeLinecap="round"/>
-                        <text textAnchor="middle" x="80" y="82" fontFamily="Montserrat,Arial,sans-serif" fontWeight="500" fontSize="6.5" letterSpacing="2.5" fill="#FFBF00" opacity="0.9">
-                            VIDEO PRODUCTION &amp; UGC ACTOR
+                        {/* Tagline: two lines with vertical orange splitter */}
+                        <text textAnchor="middle" x="80" y="80" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
+                            VIDEO PRODUCTION
+                        </text>
+                        <line x1="80" y1="84" x2="80" y2="92" stroke="#FFBF00" strokeWidth="1.5" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="80" y="99" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
+                            UGC ACTOR
                         </text>
                     </svg>
                     {/* Desktop: full logo with text */}
