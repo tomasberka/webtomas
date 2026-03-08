@@ -77,12 +77,12 @@ export function Navbar({ locale = 'cs' }: { locale?: 'cs' | 'en' }) {
                             TOMÁŠ
                         </text>
                         <line x1="20" y1="67" x2="140" y2="67" stroke="#FFBF00" strokeWidth="0.9" strokeLinecap="round"/>
-                        {/* Tagline: two lines with vertical orange splitter */}
-                        <text textAnchor="middle" x="80" y="80" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
+                        {/* Tagline: two lines with horizontal orange splitter */}
+                        <text textAnchor="middle" x="80" y="79" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
                             VIDEO PRODUCTION
                         </text>
-                        <line x1="80" y1="84" x2="80" y2="92" stroke="#FFBF00" strokeWidth="1.5" strokeLinecap="round"/>
-                        <text textAnchor="middle" x="80" y="99" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
+                        <line x1="45" y1="85" x2="115" y2="85" stroke="#FFBF00" strokeWidth="1.5" strokeLinecap="round"/>
+                        <text textAnchor="middle" x="80" y="96" fontFamily="Montserrat,Arial,sans-serif" fontWeight="600" fontSize="7" letterSpacing="2.5" fill="#FFBF00">
                             UGC ACTOR
                         </text>
                     </svg>
